@@ -1,28 +1,7 @@
-"use client";
 /* eslint-disable react/no-unescaped-entities */
+"use client";
 
 import React, { useState } from "react";
-// import Link from "next/link";
-
-export const metadata = {
-  title: "Legal | Asay Global",
-  description:
-    "Privacy Policy, Terms of Service and Cookie Policy for Asay Global.",
-  keywords: [
-    "privacy policy",
-    "terms of service",
-    "cookie policy",
-    "legal",
-  ],
-  alternates: { canonical: "/legal" },
-  openGraph: {
-    title: "Legal | Asay Global",
-    description:
-      "Review Asay Global's Privacy Policy, Terms of Service and Cookie Policy.",
-    url: "/legal",
-    type: "website",
-  },
-};
 
 export default function LegalPage() {
   const [activeSection, setActiveSection] = useState("privacy");

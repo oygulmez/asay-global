@@ -2,7 +2,6 @@ import { PageHeader } from "@/components/page-header";
 import CallToAction from "@/components/call-to-action";
 import { ApplicationAreasGallery } from "@/components/image-gallery";
 import { Cpu, Globe2, Shield, Users } from "lucide-react";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 export const metadata = {
   title: "Steel Framings | Asay Global",

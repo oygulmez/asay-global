@@ -76,7 +76,7 @@ export default function AluminumArchitecturalSolutionsPage() {
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">Windows</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Windows</h3>
                     <p className="text-sm" style={{ color: '#565656' }}>
-                      Asay Global delivers versatile aluminium windows as the USA's leading distributor. Our optimal functionality meets excellent design, safety and energy efficiency in these trustworthy systems trusted across America.
+                      Asay Global delivers versatile aluminium windows as the USA&apos;s leading distributor. Our optimal functionality meets excellent design, safety and energy efficiency in these trustworthy systems trusted across America.
                     </p>
                   </div>
                 </div>
@@ -90,7 +90,7 @@ export default function AluminumArchitecturalSolutionsPage() {
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">Doors</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Doors</h3>
                     <p className="text-sm" style={{ color: '#565656' }}>
-                      Asay Global's aluminium doors are robust, highly secure and fully customisable. As the premier USA distributor, we create high-quality entrances with unlimited design freedom for your projects.
+                      Asay Global&apos;s aluminium doors are robust, highly secure and fully customisable. As the premier USA distributor, we create high-quality entrances with unlimited design freedom for your projects.
                     </p>
                   </div>
                 </div>
@@ -104,7 +104,7 @@ export default function AluminumArchitecturalSolutionsPage() {
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">Sliding & Folding</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Sliding & Folding</h3>
                     <p className="text-sm" style={{ color: '#565656' }}>
-                      Asay Global's sliding doors improve design and accessibility across the USA. Large glazed surfaces bring sunlight inside with motorised variants and integrated flyscreens for enhanced comfort.
+                      Asay Global&apos;s sliding doors improve design and accessibility across the USA. Large glazed surfaces bring sunlight inside with motorised variants and integrated flyscreens for enhanced comfort.
                     </p>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ export default function AluminumArchitecturalSolutionsPage() {
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">Conservatories</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Conservatories</h3>
                     <p className="text-sm" style={{ color: '#565656' }}>
-                      Asay Global offers conservatories from non-insulated to highly insulated glazed structures across the USA. Compatible with our windows and doors, they're perfect living space extensions.
+                      Asay Global offers conservatories from non-insulated to highly insulated glazed structures across the USA. Compatible with our windows and doors, they&apos;re perfect living space extensions.
                     </p>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ export default function AluminumArchitecturalSolutionsPage() {
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">Façades</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Façades</h3>
                     <p className="text-sm" style={{ color: '#565656' }}>
-                      Asay Global provides façade solutions for all USA building needs. Our stick façades, unitised façades and window walls deliver perfect high-quality fits as America's trusted distributor.
+                      Asay Global provides façade solutions for all USA building needs. Our stick façades, unitised façades and window walls deliver perfect high-quality fits as America&apos;s trusted distributor.
                     </p>
                   </div>
                 </div>

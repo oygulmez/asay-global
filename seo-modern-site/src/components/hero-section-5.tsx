@@ -5,8 +5,8 @@ import { Button } from '@/components/ui/button'
 import { InfiniteSlider } from '@/components/ui/infinite-slider'
 import { ProgressiveBlur } from '@/components/ui/progressive-blur'
 import { cn } from '@/lib/utils'
-import { /* Menu, X, */ ChevronRight } from 'lucide-react'
-import { useScroll /*, motion */ } from 'motion/react'
+import { ChevronRight } from 'lucide-react'
+import { useScroll } from 'motion/react'
 
 export function HeroSection() {
     return (
@@ -159,29 +159,3 @@ export function HeroSection() {
         </>
     )
 }
-
-const menuItems = [
-    { name: 'Home', href: '/' },
-    { name: 'About Us', href: '/about' },
-    { name: 'Services', href: '/services' },
-    { name: 'Contact Us', href: '/contact' },
-]
-
-const HeroHeader = () => {
-    const [menuState, setMenuState] = React.useState(false)
-    const [scrolled, setScrolled] = React.useState(false)
-    const { scrollYProgress } = useScroll()
-
-    React.useEffect(() => {
-        const unsubscribe = scrollYProgress.on('change', (latest) => {
-            setScrolled(latest > 0.05)
-        })
-        return () => unsubscribe()
-    }, [scrollYProgress])
-
-    return null
-}
-
-const Logo = ({ className }: { className?: string }) => (
-    <img src="/arg-structural-solutions-logo.svg" alt="ARG Structural Solutions" className={cn('h-6 md:h-7 w-auto', className)} />
-)
