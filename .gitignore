@@ -39,3 +39,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+\n# Ignore archives\n*.zip\n*.tar\n*.tar.gz\n*.7z\n
