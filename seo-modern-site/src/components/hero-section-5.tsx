@@ -5,8 +5,8 @@ import { Button } from '@/components/ui/button'
 import { InfiniteSlider } from '@/components/ui/infinite-slider'
 import { ProgressiveBlur } from '@/components/ui/progressive-blur'
 import { cn } from '@/lib/utils'
-import { Menu, X, ChevronRight } from 'lucide-react'
-import { useScroll, motion } from 'motion/react'
+import { /* Menu, X, */ ChevronRight } from 'lucide-react'
+import { useScroll /*, motion */ } from 'motion/react'
 
 export function HeroSection() {
     return (
