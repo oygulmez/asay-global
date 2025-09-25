@@ -1,0 +1,9 @@
+Bu klasöre aşağıdaki görselleri ekleyin:
+
+1. decorative.jpg - Interior and Exterior Decorative Products için
+2. steel-structure.jpg - Steel Framings için  
+3. aluminum-solutions.jpg - Aluminum Architectural Solutions için
+4. glass-solutions.jpg - Architectural Glass Solutions için
+
+Görsel boyutları: 452x301px (3:2 aspect ratio) önerilir
+Format: JPG veya PNG
