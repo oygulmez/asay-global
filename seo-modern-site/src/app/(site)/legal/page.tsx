@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
+// import Link from "next/link";
 
 export const metadata = {
   title: "Legal | Asay Global",
@@ -71,7 +71,7 @@ export default function LegalPage() {
                         <strong>Last Updated:</strong> January 1, 2025
                       </p>
                       <p className="text-muted-foreground">
-                        This Privacy Policy describes how Asay Global ("we," "our," or "us") collects, uses, 
+                        This Privacy Policy describes how Asay Global (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) collects, uses, 
                         and shares your personal information when you visit our website or use our services.
                       </p>
                     </div>
