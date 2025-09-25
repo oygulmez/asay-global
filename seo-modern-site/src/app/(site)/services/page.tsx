@@ -33,7 +33,6 @@ export default function ServicesPage() {
       />
       <div className="container mx-auto px-6 py-16">
         <Gallery6
-          demoUrl="/contact"
           items={[
             {
               id: "service-1",

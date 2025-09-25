@@ -323,7 +323,6 @@ export function HeroSectionOne() {
 
             {/* Our Services Gallery */}
             <Gallery6 
-                demoUrl="/contact"
                 items={[
                     {
                         id: "service-1",
