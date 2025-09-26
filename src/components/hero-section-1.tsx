@@ -146,7 +146,7 @@ export function HeroSectionOne() {
                                         className="mx-auto mt-8 max-w-4xl text-balance text-base" style={{ color: '#565656' }}>
                                         With <strong>22 years of industry experience</strong>, <strong>Asay Global</strong> specializes in the production and supply of <strong>high-quality building materials</strong> for <strong>global markets</strong>.
 
-                                        We serve <strong>38 countries across 5 continents</strong> and have provided solutions for <strong>thousands of projects</strong> to date. Based in the <strong>United States</strong>, we have completed over <strong>a hundred projects</strong> in <strong>Europe, Asia, Central America, the United Kingdom, and North America</strong>.
+                                        We serve <strong>38 countries across 5 continents</strong> and have provided solutions for <strong>thousands of projects</strong> to date. We have completed over <strong>a hundred projects</strong> in <strong>Europe, Asia, Central America, the United Kingdom, and North America</strong>.
 
                                         With our <strong>professional, experienced, and dynamic team</strong>, <strong>Asay Global</strong> is your <strong>fast and reliable partner</strong> for all your <strong>construction and building-related challenges</strong>. We leverage our <strong>decades of global expertise</strong> and <strong>industry-certified processes</strong> to deliver <strong>precision-engineered, sustainable building solutions</strong>.
                                     </p>

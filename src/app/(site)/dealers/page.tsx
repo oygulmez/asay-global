@@ -36,7 +36,7 @@ const dealers: Dealer[] = [
   {
     country: "Armenia",
     flag: "/flags/am.svg",
-    company: "Arsham Trade",
+    company: "Arsham LLC",
     email: "info@arshamtrade.com",
     phones: ["+37441657011", "+37433657011"],
     address: "No.46/4 , Davtashen 2nd Bk , Yerevan, Armenia",
