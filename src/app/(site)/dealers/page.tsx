@@ -1,8 +1,7 @@
+"use client";
+
 import { PageHeader } from "@/components/page-header";
-export const metadata = {
-  title: "Authorized Dealers",
-  description: "Find Asay Global’s authorized dealers and partners worldwide for B2B procurement of u‑PVC, aluminum, glass and steel systems.",
-};
+import { useState } from "react";
 
 type Dealer = {
   country: string;
@@ -44,6 +43,60 @@ const dealers: Dealer[] = [
 ];
 
 export default function DealersPage() {
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setStatus("sending");
+    setErrorMessage("");
+
+    const formData = new FormData(e.currentTarget);
+    const data = {
+      firstName: formData.get("firstName") as string,
+      lastName: formData.get("lastName") as string,
+      phone: formData.get("phone") as string,
+      email: formData.get("email") as string,
+      country: formData.get("country") as string,
+      company: formData.get("company") as string,
+      title: formData.get("title") as string,
+      subject: formData.get("subject") as string,
+      preferredDealer: formData.get("preferredDealer") as string,
+      message: formData.get("message") as string,
+    };
+
+    try {
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: `${data.firstName} ${data.lastName}`,
+          email: data.email,
+          phone: data.phone,
+          company: data.company,
+          subject: data.subject,
+          message: `Country: ${data.country}\nJob Title: ${data.title}\nPreferred Dealer: ${data.preferredDealer}\n\nMessage:\n${data.message}`,
+        }),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setStatus("sent");
+        // Reset form
+        (e.target as HTMLFormElement).reset();
+      } else {
+        setStatus("error");
+        setErrorMessage(result.error || "Failed to send email");
+      }
+    } catch (error) {
+      setStatus("error");
+      setErrorMessage("Network error. Please try again.");
+    }
+  };
+
   return (
     <>
       <PageHeader
@@ -79,50 +132,50 @@ export default function DealersPage() {
           {/* Right: Contact form */}
           <div className="rounded-lg border p-6 bg-white h-fit">
             <h2 className="text-xl font-semibold mb-6" style={{ color: 'black' }}>Contact our Authorized Dealers</h2>
-            <form className="space-y-4">
+            <form onSubmit={onSubmit} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-1">
                   <label className="text-sm font-medium" htmlFor="firstName" style={{ color: 'black' }}>First Name</label>
-                  <input id="firstName" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
+                  <input id="firstName" name="firstName" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
                 <div className="space-y-1">
                   <label className="text-sm font-medium" htmlFor="lastName" style={{ color: 'black' }}>Last Name</label>
-                  <input id="lastName" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
+                  <input id="lastName" name="lastName" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-1">
                   <label className="text-sm font-medium" htmlFor="phone" style={{ color: 'black' }}>Phone Number</label>
-                  <input id="phone" type="tel" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
+                  <input id="phone" name="phone" type="tel" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
                 <div className="space-y-1">
                   <label className="text-sm font-medium" htmlFor="email" style={{ color: 'black' }}>E-mail Address</label>
-                  <input id="email" type="email" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
+                  <input id="email" name="email" type="email" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-1">
                   <label className="text-sm font-medium" htmlFor="country" style={{ color: 'black' }}>Country</label>
-                  <input id="country" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
+                  <input id="country" name="country" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
                 <div className="space-y-1">
                   <label className="text-sm font-medium" htmlFor="company" style={{ color: 'black' }}>Company Name</label>
-                  <input id="company" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
+                  <input id="company" name="company" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-1">
                   <label className="text-sm font-medium" htmlFor="title" style={{ color: 'black' }}>Job Title</label>
-                  <input id="title" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
+                  <input id="title" name="title" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
                 <div className="space-y-1">
                   <label className="text-sm font-medium" htmlFor="subject" style={{ color: 'black' }}>Subject</label>
-                  <input id="subject" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
+                  <input id="subject" name="subject" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
               </div>
               <div className="space-y-1">
                 <label className="text-sm font-medium" htmlFor="preferredDealer" style={{ color: 'black' }}>Preferred Dealer to Contact</label>
-                <select id="preferredDealer" className="w-full border px-3 py-2 rounded-md focus:outline-none">
+                <select id="preferredDealer" name="preferredDealer" className="w-full border px-3 py-2 rounded-md focus:outline-none">
                   <option value="">Select a Dealer</option>
                   <option value="italy">Italy</option>
                   <option value="greece">Greece</option>
@@ -136,9 +189,27 @@ export default function DealersPage() {
               </div>
               <div className="space-y-1">
                 <label className="text-sm font-medium" htmlFor="message" style={{ color: 'black' }}>Your Message</label>
-                <textarea id="message" rows={6} className="w-full border px-3 py-2 rounded-md focus:outline-none" />
+                <textarea id="message" name="message" rows={6} className="w-full border px-3 py-2 rounded-md focus:outline-none" />
               </div>
-              <button type="button" className="px-4 py-2 bg-[#333333] text-white rounded-md">Send</button>
+              <button 
+                type="submit" 
+                disabled={status !== "idle"} 
+                className="px-4 py-2 bg-[#333333] text-white rounded-md disabled:opacity-50"
+              >
+                {status === "sending" ? "Sending..." : status === "sent" ? "Sent ✓" : "Send"}
+              </button>
+              
+              {status === "error" && (
+                <div className="text-red-600 text-sm mt-2">
+                  {errorMessage}
+                </div>
+              )}
+              
+              {status === "sent" && (
+                <div className="text-green-600 text-sm mt-2">
+                  Thank you! Your message has been sent successfully.
+                </div>
+              )}
             </form>
           </div>
         </div>

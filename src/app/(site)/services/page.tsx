@@ -51,7 +51,7 @@ export default function ServicesPage() {
                 "Premium glass solutions for architectural applications, providing transparency, energy efficiency, and modern aesthetics.",
               url: "/services/architectural-glass-solutions",
               image:
-                "/images/services/glass-solutions/architectural-glass-solutions-img--1.jpg",
+                "/images/services/glass-solutions/Architectural-Glass-Solutions-img--1.jpg",
             },
             {
               id: "service-5",

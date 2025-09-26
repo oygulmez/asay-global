@@ -22,21 +22,27 @@ export default function ContactForm() {
     };
 
     try {
-      // Create mailto link as fallback
-      const mailtoLink = `mailto:info@asayglobal.com?subject=${encodeURIComponent(`Contact Form: ${data.subject}`)}&body=${encodeURIComponent(
-        `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone || 'N/A'}\nCompany: ${data.company || 'N/A'}\nSubject: ${data.subject}\n\nMessage:\n${data.message}`
-      )}`;
-      
-      // Open mailto link
-      window.open(mailtoLink, '_blank');
-      
-      setStatus("sent");
-      // Reset form
-      (e.target as HTMLFormElement).reset();
-      
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setStatus("sent");
+        // Reset form
+        (e.target as HTMLFormElement).reset();
+      } else {
+        setStatus("error");
+        setErrorMessage(result.error || "Failed to send email");
+      }
     } catch (error) {
       setStatus("error");
-      setErrorMessage("Failed to open email client. Please contact us directly at info@asayglobal.com");
+      setErrorMessage("Network error. Please try again.");
     }
   };
 
@@ -86,7 +92,7 @@ export default function ContactForm() {
           disabled={status !== "idle"} 
           className="px-4 py-2 bg-[#333333] text-white rounded-md disabled:opacity-50"
         >
-          {status === "sending" ? "Opening Email..." : status === "sent" ? "Email Opened ✓" : "Send Email"}
+          {status === "sending" ? "Sending..." : status === "sent" ? "Sent ✓" : "Send"}
         </button>
         
         {status === "error" && (
@@ -97,7 +103,7 @@ export default function ContactForm() {
         
         {status === "sent" && (
           <div className="text-green-600 text-sm mt-2">
-            Your email client has been opened with the message. Please send the email to complete your inquiry.
+            Thank you! Your message has been sent successfully.
           </div>
         )}
       </form>
