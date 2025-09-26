@@ -37,7 +37,6 @@ export default function ContactPage() {
             </div>
 
             <div className="rounded-lg border p-6 bg-white">
-              <h2 className="text-xl font-semibold mb-4" style={{ color: "black" }}>Communication</h2>
               <ul className="space-y-3 text-sm" style={{ color: "#565656" }}>
                 
                 <li>
@@ -45,16 +44,16 @@ export default function ContactPage() {
                 </li>
                 
                 <li>
-                  <span className="font-medium" style={{ color: "black" }}>Head Office (Turkey):</span><br/>
-                  Atatürk Mahallesi Ertuğrul Gazi Sk. Metropol İstanbul, C Blok No2/131 Ataşehir İstanbul TR
-                </li>
-                <li>
                   <span className="font-medium" style={{ color: "black" }}>Head Office (Europe):</span><br/>
                   Keulenstraat 11 A, 7418 ET Deventer / The Netherlands
                 </li>
                 <li>
                   <span className="font-medium" style={{ color: "black" }}>Head Office (USA):</span><br/>
                   5835 Callaghan Rd. Ste 204, San Antonio, TX 78228, USA
+                </li>
+                <li>
+                  <span className="font-medium" style={{ color: "black" }}>Head Office (Turkey):</span><br/>
+                  Atatürk Mahallesi Ertuğrul Gazi Sk. Metropol İstanbul, C Blok No2/131 Ataşehir İstanbul TR
                 </li>
               </ul>
               <div className="pt-4">

@@ -68,8 +68,7 @@ export function HeroSectionOne() {
                     className="absolute inset-0"
                     style={{
                         backgroundImage: `
-                            linear-gradient(90deg, rgba(0,0,0,0.1) 1px, transparent 1px),
-                            linear-gradient(0deg, rgba(0,0,0,0.1) 1px, transparent 1px)
+                            linear-gradient(90deg, rgba(0,0,0,0.1) 1px, transparent 1px)
                         `,
                         backgroundSize: '80px 80px',
                         maskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0) 100%)',
@@ -179,6 +178,7 @@ export function HeroSectionOne() {
                                                     loop
                                                     muted
                                                     playsInline
+                                                    controls={false}
                                                 />
                                             </div>
                                         </div>
@@ -279,9 +279,9 @@ export function HeroSectionOne() {
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3s-4.5 4.03-4.5 9 2.015 9 4.5 9zm8.716-6.747a9.004 9.004 0 01-8.716 6.747m8.716-6.747a9.004 9.004 0 00-8.716-6.747" />
                                 </svg>
                             </div>
-                            <h3 className="text-lg font-semibold mb-3 text-white">Main US Distributor</h3>
+                            <h3 className="text-lg font-semibold mb-3 text-white">We offer you a full range of structural solutions.</h3>
                             <p className="text-white/70 text-sm leading-relaxed">
-                                As the primary distributor for leading US manufacturers, we provide direct access to premium building materials and cutting-edge construction solutions.
+                                As the primary distributor of authorized and licensed manufacturers of leading, exclusive global brands, we provide direct access to premium building materials and cutting-edge construction solutions.
                             </p>
                             </div>
 
