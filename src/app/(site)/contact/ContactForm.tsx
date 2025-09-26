@@ -3,12 +3,47 @@
 import { useState } from "react";
 
 export default function ContactForm() {
-  const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [errorMessage, setErrorMessage] = useState("");
 
-  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus("sending");
-    setTimeout(() => setStatus("sent"), 800);
+    setErrorMessage("");
+
+    const formData = new FormData(e.currentTarget);
+    const data = {
+      name: formData.get("name") as string,
+      email: formData.get("email") as string,
+      phone: formData.get("phone") as string,
+      company: formData.get("company") as string,
+      subject: formData.get("topic") as string,
+      message: formData.get("message") as string,
+    };
+
+    try {
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setStatus("sent");
+        // Reset form
+        (e.target as HTMLFormElement).reset();
+      } else {
+        setStatus("error");
+        setErrorMessage(result.error || "Failed to send email");
+      }
+    } catch (error) {
+      setStatus("error");
+      setErrorMessage("Network error. Please try again.");
+    }
   };
 
   return (
@@ -52,9 +87,25 @@ export default function ContactForm() {
           <textarea id="message" name="message" rows={6} className="w-full border px-3 py-2 rounded-md focus:outline-none" />
         </div>
 
-        <button type="submit" disabled={status!=="idle"} className="px-4 py-2 bg-[#333333] text-white rounded-md">
-          {status === "sending" ? "Sending..." : status === "sent" ? "Sent" : "Send"}
+        <button 
+          type="submit" 
+          disabled={status !== "idle"} 
+          className="px-4 py-2 bg-[#333333] text-white rounded-md disabled:opacity-50"
+        >
+          {status === "sending" ? "Sending..." : status === "sent" ? "Sent ✓" : "Send"}
         </button>
+        
+        {status === "error" && (
+          <div className="text-red-600 text-sm mt-2">
+            {errorMessage}
+          </div>
+        )}
+        
+        {status === "sent" && (
+          <div className="text-green-600 text-sm mt-2">
+            Thank you! Your message has been sent successfully.
+          </div>
+        )}
       </form>
     </div>
   );
