@@ -35,9 +35,9 @@ export default function AluminumArchitecturalSolutionsPage() {
             <h3 className="text-xl font-semibold mb-6 text-center" style={{ color: 'black' }}>Aluminum Architectural Solutions Partners</h3>
             <div className="flex items-center justify-center gap-16 flex-wrap">
               <img src="/images/brands-logo/brands-anasayfa/reynaers.svg" alt="Reynaers" className="h-16 md:h-20 lg:h-13 w-auto object-contain grayscale hover:grayscale-0 transition" />
-              <img src="/images/brands-logo/brands-anasayfa/alumil-logo.svg" alt="Alumil" className="h-16 md:h-20 lg:h-13 w-auto object-contain grayscale hover:grayscale-0 transition" />
-              <img src="/images/brands-logo/brands-anasayfa/sapa-logo.jpg" alt="Sapa" className="h-16 md:h-20 lg:h-13 w-auto object-contain grayscale hover:grayscale-0 transition" />
-              <img src="/images/brands-logo/brands-anasayfa/kleidco-logo-black.svg" alt="Kleidco" className="h-12 md:h-14 lg:h-10 w-auto object-contain grayscale hover:grayscale-0 transition" />
+              <img src="/images/brands-logo/brands-anasayfa/alumil-logo.svg" alt="Alumil" className="h-12 md:h-14 lg:h-10 w-auto object-contain grayscale hover:grayscale-0 transition" />
+              <img src="/images/brands-logo/brands-anasayfa/sapa-logo.jpg" alt="Sapa" className="h-18 md:h-22 lg:h-15 w-auto object-contain grayscale hover:grayscale-0 transition" />
+              <img src="/images/brands-logo/brands-anasayfa/kleidco-logo-black.svg" alt="Kleidco" className="h-10 md:h-12 lg:h-8 w-auto object-contain grayscale hover:grayscale-0 transition" />
             </div>
           </div>
         </section>
