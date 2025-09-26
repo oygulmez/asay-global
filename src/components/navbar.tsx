@@ -30,7 +30,7 @@ export function Navbar() {
       <div className="container mx-auto h-18 md:h-22 px-6 flex items-center gap-6">
         {/* Left: Logo */}
         <Link href="/" className="inline-flex items-center" aria-label="ARG Structural Solutions">
-          <img src="/asay-global-logo-main.svg" alt="Asay Global" className="h-14 md:h-14 lg:h-13 w-auto" />
+          <img src="/asay-global-logo-main.svg" alt="Asay Global" className="h-14 md:h-14 lg:h-15 w-auto" />
         </Link>
 
         {/* Spacer */}
