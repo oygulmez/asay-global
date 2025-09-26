@@ -3,7 +3,6 @@ export const metadata = {
   description: "B2B partner for structural solutions: 22+ years delivering u‑PVC, aluminum, glass and steel systems with global references and on‑time execution.",
 };
 import { PageHeader } from "@/components/page-header";
-import { Badge } from "@/components/ui/badge";
 import CallToAction from "@/components/call-to-action";
 
 export default function AboutPage() {
@@ -21,9 +20,8 @@ export default function AboutPage() {
       {/* About Content */}
       <div className="container mx-auto px-6 py-16">
         {/* Company Overview */}
-        <div className="max-w-4xl mx-auto mb-16">
+        <div className="max-w-5xl mx-auto mb-16">
           <div className="text-center mb-8">
-            <Badge variant="outline" className="mb-4">24 Years of Excellence</Badge>
             <h2 className="text-3xl font-bold mb-4" style={{ color: 'black' }}>About Asay Real Global</h2>
           </div>
           <div className="prose prose-gray max-w-none text-center">
@@ -31,8 +29,8 @@ export default function AboutPage() {
               At <strong>Asay Real Global</strong>, we set <strong>new standards in architectural solutions</strong>, leveraging <strong>24 years of industry experience</strong>. 
               With extensive knowledge and strong references in <strong>Europe, the US, the UK, the Bahamas, the Caribbean, and Latin America</strong>, 
               we are a <strong>leading supplier, sales, and marketing company</strong> for <strong>commercial, residential, and industrial steel structures</strong>, 
-              <strong>prefabricated homes</strong>, <strong>multi-purpose office and construction site units</strong>, <strong>architectural and specialty glazing systems</strong>, 
-              <strong>uPVC and aluminum window and door systems</strong> from <strong>world-renowned brands</strong>, <strong>exterior and interior solutions</strong>, as well as 
+              <strong>prefabricated homes</strong>, <strong>multi-purpose office and construction site units</strong>, <strong>architectural and specialty glazing systems</strong>,
+              <strong>uPVC and aluminum window and door systems</strong> from <strong>world-renowned brands</strong>, <strong>exterior and interior solutions</strong>, as well as
               <strong>high-quality apartment, home entrance, and interior room doors</strong>.
             </p>
             <p className="text-base leading-relaxed" style={{ color: '#565656' }}>

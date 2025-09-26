@@ -34,8 +34,11 @@ export default function AluminumArchitecturalSolutionsPage() {
           <div className="mx-auto max-w-7xl px-6">
             <h3 className="text-xl font-semibold mb-6 text-center" style={{ color: 'black' }}>Aluminum Architectural Solutions Partners</h3>
             <div className="flex items-center justify-center gap-16 flex-wrap">
-              <img src="/images/brands-logo/reynaers.svg" alt="AISC" className="h-16 md:h-20 lg:h-13 w-auto object-contain grayscale hover:grayscale-0 transition" />
-              <img src="/images/brands-logo/alumil-logo.svg" alt="ASTM International" className="h-16 md:h-20 lg:h-13 w-auto object-contain grayscale hover:grayscale-0 transition" />            </div>
+              <img src="/images/brands-logo/brands-anasayfa/reynaers.svg" alt="Reynaers" className="h-16 md:h-20 lg:h-13 w-auto object-contain grayscale hover:grayscale-0 transition" />
+              <img src="/images/brands-logo/brands-anasayfa/alumil-logo.svg" alt="Alumil" className="h-16 md:h-20 lg:h-13 w-auto object-contain grayscale hover:grayscale-0 transition" />
+              <img src="/images/brands-logo/brands-anasayfa/sapa-logo.jpg" alt="Sapa" className="h-16 md:h-20 lg:h-13 w-auto object-contain grayscale hover:grayscale-0 transition" />
+              <img src="/images/brands-logo/brands-anasayfa/kleidco-logo-black.svg" alt="Kleidco" className="h-12 md:h-14 lg:h-10 w-auto object-contain grayscale hover:grayscale-0 transition" />
+            </div>
           </div>
         </section>
 
@@ -48,7 +51,7 @@ export default function AluminumArchitecturalSolutionsPage() {
           <div className="mx-auto max-w-7xl px-6">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-3" style={{ color: 'black' }}>Aluminum Solutions</h2>
-              <p className="text-base" style={{ color: '#565656' }}>Asay Global - Leading USA distributor of premium aluminum architectural systems</p>
+              <p className="text-base" style={{ color: '#565656' }}>Asay Global - Provider of Premium Aluminum Architectural Systems.</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* Windows */}

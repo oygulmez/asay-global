@@ -123,9 +123,10 @@ export function HeroSectionOne() {
                         <div className="mx-auto max-w-7xl px-6">
                             <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
                                 <AnimatedGroup variants={transitionVariants}>
-                                    <div
-                                        className="bg-muted group mx-auto flex w-fit items-center gap-4 rounded-full border p-1 pl-4 shadow-md shadow-black/5 transition-all duration-300 dark:border-t-white/5 dark:shadow-zinc-950">
-                                            <span className="text-foreground text-sm">Welcome to Asay Real Global</span>
+                                    <a href="/about">
+                                        <div
+                                            className="bg-muted group mx-auto flex w-fit items-center gap-4 rounded-full border p-1 pl-4 shadow-md shadow-black/5 transition-all duration-300 dark:border-t-white/5 dark:shadow-zinc-950 hover:bg-muted/80 cursor-pointer">
+                                                <span className="text-foreground text-sm">Welcome to Asay Real Global</span>
                                         <span className="dark:border-background block h-4 w-0.5 border-l bg-white dark:bg-zinc-700"></span>
 
                                         <div className="bg-background group-hover:bg-muted size-6 overflow-hidden rounded-full duration-500">
@@ -139,9 +140,10 @@ export function HeroSectionOne() {
                                             </div>
                                         </div>
                                     </div>
+                                    </a>
                         
                                     <h1
-                                            className="mt-4 max-w-4xl mx-auto text-balance text-3xl font-bold" style={{ color: 'black' }}>
+                                            className="mt-4 max-w-4xl mx-auto text-balance text-4xl font-bold" style={{ color: 'black' }}>
                                             Premium Quality, Global Reach
                                     </h1>
                                     <p
@@ -214,10 +216,20 @@ export function HeroSectionOne() {
                                             "/images/brands-logo/brands-anasayfa/kleidco-logo-black.svg",
                                             "/images/brands-logo/brands-anasayfa/steelframing-logo.svg",
                                             "/images/brands-logo/brands-anasayfa/lavita-door-logo.png",
+                                            "/images/brands-logo/brands-anasayfa/sapa-logo.jpg",
+                                            // Duplicate logos for seamless loop
+                                            "/images/brands-logo/brands-anasayfa/aluplast-logo.png",
+                                            "/images/brands-logo/brands-anasayfa/schueco-logo.svg",
                                             "/images/brands-logo/brands-anasayfa/reynaers.svg",
-                                        
-                                        "/images/brands-logo/brands-anasayfa/sapa-logo.jpg",
-                    						
+                                            "/images/brands-logo/brands-anasayfa/alumil-logo.svg",
+                                            "/images/brands-logo/brands-anasayfa/hafele-logo.png",
+                                            "/images/brands-logo/brands-anasayfa/roto-logo.svg",
+                                            "/images/brands-logo/brands-anasayfa/deceuninck.png",
+                                            "/images/brands-logo/brands-anasayfa/siegenia.png",
+                                            "/images/brands-logo/brands-anasayfa/kleidco-logo-black.svg",
+                                            "/images/brands-logo/brands-anasayfa/steelframing-logo.svg",
+                                            "/images/brands-logo/brands-anasayfa/lavita-door-logo.png",
+                                            "/images/brands-logo/brands-anasayfa/sapa-logo.jpg",
                                         ].map((src, i) => (
                                             <div key={i} className="flex-shrink-0 flex items-center justify-center w-44 h-20">
                                                 <img
@@ -251,13 +263,6 @@ export function HeroSectionOne() {
             {/* Why Choose Us Section - Full Width */}
             <section className="py-20 md:py-32 w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]" style={{ backgroundColor: '#333333' }}>
                 <div className="mx-auto max-w-7xl px-6">
-                    <div className="text-center mb-16">
-                            <h2 className="text-3xl font-bold mb-4 text-white">Why Choose Us</h2>
-                        <p className="text-white/80 text-base max-w-2xl mx-auto">
-                            Discover the advantages that make us the preferred choice for your construction and building material needs.
-                        </p>
-                            </div>
-
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {/* Experienced Team */}
                         <div className="group text-center p-6 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
@@ -279,7 +284,7 @@ export function HeroSectionOne() {
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3s-4.5 4.03-4.5 9 2.015 9 4.5 9zm8.716-6.747a9.004 9.004 0 01-8.716 6.747m8.716-6.747a9.004 9.004 0 00-8.716-6.747" />
                                 </svg>
                             </div>
-                            <h3 className="text-lg font-semibold mb-3 text-white">We offer you a full range of structural solutions.</h3>
+                            <h3 className="text-lg font-semibold mb-3 text-white">We Offer You A Full Range Of Structural Solutions.</h3>
                             <p className="text-white/70 text-sm leading-relaxed">
                                 As the primary distributor of authorized and licensed manufacturers of leading, exclusive global brands, we provide direct access to premium building materials and cutting-edge construction solutions.
                             </p>

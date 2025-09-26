@@ -20,22 +20,10 @@ export default function ContactPage() {
       />
 
       <div className="container mx-auto px-6 py-16">
-        {/* Grid: Map + Info / Form */}
+        {/* Grid: Info / Form */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-          {/* Map + Contact Info */}
+          {/* Contact Info */}
           <div className="space-y-6">
-            <div className="aspect-[4/3] w-full overflow-hidden rounded-lg border">
-              <iframe
-                title="Asay Global Address Map"
-                className="w-full h-full"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                src={
-                  "https://www.google.com/maps?q=Atat%C3%BCrk%20Mahallesi%20Ertu%C4%9Frul%20Gazi%20Sk.%20Metropol%20%C4%B0stanbul,%20C%20Blok%20No2/131%20Ata%C5%9Fehir%20%C4%B0stanbul%20TR&output=embed"
-                }
-              />
-            </div>
-
             <div className="rounded-lg border p-6 bg-white">
               <ul className="space-y-3 text-sm" style={{ color: "#565656" }}>
                 
