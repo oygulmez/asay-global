@@ -65,12 +65,15 @@ export function HeroSectionOne() {
             <div className="overflow-hidden relative">
                 {/* Grid Pattern Background */}
                 <div 
-                    className="absolute inset-0 opacity-[0.15] dark:opacity-[0.2]"
+                    className="absolute inset-0"
                     style={{
                         backgroundImage: `
-                            linear-gradient(90deg, rgba(0,0,0,0.6) 1px, transparent 1px)
+                            linear-gradient(90deg, rgba(0,0,0,0.1) 1px, transparent 1px),
+                            linear-gradient(0deg, rgba(0,0,0,0.1) 1px, transparent 1px)
                         `,
-                        backgroundSize: '80px 80px'
+                        backgroundSize: '80px 80px',
+                        maskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0) 100%)',
+                        WebkitMaskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0) 100%)'
                     }}
                 />
                 
