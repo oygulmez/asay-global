@@ -152,56 +152,55 @@ export function HeroSectionOne() {
                                     </p>
                                 </AnimatedGroup>
 
-                                {/* Logo Carousel Section */}
+                                {/* Video Section */}
                                 <AnimatedGroup
                                     variants={{
                                         container: {
                                             visible: {
                                                 transition: {
-                                                    staggerChildren: 0.1,
-                                                    delayChildren: 1.2,
+                                                    staggerChildren: 0.05,
+                                                    delayChildren: 0.75,
                                                 },
                                             },
                                         },
                                         ...transitionVariants,
                                     }}
                                     className="mt-16">
-                                    <div className="relative overflow-hidden">
-                                        <div className="flex animate-scroll space-x-8">
-                                            {[
-                                                "/images/brands-logo/brands-anasayfa/aluplast-logo.png",
-                                                "/images/brands-logo/brands-anasayfa/schueco-logo.svg",
-                                                "/images/brands-logo/brands-anasayfa/reynaers.svg",
-                                                "/images/brands-logo/brands-anasayfa/alumil-logo.svg",
-                                                "/images/brands-logo/brands-anasayfa/hafele-logo.png",
-                                                "/images/brands-logo/brands-anasayfa/roto-logo.svg",
-                                                "/images/brands-logo/brands-anasayfa/deceuninck.png",
-                                                "/images/brands-logo/brands-anasayfa/siegenia.png",
-                                                "/images/brands-logo/brands-anasayfa/kleidco-logo-black.svg",
-                                                "/images/brands-logo/brands-anasayfa/steelframing-logo.svg",
-                                                "/images/brands-logo/brands-anasayfa/lavita-door-logo.png",
-                                                "/images/brands-logo/brands-anasayfa/reynaers.svg",
-                                            
-                                            "/images/brands-logo/brands-anasayfa/sapa-logo.jpg",
-                        						
-                                            ].map((src, i) => (
-                                                <div key={i} className="flex-shrink-0 flex items-center justify-center w-44 h-20">
-                                                    <img
-                                                        className={cn(
-                                                            "w-auto opacity-70 hover:opacity-100 grayscale hover:grayscale-0 transition-all duration-300 object-contain",
-                                                            src.includes("kleidco-logo")
-                                                                ? "h-7 md:h-8"
-                                                                : src.includes("alumil-logo")
-                                                                ? "h-9 md:h-11"
-                                                                : src.includes("reynaers")
-                                                                ? "h-11 md:h-13"
-                                                                : "h-12 md:h-14"
-                                                        )}
-                                                        src={src}
-                                                        alt="brand logo"
-                                                    />
-                                                </div>
-                                            ))}
+                                    <div 
+                                        ref={videoRef}
+                                        className="relative mt-8 overflow-hidden px-2 sm:mt-12 md:mt-20"
+                                        style={{
+                                            transform: `translateY(${scrollY * 0.1}px)`,
+                                            opacity: isVideoVisible ? 1 : 0.7,
+                                        }}
+                                    >
+                                        <div
+                                            aria-hidden
+                                            className="bg-gradient-to-b to-background absolute inset-0 z-10 from-transparent from-35%"
+                                        />
+                                        <div 
+                                            className="inset-shadow-2xs ring-background dark:inset-shadow-white/20 bg-background relative mx-auto max-w-6xl overflow-hidden rounded-2xl border p-2 shadow-lg shadow-zinc-950/15 ring-1 transition-all duration-700"
+                                            style={{
+                                                transform: `scale(${isVideoVisible ? 1 : 0.95})`,
+                                                boxShadow: isVideoVisible 
+                                                    ? '0 25px 50px -12px rgba(0, 0, 0, 0.25)' 
+                                                    : '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
+                                            }}
+                                        >
+                                            <div className="relative overflow-hidden rounded-2xl">
+                                                <video
+                                                    className="w-full h-auto aspect-video object-center transition-all duration-500"
+                                                    src="/video/hero-section-video.mp4"
+                                                    autoPlay
+                                                    loop
+                                                    muted
+                                                    playsInline
+                                                    controls
+                                                    style={{
+                                                        filter: isVideoVisible ? 'brightness(1)' : 'brightness(0.8)',
+                                                    }}
+                                                />
+                                            </div>
                                         </div>
                                     </div>
                                 </AnimatedGroup>
@@ -213,47 +212,50 @@ export function HeroSectionOne() {
                                 container: {
                                     visible: {
                                         transition: {
-                                            staggerChildren: 0.05,
-                                            delayChildren: 0.75,
+                                            staggerChildren: 0.1,
+                                            delayChildren: 1.2,
                                         },
                                     },
                                 },
                                 ...transitionVariants,
                             }}>
-                            <div 
-                                ref={videoRef}
-                                className="relative mt-8 overflow-hidden px-2 sm:mt-12 md:mt-20"
-                                style={{
-                                    transform: `translateY(${scrollY * 0.1}px)`,
-                                    opacity: isVideoVisible ? 1 : 0.7,
-                                }}
-                            >
-                                <div
-                                    aria-hidden
-                                    className="bg-gradient-to-b to-background absolute inset-0 z-10 from-transparent from-35%"
-                                />
-                                <div 
-                                    className="inset-shadow-2xs ring-background dark:inset-shadow-white/20 bg-background relative mx-auto max-w-6xl overflow-hidden rounded-2xl border p-2 shadow-lg shadow-zinc-950/15 ring-1 transition-all duration-700"
-                                    style={{
-                                        transform: `scale(${isVideoVisible ? 1 : 0.95})`,
-                                        boxShadow: isVideoVisible 
-                                            ? '0 25px 50px -12px rgba(0, 0, 0, 0.25)' 
-                                            : '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                                    }}
-                                >
-                                    <div className="relative overflow-hidden rounded-2xl">
-                                        <video
-                                            className="w-full h-auto aspect-video object-center transition-all duration-500"
-                                            src="/video/hero-section-video.mp4"
-                                            autoPlay
-                                            loop
-                                            muted
-                                            playsInline
-                                            controls
-                                            style={{
-                                                filter: isVideoVisible ? 'brightness(1)' : 'brightness(0.8)',
-                                            }}
-                                        />
+                            <div className="relative mt-8 overflow-hidden px-2 sm:mt-12 md:mt-20">
+                                <div className="relative overflow-hidden">
+                                    <div className="flex animate-scroll space-x-8">
+                                        {[
+                                            "/images/brands-logo/brands-anasayfa/aluplast-logo.png",
+                                            "/images/brands-logo/brands-anasayfa/schueco-logo.svg",
+                                            "/images/brands-logo/brands-anasayfa/reynaers.svg",
+                                            "/images/brands-logo/brands-anasayfa/alumil-logo.svg",
+                                            "/images/brands-logo/brands-anasayfa/hafele-logo.png",
+                                            "/images/brands-logo/brands-anasayfa/roto-logo.svg",
+                                            "/images/brands-logo/brands-anasayfa/deceuninck.png",
+                                            "/images/brands-logo/brands-anasayfa/siegenia.png",
+                                            "/images/brands-logo/brands-anasayfa/kleidco-logo-black.svg",
+                                            "/images/brands-logo/brands-anasayfa/steelframing-logo.svg",
+                                            "/images/brands-logo/brands-anasayfa/lavita-door-logo.png",
+                                            "/images/brands-logo/brands-anasayfa/reynaers.svg",
+                                        
+                                        "/images/brands-logo/brands-anasayfa/sapa-logo.jpg",
+                    						
+                                        ].map((src, i) => (
+                                            <div key={i} className="flex-shrink-0 flex items-center justify-center w-44 h-20">
+                                                <img
+                                                    className={cn(
+                                                        "w-auto opacity-70 hover:opacity-100 grayscale hover:grayscale-0 transition-all duration-300 object-contain",
+                                                        src.includes("kleidco-logo")
+                                                            ? "h-7 md:h-8"
+                                                            : src.includes("alumil-logo")
+                                                            ? "h-9 md:h-11"
+                                                            : src.includes("reynaers")
+                                                            ? "h-11 md:h-13"
+                                                            : "h-12 md:h-14"
+                                                    )}
+                                                    src={src}
+                                                    alt="brand logo"
+                                                />
+                                            </div>
+                                        ))}
                                     </div>
                                 </div>
                             </div>
