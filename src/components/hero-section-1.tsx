@@ -165,7 +165,7 @@ export function HeroSectionOne() {
                                         },
                                         ...transitionVariants,
                                     }}
-                                    className="mt-16">
+                                    className="mt-8">
                                     <div 
                                         ref={videoRef}
                                         className="relative mt-8 overflow-hidden px-2 sm:mt-12 md:mt-20"
@@ -174,10 +174,6 @@ export function HeroSectionOne() {
                                             opacity: isVideoVisible ? 1 : 0.7,
                                         }}
                                     >
-                                        <div
-                                            aria-hidden
-                                            className="bg-gradient-to-b to-background absolute inset-0 z-10 from-transparent from-35%"
-                                        />
                                         <div 
                                             className="inset-shadow-2xs ring-background dark:inset-shadow-white/20 bg-background relative mx-auto max-w-6xl overflow-hidden rounded-2xl border p-2 shadow-lg shadow-zinc-950/15 ring-1 transition-all duration-700"
                                             style={{
@@ -219,7 +215,7 @@ export function HeroSectionOne() {
                                 },
                                 ...transitionVariants,
                             }}>
-                            <div className="relative mt-8 overflow-hidden px-2 sm:mt-12 md:mt-20">
+                            <div className="relative mt-16 overflow-hidden px-2 sm:mt-20 md:mt-24">
                                 <div className="relative overflow-hidden">
                                     <div className="flex animate-scroll space-x-8">
                                         {[
