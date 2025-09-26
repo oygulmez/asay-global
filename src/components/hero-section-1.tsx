@@ -362,7 +362,7 @@ export function HeroSectionOne() {
                         title: "Architectural Glass Solutions",
                         summary: "Premium glass solutions for architectural applications, providing transparency, energy efficiency, and modern aesthetics.",
                         url: "/services/architectural-glass-solutions", 
-                        image: "/images/services/glass-solutions/architectural-glass-solutions-img--1.jpg",
+                        image: "/images/services/glass-solutions/architectural-glass-gallery-1.jpg",
                     },
                     {
                         id: "service-5",
