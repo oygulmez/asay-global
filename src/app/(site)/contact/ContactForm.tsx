@@ -22,23 +22,28 @@ export default function ContactForm() {
     };
 
     try {
-      const response = await fetch("/api/send-email", {
+      const response = await fetch("https://formspree.io/f/xpwnqkqr", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify({
+          name: data.name,
+          email: data.email,
+          phone: data.phone,
+          company: data.company,
+          subject: data.subject,
+          message: data.message,
+        }),
       });
 
-      const result = await response.json();
-
-      if (result.success) {
+      if (response.ok) {
         setStatus("sent");
         // Reset form
         (e.target as HTMLFormElement).reset();
       } else {
         setStatus("error");
-        setErrorMessage(result.error || "Failed to send email");
+        setErrorMessage("Failed to send email. Please try again.");
       }
     } catch (error) {
       setStatus("error");

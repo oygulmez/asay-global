@@ -66,7 +66,7 @@ export default function DealersPage() {
     };
 
     try {
-      const response = await fetch("/api/send-email", {
+      const response = await fetch("https://formspree.io/f/xpwnqkqr", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -76,20 +76,18 @@ export default function DealersPage() {
           email: data.email,
           phone: data.phone,
           company: data.company,
-          subject: data.subject,
+          subject: `Dealer Contact: ${data.subject}`,
           message: `Country: ${data.country}\nJob Title: ${data.title}\nPreferred Dealer: ${data.preferredDealer}\n\nMessage:\n${data.message}`,
         }),
       });
 
-      const result = await response.json();
-
-      if (result.success) {
+      if (response.ok) {
         setStatus("sent");
         // Reset form
         (e.target as HTMLFormElement).reset();
       } else {
         setStatus("error");
-        setErrorMessage(result.error || "Failed to send email");
+        setErrorMessage("Failed to send email. Please try again.");
       }
     } catch (error) {
       setStatus("error");
