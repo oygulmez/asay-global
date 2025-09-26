@@ -4,6 +4,11 @@ import { ApplicationAreasGallery } from "@/components/image-gallery";
 import { Cpu, Globe2, Shield, Users } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
+export const metadata = {
+  title: "Steel Framings",
+  description: "Structural steel solutions for commercial and industrial projects—engineering, fabrication and installation with code compliance.",
+};
+
 export default function SteelFramingsPage() {
   return (
     <>
@@ -55,7 +60,7 @@ export default function SteelFramingsPage() {
               {/* Structural Steel */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/steel-structure/Steel Framings - Structural Steel.jpg" alt="Structural Steel" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/steel-structure/steel-framings-structural-steel.jpg" alt="Structural Steel" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">Structural Steel</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Structural Steel</h3>
@@ -69,7 +74,7 @@ export default function SteelFramingsPage() {
               {/* Steel Frameworks */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/steel-structure/Steel Framings - Steel Frameworks.jpg" alt="Steel Frameworks" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/steel-structure/steel-framings-steel-frameworks.jpg" alt="Steel Frameworks" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">Steel Frameworks</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Steel Frameworks</h3>
@@ -83,7 +88,7 @@ export default function SteelFramingsPage() {
               {/* Industrial Buildings */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/steel-structure/Steel Framings -Industrial-Buildings.jpg" alt="Industrial Buildings" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/steel-structure/steel-framings-industrial-buildings.jpg" alt="Industrial Buildings" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">Industrial Buildings</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Industrial Buildings</h3>
@@ -97,7 +102,7 @@ export default function SteelFramingsPage() {
               {/* Custom Fabrication */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/steel-structure/Steel Framings - Custom Fabrication.jpg" alt="Custom Fabrication" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/steel-structure/steel-framings-custom-fabrication.jpg" alt="Custom Fabrication" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">Custom Fabrication</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Custom Fabrication</h3>
@@ -111,7 +116,7 @@ export default function SteelFramingsPage() {
               {/* Steel Bridges */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                <img src="/images/services/steel-structure/Steel Framings - Steel Bridges.webp" alt="Custom Fabrication" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                <img src="/images/services/steel-structure/steel-framings-steel-bridges.webp" alt="Custom Fabrication" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                 <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">Steel Bridges</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Steel Bridges</h3>
@@ -176,11 +181,11 @@ export default function SteelFramingsPage() {
 
         {/* Application Areas - Steel Structure Gallery */}
         <ApplicationAreasGallery images={[
-          { src: "/images/services/steel-structure/Steel Framings - Structural Steel.jpg", alt: "Structural Steel" },
-          { src: "/images/services/steel-structure/Steel Framings - Steel Frameworks.jpg", alt: "Steel Frameworks" },
-          { src: "/images/services/steel-structure/Steel Framings -Industrial-Buildings.jpg", alt: "Industrial Buildings" },
-          { src: "/images/services/steel-structure/Steel Framings - Custom Fabrication.jpg", alt: "Custom Fabrication" },
-          { src: "/images/services/steel-structure/Steel Framings - Steel Bridges.webp", alt: "Steel Bridges" },
+          { src: "/images/services/steel-structure/steel-framings-structural-steel.jpg", alt: "Structural Steel" },
+          { src: "/images/services/steel-structure/steel-framings-steel-frameworks.jpg", alt: "Steel Frameworks" },
+          { src: "/images/services/steel-structure/steel-framings-industrial-buildings.jpg", alt: "Industrial Buildings" },
+          { src: "/images/services/steel-structure/steel-framings-custom-fabrication.jpg", alt: "Custom Fabrication" },
+          { src: "/images/services/steel-structure/steel-framings-steel-bridges.webp", alt: "Steel Bridges" },
           { src: "/images/services/steel-structure/steel-framings-img-1.jpg", alt: "Steel Framings 1" },
           { src: "/images/services/steel-structure/Steel-framings-img-2.JPG", alt: "Steel Framings 2" },
           { src: "/images/services/steel-structure/Steel-framings-img-3.jpg", alt: "Steel Framings 3" },

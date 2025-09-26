@@ -1,6 +1,10 @@
 import { PageHeader } from "@/components/page-header";
 import CallToAction from "@/components/call-to-action";
 import { ApplicationAreasGallery } from "@/components/image-gallery";
+export const metadata = {
+  title: "Interior & Exterior Decorative Products",
+  description: "B2B decorative solutions for interiors and facades—wall, ceiling and cladding systems engineered for durability, aesthetics and fast installation.",
+};
 
 
 export default function InteriorExteriorDecorativeProductsPage() {
@@ -44,7 +48,7 @@ export default function InteriorExteriorDecorativeProductsPage() {
               {/* Interior Cladding - Wall Panels */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/interior-exterior/Interior and Exterior Decorative Products Wall Panels.jpg" alt="Wall Panels" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-wall-panels.jpg" alt="Wall Panels" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <BadgeLike label="Interior Cladding" />
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Wall Panels</h3>
@@ -63,7 +67,7 @@ export default function InteriorExteriorDecorativeProductsPage() {
               {/* Deck Profiles */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/interior-exterior/Interior and Exterior Decorative Products Deck Profiles.jpeg" alt="Deck Profiles" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-deck-profiles.jpeg" alt="Deck Profiles" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <BadgeLike label="Deck Profiles" />
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Composite Decking</h3>
@@ -82,7 +86,7 @@ export default function InteriorExteriorDecorativeProductsPage() {
               {/* Exterior Cladding */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/interior-exterior/Interior and Exterior Decorative Products Exterior Cladding.jpg" alt="Exterior Cladding" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-exterior-cladding.jpg" alt="Exterior Cladding" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <BadgeLike label="Exterior Cladding" />
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Facade Systems</h3>
@@ -101,7 +105,7 @@ export default function InteriorExteriorDecorativeProductsPage() {
               {/* Interior Cladding - Elegant */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/interior-exterior/Interior and Exterior Decorative Products Interior Cladding.jpg" alt="Interior Cladding" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-interior-cladding.jpg" alt="Interior Cladding" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <BadgeLike label="Interior Cladding" />
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Elegant Interior Cladding</h3>
@@ -184,17 +188,17 @@ export default function InteriorExteriorDecorativeProductsPage() {
 
         {/* Application Areas - Image Gallery with Lightbox & Infinite Strip */}
         <ApplicationAreasGallery images={[
-          { src: "/images/services/interior-exterior/Interior and Exterior Decorative Products Wall Panels.jpg", alt: "Wall Panels" },
-          { src: "/images/services/interior-exterior/Interior and Exterior Decorative Products Deck Profiles.jpeg", alt: "Deck Profiles" },
-          { src: "/images/services/interior-exterior/Interior and Exterior Decorative Products Exterior Cladding.jpg", alt: "Exterior Cladding" },
-          { src: "/images/services/interior-exterior/Interior and Exterior Decorative Products Interior Cladding.jpg", alt: "Interior Cladding" },
-          { src: "/images/services/interior-exterior/Interior and Exterior Decorative Products - Gallery1.jpg", alt: "Application Area 1" },
-          { src: "/images/services/interior-exterior/Interior and Exterior Decorative Products - Gallery2.jpg", alt: "Application Area 2" },
-          { src: "/images/services/interior-exterior/Interior and Exterior Decorative Products - Gallery3.jpg", alt: "Application Area 3" },
-          { src: "/images/services/interior-exterior/Interior and Exterior Decorative Products - Gallery4.jpg", alt: "Application Area 4" },
-          { src: "/images/services/interior-exterior/Interior and Exterior Decorative Products - Gallery5.jpg", alt: "Application Area 5" },
-          { src: "/images/services/interior-exterior/Interior and Exterior Decorative Products - Gallery6.jpg", alt: "Application Area 6" },
-          { src: "/images/services/interior-exterior/Interior and Exterior Decorative Products - Gallery7.jpg", alt: "Application Area 7" },
+          { src: "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-wall-panels.jpg", alt: "Wall Panels" },
+          { src: "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-deck-profiles.jpeg", alt: "Deck Profiles" },
+          { src: "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-exterior-cladding.jpg", alt: "Exterior Cladding" },
+          { src: "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-interior-cladding.jpg", alt: "Interior Cladding" },
+          { src: "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-gallery-1.jpg", alt: "Application Area 1" },
+          { src: "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-gallery-2.jpg", alt: "Application Area 2" },
+          { src: "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-gallery-3.jpg", alt: "Application Area 3" },
+          { src: "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-gallery-4.jpg", alt: "Application Area 4" },
+          { src: "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-gallery-5.jpg", alt: "Application Area 5" },
+          { src: "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-gallery-6.jpg", alt: "Application Area 6" },
+          { src: "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-gallery-7.jpg", alt: "Application Area 7" },
         ]} />
 
         {/* CTA */}

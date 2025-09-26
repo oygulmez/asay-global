@@ -30,7 +30,7 @@ export function Navbar() {
       <div className="container mx-auto h-18 md:h-22 px-6 flex items-center gap-6">
         {/* Left: Logo */}
         <Link href="/" className="inline-flex items-center" aria-label="ARG Structural Solutions">
-          <img src="/arg-structural-solutions-logo.svg" alt="ARG Structural Solutions" className="h-14 md:h-14 lg:h-16 w-auto" />
+          <img src="/asay-global-logo-main.svg" alt="Asay Global" className="h-14 md:h-14 lg:h-13 w-auto" />
         </Link>
 
         {/* Spacer */}
@@ -68,6 +68,9 @@ export function Navbar() {
                     <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
                       <Link href="/services/architectural-glass-solutions" className="block w-full px-2 py-2">Architectural Glass Solutions</Link>
                     </DropdownMenuItem>
+                    <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
+                      <Link href="/services/u-pvc-systems" className="block w-full px-2 py-2">u-PVC Systems</Link>
+                    </DropdownMenuItem>
                   </DropdownMenuContent>
                 </DropdownMenu>
               </NavigationMenuItem>
@@ -93,21 +96,15 @@ export function Navbar() {
                 <Link href="/en"><img src="/flags/gb.svg" alt="English" width="16" height="11" className="me-2 inline rounded-none border"/>English</Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
-                <Link href="/hy"><img src="/flags/am.svg" alt="Armenian" width="16" height="11" className="me-2 inline rounded-none border"/>Armenian</Link>
+                <Link href="/fr"><img src="/flags/fr.svg" alt="Français" width="16" height="11" className="me-2 inline rounded-none border"/>Français</Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
-                <Link href="/nl"><img src="/flags/nl.svg" alt="Dutch" width="16" height="11" className="me-2 inline rounded-none border"/>Dutch</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href="/de"><img src="/flags/de.svg" alt="German" width="16" height="11" className="me-2 inline rounded-none border"/>German</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href="/el"><img src="/flags/gr.svg" alt="Greek" width="16" height="11" className="me-2 inline rounded-none border"/>Greek</Link>
+                <Link href="/es"><img src="/flags/es.svg" alt="Español" width="16" height="11" className="me-2 inline rounded-none border"/>Español</Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <Button asChild size="sm">
+          <Button asChild size="sm" className="bg-[#333333] text-white hover:bg-[#998675]">
             <Link href="/dealers">View Authorized Dealers</Link>
           </Button>
         </div>
@@ -128,20 +125,12 @@ export function Navbar() {
                 English
               </DropdownMenuItem>
               <DropdownMenuItem className="flex items-center gap-2">
-                <img src="/flags/am.svg" alt="Armenian" width="18" height="12" className="rounded-none border" />
-                Armenian
+                <img src="/flags/fr.svg" alt="Français" width="18" height="12" className="rounded-none border" />
+                Français
               </DropdownMenuItem>
               <DropdownMenuItem className="flex items-center gap-2">
-                <img src="/flags/nl.svg" alt="Dutch" width="18" height="12" className="rounded-none border" />
-                Dutch
-              </DropdownMenuItem>
-              <DropdownMenuItem className="flex items-center gap-2">
-                <img src="/flags/de.svg" alt="German" width="18" height="12" className="rounded-none border" />
-                German
-              </DropdownMenuItem>
-              <DropdownMenuItem className="flex items-center gap-2">
-                <img src="/flags/gr.svg" alt="Greek" width="18" height="12" className="rounded-none border" />
-                Greek
+                <img src="/flags/es.svg" alt="Español" width="18" height="12" className="rounded-none border" />
+                Español
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
@@ -158,25 +147,27 @@ export function Navbar() {
               </SheetHeader>
               <div className="flex items-center justify-start mb-2 pl-3">
                 <Link href="/" aria-label="ARG Structural Solutions" className="inline-flex">
-                  <img src="/arg-structural-solutions-logo.svg" alt="ARG Structural Solutions" className="h-16 w-auto" />
+                  <img src="/asay-global-logo-main.svg" alt="Asay Global" className="h-16 w-auto" />
                 </Link>
               </div>
               <nav className="mt-4 space-y-1" onClick={() => (document.querySelector('[data-state="open"]') as HTMLElement)?.click()}>
                 <Link href="/" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">Home</Link>
                 <Link href="/about" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">About Us</Link>
                 <div className="pt-1">
-                  <div className="h-10 px-3 rounded-md text-base font-medium leading-10">Services</div>
+                  <Link href="/services" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">Services</Link>
                   <div className="grid gap-1 px-3">
                     <Link href="/services/interior-and-exterior-decorative-products" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">Interior and Exterior Decorative Products</Link>
                     <Link href="/services/steel-framings" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">Steel Framings</Link>
                     <Link href="/services/aluminum-architectural-solutions" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">Aluminum Architectural Solutions</Link>
-                    <Link href="/services/architectural-glass-solutions" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">Architectural Glass Solutions</Link>                  </div>
+                    <Link href="/services/architectural-glass-solutions" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">Architectural Glass Solutions</Link>                 
+                    <Link href="/services/u-pvc-systems" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">u-PVC Systems</Link> </div>
+
                 </div>
                 <Link href="/contact" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">Contact Us</Link>
               </nav>
               <Separator className="my-4" />
               <div className="mt-auto grid gap-2">
-                <Button asChild size="lg" className="w-full">
+                <Button asChild size="lg" className="w-full bg-[#333333] text-white hover:bg-[#998675]">
                   <Link href="/dealers">View Authorized Dealers</Link>
                 </Button>
               </div>

@@ -169,22 +169,33 @@ export function HeroSectionOne() {
                                     <div className="relative overflow-hidden">
                                         <div className="flex animate-scroll space-x-8">
                                             {[
+                                                "/images/brands-logo/brands-anasayfa/aluplast-logo.png",
+                                                "/images/brands-logo/brands-anasayfa/schueco-logo.svg",
                                                 "/images/brands-logo/brands-anasayfa/reynaers.svg",
                                                 "/images/brands-logo/brands-anasayfa/alumil-logo.svg",
                                                 "/images/brands-logo/brands-anasayfa/hafele-logo.png",
                                                 "/images/brands-logo/brands-anasayfa/roto-logo.svg",
                                                 "/images/brands-logo/brands-anasayfa/deceuninck.png",
                                                 "/images/brands-logo/brands-anasayfa/siegenia.png",
+                                                "/images/brands-logo/brands-anasayfa/kleidco-logo-black.svg",
                                                 "/images/brands-logo/brands-anasayfa/steelframing-logo.svg",
                                                 "/images/brands-logo/brands-anasayfa/lavita-door-logo.png",
                                                 "/images/brands-logo/brands-anasayfa/reynaers.svg",
-                                                "/images/brands-logo/brands-anasayfa/alumil-logo.svg",
+                                            
+                                            "/images/brands-logo/brands-anasayfa/sapa-logo.jpg",
+                        						
                                             ].map((src, i) => (
                                                 <div key={i} className="flex-shrink-0 flex items-center justify-center w-44 h-20">
                                                     <img
                                                         className={cn(
                                                             "w-auto opacity-70 hover:opacity-100 grayscale hover:grayscale-0 transition-all duration-300 object-contain",
-                                                            src.includes("alumil-logo") ? "h-9 md:h-11" : src.includes("reynaers") ? "h-11 md:h-13" : "h-12 md:h-14"
+                                                            src.includes("kleidco-logo")
+                                                                ? "h-7 md:h-8"
+                                                                : src.includes("alumil-logo")
+                                                                ? "h-9 md:h-11"
+                                                                : src.includes("reynaers")
+                                                                ? "h-11 md:h-13"
+                                                                : "h-12 md:h-14"
                                                         )}
                                                         src={src}
                                                         alt="brand logo"
@@ -211,7 +222,7 @@ export function HeroSectionOne() {
                             }}>
                             <div 
                                 ref={videoRef}
-                                className="relative -mr-56 mt-8 overflow-hidden px-2 sm:mr-0 sm:mt-12 md:mt-20"
+                                className="relative mt-8 overflow-hidden px-2 sm:mt-12 md:mt-20"
                                 style={{
                                     transform: `translateY(${scrollY * 0.1}px)`,
                                     opacity: isVideoVisible ? 1 : 0.7,
@@ -256,7 +267,7 @@ export function HeroSectionOne() {
             <div className="h-16 md:h-24"></div>
 
             {/* Why Choose Us Section - Full Width */}
-            <section className="py-20 md:py-32 w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]" style={{ backgroundColor: '#000000' }}>
+            <section className="py-20 md:py-32 w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]" style={{ backgroundColor: '#333333' }}>
                 <div className="mx-auto max-w-7xl px-6">
                     <div className="text-center mb-16">
                             <h2 className="text-3xl font-bold mb-4 text-white">Why Choose Us</h2>
@@ -330,7 +341,7 @@ export function HeroSectionOne() {
                         title: "Interior and Exterior Decorative Products",
                         summary: "High-quality decorative materials for both interior and exterior applications, enhancing the aesthetic appeal of your projects.",
                         url: "/services/interior-and-exterior-decorative-products",
-                        image: "/images/services/interior-exterior/Interior and Exterior Decorative Products - 1.jpg",
+                        image: "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-1.jpg",
                     },
                     {
                         id: "service-2", 
@@ -351,7 +362,14 @@ export function HeroSectionOne() {
                         title: "Architectural Glass Solutions",
                         summary: "Premium glass solutions for architectural applications, providing transparency, energy efficiency, and modern aesthetics.",
                         url: "/services/architectural-glass-solutions", 
-                        image: "/images/services/glass-solutions/Architectural-Glass-Solutions-img--1.jpg",
+                        image: "/images/services/glass-solutions/architectural-glass-solutions-img--1.jpg",
+                    },
+                    {
+                        id: "service-5",
+                        title: "u-PVC Systems",
+                        summary: "High-performance u-PVC window, door and sliding systems engineered for durability and efficiency.",
+                        url: "/services/u-pvc-systems",
+                        image: "/images/services/upvc-systems/pvc-window-and-door-system.jpg",
                     },
                 ]}
             />

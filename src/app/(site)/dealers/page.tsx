@@ -1,4 +1,8 @@
 import { PageHeader } from "@/components/page-header";
+export const metadata = {
+  title: "Authorized Dealers",
+  description: "Find Asay Global’s authorized dealers and partners worldwide for B2B procurement of u‑PVC, aluminum, glass and steel systems.",
+};
 
 type Dealer = {
   country: string;
@@ -134,7 +138,7 @@ export default function DealersPage() {
                 <label className="text-sm font-medium" htmlFor="message" style={{ color: 'black' }}>Your Message</label>
                 <textarea id="message" rows={6} className="w-full border px-3 py-2 rounded-md focus:outline-none" />
               </div>
-              <button type="button" className="px-4 py-2 bg-black text-white rounded-md">Send</button>
+              <button type="button" className="px-4 py-2 bg-[#333333] text-white rounded-md">Send</button>
             </form>
           </div>
         </div>

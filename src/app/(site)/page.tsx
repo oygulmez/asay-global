@@ -2,6 +2,11 @@ export const revalidate = 60
 
 import { HeroSectionOne } from "@/components/hero-section-1";
 
+export const metadata = {
+  title: "Asay Global | Structural Solutions",
+  description: "B2B structural solutions: u‑PVC, aluminum, glass and steel systems for high‑performance façades—engineered for reliability, compliance and on‑time delivery.",
+};
+
 export default function HomePage() {
   return (
     <main className="flex-1">

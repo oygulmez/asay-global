@@ -3,6 +3,11 @@ import CallToAction from "@/components/call-to-action";
 import { ApplicationAreasGallery } from "@/components/image-gallery";
 import { Shield, Sun, Zap, Waves } from "lucide-react";
 
+export const metadata = {
+  title: "Architectural Glass Solutions",
+  description: "Energy‑efficient and specialty glazing for façades, skylights and interiors—thermal, acoustic and safety performance for contemporary architecture.",
+};
+
 export default function ArchitecturalGlassSolutionsPage() {
   return (
     <>
@@ -146,12 +151,12 @@ export default function ArchitecturalGlassSolutionsPage() {
 
         {/* Gallery */}
         <ApplicationAreasGallery images={[
-          { src: "/images/services/glass-solutions/Architectural Glass gallery1.jpg", alt: "Glass Gallery 1" },
-          { src: "/images/services/glass-solutions/Architectural Glass Galler2.jpeg", alt: "Glass Gallery 2" },
-          { src: "/images/services/glass-solutions/Architectural Glass gallery3.jpg", alt: "Glass Gallery 3" },
-          { src: "/images/services/glass-solutions/Architectural Glass Gallery4.jpg", alt: "Glass Gallery 4" },
-          { src: "/images/services/glass-solutions/Architectural Glass Galler5.avif", alt: "Glass Gallery 5" },
-          { src: "/images/services/glass-solutions/Architectural Glass Galler6.webp", alt: "Glass Gallery 6" },
+          { src: "/images/services/glass-solutions/architectural-glass-gallery-1.jpg", alt: "Glass Gallery 1" },
+          { src: "/images/services/glass-solutions/architectural-glass-gallery-2.jpeg", alt: "Glass Gallery 2" },
+          { src: "/images/services/glass-solutions/architectural-glass-gallery-3.jpg", alt: "Glass Gallery 3" },
+          { src: "/images/services/glass-solutions/architectural-glass-gallery-4.jpg", alt: "Glass Gallery 4" },
+          { src: "/images/services/glass-solutions/architectural-glass-gallery-5.avif", alt: "Glass Gallery 5" },
+          { src: "/images/services/glass-solutions/architectural-glass-gallery-6.webp", alt: "Glass Gallery 6" },
           { src: "/images/services/glass-solutions/Architectural-Glass-Solutions-Insulating-Glass.png", alt: "Insulating Glass" },
           { src: "/images/services/glass-solutions/Architectural-Glass-Solutions-Colorless-Flat-Glass.png", alt: "Colorless Flat Glass" },
           { src: "/images/services/glass-solutions/Architectural-Glass-SolutionsTentesol-Glass.png", alt: "Tentesol Glass" },

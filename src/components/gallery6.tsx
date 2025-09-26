@@ -31,11 +31,11 @@ const Gallery6 = ({
   items = [
     {
       id: "item-1",
-      title: "Build Modern UIs",
+      title: "u‑PVC Systems",
       summary:
-        "Create stunning user interfaces with our comprehensive design system.",
-      url: "#",
-      image: "/images/block/placeholder-dark-1.svg",
+        "High‑performance window, door and sliding solutions engineered for insulation and durability.",
+      url: "/services/u-pvc-systems",
+      image: "/images/services/upvc-systems/pvc-window-and-door-system.jpg",
     },
     {
       id: "item-2",

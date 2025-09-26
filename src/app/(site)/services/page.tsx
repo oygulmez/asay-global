@@ -3,7 +3,7 @@ import { Gallery6 } from "@/components/gallery6";
 
 export const metadata = {
   title: "Services",
-  description: "Design, build, furnish — spaces tailored to the way you live",
+  description: "Explore Asay Global’s B2B services: u‑PVC, aluminum, glass and steel systems designed for high‑performance façades and reliable project delivery.",
 };
 
 export default function ServicesPage() {
@@ -25,7 +25,7 @@ export default function ServicesPage() {
                 "High-quality decorative materials for both interior and exterior applications, enhancing the aesthetic appeal of your projects.",
               url: "/services/interior-and-exterior-decorative-products",
               image:
-                "/images/services/interior-exterior/Interior and Exterior Decorative Products - 1.jpg",
+                "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-1.jpg",
             },
             {
               id: "service-2",
@@ -51,7 +51,16 @@ export default function ServicesPage() {
                 "Premium glass solutions for architectural applications, providing transparency, energy efficiency, and modern aesthetics.",
               url: "/services/architectural-glass-solutions",
               image:
-                "/images/services/glass-solutions/Architectural-Glass-Solutions-img--1.jpg",
+                "/images/services/glass-solutions/architectural-glass-solutions-img--1.jpg",
+            },
+            {
+              id: "service-5",
+              title: "u-PVC Systems",
+              summary:
+                "High-performance u-PVC window, door and sliding systems engineered for durability and efficiency.",
+              url: "/services/u-pvc-systems",
+              image:
+                "/images/services/upvc-systems/pvc-window-and-door-system.jpg",
             },
           ]}
         />

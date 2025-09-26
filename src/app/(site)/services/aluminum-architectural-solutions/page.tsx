@@ -3,6 +3,11 @@ import CallToAction from "@/components/call-to-action";
 import { ApplicationAreasGallery } from "@/components/image-gallery";
 import { Shield, Droplets, PenTool, Recycle } from "lucide-react";
 
+export const metadata = {
+  title: "Aluminum Architectural Solutions",
+  description: "High‑performance aluminum systems for façades, windows, doors and curtain walls—strength, corrosion resistance and design flexibility for modern projects.",
+};
+
 export default function AluminumArchitecturalSolutionsPage() {
   return (
     <>

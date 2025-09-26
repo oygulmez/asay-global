@@ -14,10 +14,10 @@ export default function CallToAction() {
                         </p>
                         <div className="flex flex-wrap justify-center gap-3">
                             <Button asChild size="lg">
-                                <Link href="/contact">Get a Quote</Link>
+                                <Link href="/contact">Contact</Link>
                             </Button>
                             <Button asChild variant="outline" size="lg">
-                                <Link href="/contact">Contact Us</Link>
+                                <Link href="/dealers">View Authorized Dealers</Link>
                             </Button>
                         </div>
                     </div>

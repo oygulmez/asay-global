@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Services Overview",
+  description: "Explore our B2B services across u‑PVC, aluminum, glass and steel—engineered for performance, compliance and on‑time delivery.",
+};
 import { PageHeader } from "@/components/page-header";
 import { Gallery6 } from "@/components/gallery6";
 
@@ -24,7 +28,7 @@ export default function ServicePage() {
                 "High-quality decorative materials for both interior and exterior applications, enhancing the aesthetic appeal of your projects.",
               url: "/services/interior-and-exterior-decorative-products",
               image:
-                "/images/services/interior-exterior/Interior and Exterior Decorative Products - 1.jpg",
+                "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-1.jpg",
             },
             {
               id: "service-2",
@@ -50,7 +54,16 @@ export default function ServicePage() {
                 "Premium glass solutions for architectural applications, providing transparency, energy efficiency, and modern aesthetics.",
               url: "/services/architectural-glass-solutions",
               image:
-                "/images/services/glass-solutions/Architectural-Glass-Solutions-img--1.jpg",
+                "/images/services/glass-solutions/architectural-glass-solutions-img--1.jpg",
+            },
+            {
+              id: "service-5",
+              title: "u-PVC Systems",
+              summary:
+                "High-performance u-PVC window, door and sliding systems engineered for durability and efficiency.",
+              url: "/services/u-pvc-systems",
+              image:
+                "/images/services/upvc-systems/pvc-window-and-door-system.jpg",
             },
           ]}
         />

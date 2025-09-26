@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "About",
+  description: "B2B partner for structural solutions: 22+ years delivering u‑PVC, aluminum, glass and steel systems with global references and on‑time execution.",
+};
 import { PageHeader } from "@/components/page-header";
 import { Badge } from "@/components/ui/badge";
 import CallToAction from "@/components/call-to-action";

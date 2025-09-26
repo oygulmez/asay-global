@@ -352,9 +352,7 @@ export default function LegalPage() {
                               </a>
                             </p>
                             <p className="text-sm text-muted-foreground">
-                              <a href="tel:+905352026877" className="text-primary hover:underline">
-                                +90 535 202 68 77
-                              </a>
+                              
                             </p>
                           </div>
                           <div>
@@ -497,9 +495,7 @@ export default function LegalPage() {
                               </a>
                             </p>
                             <p className="text-sm text-muted-foreground">
-                              <a href="tel:+905352026877" className="text-primary hover:underline">
-                                +90 535 202 68 77
-                              </a>
+                              
                             </p>
                           </div>
                           <div>
@@ -697,9 +693,7 @@ export default function LegalPage() {
                               </a>
                             </p>
                             <p className="text-sm text-muted-foreground">
-                              <a href="tel:+905352026877" className="text-primary hover:underline">
-                                +90 535 202 68 77
-                              </a>
+                              
                             </p>
                           </div>
                           <div>

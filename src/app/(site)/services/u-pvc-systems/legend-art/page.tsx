@@ -1,0 +1,195 @@
+import { PageHeader } from "@/components/page-header";
+import Image from "next/image";
+import { ThermometerSnowflake, Ruler, Volume2 } from "lucide-react";
+import CallToAction from "@/components/call-to-action";
+
+export const metadata = {
+  title: "Legend Art u-PVC Window and Door System",
+  description: "LegendArt u‑PVC with refined finishes, 70 mm profile and 5 chambers delivering thermal, static and acoustic performance.",
+};
+
+export default function LegendArtProductPage() {
+  return (
+    <>
+      <PageHeader
+        title="Legend Art u-PVC Window and Door System"
+        description="Enhanced thermal performance and elegant finishes designed for modern architecture."
+        breadcrumbItems={[
+          { label: "Home", href: "/" },
+          { label: "Services", href: "/services" },
+          { label: "u-PVC Window & Door Systems", href: "/services/u-pvc-systems/window-door-systems" },
+          { label: "Legend Art" },
+        ]}
+      />
+
+      <div className="container mx-auto px-6 py-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+          {/* Left: Product video */}
+          <div className="relative overflow-hidden rounded-2xl border p-2 bg-white ring-1 ring-gray-200">
+            <div className="relative overflow-hidden rounded-xl">
+              <video
+                className="w-full h-auto aspect-video object-center"
+                src="/video/legend-art-video.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+              />
+            </div>
+          </div>
+
+          {/* Right: Features */}
+          <div className="space-y-10">
+            <section>
+              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>General Features</h2>
+              <p className="text-sm leading-relaxed" style={{ color: "#565656" }}>
+                The LegendArt Window and Door System brings aesthetics and elegance to the forefront with a meticulously engineered design that harmonizes with your interior style. With modern and refined lines that align with architecture and decoration, LegendArt transforms every space into an exceptional living area thanks to its acoustic insulation and static strength. The system offers environmentally friendly solutions while maintaining consistent performance and visual coherence.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>Technical Specifications</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 text-sm" style={{ color: "#565656" }}>
+                <div>
+                  <span className="font-medium" style={{ color: "black" }}>Profile Width:</span> 70 mm
+                </div>
+                <div>
+                  <span className="font-medium" style={{ color: "black" }}>Number of Chambers:</span> 5
+                </div>
+                <div>
+                  <span className="font-medium" style={{ color: "black" }}>Number of Gaskets:</span> 2/3 (Central gasket)
+                </div>
+                <div>
+                  <span className="font-medium" style={{ color: "black" }}>Gasket Material:</span> TPE Grey / Black
+                </div>
+                <div>
+                  <span className="font-medium" style={{ color: "black" }}>Glazing Bead:</span> Single-lip with PCE gasket
+                </div>
+                <div>
+                  <span className="font-medium" style={{ color: "black" }}>Glass Thickness:</span> 4, 24, 30, 36, 38, 44, 46, 48 mm
+                </div>
+                <div>
+                  <span className="font-medium" style={{ color: "black" }}>Standard:</span> TS EN 12608-1
+                </div>
+                <div>
+                  <span className="font-medium" style={{ color: "black" }}>Thermal Transmittance (Uf):</span> 1.1–1.5 W/m²·K
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        {/* Performance Highlights - compact cards (removed in favor of Why Choose above) */}
+
+        {/* Why Choose - updated content */}
+        <section className="py-20 md:py-32 w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] mt-16" style={{ backgroundColor: '#333333' }}>
+          <div className="mx-auto max-w-7xl px-6">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold mb-4 text-white">Why Choose Legend Art</h2>
+              <p className="text-white/80 text-base max-w-3xl mx-auto">High insulation, strong static performance and superior acoustic comfort.</p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="group text-center p-6 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                  <ThermometerSnowflake className="w-6 h-6 text-white" />
+                </div>
+                <h3 className="text-lg font-semibold mb-3 text-white">Superior Insulation</h3>
+                <p className="text-white/70 text-sm leading-relaxed">
+                  5‑chamber, 70&nbsp;mm profile with slim rebate enabling thicker glazing yields <strong>Uf 1.1–1.3&nbsp;W/m²·K</strong> and potential
+                  window U‑values below <strong>0.9&nbsp;W/m²·K</strong> depending on glass.
+                </p>
+              </div>
+              <div className="group text-center p-6 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                  <Ruler className="w-6 h-6 text-white" />
+                </div>
+                <h3 className="text-lg font-semibold mb-3 text-white">Static Strength</h3>
+                <p className="text-white/70 text-sm leading-relaxed">
+                  Static mullions and façade profiles deliver optimal solutions even in high‑wind regions.
+                </p>
+              </div>
+              <div className="group text-center p-6 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                  <Volume2 className="w-6 h-6 text-white" />
+                </div>
+                <h3 className="text-lg font-semibold mb-3 text-white">Acoustic Performance</h3>
+                <p className="text-white/70 text-sm leading-relaxed">
+                  PVC’s inherent insulation and the multi‑chamber geometry turn demanding acoustic areas into calm living spaces.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Color Options (reuse same UI) */}
+        <section className="mt-16">
+          <div className="relative mx-auto max-w-7xl rounded-3xl border border-gray-200 bg-gradient-to-b from-white to-[#f8f8f8] p-8 md:p-12 shadow-sm">
+            <div className="mb-8 text-center">
+              <div className="text-xs uppercase tracking-wider mb-2" style={{ color: "#998675" }}>Finishes</div>
+              <h2 className="text-3xl font-bold mb-3" style={{ color: "black" }}>Color Options</h2>
+              <p className="mx-auto max-w-3xl text-sm md:text-base" style={{ color: "#565656" }}>
+                Explore laminate color alternatives with superior weather resistance and low maintenance.
+              </p>
+            </div>
+
+            <div className="mx-auto grid gap-10 lg:grid-cols-12 items-start">
+              <div className="lg:col-span-5">
+                <div className="relative w-full aspect-[16/10] overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                  <Image
+                    src="/images/services/upvc-systems/colors-thmb.png"
+                    alt="u-PVC laminate color options overview"
+                    fill
+                    sizes="(min-width:1024px) 40vw, 100vw"
+                    className="object-contain"
+                  />
+                </div>
+                <p className="mt-3 text-xs" style={{ color: "#8a8a8a" }}>Combine interior and exterior laminate colors coherently.</p>
+              </div>
+
+              <div className="lg:col-span-7">
+                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-5">
+                  {[
+                    { file: "altin-mese.jpg", name: "Golden Oak" },
+                    { file: "antik-mese.jpg", name: "Antique Oak" },
+                    { file: "antrasit-gri.jpg", name: "Anthracite Grey" },
+                    { file: "findik.jpg", name: "Hazelnut" },
+                    { file: "krem.jpg", name: "Cream" },
+                    { file: "kul-siyahi.jpg", name: "Ash Black" },
+                    { file: "maun.jpg", name: "Mahogany" },
+                    { file: "metalik-antrasit-gri.jpg", name: "Metallic Anthracite" },
+                    { file: "metalik-gumus.jpg", name: "Metallic Silver" },
+                    { file: "platin-crown.jpg", name: "Platinum Crown" },
+                    { file: "pyrite.jpg", name: "Pyrite" },
+                    { file: "vizon.jpg", name: "Vizon" },
+                    { file: "winchester.jpg", name: "Winchester" }
+                  ].map((item) => (
+                    <div key={item.file} className="flex flex-col items-center text-center">
+                      <div className="relative w-11 h-11 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full ring-1 ring-gray-200 bg-white shadow-sm transition-transform duration-200 hover:scale-105 hover:ring-[#998675]">
+                        <Image
+                          src={`/images/services/upvc-systems/colors/${item.file}`}
+                          alt={`${item.name} color swatch`}
+                          fill
+                          className="object-cover rounded-full"
+                          sizes="56px"
+                        />
+                      </div>
+                      <div className="mt-2 inline-flex items-center rounded-full px-2.5 py-1 text-[10px] md:text-xs" style={{ color: "#565656", backgroundColor: "#f3f3f3" }}>
+                        {item.name}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div className="container mx-auto px-6 pt-0 pb-10">
+        <CallToAction />
+      </div>
+    </>
+  );
+}
+
+
