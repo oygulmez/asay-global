@@ -13,16 +13,29 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Basic email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(data.email)) {
+      return NextResponse.json(
+        { success: false, error: 'Invalid email format' },
+        { status: 400 }
+      );
+    }
+
+    console.log('Attempting to send email:', { name: data.name, email: data.email, subject: data.subject });
+
     // Send email
     const result = await sendEmail(data);
     
     if (result.success) {
+      console.log('Email sent successfully via:', result.method);
       return NextResponse.json({ 
         success: true, 
         message: 'Email sent successfully',
         method: result.method 
       });
     } else {
+      console.error('Email sending failed:', result.error);
       return NextResponse.json(
         { success: false, error: result.error },
         { status: 500 }

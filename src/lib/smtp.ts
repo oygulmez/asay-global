@@ -34,7 +34,6 @@ export interface EmailData {
 
 export async function sendEmail(data: EmailData) {
   try {
-    // Try SendGrid first
     const mailOptions = {
       from: 'info@asayglobal.com',
       to: 'info@asayglobal.com',
@@ -52,17 +51,23 @@ export async function sendEmail(data: EmailData) {
       `,
     };
 
-    // Try SendGrid first
-    if (process.env.SENDGRID_API_KEY) {
-      await transporter.sendMail(mailOptions);
-      console.log('Email sent via SendGrid');
-      return { success: true, method: 'SendGrid' };
+    // Try cPanel SMTP first (more reliable)
+    try {
+      await cpanelTransporter.sendMail(mailOptions);
+      console.log('Email sent via cPanel SMTP');
+      return { success: true, method: 'cPanel SMTP' };
+    } catch (cpanelError) {
+      console.log('cPanel SMTP failed, trying SendGrid:', cpanelError);
+      
+      // Fallback to SendGrid if API key exists
+      if (process.env.SENDGRID_API_KEY) {
+        await transporter.sendMail(mailOptions);
+        console.log('Email sent via SendGrid');
+        return { success: true, method: 'SendGrid' };
+      }
+      
+      throw cpanelError;
     }
-    
-    // Fallback to cPanel SMTP
-    await cpanelTransporter.sendMail(mailOptions);
-    console.log('Email sent via cPanel SMTP');
-    return { success: true, method: 'cPanel SMTP' };
     
   } catch (error) {
     console.error('Email sending failed:', error);
