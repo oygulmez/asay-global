@@ -166,35 +166,16 @@ export function HeroSectionOne() {
                                         ...transitionVariants,
                                     }}
                                     className="mt-8">
-                                    <div 
-                                        ref={videoRef}
-                                        className="relative mt-8 overflow-hidden px-2 sm:mt-12 md:mt-20"
-                                        style={{
-                                            transform: `translateY(${scrollY * 0.1}px)`,
-                                            opacity: isVideoVisible ? 1 : 0.7,
-                                        }}
-                                    >
-                                        <div 
-                                            className="inset-shadow-2xs ring-background dark:inset-shadow-white/20 bg-background relative mx-auto max-w-6xl overflow-hidden rounded-2xl border p-2 shadow-lg shadow-zinc-950/15 ring-1 transition-all duration-700"
-                                            style={{
-                                                transform: `scale(${isVideoVisible ? 1 : 0.95})`,
-                                                boxShadow: isVideoVisible 
-                                                    ? '0 25px 50px -12px rgba(0, 0, 0, 0.25)' 
-                                                    : '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                                            }}
-                                        >
+                                    <div className="relative mt-8 overflow-hidden px-2 sm:mt-12 md:mt-20">
+                                        <div className="relative mx-auto max-w-6xl overflow-hidden rounded-2xl border p-2">
                                             <div className="relative overflow-hidden rounded-2xl">
                                                 <video
-                                                    className="w-full h-auto aspect-video object-center transition-all duration-500"
+                                                    className="w-full h-auto aspect-video object-center"
                                                     src="/video/hero-section-video.mp4"
                                                     autoPlay
                                                     loop
                                                     muted
                                                     playsInline
-                                                    controls
-                                                    style={{
-                                                        filter: isVideoVisible ? 'brightness(1)' : 'brightness(0.8)',
-                                                    }}
                                                 />
                                             </div>
                                         </div>
