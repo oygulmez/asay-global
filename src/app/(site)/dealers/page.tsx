@@ -32,10 +32,10 @@ const dealers: Dealer[] = [
   {
     country: "Armenia",
     flag: "/flags/am.svg",
-    company: "Mina Taheri",
-    email: "ceo@arshamtrade.com",
-    phones: ["+374-43 657011", "+374-33 657011"],
-    address: "46/4, Yerevan 0054, Armenia",
+    company: "Arsham Trade",
+    email: "info@arshamtrade.com",
+    phones: ["+37441657011", "+37433657011"],
+    address: "No.46/4 , Davtashen 2nd Bk , Yerevan, Armenia",
   },
 ];
 
