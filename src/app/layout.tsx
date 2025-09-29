@@ -1,5 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { Navbar } from '@/components/navbar'
+import { Footer } from '@/components/footer'
+import { StickyContactButtons } from '@/components/sticky-contact-buttons'
 
 export const metadata: Metadata = {
   title: 'Asay Global - Structural Solutions',
@@ -14,7 +17,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning={true}>
-        {children}
+        <div className="min-h-screen flex flex-col">
+          <Navbar locale="en" />
+          <main className="flex-1">
+            {children}
+          </main>
+          <Footer locale="en" />
+          <StickyContactButtons />
+        </div>
       </body>
     </html>
   )
