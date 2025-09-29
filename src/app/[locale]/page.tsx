@@ -12,7 +12,8 @@ export async function generateStaticParams() {
 }
 
 export default async function LocalePage({ params }: LocalePageProps) {
-  const { locale } = await params;
+  const { locale: rawLocale } = await params;
+  const locale = ['en', 'fr', 'es'].includes(rawLocale) ? rawLocale : 'en';
   const messages = (await import(`@/messages/${locale}.json`)).default as any;
   
   const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
