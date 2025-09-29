@@ -233,7 +233,96 @@
         "Weather and UV resistance, low maintenance",
         "Wide range of colors, laminates and accessories"
       ],
-      "learn_more": "Learn More"
+      "view_products": "View Products"
+    },
+    "sliding_systems": {
+      "title": "u-PVC Sliding Systems",
+      "description": "Smooth, space-saving sliding solutions designed for wide openings. Enhanced sealing options, reinforced frames and excellent operating comfort for residential and commercial applications.",
+      "features": [
+        "Lift-and-slide and parallel sliding configurations",
+        "High static performance with reinforced profiles",
+        "Large glazing surfaces for maximum daylight"
+      ],
+      "view_products": "View Products"
+    },
+    "products": {
+      "hs76_sliding": {
+        "title": "HS76 Sliding System",
+        "description": "High-performance lift-and-slide system with exceptional thermal insulation and weather resistance."
+      },
+      "slimslide": {
+        "title": "Slimslide System",
+        "description": "Ultra-slim profile sliding system maximizing glass area and natural light."
+      },
+      "legend_window_door": {
+        "title": "Legend Window & Door System",
+        "description": "Premium window and door system combining aesthetics with superior performance."
+      },
+      "legend_art": {
+        "title": "Legend Art System",
+        "description": "Artistic window and door solutions with enhanced design flexibility."
+      },
+      "legend_surme_plus": {
+        "title": "Legend Sürme Plus",
+        "description": "Advanced sliding system with improved sealing and thermal performance."
+      },
+      "pvc_sliding_door": {
+        "title": "PVC Sliding Door System",
+        "description": "Reliable sliding door solutions for residential and commercial applications."
+      },
+      "zendow": {
+        "title": "Zendow System",
+        "description": "Modern window system with excellent energy efficiency and design options."
+      }
+    },
+    "hs76_details": {
+      "meta": {
+        "title": "HS76 Sliding",
+        "description": "Lift‑and‑slide u‑PVC system with low aluminum threshold for wheelchair access, Class A profiles and Uf 1.2 W/m²·K thermal performance."
+      },
+      "page_header": {
+        "title": "HS76 Sliding",
+        "description": "High-performance lift-and-slide profiles with sealing and comfort.",
+        "breadcrumbs": {
+          "home": "Home",
+          "services": "Services",
+          "upvc_sliding": "u-PVC Sliding Systems",
+          "hs76": "HS76 Sliding"
+        }
+      },
+      "general_features": {
+        "title": "General Features",
+        "description": "The HS76 system features a specially designed low aluminum threshold that minimizes profile height on the floor, creating a more elegant appearance while ensuring functional integrity. With this new application, Egepen Deceuninck provides a threshold design that enables wheelchair access on passage doors in accordance with Turkish Standards Institute guidance. The visually reduced threshold height also delivers better thermal insulation results in thermal analyses."
+      },
+      "technical_specs": {
+        "title": "Technical Specifications",
+        "frame_width": "Frame Width:",
+        "sash_width": "Sash Width:",
+        "chambers": "Chambers:",
+        "gaskets": "Gaskets:",
+        "glazing_bead": "Glazing Bead:",
+        "glazing_thickness": "Glazing Thickness:",
+        "max_dimensions": "Max. Dimensions:",
+        "thermal_performance": "Thermal Performance:",
+        "air_permeability": "Air Permeability:",
+        "water_tightness": "Water Tightness:",
+        "wind_load": "Wind Load:"
+      },
+      "performance_features": {
+        "title": "Performance Features",
+        "thermal": {
+          "title": "Thermal Performance",
+          "description": "Excellent thermal insulation with Uf value of 1.2 W/m²·K for energy-efficient operation."
+        },
+        "dimensions": {
+          "title": "Maximum Dimensions",
+          "description": "Accommodates large openings up to 3000mm width and 2500mm height for expansive views."
+        },
+        "acoustic": {
+          "title": "Acoustic Insulation",
+          "description": "Superior sound reduction capabilities for peaceful indoor environments."
+        }
+      }
     }
   },
   "aluminum_systems": {
@@ -496,6 +585,32 @@
         "title": "Long Lasting Durability",
         "description": "UV-resistant materials withstand impact and weather, delivering 30+ years of performance with minimal maintenance."
       }
+    }
+  },
+  "products_features": {
+    "windows": {
+      "title": "Windows",
+      "description": "High-performance window systems designed for optimal energy efficiency and superior aesthetics."
+    },
+    "doors": {
+      "title": "Doors",
+      "description": "Premium door solutions combining security, functionality and elegant design for every application."
+    },
+    "curtain_walls": {
+      "title": "Curtain Walls",
+      "description": "Innovative façade systems that create stunning architectural expressions while ensuring structural integrity."
+    },
+    "winter_gardens": {
+      "title": "Winter Gardens",
+      "description": "Beautiful conservatory solutions that bring nature indoors and extend your living space year-round."
+    },
+    "smart_buildings": {
+      "title": "Smart Buildings",
+      "description": "Intelligent building systems integrated with cutting-edge technology for enhanced comfort and efficiency."
+    },
+    "sliding_systems": {
+      "title": "Sliding Systems",
+      "description": "Smooth-operating sliding solutions that maximize space utilization and provide seamless indoor-outdoor transitions."
     }
   },
   "footer": {

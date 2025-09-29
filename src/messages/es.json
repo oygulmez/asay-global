@@ -233,7 +233,47 @@
         "Resistencia al clima y UV, bajo mantenimiento",
         "Amplia gama de colores, laminados y accesorios"
       ],
-      "learn_more": "Saber Más"
+      "view_products": "Ver Productos"
+    },
+    "sliding_systems": {
+      "title": "Sistemas Deslizantes u-PVC",
+      "description": "Soluciones deslizantes suaves y que ahorran espacio diseñadas para grandes aberturas. Opciones de sellado mejoradas, marcos reforzados y excelente comodidad operativa para aplicaciones residenciales y comerciales.",
+      "features": [
+        "Configuraciones de elevación-deslizamiento y deslizamiento paralelo",
+        "Alto rendimiento estático con perfiles reforzados",
+        "Grandes superficies acristaladas para máxima luz natural"
+      ],
+      "view_products": "Ver Productos"
+    },
+    "products": {
+      "hs76_sliding": {
+        "title": "Sistema Deslizante HS76",
+        "description": "Sistema de elevación-deslizamiento de alto rendimiento con aislamiento térmico excepcional y resistencia a la intemperie."
+      },
+      "slimslide": {
+        "title": "Sistema Slimslide",
+        "description": "Sistema deslizante de perfil ultra-delgado que maximiza el área de vidrio y la luz natural."
+      },
+      "legend_window_door": {
+        "title": "Sistema Legend Ventanas y Puertas",
+        "description": "Sistema premium de ventanas y puertas que combina estética con rendimiento superior."
+      },
+      "legend_art": {
+        "title": "Sistema Legend Art",
+        "description": "Soluciones artísticas de ventanas y puertas con flexibilidad de diseño mejorada."
+      },
+      "legend_surme_plus": {
+        "title": "Legend Sürme Plus",
+        "description": "Sistema deslizante avanzado con sellado mejorado y rendimiento térmico."
+      },
+      "pvc_sliding_door": {
+        "title": "Sistema de Puerta Deslizante PVC",
+        "description": "Soluciones confiables de puertas deslizantes para aplicaciones residenciales y comerciales."
+      },
+      "zendow": {
+        "title": "Sistema Zendow",
+        "description": "Sistema moderno de ventanas con excelente eficiencia energética y opciones de diseño."
+      }
     }
   },
   "aluminum_systems": {

@@ -41,11 +41,11 @@ export default function UPVCSystemsPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* u-PVC Window & Door Systems */}
           <section className="bg-white border border-gray-200">
-            <Link href="/services/u-pvc-systems/window-door-systems" aria-label="u-PVC Window & Door Systems">
+            <Link href={createUrl("/services/u-pvc-systems/window-door-systems")} aria-label={(messages as any).upvc_systems.window_door_systems.title}>
               <div className="relative aspect-[16/9] overflow-hidden">
                 <Image
                   src="/images/services/upvc-systems/pvc-window-and-door-system.jpg"
-                  alt="u-PVC Window & Door Systems"
+                  alt={(messages as any).upvc_systems.window_door_systems.title}
                   fill
                   sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-cover bg-white transition-transform duration-300 hover:scale-[1.02]"
@@ -53,24 +53,24 @@ export default function UPVCSystemsPage() {
               </div>
             </Link>
             <div className="p-5 md:p-6">
-            <Link href="/services/u-pvc-systems/window-door-systems" aria-label="u-PVC Window & Door Systems" className="block">
-              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>u-PVC Window & Door Systems</h2>
+            <Link href={createUrl("/services/u-pvc-systems/window-door-systems")} aria-label={(messages as any).upvc_systems.window_door_systems.title} className="block">
+              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>{(messages as any).upvc_systems.window_door_systems.title}</h2>
             </Link>
             <p className="text-sm mb-4" style={{ color: "#565656" }}>
-              Premium u-PVC window and door systems offering excellent thermal insulation, sound reduction and long-term durability. Compatible with multi-point locking, various glazing options and modern profiles.
+              {(messages as any).upvc_systems.window_door_systems.description}
             </p>
             <ul className="text-sm space-y-2" style={{ color: "#565656" }}>
-              <li>• High energy efficiency (multi-chamber profiles)</li>
-              <li>• Weather and UV resistance, low maintenance</li>
-              <li>• Wide range of colors, laminates and accessories</li>
+              {(messages as any).upvc_systems.window_door_systems.features.map((feature: string, index: number) => (
+                <li key={index}>• {feature}</li>
+              ))}
             </ul>
             <div className="mt-6">
               <Link
-                href="/services/u-pvc-systems/window-door-systems"
+                href={createUrl("/services/u-pvc-systems/window-door-systems")}
                 className="inline-flex items-center rounded-md px-5 py-2.5 text-sm font-medium text-white transition-colors"
                 style={{ backgroundColor: "#333333" }}
               >
-                View Products
+                {(messages as any).upvc_systems.window_door_systems.view_products}
               </Link>
             </div>
             </div>
@@ -78,11 +78,11 @@ export default function UPVCSystemsPage() {
 
           {/* u-PVC Sliding Systems */}
           <section className="bg-white border border-gray-200">
-            <Link href="/services/u-pvc-systems/sliding-systems" aria-label="u-PVC Sliding Systems">
+            <Link href={createUrl("/services/u-pvc-systems/sliding-systems")} aria-label={(messages as any).upvc_systems.sliding_systems.title}>
               <div className="relative aspect-[16/9] overflow-hidden">
                 <Image
                   src="/images/services/upvc-systems/pvc-sliding-systems-1.jpg"
-                  alt="u-PVC Sliding Systems"
+                  alt={(messages as any).upvc_systems.sliding_systems.title}
                   fill
                   sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-cover bg-white transition-transform duration-300 hover:scale-[1.02]"
@@ -90,24 +90,24 @@ export default function UPVCSystemsPage() {
               </div>
             </Link>
             <div className="p-5 md:p-6">
-            <Link href="/services/u-pvc-systems/sliding-systems" aria-label="u-PVC Sliding Systems" className="block">
-              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>u-PVC Sliding Systems</h2>
+            <Link href={createUrl("/services/u-pvc-systems/sliding-systems")} aria-label={(messages as any).upvc_systems.sliding_systems.title} className="block">
+              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>{(messages as any).upvc_systems.sliding_systems.title}</h2>
             </Link>
             <p className="text-sm mb-4" style={{ color: "#565656" }}>
-              Smooth, space-saving sliding solutions designed for wide openings. Enhanced sealing options, reinforced frames and excellent operating comfort for residential and commercial applications.
+              {(messages as any).upvc_systems.sliding_systems.description}
             </p>
             <ul className="text-sm space-y-2" style={{ color: "#565656" }}>
-              <li>• Lift-and-slide and parallel sliding configurations</li>
-              <li>• High static performance with reinforced profiles</li>
-              <li>• Large glazing surfaces for maximum daylight</li>
+              {(messages as any).upvc_systems.sliding_systems.features.map((feature: string, index: number) => (
+                <li key={index}>• {feature}</li>
+              ))}
             </ul>
             <div className="mt-6">
               <Link
-                href="/services/u-pvc-systems/sliding-systems"
+                href={createUrl("/services/u-pvc-systems/sliding-systems")}
                 className="inline-flex items-center rounded-md px-5 py-2.5 text-sm font-medium text-white transition-colors"
                 style={{ backgroundColor: "#333333" }}
               >
-                View Products
+                {(messages as any).upvc_systems.sliding_systems.view_products}
               </Link>
             </div>
             </div>

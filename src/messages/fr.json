@@ -233,7 +233,47 @@
         "Résistance aux intempéries et aux UV, entretien minimal",
         "Large gamme de couleurs, stratifiés et accessoires"
       ],
-      "learn_more": "En Savoir Plus"
+      "view_products": "Voir les Produits"
+    },
+    "sliding_systems": {
+      "title": "Systèmes Coulissants u-PVC",
+      "description": "Solutions coulissantes lisses et peu encombrantes conçues pour les grandes ouvertures. Options d'étanchéité améliorées, cadres renforcés et excellent confort de fonctionnement pour applications résidentielles et commerciales.",
+      "features": [
+        "Configurations lever-coulisser et coulissement parallèle",
+        "Haute performance statique avec profils renforcés",
+        "Grandes surfaces vitrées pour une lumière naturelle maximale"
+      ],
+      "view_products": "Voir les Produits"
+    },
+    "products": {
+      "hs76_sliding": {
+        "title": "Système Coulissant HS76",
+        "description": "Système lever-coulisser haute performance avec isolation thermique exceptionnelle et résistance aux intempéries."
+      },
+      "slimslide": {
+        "title": "Système Slimslide",
+        "description": "Système coulissant à profil ultra-mince maximisant la surface vitrée et la lumière naturelle."
+      },
+      "legend_window_door": {
+        "title": "Système Legend Fenêtres et Portes",
+        "description": "Système de fenêtres et portes premium combinant esthétique et performance supérieure."
+      },
+      "legend_art": {
+        "title": "Système Legend Art",
+        "description": "Solutions de fenêtres et portes artistiques avec flexibilité de design améliorée."
+      },
+      "legend_surme_plus": {
+        "title": "Legend Sürme Plus",
+        "description": "Système coulissant avancé avec étanchéité et performance thermique améliorées."
+      },
+      "pvc_sliding_door": {
+        "title": "Système de Porte Coulissante PVC",
+        "description": "Solutions de portes coulissantes fiables pour applications résidentielles et commerciales."
+      },
+      "zendow": {
+        "title": "Système Zendow",
+        "description": "Système de fenêtres moderne avec excellente efficacité énergétique et options de design."
+      }
     }
   },
   "aluminum_systems": {
