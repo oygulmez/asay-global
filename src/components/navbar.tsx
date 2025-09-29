@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { useState, useEffect } from "react";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -27,9 +28,17 @@ import { Separator } from "@/components/ui/separator";
 type Locale = 'en' | 'fr' | 'es' | undefined;
 
 export function Navbar({ locale }: { locale?: Locale } = {}) {
+  const [isHydrated, setIsHydrated] = useState(false);
   const current = (locale === 'fr' || locale === 'es' || locale === 'en') ? locale : 'en';
   const dict = current === 'fr' ? (require('@/messages/fr.json')) : current === 'es' ? (require('@/messages/es.json')) : (require('@/messages/en.json'));
   const t = (key: string) => key.split('.').reduce((o: any, k: string) => o?.[k], dict);
+
+  useEffect(() => {
+    setIsHydrated(true);
+  }, []);
+
+  // Use default values during SSR/hydration to prevent mismatch
+  const displayLocale = isHydrated ? current : 'en';
   
   // Helper function to create locale-aware URLs
   const createUrl = (path: string) => {
@@ -123,8 +132,8 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="sm" aria-label="Select language" className="inline-flex items-center gap-2">
-                <img src={locale === 'fr' ? '/flags/fr.svg' : locale === 'es' ? '/flags/es.svg' : '/flags/gb.svg'} alt={locale === 'fr' ? 'Français' : locale === 'es' ? 'Español' : 'English'} width="18" height="12" className="rounded-none border" />
-                <span className="text-xs font-medium tracking-wide">{locale === 'fr' ? 'FR' : locale === 'es' ? 'ES' : 'EN'}</span>
+                <img src={displayLocale === 'fr' ? '/flags/fr.svg' : displayLocale === 'es' ? '/flags/es.svg' : '/flags/gb.svg'} alt={displayLocale === 'fr' ? 'Français' : displayLocale === 'es' ? 'Español' : 'English'} width="18" height="12" className="rounded-none border" />
+                <span className="text-xs font-medium tracking-wide">{displayLocale === 'fr' ? 'FR' : displayLocale === 'es' ? 'ES' : 'EN'}</span>
                 <ChevronDown className="size-3.5 opacity-70" aria-hidden />
               </Button>
             </DropdownMenuTrigger>
@@ -152,7 +161,7 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="ghost" size="sm" className="flex items-center gap-1 px-2 py-1">
-                <img src={locale === 'fr' ? '/flags/fr.svg' : locale === 'es' ? '/flags/es.svg' : '/flags/gb.svg'} alt={locale === 'fr' ? 'Français' : locale === 'es' ? 'Español' : 'English'} width="18" height="12" className="rounded-none border" />
+                <img src={displayLocale === 'fr' ? '/flags/fr.svg' : displayLocale === 'es' ? '/flags/es.svg' : '/flags/gb.svg'} alt={displayLocale === 'fr' ? 'Français' : displayLocale === 'es' ? 'Español' : 'English'} width="18" height="12" className="rounded-none border" />
                 <ChevronDown className="h-4 w-4" />
               </Button>
             </DropdownMenuTrigger>
