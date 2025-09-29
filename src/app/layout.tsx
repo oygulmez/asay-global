@@ -1,29 +1,22 @@
-"use client"
+import type { Metadata } from 'next'
+import './globals.css'
 
-import {defaultLocale, locales} from '@/i18n';
-import './globals.css';
-import { Navbar } from "@/components/navbar";
-import { Footer } from "@/components/footer";
-import { StickyContactButtons } from "@/components/sticky-contact-buttons";
-import { useEffect, useState } from 'react';
+export const metadata: Metadata = {
+  title: 'Asay Global - Structural Solutions',
+  description: 'B2B partner for structural solutions: u‑PVC, aluminum, glass and steel systems',
+}
 
-export default function SiteLayout({ children }: { children: React.ReactNode }) {
-  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
-
-  useEffect(() => {
-    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
-    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
-  }, []);
-
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar locale={locale} />
-      <main className="flex-1">
+    <html lang="en">
+      <body>
         {children}
-      </main>
-      <Footer locale={locale} />
-      <StickyContactButtons />
-    </div>
+      </body>
+    </html>
   )
 }
 
