@@ -1,5 +1,5 @@
 import {locales} from '@/i18n';
-import SiteServices from '@/app/services/page';
+import SiteServices from '../services/page';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   let {locale} = await params;
