@@ -127,7 +127,8 @@
 
 @layer utilities {
   .animate-scroll {
-    animation: scroll 60s linear infinite;
+    animation: scroll 30s linear infinite;
+    will-change: transform;
   }
   
   @keyframes scroll {
@@ -135,7 +136,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-100%);
+      transform: translateX(-33.3333%);
     }
   }
 }

@@ -42,7 +42,7 @@ export default function InteriorExteriorDecorativeProductsPage() {
           <div className="mx-auto max-w-7xl px-6">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-3" style={{ color: 'black' }}>Decorative Solutions</h2>
-              <p className="text-base" style={{ color: '#565656' }}>Asay Global - Premier USA distributor of innovative decorative architectural products</p>
+              <p className="text-base" style={{ color: '#565656' }}>Asay Global - Premier provider of innovative decorative architectural products</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* Interior Cladding - Wall Panels */}

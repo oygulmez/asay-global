@@ -31,7 +31,7 @@ export default function AboutPage() {
               we are a <strong>leading supplier, sales, and marketing company</strong> for <strong>commercial, residential, and industrial steel structures</strong>, 
               <strong>prefabricated homes</strong>, <strong>multi-purpose office and construction site units</strong>, <strong>architectural and specialty glazing systems</strong>,
               <strong>uPVC and aluminum window and door systems</strong> from <strong>world-renowned brands</strong>, <strong>exterior and interior solutions</strong>, as well as
-              <strong>high-quality apartment, home entrance, and interior room doors</strong>.
+              <strong> high-quality apartment, entrance doors and interior and exterior doors</strong>.
             </p>
             <p className="text-base leading-relaxed" style={{ color: '#565656' }}>
               We understand that every project has <strong>unique needs</strong> and are committed to delivering <strong>superior products</strong> that combine 

@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import { ArrowRight, ChevronRight, Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { Logos3 } from '@/components/blocks/logos3'
 import { AnimatedGroup } from '@/components/ui/animated-group'
 import { Gallery6 } from '@/components/gallery6'
 import { FeaturesSectionWithHoverEffects } from '@/components/feature-section-with-hover-effects'
@@ -33,6 +34,11 @@ export function HeroSectionOne() {
     const videoRef = useRef<HTMLDivElement>(null)
     const [isVideoVisible, setIsVideoVisible] = useState(false)
     const [scrollY, setScrollY] = useState(0)
+    const dragLayerRef = useRef<HTMLDivElement>(null)
+    const [isDragging, setIsDragging] = useState(false)
+    const [dragStartX, setDragStartX] = useState(0)
+    const [dragOffset, setDragOffset] = useState(0)
+    const [dragStartOffset, setDragStartOffset] = useState(0)
 
     useEffect(() => {
         const handleScroll = () => {
@@ -202,52 +208,23 @@ export function HeroSectionOne() {
                                 ...transitionVariants,
                             }}>
                             <div className="relative mt-16 overflow-hidden px-2 sm:mt-20 md:mt-24">
-                                <div className="relative overflow-hidden">
-                                    <div className="flex animate-scroll space-x-8">
-                                        {[
-                                            "/images/brands-logo/brands-anasayfa/aluplast-logo.png",
-                                            "/images/brands-logo/brands-anasayfa/schueco-logo.svg",
-                                            "/images/brands-logo/brands-anasayfa/reynaers.svg",
-                                            "/images/brands-logo/brands-anasayfa/alumil-logo.svg",
-                                            "/images/brands-logo/brands-anasayfa/hafele-logo.png",
-                                            "/images/brands-logo/brands-anasayfa/roto-logo.svg",
-                                            "/images/brands-logo/brands-anasayfa/deceuninck.png",
-                                            "/images/brands-logo/brands-anasayfa/siegenia.png",
-                                            "/images/brands-logo/brands-anasayfa/kleidco-logo-black.svg",
-                                            "/images/brands-logo/brands-anasayfa/steelframing-logo.svg",
-                                            "/images/brands-logo/brands-anasayfa/lavita-door-logo.png",
-                                            "/images/brands-logo/brands-anasayfa/sapa-logo.jpg",
-                                            // Duplicate logos for seamless loop
-                                            "/images/brands-logo/brands-anasayfa/aluplast-logo.png",
-                                            "/images/brands-logo/brands-anasayfa/schueco-logo.svg",
-                                            "/images/brands-logo/brands-anasayfa/reynaers.svg",
-                                            "/images/brands-logo/brands-anasayfa/alumil-logo.svg",
-                                            "/images/brands-logo/brands-anasayfa/hafele-logo.png",
-                                            "/images/brands-logo/brands-anasayfa/roto-logo.svg",
-                                            "/images/brands-logo/brands-anasayfa/deceuninck.png",
-                                            "/images/brands-logo/brands-anasayfa/siegenia.png",
-                                            "/images/brands-logo/brands-anasayfa/kleidco-logo-black.svg",
-                                            "/images/brands-logo/brands-anasayfa/steelframing-logo.svg",
-                                            "/images/brands-logo/brands-anasayfa/lavita-door-logo.png",
-                                            "/images/brands-logo/brands-anasayfa/sapa-logo.jpg",
-                                        ].map((src, i) => (
-                                            <div key={i} className="flex-shrink-0 flex items-center justify-center w-44 h-20">
-                                                <img
-                                                    className={cn(
-                                                        "w-auto opacity-70 hover:opacity-100 grayscale hover:grayscale-0 transition-all duration-300 object-contain",
-                                                        src.includes("kleidco-logo")
-                                                            ? "h-7 md:h-8"
-                                                            : src.includes("alumil-logo")
-                                                            ? "h-9 md:h-11"
-                                                            : src.includes("reynaers")
-                                                            ? "h-11 md:h-13"
-                                                            : "h-12 md:h-14"
-                                                    )}
-                                                    src={src}
-                                                    alt="brand logo"
-                                                />
-                                            </div>
-                                        ))}
+                                <div className="relative overflow-hidden select-none">
+                                    {/* Yeni shadcn logos carousel */}
+                                    <div className="mx-auto max-w-7xl px-0">
+                                        <Logos3 heading={undefined} logos={[
+                                            { id: "logo-schueco", description: "Schüco", image: "/images/brands-logo/brands-anasayfa/schueco-logo.svg", className: "h-6 w-auto" },
+                                            { id: "logo-reynaers", description: "Reynaers", image: "/images/brands-logo/brands-anasayfa/reynaers.svg", className: "h-10 w-auto" },
+                                            { id: "logo-alumil", description: "Alumil", image: "/images/brands-logo/brands-anasayfa/alumil-logo.svg", className: "h-9 w-auto" },
+                                            { id: "logo-hafele", description: "Hafele", image: "/images/brands-logo/brands-anasayfa/hafele-logo.png", className: "h-12 w-auto" },
+                                            { id: "logo-roto", description: "Roto", image: "/images/brands-logo/brands-anasayfa/roto-logo.svg", className: "h-12 w-auto" },
+                                            { id: "logo-deceuninck", description: "Deceuninck", image: "/images/brands-logo/brands-anasayfa/deceuninck.png", className: "h-12 w-auto" },
+                                            { id: "logo-siegenia", description: "Siegenia", image: "/images/brands-logo/brands-anasayfa/siegenia.png", className: "h-12 w-auto" },
+                                            { id: "logo-aluplast", description: "Aluplast", image: "/images/brands-logo/brands-anasayfa/aluplast-logo.png", className: "h-12 w-auto" },
+                                            { id: "logo-kleidco", description: "Kleidco", image: "/images/brands-logo/brands-anasayfa/kleidco-logo-black.svg", className: "h-6 w-auto" },
+                                            { id: "logo-steelframing", description: "Steel Framing", image: "/images/brands-logo/brands-anasayfa/steelframing-logo.svg", className: "h-10 w-auto" },
+                                            { id: "logo-lavita", description: "Lavita", image: "/images/brands-logo/brands-anasayfa/lavita-door-logo.png", className: "h-12 w-auto" },
+                                            { id: "logo-sapa", description: "Sapa", image: "/images/brands-logo/brands-anasayfa/sapa-logo.jpg", className: "h-12 w-auto" },
+                                        ]} />
                                     </div>
                                 </div>
                             </div>
