@@ -4,6 +4,9 @@ import { useEffect, useState } from 'react';
 import { HeroSectionOne } from '@/components/hero-section-1';
 import { Logos3 } from '@/components/blocks/logos3';
 import CallToAction from '@/components/call-to-action';
+import { Navbar } from '@/components/navbar';
+import { Footer } from '@/components/footer';
+import { StickyContactButtons } from '@/components/sticky-contact-buttons';
 import enMessages from '@/messages/en.json';
 
 export default function HomePage() {
@@ -13,33 +16,38 @@ export default function HomePage() {
   const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
 
   return (
-    <div suppressHydrationWarning>
-      {!ready || !messages ? (
-        <div className="flex items-center justify-center min-h-[50vh]">
-          <div>Loading...</div>
-        </div>
-      ) : (
-        <>
-          <HeroSectionOne 
-            heading={t('homepage.hero.heading')}
-            description={t('homepage.hero.description')}
-            buttonText={t('homepage.hero.button_text')}
-            buttonLink="/contact"
-            locale="en"
-          />
-          <Logos3 
-            heading={t('homepage.logos.heading')}
-            description={t('homepage.logos.description')}
-          />
-          <CallToAction 
-            heading={t('homepage.cta.heading')}
-            description={t('homepage.cta.description')}
-            buttonText={t('homepage.cta.button_text')}
-            buttonLink="/contact"
-            locale="en"
-          />
-        </>
-      )}
+    <div className="min-h-screen flex flex-col" suppressHydrationWarning>
+      <Navbar locale="en" />
+      <main className="flex-1">
+        {!ready || !messages ? (
+          <div className="flex items-center justify-center min-h-[50vh]">
+            <div>Loading...</div>
+          </div>
+        ) : (
+          <>
+            <HeroSectionOne 
+              heading={t('homepage.hero.heading')}
+              description={t('homepage.hero.description')}
+              buttonText={t('homepage.hero.button_text')}
+              buttonLink="/contact"
+              locale="en"
+            />
+            <Logos3 
+              heading={t('homepage.logos.heading')}
+              description={t('homepage.logos.description')}
+            />
+            <CallToAction 
+              heading={t('homepage.cta.heading')}
+              description={t('homepage.cta.description')}
+              buttonText={t('homepage.cta.button_text')}
+              buttonLink="/contact"
+              locale="en"
+            />
+          </>
+        )}
+      </main>
+      <Footer locale="en" />
+      <StickyContactButtons />
     </div>
   );
 }
