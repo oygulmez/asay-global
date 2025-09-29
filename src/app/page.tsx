@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import HeroSection1 from '@/components/hero-section-1';
-import Logos3 from '@/components/blocks/logos3';
+import { Logos3 } from '@/components/blocks/logos3';
 import CallToAction from '@/components/call-to-action';
 
 export default function HomePage() {
