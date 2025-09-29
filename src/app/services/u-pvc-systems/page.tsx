@@ -3,6 +3,9 @@
 import { PageHeader } from "@/components/page-header";
 import Link from "next/link";
 import Image from "next/image";
+import { Navbar } from '@/components/navbar';
+import { Footer } from '@/components/footer';
+import { StickyContactButtons } from '@/components/sticky-contact-buttons';
 import { useEffect, useState } from 'react';
 import enMessages from '@/messages/en.json';
 import frMessages from '@/messages/fr.json';
@@ -33,8 +36,10 @@ export default function UPVCSystemsPage() {
   };
 
   return (
-    <>
-      <PageHeader
+    <div className="min-h-screen flex flex-col">
+      <Navbar locale="en" />
+      <main className="flex-1">
+        <PageHeader
         title={(messages as any).upvc_systems.page_header.title}
         description={(messages as any).upvc_systems.page_header.description}
         breadcrumbItems={[
@@ -123,7 +128,10 @@ export default function UPVCSystemsPage() {
         </div>
         </div>
       </div>
-    </>
+      </main>
+      <Footer locale="en" />
+      <StickyContactButtons />
+    </div>
   );
 }
 
