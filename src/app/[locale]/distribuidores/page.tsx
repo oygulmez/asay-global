@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import {locales} from '@/i18n';
 import SiteDealers from '@/app/(site)/dealers/page';
 

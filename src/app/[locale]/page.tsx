@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import {locales} from '@/i18n';
 import SiteHome from '../(site)/page';
 

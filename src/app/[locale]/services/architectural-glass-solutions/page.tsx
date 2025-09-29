@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import {locales} from '@/i18n';
 import SiteGlass from '../../../(site)/services/architectural-glass-solutions/page';
 

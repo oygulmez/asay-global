@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import WindowDoorCategoryPage from '@/app/(site)/services/u-pvc-systems/window-door-systems/page';
 
 export default function LocaleWindowDoorSystemsPage() {

@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import {locales} from '@/i18n';
 import SiteHS76 from '../../../../../app/(site)/services/u-pvc-systems/hs76-sliding/page';
 

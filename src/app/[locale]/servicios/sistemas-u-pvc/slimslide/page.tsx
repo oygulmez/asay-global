@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import {locales} from '@/i18n';
 import SiteSlimslide from '../../../../../app/(site)/services/u-pvc-systems/slimslide/page';
 

@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import {locales} from '@/i18n';
 import SiteLegendArt from '../../../../../app/(site)/services/u-pvc-systems/legend-art/page';
 

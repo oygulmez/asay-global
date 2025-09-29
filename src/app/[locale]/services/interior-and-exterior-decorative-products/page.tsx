@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import {locales} from '@/i18n';
 import SiteDecorative from '../../../(site)/services/interior-and-exterior-decorative-products/page';
 

@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import {locales} from '@/i18n';
 import SitePVCSlidingDoor from '../../../../../app/(site)/services/u-pvc-systems/pvc-sliding-door-system/page';
 

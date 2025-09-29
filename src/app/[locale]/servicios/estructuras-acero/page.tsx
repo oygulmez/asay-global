@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import SiteSteelFramings from '@/app/(site)/services/steel-framings/page';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
