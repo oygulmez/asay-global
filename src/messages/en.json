@@ -10,8 +10,7 @@
     "title": "Premium Quality, Global Reach",
     "cardTitle": "We Offer You A Full Range Of Structural Solutions.",
     "cardDesc": "As the primary distributor of authorized and licensed manufacturers of leading, exclusive global brands, we provide direct access to premium building materials and cutting-edge construction solutions."
-  }
-  ,
+  },
   "nav": {
     "home": "Home",
     "about": "About Us",
@@ -262,7 +261,7 @@
         "title": "Legend Art System",
         "description": "Artistic window and door solutions with enhanced design flexibility."
       },
-      "legend_sliding_plus": {
+      "legend_surme_plus": {
         "title": "Legend Sliding Plus",
         "description": "Advanced sliding system with improved sealing and thermal performance."
       },
@@ -383,7 +382,7 @@
           "description": "Ultra-slim profiles maximizing glass area with smooth sliding operation.",
           "view_product": "View Product"
         },
-        "legend_sliding_plus": {
+        "legend_surme_plus": {
           "title": "Legend Sliding Plus",
           "description": "Advanced sliding system with enhanced sealing and thermal efficiency.",
           "view_product": "View Product"
@@ -392,6 +391,44 @@
           "title": "PVC Sliding Door System",
           "description": "Reliable sliding door solutions for residential and commercial applications.",
           "view_product": "View Product"
+        }
+      }
+    },
+    "product_pages": {
+      "legend_window_door": {
+        "page_header": {
+          "title": "Legend Window & Door System",
+          "description": "Premium window and door system combining aesthetics with superior performance.",
+          "breadcrumbs": {
+            "home": "Home",
+            "services": "Services",
+            "window_door_systems": "u-PVC Window & Door Systems",
+            "legend_window_door": "Legend Window & Door System"
+          }
+        }
+      },
+      "legend_art": {
+        "page_header": {
+          "title": "Legend Art System",
+          "description": "Artistic window and door solutions with enhanced design flexibility.",
+          "breadcrumbs": {
+            "home": "Home",
+            "services": "Services",
+            "window_door_systems": "u-PVC Window & Door Systems",
+            "legend_art": "Legend Art System"
+          }
+        }
+      },
+      "zendow": {
+        "page_header": {
+          "title": "Zendow System",
+          "description": "Modern window system with excellent energy efficiency and design options.",
+          "breadcrumbs": {
+            "home": "Home",
+            "services": "Services",
+            "window_door_systems": "u-PVC Window & Door Systems",
+            "zendow": "Zendow System"
+          }
         }
       }
     }
@@ -638,7 +675,7 @@
           "description": "Ultra-slim profiles maximizing glass area with smooth sliding operation.",
           "view_product": "View Product"
         },
-        "legend_sliding_plus": {
+        "legend_surme_plus": {
           "title": "Legend Sliding Plus",
           "description": "Advanced sliding system with enhanced sealing and thermal efficiency.",
           "view_product": "View Product"
@@ -648,9 +685,10 @@
           "description": "Reliable sliding door solutions for residential and commercial applications.",
           "view_product": "View Product"
         }
-      },
-      "product_pages": {
-        "hs76_sliding": {
+      }
+    },
+    "product_pages": {
+      "hs76_sliding": {
         "meta": {
           "title": "HS76 Sliding",
           "description": "Lift‑and‑slide u‑PVC system with low aluminum threshold for wheelchair access, Class A profiles and Uf 1.2 W/m²·K thermal performance."
@@ -672,7 +710,7 @@
         "technical_specs": {
           "title": "Technical Specifications",
           "frame_width": "Frame Width",
-          "sash_width": "Sash Width", 
+          "sash_width": "Sash Width",
           "chambers": "Chambers",
           "gaskets": "Gaskets",
           "glazing_bead": "Glazing Bead",
@@ -738,19 +776,58 @@
           "subtitle": "We offer laminate color alternatives that provide superior durability against harsh weather conditions while requiring low maintenance. Different laminate colors can be applied on interior and exterior faces to achieve more aesthetic and coherent facades.",
           "note": "Interior and exterior laminate colors can be combined.",
           "colors": [
-            { "name": "Golden Oak", "file": "altin-mese.jpg" },
-            { "name": "Antique Oak", "file": "antik-mese.jpg" },
-            { "name": "Anthracite Grey", "file": "antrasit-gri.jpg" },
-            { "name": "Hazelnut", "file": "findik.jpg" },
-            { "name": "Cream", "file": "krem.jpg" },
-            { "name": "Ash Black", "file": "kul-siyahi.jpg" },
-            { "name": "Mahogany", "file": "maun.jpg" },
-            { "name": "Metallic Anthracite", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Metallic Silver", "file": "metalik-gumus.jpg" },
-            { "name": "Platinum Crown", "file": "platin-crown.jpg" },
-            { "name": "Pyrite", "file": "pyrite.jpg" },
-            { "name": "Vizon", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
+            {
+              "name": "Golden Oak",
+              "file": "altin-mese.jpg"
+            },
+            {
+              "name": "Antique Oak",
+              "file": "antik-mese.jpg"
+            },
+            {
+              "name": "Anthracite Grey",
+              "file": "antrasit-gri.jpg"
+            },
+            {
+              "name": "Hazelnut",
+              "file": "findik.jpg"
+            },
+            {
+              "name": "Cream",
+              "file": "krem.jpg"
+            },
+            {
+              "name": "Ash Black",
+              "file": "kul-siyahi.jpg"
+            },
+            {
+              "name": "Mahogany",
+              "file": "maun.jpg"
+            },
+            {
+              "name": "Metallic Anthracite",
+              "file": "metalik-antrasit-gri.jpg"
+            },
+            {
+              "name": "Metallic Silver",
+              "file": "metalik-gumus.jpg"
+            },
+            {
+              "name": "Platinum Crown",
+              "file": "platin-crown.jpg"
+            },
+            {
+              "name": "Pyrite",
+              "file": "pyrite.jpg"
+            },
+            {
+              "name": "Vizon",
+              "file": "vizon.jpg"
+            },
+            {
+              "name": "Winchester",
+              "file": "winchester.jpg"
+            }
           ]
         }
       },
@@ -760,7 +837,7 @@
           "description": "Aesthetic design with premium performance for modern architecture and sophisticated facades."
         },
         "page_header": {
-          "title": "Legend Art u-PVC Window and Door System", 
+          "title": "Legend Art u-PVC Window and Door System",
           "description": "Designer finishes with premium performance for modern architecture.",
           "breadcrumbs": {
             "home": "Home",
@@ -811,19 +888,58 @@
           "subtitle": "We offer laminate color alternatives that provide superior durability against harsh weather conditions while requiring low maintenance. Different laminate colors can be applied on interior and exterior faces to achieve more aesthetic and coherent facades.",
           "note": "Interior and exterior laminate colors can be combined.",
           "colors": [
-            { "name": "Golden Oak", "file": "altin-mese.jpg" },
-            { "name": "Antique Oak", "file": "antik-mese.jpg" },
-            { "name": "Anthracite Grey", "file": "antrasit-gri.jpg" },
-            { "name": "Hazelnut", "file": "findik.jpg" },
-            { "name": "Cream", "file": "krem.jpg" },
-            { "name": "Ash Black", "file": "kul-siyahi.jpg" },
-            { "name": "Mahogany", "file": "maun.jpg" },
-            { "name": "Metallic Anthracite", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Metallic Silver", "file": "metalik-gumus.jpg" },
-            { "name": "Platinum Crown", "file": "platin-crown.jpg" },
-            { "name": "Pyrite", "file": "pyrite.jpg" },
-            { "name": "Vizon", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
+            {
+              "name": "Golden Oak",
+              "file": "altin-mese.jpg"
+            },
+            {
+              "name": "Antique Oak",
+              "file": "antik-mese.jpg"
+            },
+            {
+              "name": "Anthracite Grey",
+              "file": "antrasit-gri.jpg"
+            },
+            {
+              "name": "Hazelnut",
+              "file": "findik.jpg"
+            },
+            {
+              "name": "Cream",
+              "file": "krem.jpg"
+            },
+            {
+              "name": "Ash Black",
+              "file": "kul-siyahi.jpg"
+            },
+            {
+              "name": "Mahogany",
+              "file": "maun.jpg"
+            },
+            {
+              "name": "Metallic Anthracite",
+              "file": "metalik-antrasit-gri.jpg"
+            },
+            {
+              "name": "Metallic Silver",
+              "file": "metalik-gumus.jpg"
+            },
+            {
+              "name": "Platinum Crown",
+              "file": "platin-crown.jpg"
+            },
+            {
+              "name": "Pyrite",
+              "file": "pyrite.jpg"
+            },
+            {
+              "name": "Vizon",
+              "file": "vizon.jpg"
+            },
+            {
+              "name": "Winchester",
+              "file": "winchester.jpg"
+            }
           ]
         }
       },
@@ -837,7 +953,7 @@
           "description": "Advanced thermal performance with contemporary styling and versatility.",
           "breadcrumbs": {
             "home": "Home",
-            "services": "Services", 
+            "services": "Services",
             "window_door_systems": "u-PVC Window & Door Systems",
             "zendow": "Zendow System"
           }
@@ -884,19 +1000,58 @@
           "subtitle": "We offer laminate color alternatives that provide superior durability against harsh weather conditions while requiring low maintenance. Different laminate colors can be applied on interior and exterior faces to achieve more aesthetic and coherent facades.",
           "note": "Interior and exterior laminate colors can be combined.",
           "colors": [
-            { "name": "Golden Oak", "file": "altin-mese.jpg" },
-            { "name": "Antique Oak", "file": "antik-mese.jpg" },
-            { "name": "Anthracite Grey", "file": "antrasit-gri.jpg" },
-            { "name": "Hazelnut", "file": "findik.jpg" },
-            { "name": "Cream", "file": "krem.jpg" },
-            { "name": "Ash Black", "file": "kul-siyahi.jpg" },
-            { "name": "Mahogany", "file": "maun.jpg" },
-            { "name": "Metallic Anthracite", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Metallic Silver", "file": "metalik-gumus.jpg" },
-            { "name": "Platinum Crown", "file": "platin-crown.jpg" },
-            { "name": "Pyrite", "file": "pyrite.jpg" },
-            { "name": "Vizon", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
+            {
+              "name": "Golden Oak",
+              "file": "altin-mese.jpg"
+            },
+            {
+              "name": "Antique Oak",
+              "file": "antik-mese.jpg"
+            },
+            {
+              "name": "Anthracite Grey",
+              "file": "antrasit-gri.jpg"
+            },
+            {
+              "name": "Hazelnut",
+              "file": "findik.jpg"
+            },
+            {
+              "name": "Cream",
+              "file": "krem.jpg"
+            },
+            {
+              "name": "Ash Black",
+              "file": "kul-siyahi.jpg"
+            },
+            {
+              "name": "Mahogany",
+              "file": "maun.jpg"
+            },
+            {
+              "name": "Metallic Anthracite",
+              "file": "metalik-antrasit-gri.jpg"
+            },
+            {
+              "name": "Metallic Silver",
+              "file": "metalik-gumus.jpg"
+            },
+            {
+              "name": "Platinum Crown",
+              "file": "platin-crown.jpg"
+            },
+            {
+              "name": "Pyrite",
+              "file": "pyrite.jpg"
+            },
+            {
+              "name": "Vizon",
+              "file": "vizon.jpg"
+            },
+            {
+              "name": "Winchester",
+              "file": "winchester.jpg"
+            }
           ]
         }
       },
@@ -931,7 +1086,7 @@
           "max_dimensions": "Maximum Dimensions"
         }
       },
-      "legend_sliding_plus": {
+      "legend_surme_plus": {
         "meta": {
           "title": "Legend Sliding Plus",
           "description": "Advanced sliding system with enhanced sealing and thermal efficiency for large openings."
@@ -943,7 +1098,7 @@
             "home": "Home",
             "services": "Services",
             "sliding_systems": "u-PVC Sliding Systems",
-            "legend_sliding_plus": "Legend Sliding Plus"
+            "legend_surme_plus": "Legend Sliding Plus"
           }
         },
         "general_features": {
@@ -964,7 +1119,7 @@
       },
       "pvc_sliding_door": {
         "meta": {
-          "title": "PVC Sliding Door System", 
+          "title": "PVC Sliding Door System",
           "description": "Reliable sliding door solutions for residential and commercial applications with smooth operation."
         },
         "page_header": {
