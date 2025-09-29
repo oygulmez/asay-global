@@ -2,6 +2,9 @@
 
 import { PageHeader } from "@/components/page-header";
 import Link from "next/link";
+import { Navbar } from '@/components/navbar';
+import { Footer } from '@/components/footer';
+import { StickyContactButtons } from '@/components/sticky-contact-buttons';
 // ContactForm component will be inline
 import { useEffect, useState } from 'react';
 import enMessages from '@/messages/en.json';
@@ -27,8 +30,10 @@ export default function ContactPage() {
   const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
 
   return (
-    <>
-      <PageHeader
+    <div className="min-h-screen flex flex-col">
+      <Navbar locale="en" />
+      <main className="flex-1">
+        <PageHeader
         title={(messages as any).contact.page_header.title}
         description={(messages as any).contact.page_header.description}
         breadcrumbItems={[
@@ -70,34 +75,37 @@ export default function ContactPage() {
 
           {/* Contact Form */}
           <div className="rounded-lg border p-6 bg-white">
-            <h2 className="text-xl font-semibold mb-6" style={{ color: 'black' }}>{(messages as any).contact.form.title}</h2>
+            <h2 className="text-xl font-semibold mb-6" style={{ color: 'black' }}>{(messages as any).dealers.form.title}</h2>
             <form className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-1">
-                  <label className="text-sm font-medium" htmlFor="name" style={{ color: 'black' }}>{(messages as any).contact.form.name}</label>
+                  <label className="text-sm font-medium" htmlFor="name" style={{ color: 'black' }}>{(messages as any).dealers.form.first_name}</label>
                   <input id="name" name="name" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
                 <div className="space-y-1">
-                  <label className="text-sm font-medium" htmlFor="email" style={{ color: 'black' }}>{(messages as any).contact.form.email}</label>
+                  <label className="text-sm font-medium" htmlFor="email" style={{ color: 'black' }}>{(messages as any).dealers.form.email}</label>
                   <input id="email" name="email" type="email" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
               </div>
               <div className="space-y-1">
-                <label className="text-sm font-medium" htmlFor="subject" style={{ color: 'black' }}>{(messages as any).contact.form.subject}</label>
+                <label className="text-sm font-medium" htmlFor="subject" style={{ color: 'black' }}>{(messages as any).dealers.form.subject}</label>
                 <input id="subject" name="subject" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
               </div>
               <div className="space-y-1">
-                <label className="text-sm font-medium" htmlFor="message" style={{ color: 'black' }}>{(messages as any).contact.form.message}</label>
+                <label className="text-sm font-medium" htmlFor="message" style={{ color: 'black' }}>{(messages as any).dealers.form.message}</label>
                 <textarea id="message" name="message" rows={6} className="w-full border px-3 py-2 rounded-md focus:outline-none" />
               </div>
               <button type="submit" className="px-4 py-2 bg-[#333333] text-white rounded-md">
-                {(messages as any).contact.form.send}
+                {(messages as any).dealers.form.send}
               </button>
             </form>
           </div>
         </div>
       </div>
-    </>
+      </main>
+      <Footer locale="en" />
+      <StickyContactButtons />
+    </div>
   );
 }
 
