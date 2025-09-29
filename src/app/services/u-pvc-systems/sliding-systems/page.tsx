@@ -3,6 +3,9 @@
 import Link from "next/link";
 import { PageHeader } from "@/components/page-header";
 import Image from "next/image";
+import { Navbar } from '@/components/navbar';
+import { Footer } from '@/components/footer';
+import { StickyContactButtons } from '@/components/sticky-contact-buttons';
 import { useState, useEffect } from 'react';
 import enMessages from '@/messages/en.json';
 import frMessages from '@/messages/fr.json';
@@ -45,8 +48,10 @@ export default function SlidingCategoryPage() {
   const slimslide = products.slimslide || {};
 
   return (
-    <>
-      <PageHeader
+    <div className="min-h-screen flex flex-col">
+      <Navbar locale="en" />
+      <main className="flex-1">
+        <PageHeader
         title={t.page_header.title}
         description={t.page_header.description}
         breadcrumbItems={[
@@ -110,7 +115,10 @@ export default function SlidingCategoryPage() {
           </div>
         </div>
       </div>
-    </>
+      </main>
+      <Footer locale="en" />
+      <StickyContactButtons />
+    </div>
   );
 }
 

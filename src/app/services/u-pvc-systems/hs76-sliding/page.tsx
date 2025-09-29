@@ -3,6 +3,9 @@
 import { PageHeader } from "@/components/page-header";
 import { ThermometerSnowflake, Ruler, Volume2 } from "lucide-react";
 import CallToAction from "@/components/call-to-action";
+import { Navbar } from '@/components/navbar';
+import { Footer } from '@/components/footer';
+import { StickyContactButtons } from '@/components/sticky-contact-buttons';
 import { useState, useEffect } from 'react';
 import enMessages from '@/messages/en.json';
 import frMessages from '@/messages/fr.json';
@@ -44,8 +47,10 @@ export default function HS76SlidingPage() {
     return <div>Loading... (Debug: locale={locale}, t={JSON.stringify(t)})</div>;
   }
   return (
-    <>
-      <PageHeader
+    <div className="min-h-screen flex flex-col">
+      <Navbar locale="en" />
+      <main className="flex-1">
+        <PageHeader
         title={t.page_header.title}
         description={t.page_header.description}
         breadcrumbItems={[
@@ -93,7 +98,10 @@ export default function HS76SlidingPage() {
       <div className="container mx-auto px-6 pt-0 pb-10">
         <CallToAction />
       </div>
-    </>
+      </main>
+      <Footer locale="en" />
+      <StickyContactButtons />
+    </div>
   );
 }
 
