@@ -215,6 +215,12 @@
           "description": "Conçu pour une installation efficace réduisant les délais de projet."
         }
       ]
+    },
+    "steel_framings": {
+      "meta": {
+        "title": "Structures Acier",
+        "description": "Solutions structurelles en acier robustes conçues pour la durabilité et la résistance dans les projets de construction commerciale et industrielle."
+      }
     }
   },
   "dealers": {

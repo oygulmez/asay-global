@@ -215,6 +215,12 @@
           "description": "Diseñado para una instalación eficiente que reduce los plazos del proyecto."
         }
       ]
+    },
+    "steel_framings": {
+      "meta": {
+        "title": "Estructuras de Acero",
+        "description": "Soluciones estructurales de acero robustas diseñadas para durabilidad y resistencia en proyectos de construcción comercial e industrial."
+      }
     }
   },
   "dealers": {
