@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useId } from "react";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -29,6 +29,7 @@ type Locale = 'en' | 'fr' | 'es' | undefined;
 
 export function Navbar({ locale }: { locale?: Locale } = {}) {
   const [isHydrated, setIsHydrated] = useState(false);
+  const menuId = useId();
   const current = (locale === 'fr' || locale === 'es' || locale === 'en') ? locale : 'en';
   const dict = current === 'fr' ? (require('@/messages/fr.json')) : current === 'es' ? (require('@/messages/es.json')) : (require('@/messages/en.json'));
   const t = (key: string) => key.split('.').reduce((o: any, k: string) => o?.[k], dict);
