@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
-import HeroSection1 from '@/components/hero-section-1';
+import { HeroSectionOne } from '@/components/hero-section-1';
 import { Logos3 } from '@/components/blocks/logos3';
 import CallToAction from '@/components/call-to-action';
 
@@ -31,7 +31,7 @@ export default function HomePage() {
 
   return (
     <div suppressHydrationWarning>
-      <HeroSection1 
+      <HeroSectionOne 
         heading={t('homepage.hero.heading')}
         description={t('homepage.hero.description')}
         buttonText={t('homepage.hero.button_text')}
