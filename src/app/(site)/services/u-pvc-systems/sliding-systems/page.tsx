@@ -17,7 +17,7 @@ export default function SlidingCategoryPage() {
   }, []);
   
   const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
-  const t = (messages as any).upvc_systems?.sliding_category || (messages as any).sliding_category;
+  const t = (messages as any).upvc_systems.sliding_category;
   
   const createUrl = (path: string) => {
     if (locale === 'en') return path;

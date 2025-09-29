@@ -458,6 +458,77 @@
         "title": "Equipo Profesional",
         "description": "Personal profesional, experimentado y dinámico entregando soluciones rápidas y confiables con décadas de experiencia global y procesos certificados por la industria."
       }
+    },
+    "window_door_category": {
+      "meta": {
+        "title": "Sistemas de Ventanas y Puertas u-PVC",
+        "description": "Explore las familias de productos de ventanas y puertas u-PVC incluyendo Legend, Legend Art y Zendow con alto aislamiento y rendimiento duradero."
+      },
+      "page_header": {
+        "title": "Sistemas de Ventanas y Puertas u-PVC",
+        "description": "Navegue por los productos de ventanas y puertas u-PVC diseñados para aislamiento, durabilidad y rendimiento de sellado.",
+        "breadcrumbs": {
+          "home": "Inicio",
+          "services": "Servicios",
+          "upvc_systems": "Sistemas u-PVC",
+          "window_door_systems": "Sistemas de Ventanas y Puertas u-PVC"
+        }
+      },
+      "products": {
+        "legend": {
+          "title": "Sistema Legend Ventanas y Puertas u-PVC",
+          "description": "Alto aislamiento, rendimiento estático robusto y amplias opciones de acristalamiento.",
+          "view_product": "Ver Producto"
+        },
+        "legend_art": {
+          "title": "Sistema Legend Art Ventanas y Puertas u-PVC",
+          "description": "Diseño estético con rendimiento premium para arquitectura moderna.",
+          "view_product": "Ver Producto"
+        },
+        "zendow": {
+          "title": "Sistema Zendow Ventanas y Puertas u-PVC",
+          "description": "Rendimiento térmico avanzado con estilo contemporáneo y versatilidad.",
+          "view_product": "Ver Producto"
+        }
+      }
+    },
+    "sliding_category": {
+      "meta": {
+        "title": "Sistemas Deslizantes u-PVC",
+        "description": "Descubra las soluciones deslizantes u-PVC incluyendo HS76, Slimslide y Legend Sürme Plus para grandes aberturas y funcionamiento fluido."
+      },
+      "page_header": {
+        "title": "Sistemas Deslizantes u-PVC",
+        "description": "Explore soluciones deslizantes diseñadas para grandes aberturas, funcionamiento suave y excelente rendimiento de sellado.",
+        "breadcrumbs": {
+          "home": "Inicio",
+          "services": "Servicios",
+          "upvc_systems": "Sistemas u-PVC",
+          "sliding_systems": "Sistemas Deslizantes u-PVC"
+        }
+      },
+      "products": {
+        "hs76": {
+          "title": "Sistema Deslizante HS76",
+          "description": "Sistema de elevación-deslizamiento con umbral bajo y excelente rendimiento térmico.",
+          "view_product": "Ver Producto"
+        },
+        "slimslide": {
+          "title": "Sistema Slimslide",
+          "description": "Perfiles ultra-delgados que maximizan el área de vidrio con funcionamiento deslizante suave.",
+          "view_product": "Ver Producto"
+        },
+        "legend_surme_plus": {
+          "title": "Legend Sürme Plus",
+          "description": "Sistema deslizante avanzado con sellado mejorado y eficiencia térmica.",
+          "view_product": "Ver Producto"
+        },
+        "pvc_sliding_door": {
+          "title": "Sistema de Puerta Deslizante PVC",
+          "description": "Soluciones confiables de puertas deslizantes para aplicaciones residenciales y comerciales.",
+          "view_product": "Ver Producto"
+        }
+      }
     }
   },
   "decorative_systems": {
