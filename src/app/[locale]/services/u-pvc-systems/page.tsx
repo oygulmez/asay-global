@@ -1,6 +1,7 @@
 "use client"
 
 import { PageHeader } from "@/components/page-header";
+import CallToAction from "@/components/call-to-action";
 import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from 'react';
@@ -122,6 +123,9 @@ export default function UPVCSystemsPage() {
           </section>
         </div>
         </div>
+        
+        {/* CTA */}
+        <CallToAction />
       </div>
     </>
   );

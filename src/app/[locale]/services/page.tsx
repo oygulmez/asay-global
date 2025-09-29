@@ -1,6 +1,7 @@
 "use client"
 
 import { PageHeader } from "@/components/page-header";
+import CallToAction from "@/components/call-to-action";
 import { Gallery6 } from "@/components/gallery6";
 import { useEffect, useState } from 'react';
 import enMessages from '@/messages/en.json';
@@ -85,6 +86,9 @@ export default function ServicesPage() {
             },
           ]}
         />
+        
+        {/* CTA */}
+        <CallToAction />
       </div>
     </>
   );

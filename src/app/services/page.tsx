@@ -2,6 +2,9 @@
 
 import { PageHeader } from "@/components/page-header";
 import { Gallery6 } from "@/components/gallery6";
+import { Navbar } from '@/components/navbar';
+import { Footer } from '@/components/footer';
+import { StickyContactButtons } from '@/components/sticky-contact-buttons';
 import { useEffect, useState } from 'react';
 import enMessages from '@/messages/en.json';
 import frMessages from '@/messages/fr.json';
@@ -32,8 +35,10 @@ export default function ServicesPage() {
   };
 
   return (
-    <>
-      <PageHeader
+    <div className="min-h-screen flex flex-col">
+      <Navbar locale="en" />
+      <main className="flex-1">
+        <PageHeader
         title={(messages as any).services.page_header.title}
         description={(messages as any).services.page_header.description}
         breadcrumbItems={[{ label: (messages as any).services.page_header.breadcrumbs.home, href: createUrl("/") }, { label: (messages as any).services.page_header.breadcrumbs.services }]}
@@ -86,7 +91,10 @@ export default function ServicesPage() {
           ]}
         />
       </div>
-    </>
+      </main>
+      <Footer locale="en" />
+      <StickyContactButtons />
+    </div>
   );
 }
 
