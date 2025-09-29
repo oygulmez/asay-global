@@ -648,9 +648,10 @@
           "description": "Reliable sliding door solutions for residential and commercial applications.",
           "view_product": "View Product"
         }
-      },
-      "product_pages": {
-      "hs76_sliding": {
+      }
+    },
+    "product_pages": {
+        "hs76_sliding": {
         "meta": {
           "title": "HS76 Sliding",
           "description": "Lift‑and‑slide u‑PVC system with low aluminum threshold for wheelchair access, Class A profiles and Uf 1.2 W/m²·K thermal performance."
