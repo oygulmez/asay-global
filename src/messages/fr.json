@@ -392,6 +392,21 @@
             "window_door_systems": "Systèmes de Fenêtres et Portes u-PVC",
             "legend": "Système Legend"
           }
+        },
+        "general_features": {
+          "title": "Caractéristiques Générales",
+          "description": "Le Système Legend Fenêtres et Portes u-PVC est conçu avec un profil à 6 chambres et une largeur d'installation de 80 mm. Le système a été conçu en tenant compte de critères de haute performance ; les profils sont formés en combinant les éléments structurels les plus appropriés. Pendant le processus de conception, les performances de la fenêtre telles que l'isolation (thermique et acoustique), la résistance structurelle et l'étanchéité ont été évaluées de manière holistique avec la géométrie du profil. Tous les profils du système sont fabriqués conformément à la norme EN 12608-1."
+        },
+        "technical_specs": {
+          "title": "Spécifications Techniques",
+          "profile_width": "Largeur du Profil",
+          "chambers": "Nombre de Chambres",
+          "gaskets": "Nombre de Joints",
+          "gasket_material": "Matériau des Joints",
+          "glazing_bead": "Parclose",
+          "glass_thickness": "Épaisseur du Verre",
+          "thermal_transmittance": "Transmittance Thermique (Uf)",
+          "standard": "Norme"
         }
       },
       "legend_art": {
@@ -408,6 +423,21 @@
             "window_door_systems": "Systèmes de Fenêtres et Portes u-PVC",
             "legend_art": "Système Legend Art"
           }
+        },
+        "general_features": {
+          "title": "Caractéristiques Générales",
+          "description": "Le Système LegendArt Fenêtres et Portes met l'esthétique et l'élégance au premier plan avec un design méticuleusement conçu qui s'harmonise avec votre style intérieur. Avec des lignes modernes et raffinées qui s'alignent avec l'architecture et la décoration, LegendArt transforme chaque espace en un espace de vie exceptionnel grâce à son isolation acoustique et sa résistance statique. Le système offre des solutions respectueuses de l'environnement tout en maintenant des performances constantes et une cohérence visuelle."
+        },
+        "technical_specs": {
+          "title": "Spécifications Techniques",
+          "profile_width": "Largeur du Profil",
+          "chambers": "Nombre de Chambres",
+          "gaskets": "Nombre de Joints",
+          "gasket_material": "Matériau des Joints",
+          "glazing_bead": "Parclose",
+          "glass_thickness": "Épaisseur du Verre",
+          "thermal_transmittance": "Transmittance Thermique (Uf)",
+          "standard": "Norme"
         }
       },
       "zendow": {
@@ -521,6 +551,21 @@
             "window_door_systems": "Systèmes de Fenêtres et Portes u-PVC",
             "legend": "Système Legend"
           }
+        },
+        "general_features": {
+          "title": "Caractéristiques Générales",
+          "description": "Le Système Legend Fenêtres et Portes u-PVC est conçu avec un profil à 6 chambres et une largeur d'installation de 80 mm. Le système a été conçu en tenant compte de critères de haute performance ; les profils sont formés en combinant les éléments structurels les plus appropriés. Pendant le processus de conception, les performances de la fenêtre telles que l'isolation (thermique et acoustique), la résistance structurelle et l'étanchéité ont été évaluées de manière holistique avec la géométrie du profil. Tous les profils du système sont fabriqués conformément à la norme EN 12608-1."
+        },
+        "technical_specs": {
+          "title": "Spécifications Techniques",
+          "profile_width": "Largeur du Profil",
+          "chambers": "Nombre de Chambres",
+          "gaskets": "Nombre de Joints",
+          "gasket_material": "Matériau des Joints",
+          "glazing_bead": "Parclose",
+          "glass_thickness": "Épaisseur du Verre",
+          "thermal_transmittance": "Transmittance Thermique (Uf)",
+          "standard": "Norme"
         }
       },
       "legend_art": {
@@ -537,6 +582,21 @@
             "window_door_systems": "Systèmes de Fenêtres et Portes u-PVC",
             "legend_art": "Système Legend Art"
           }
+        },
+        "general_features": {
+          "title": "Caractéristiques Générales",
+          "description": "Le Système LegendArt Fenêtres et Portes met l'esthétique et l'élégance au premier plan avec un design méticuleusement conçu qui s'harmonise avec votre style intérieur. Avec des lignes modernes et raffinées qui s'alignent avec l'architecture et la décoration, LegendArt transforme chaque espace en un espace de vie exceptionnel grâce à son isolation acoustique et sa résistance statique. Le système offre des solutions respectueuses de l'environnement tout en maintenant des performances constantes et une cohérence visuelle."
+        },
+        "technical_specs": {
+          "title": "Spécifications Techniques",
+          "profile_width": "Largeur du Profil",
+          "chambers": "Nombre de Chambres",
+          "gaskets": "Nombre de Joints",
+          "gasket_material": "Matériau des Joints",
+          "glazing_bead": "Parclose",
+          "glass_thickness": "Épaisseur du Verre",
+          "thermal_transmittance": "Transmittance Thermique (Uf)",
+          "standard": "Norme"
         }
       },
       "zendow": {

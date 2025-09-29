@@ -392,6 +392,21 @@
             "window_door_systems": "Sistemas de Ventanas y Puertas u-PVC",
             "legend": "Sistema Legend"
           }
+        },
+        "general_features": {
+          "title": "Características Generales",
+          "description": "El Sistema Legend Ventanas y Puertas u-PVC está diseñado con un perfil de 6 cámaras y un ancho de instalación de 80 mm. El sistema ha sido diseñado teniendo en cuenta criterios de alto rendimiento; los perfiles se forman combinando los elementos estructurales más adecuados. Durante el proceso de diseño, el rendimiento de la ventana como aislamiento (térmico y acústico), resistencia estructural y sellado han sido evaluados de manera holística junto con la geometría del perfil. Todos los perfiles del sistema se fabrican de acuerdo con la norma EN 12608-1."
+        },
+        "technical_specs": {
+          "title": "Especificaciones Técnicas",
+          "profile_width": "Ancho del Perfil",
+          "chambers": "Número de Cámaras",
+          "gaskets": "Número de Juntas",
+          "gasket_material": "Material de las Juntas",
+          "glazing_bead": "Junquillo",
+          "glass_thickness": "Espesor del Vidrio",
+          "thermal_transmittance": "Transmitancia Térmica (Uf)",
+          "standard": "Norma"
         }
       },
       "legend_art": {
@@ -408,6 +423,21 @@
             "window_door_systems": "Sistemas de Ventanas y Puertas u-PVC",
             "legend_art": "Sistema Legend Art"
           }
+        },
+        "general_features": {
+          "title": "Características Generales",
+          "description": "El Sistema LegendArt Ventanas y Puertas pone la estética y elegancia al frente con un diseño meticulosamente diseñado que armoniza con su estilo interior. Con líneas modernas y refinadas que se alinean con la arquitectura y decoración, LegendArt transforma cada espacio en un área de vida excepcional gracias a su aislamiento acústico y resistencia estática. El sistema ofrece soluciones ambientalmente amigables mientras mantiene rendimiento consistente y coherencia visual."
+        },
+        "technical_specs": {
+          "title": "Especificaciones Técnicas",
+          "profile_width": "Ancho del Perfil",
+          "chambers": "Número de Cámaras",
+          "gaskets": "Número de Juntas",
+          "gasket_material": "Material de las Juntas",
+          "glazing_bead": "Junquillo",
+          "glass_thickness": "Espesor del Vidrio",
+          "thermal_transmittance": "Transmitancia Térmica (Uf)",
+          "standard": "Norma"
         }
       },
       "zendow": {
@@ -521,6 +551,21 @@
             "window_door_systems": "Sistemas de Ventanas y Puertas u-PVC",
             "legend": "Sistema Legend"
           }
+        },
+        "general_features": {
+          "title": "Características Generales",
+          "description": "El Sistema Legend Ventanas y Puertas u-PVC está diseñado con un perfil de 6 cámaras y un ancho de instalación de 80 mm. El sistema ha sido diseñado teniendo en cuenta criterios de alto rendimiento; los perfiles se forman combinando los elementos estructurales más adecuados. Durante el proceso de diseño, el rendimiento de la ventana como aislamiento (térmico y acústico), resistencia estructural y sellado han sido evaluados de manera holística junto con la geometría del perfil. Todos los perfiles del sistema se fabrican de acuerdo con la norma EN 12608-1."
+        },
+        "technical_specs": {
+          "title": "Especificaciones Técnicas",
+          "profile_width": "Ancho del Perfil",
+          "chambers": "Número de Cámaras",
+          "gaskets": "Número de Juntas",
+          "gasket_material": "Material de las Juntas",
+          "glazing_bead": "Junquillo",
+          "glass_thickness": "Espesor del Vidrio",
+          "thermal_transmittance": "Transmitancia Térmica (Uf)",
+          "standard": "Norma"
         }
       },
       "legend_art": {
@@ -537,6 +582,21 @@
             "window_door_systems": "Sistemas de Ventanas y Puertas u-PVC",
             "legend_art": "Sistema Legend Art"
           }
+        },
+        "general_features": {
+          "title": "Características Generales",
+          "description": "El Sistema LegendArt Ventanas y Puertas pone la estética y elegancia al frente con un diseño meticulosamente diseñado que armoniza con su estilo interior. Con líneas modernas y refinadas que se alinean con la arquitectura y decoración, LegendArt transforma cada espacio en un área de vida excepcional gracias a su aislamiento acústico y resistencia estática. El sistema ofrece soluciones ambientalmente amigables mientras mantiene rendimiento consistente y coherencia visual."
+        },
+        "technical_specs": {
+          "title": "Especificaciones Técnicas",
+          "profile_width": "Ancho del Perfil",
+          "chambers": "Número de Cámaras",
+          "gaskets": "Número de Juntas",
+          "gasket_material": "Material de las Juntas",
+          "glazing_bead": "Junquillo",
+          "glass_thickness": "Espesor del Vidrio",
+          "thermal_transmittance": "Transmitancia Térmica (Uf)",
+          "standard": "Norma"
         }
       },
       "zendow": {

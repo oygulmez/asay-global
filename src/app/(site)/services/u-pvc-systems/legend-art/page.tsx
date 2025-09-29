@@ -61,26 +61,26 @@ export default function LegendArtProductPage() {
           {/* Right: Features */}
           <div className="space-y-10">
             <section>
-              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>General Features</h2>
+              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>{t.general_features.title}</h2>
               <p className="text-sm leading-relaxed" style={{ color: "#565656" }}>
-                The LegendArt Window and Door System brings aesthetics and elegance to the forefront with a meticulously engineered design that harmonizes with your interior style. With modern and refined lines that align with architecture and decoration, LegendArt transforms every space into an exceptional living area thanks to its acoustic insulation and static strength. The system offers environmentally friendly solutions while maintaining consistent performance and visual coherence.
+                {t.general_features.description}
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>Technical Specifications</h2>
+              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>{t.technical_specs.title}</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 text-sm" style={{ color: "#565656" }}>
                 <div>
-                  <span className="font-medium" style={{ color: "black" }}>Profile Width:</span> 70 mm
+                  <span className="font-medium" style={{ color: "black" }}>{t.technical_specs.profile_width}:</span> 70 mm
                 </div>
                 <div>
-                  <span className="font-medium" style={{ color: "black" }}>Number of Chambers:</span> 5
+                  <span className="font-medium" style={{ color: "black" }}>{t.technical_specs.chambers}:</span> 5
                 </div>
                 <div>
-                  <span className="font-medium" style={{ color: "black" }}>Number of Gaskets:</span> 2/3 (Central gasket)
+                  <span className="font-medium" style={{ color: "black" }}>{t.technical_specs.gaskets}:</span> 2/3 (Central gasket)
                 </div>
                 <div>
-                  <span className="font-medium" style={{ color: "black" }}>Gasket Material:</span> TPE Grey / Black
+                  <span className="font-medium" style={{ color: "black" }}>{t.technical_specs.gasket_material}:</span> TPE Grey / Black
                 </div>
                 <div>
                   <span className="font-medium" style={{ color: "black" }}>Glazing Bead:</span> Single-lip with PCE gasket

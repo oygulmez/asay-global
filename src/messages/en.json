@@ -727,6 +727,21 @@
             "window_door_systems": "u-PVC Window & Door Systems",
             "legend_art": "Legend Art System"
           }
+        },
+        "general_features": {
+          "title": "General Features",
+          "description": "The LegendArt Window and Door System brings aesthetics and elegance to the forefront with a meticulously engineered design that harmonizes with your interior style. With modern and refined lines that align with architecture and decoration, LegendArt transforms every space into an exceptional living area thanks to its acoustic insulation and static strength. The system offers environmentally friendly solutions while maintaining consistent performance and visual coherence."
+        },
+        "technical_specs": {
+          "title": "Technical Specifications",
+          "profile_width": "Profile Width",
+          "chambers": "Number of Chambers",
+          "gaskets": "Number of Gaskets",
+          "gasket_material": "Gasket Material",
+          "glazing_bead": "Glazing Bead",
+          "glass_thickness": "Glass Thickness",
+          "thermal_transmittance": "Thermal Transmittance (Uf)",
+          "standard": "Standard"
         }
       },
       "zendow": {
