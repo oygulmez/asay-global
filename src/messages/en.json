@@ -263,7 +263,7 @@
         "description": "Artistic window and door solutions with enhanced design flexibility."
       },
       "legend_surme_plus": {
-        "title": "Legend Sürme Plus",
+        "title": "Legend Sliding Plus",
         "description": "Advanced sliding system with improved sealing and thermal performance."
       },
       "pvc_sliding_door": {
@@ -384,7 +384,7 @@
           "view_product": "View Product"
         },
         "legend_surme_plus": {
-          "title": "Legend Sürme Plus",
+          "title": "Legend Sliding Plus",
           "description": "Advanced sliding system with enhanced sealing and thermal efficiency.",
           "view_product": "View Product"
         },
@@ -639,7 +639,7 @@
           "view_product": "View Product"
         },
         "legend_surme_plus": {
-          "title": "Legend Sürme Plus",
+          "title": "Legend Sliding Plus",
           "description": "Advanced sliding system with enhanced sealing and thermal efficiency.",
           "view_product": "View Product"
         },
@@ -711,6 +711,48 @@
           "glass_thickness": "Glass Thickness",
           "thermal_transmittance": "Thermal Transmittance (Uf)",
           "standard": "Standard"
+        },
+        "why_choose": {
+          "title": "Why Choose Legend u-PVC",
+          "subtitle": "High insulation, strong static performance, rich product range and broad glazing options — engineered as a holistic window system.",
+          "features": [
+            {
+              "title": "Superior Insulation",
+              "description": "Multi-chamber design and advanced gasket system deliver exceptional thermal performance."
+            },
+            {
+              "title": "Structural Integrity",
+              "description": "Reinforced profiles and precision engineering ensure long-lasting durability and stability."
+            },
+            {
+              "title": "Versatile Design",
+              "description": "Comprehensive range of opening types and configurations for any architectural requirement."
+            },
+            {
+              "title": "Glazing Flexibility",
+              "description": "Supports various glass thicknesses and types including energy-efficient and security glazing."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Color Options",
+          "subtitle": "We offer laminate color alternatives that provide superior durability against harsh weather conditions while requiring low maintenance. Different laminate colors can be applied on interior and exterior faces to achieve more aesthetic and coherent facades.",
+          "note": "Interior and exterior laminate colors can be combined.",
+          "colors": [
+            { "name": "Golden Oak", "file": "altin-mese.jpg" },
+            { "name": "Antique Oak", "file": "antik-mese.jpg" },
+            { "name": "Anthracite Grey", "file": "antrasit-gri.jpg" },
+            { "name": "Hazelnut", "file": "findik.jpg" },
+            { "name": "Cream", "file": "krem.jpg" },
+            { "name": "Ash Black", "file": "kul-siyahi.jpg" },
+            { "name": "Mahogany", "file": "maun.jpg" },
+            { "name": "Metallic Anthracite", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Metallic Silver", "file": "metalik-gumus.jpg" },
+            { "name": "Platinum Crown", "file": "platin-crown.jpg" },
+            { "name": "Pyrite", "file": "pyrite.jpg" },
+            { "name": "Vizon", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "legend_art": {
@@ -742,6 +784,48 @@
           "glass_thickness": "Glass Thickness",
           "thermal_transmittance": "Thermal Transmittance (Uf)",
           "standard": "Standard"
+        },
+        "why_choose": {
+          "title": "Why Choose Legend Art u-PVC",
+          "subtitle": "Aesthetic excellence meets performance engineering with sophisticated design solutions for modern architecture.",
+          "features": [
+            {
+              "title": "Aesthetic Excellence",
+              "description": "Meticulously engineered design harmonizes with interior style and architectural requirements."
+            },
+            {
+              "title": "Acoustic Performance",
+              "description": "Superior sound insulation creates peaceful living environments in urban settings."
+            },
+            {
+              "title": "Static Strength",
+              "description": "Robust construction ensures long-term structural integrity and weather resistance."
+            },
+            {
+              "title": "Environmental Harmony",
+              "description": "Eco-friendly solutions with consistent performance and visual coherence."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Color Options",
+          "subtitle": "We offer laminate color alternatives that provide superior durability against harsh weather conditions while requiring low maintenance. Different laminate colors can be applied on interior and exterior faces to achieve more aesthetic and coherent facades.",
+          "note": "Interior and exterior laminate colors can be combined.",
+          "colors": [
+            { "name": "Golden Oak", "file": "altin-mese.jpg" },
+            { "name": "Antique Oak", "file": "antik-mese.jpg" },
+            { "name": "Anthracite Grey", "file": "antrasit-gri.jpg" },
+            { "name": "Hazelnut", "file": "findik.jpg" },
+            { "name": "Cream", "file": "krem.jpg" },
+            { "name": "Ash Black", "file": "kul-siyahi.jpg" },
+            { "name": "Mahogany", "file": "maun.jpg" },
+            { "name": "Metallic Anthracite", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Metallic Silver", "file": "metalik-gumus.jpg" },
+            { "name": "Platinum Crown", "file": "platin-crown.jpg" },
+            { "name": "Pyrite", "file": "pyrite.jpg" },
+            { "name": "Vizon", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "zendow": {
@@ -773,6 +857,48 @@
           "glass_thickness": "Glass Thickness",
           "thermal_transmittance": "Thermal Transmittance (Uf)",
           "standard": "Standard"
+        },
+        "why_choose": {
+          "title": "Why Choose Zendow u-PVC",
+          "subtitle": "Contemporary styling meets advanced thermal performance with versatile design solutions for modern architecture.",
+          "features": [
+            {
+              "title": "Contemporary Design",
+              "description": "Modern lines and elegant detailing complement interior style with coherent form."
+            },
+            {
+              "title": "Thermal Excellence",
+              "description": "Advanced thermal performance delivers exceptional energy efficiency and comfort."
+            },
+            {
+              "title": "Architectural Versatility",
+              "description": "Adapts perfectly to wide range of architectural styles with flexible configurations."
+            },
+            {
+              "title": "Long-term Value",
+              "description": "Durability and long service life ensure reliable performance and aesthetic appeal."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Color Options",
+          "subtitle": "We offer laminate color alternatives that provide superior durability against harsh weather conditions while requiring low maintenance. Different laminate colors can be applied on interior and exterior faces to achieve more aesthetic and coherent facades.",
+          "note": "Interior and exterior laminate colors can be combined.",
+          "colors": [
+            { "name": "Golden Oak", "file": "altin-mese.jpg" },
+            { "name": "Antique Oak", "file": "antik-mese.jpg" },
+            { "name": "Anthracite Grey", "file": "antrasit-gri.jpg" },
+            { "name": "Hazelnut", "file": "findik.jpg" },
+            { "name": "Cream", "file": "krem.jpg" },
+            { "name": "Ash Black", "file": "kul-siyahi.jpg" },
+            { "name": "Mahogany", "file": "maun.jpg" },
+            { "name": "Metallic Anthracite", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Metallic Silver", "file": "metalik-gumus.jpg" },
+            { "name": "Platinum Crown", "file": "platin-crown.jpg" },
+            { "name": "Pyrite", "file": "pyrite.jpg" },
+            { "name": "Vizon", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "slimslide": {
@@ -808,22 +934,22 @@
       },
       "legend_surme_plus": {
         "meta": {
-          "title": "Legend Sürme Plus",
+          "title": "Legend Sliding Plus",
           "description": "Advanced sliding system with enhanced sealing and thermal efficiency for large openings."
         },
         "page_header": {
-          "title": "Legend Sürme Plus",
+          "title": "Legend Sliding Plus",
           "description": "Premium sliding performance engineered for comfort, sealing and durability.",
           "breadcrumbs": {
             "home": "Home",
             "services": "Services",
             "sliding_systems": "u-PVC Sliding Systems",
-            "legend_surme_plus": "Legend Sürme Plus"
+            "legend_surme_plus": "Legend Sliding Plus"
           }
         },
         "general_features": {
           "title": "General Features",
-          "description": "The Deceuninck Legend Sliding Plus Window & Door System delivers superior acoustic and air insulation, providing strong protection against cold in winter and heat in summer. Its standout qualities are the elegant design and effortless operation that enhance everyday comfort. With 76 mm system width and a 5‑chamber sash, Legend Sürme Plus offers high performance, powerful isolation and exceptionally easy use. Compared to typical sliding systems, it targets significantly better air tightness and supports glazing up to 52 mm. Design registration applications have been filed with the Turkish Patent and Trademark Office."
+          "description": "The Deceuninck Legend Sliding Plus Window & Door System delivers superior acoustic and air insulation, providing strong protection against cold in winter and heat in summer. Its standout qualities are the elegant design and effortless operation that enhance everyday comfort. With 76 mm system width and a 5‑chamber sash, Legend Sliding Plus offers high performance, powerful isolation and exceptionally easy use. Compared to typical sliding systems, it targets significantly better air tightness and supports glazing up to 52 mm. Design registration applications have been filed with the Turkish Patent and Trademark Office."
         },
         "technical_specs": {
           "title": "Technical Specifications",

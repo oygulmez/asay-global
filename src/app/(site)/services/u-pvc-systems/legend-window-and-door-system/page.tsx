@@ -103,9 +103,9 @@ export default function UPVCWindowDoorSystemsPage() {
         <section className="py-20 md:py-32 w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] mt-16" style={{ backgroundColor: '#333333' }}>
           <div className="mx-auto max-w-7xl px-6">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold mb-4 text-white">Why Choose Legend u-PVC</h2>
+              <h2 className="text-3xl font-bold mb-4 text-white">{t.why_choose.title}</h2>
               <p className="text-white/80 text-base max-w-3xl mx-auto">
-                High insulation, strong static performance, rich product range and broad glazing options — engineered as a holistic window system.
+                {t.why_choose.subtitle}
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -113,37 +113,36 @@ export default function UPVCWindowDoorSystemsPage() {
                 <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
                   <ThermometerSnowflake className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-white">High Thermal Performance</h3>
+                <h3 className="text-lg font-semibold mb-3 text-white">{t.why_choose.features[0].title}</h3>
                 <p className="text-white/70 text-sm leading-relaxed">
-                  80&nbsp;mm platform, 6 chambers and 3 gaskets (central seal) enable <strong>Uf = 0.92&nbsp;W/m²·K</strong>. With triple glazing up to 52&nbsp;mm, window U-values down to
-                  <strong> Uw ≈ 0.78&nbsp;W/m²·K</strong> are achievable depending on glass.
+                  {t.why_choose.features[0].description}
                 </p>
               </div>
               <div className="group text-center p-6 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                 <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
                   <Ruler className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-white">Static Strength</h3>
+                <h3 className="text-lg font-semibold mb-3 text-white">{t.why_choose.features[1].title}</h3>
                 <p className="text-white/70 text-sm leading-relaxed">
-                  Reinforcement steels provide high static resistance for windy regions — allowing larger sashes and wider viewing areas with proper structural design.
+                  {t.why_choose.features[1].description}
                 </p>
               </div>
               <div className="group text-center p-6 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                 <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
                   <Layers className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-white">Product Diversity</h3>
+                <h3 className="text-lg font-semibold mb-3 text-white">{t.why_choose.features[2].title}</h3>
                 <p className="text-white/70 text-sm leading-relaxed">
-                  Standard/architrave frames, mullions, static mullions, inward/outward door sashes, drip sashes, adapters and rich auxiliary profiles for special details.
+                  {t.why_choose.features[2].description}
                 </p>
               </div>
               <div className="group text-center p-6 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                 <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
                   <PanelsTopLeft className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-white">Glazing Applications</h3>
+                <h3 className="text-lg font-semibold mb-3 text-white">{t.why_choose.features[3].title}</h3>
                 <p className="text-white/70 text-sm leading-relaxed">
-                  Supports glazing thicknesses of <strong>24, 30, 36, 44 and 52&nbsp;mm</strong>. Extensive color and laminate options provide tailored aesthetics.
+                  {t.why_choose.features[3].description}
                 </p>
               </div>
             </div>
@@ -155,10 +154,9 @@ export default function UPVCWindowDoorSystemsPage() {
           <div className="relative mx-auto max-w-7xl rounded-3xl border border-gray-200 bg-gradient-to-b from-white to-[#f8f8f8] p-8 md:p-12 shadow-sm">
             <div className="mb-8 text-center">
               <div className="text-xs uppercase tracking-wider mb-2" style={{ color: "#998675" }}>Finishes</div>
-              <h2 className="text-3xl font-bold mb-3" style={{ color: "black" }}>Color Options</h2>
+              <h2 className="text-3xl font-bold mb-3" style={{ color: "black" }}>{t.color_options.title}</h2>
               <p className="mx-auto max-w-3xl text-sm md:text-base" style={{ color: "#565656" }}>
-                We offer laminate color alternatives that provide superior durability against harsh weather conditions while requiring low maintenance.
-                Different laminate colors can be applied on interior and exterior faces to achieve more aesthetic and coherent facades.
+                {t.color_options.subtitle}
               </p>
             </div>
 
@@ -173,7 +171,7 @@ export default function UPVCWindowDoorSystemsPage() {
                     className="object-contain"
                   />
                 </div>
-                <p className="mt-3 text-xs" style={{ color: "#8a8a8a" }}>Interior and exterior laminate colors can be combined.</p>
+                <p className="mt-3 text-xs" style={{ color: "#8a8a8a" }}>{t.color_options.note}</p>
               </div>
 
               <div className="lg:col-span-7">
