@@ -61,30 +61,26 @@ export default function UPVCWindowDoorSystemsPage() {
           {/* Right: Features */}
           <div className="space-y-10">
             <section>
-              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>General Features</h2>
+              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>{t.general_features.title}</h2>
               <p className="text-sm leading-relaxed" style={{ color: "#565656" }}>
-                The Legend u-PVC Window and Door System is designed with a 6-chamber profile and an installation width of 80 mm. The
-                system has been engineered with high performance criteria in mind; profiles are formed by combining the most suitable
-                structural elements. During the design process, window performance such as insulation (thermal and acoustic), structural
-                strength and sealing have been evaluated holistically together with the profile geometry. All profiles in the system are
-                manufactured in accordance with EN 12608-1.
+                {t.general_features.description}
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>Technical Specifications</h2>
+              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>{t.technical_specs.title}</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 text-sm" style={{ color: "#565656" }}>
                 <div>
-                  <span className="font-medium" style={{ color: "black" }}>Profile Width:</span> 80 mm
+                  <span className="font-medium" style={{ color: "black" }}>{t.technical_specs.profile_width}:</span> 80 mm
                 </div>
                 <div>
-                  <span className="font-medium" style={{ color: "black" }}>Number of Chambers:</span> 6
+                  <span className="font-medium" style={{ color: "black" }}>{t.technical_specs.chambers}:</span> 6
                 </div>
                 <div>
-                  <span className="font-medium" style={{ color: "black" }}>Number of Gaskets:</span> 3 (Central gasket)
+                  <span className="font-medium" style={{ color: "black" }}>{t.technical_specs.gaskets}:</span> 3 (Central gasket)
                 </div>
                 <div>
-                  <span className="font-medium" style={{ color: "black" }}>Gasket Material:</span> TPE Grey / Black
+                  <span className="font-medium" style={{ color: "black" }}>{t.technical_specs.gasket_material}:</span> TPE Grey / Black
                 </div>
                 <div>
                   <span className="font-medium" style={{ color: "black" }}>Glazing Bead:</span> Single-lip with PCE gasket
