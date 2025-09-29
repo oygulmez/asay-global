@@ -26,34 +26,38 @@ export default function HomePage() {
     });
   }, [path]);
 
-  if (!ready || !messages) {
-    return <div>Loading...</div>;
-  }
-
   const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
 
   return (
     <div className="min-h-screen flex flex-col" suppressHydrationWarning>
       <Navbar locale={locale} />
       <main className="flex-1">
-        <HeroSectionOne 
-          heading={t('homepage.hero.heading')}
-          description={t('homepage.hero.description')}
-          buttonText={t('homepage.hero.button_text')}
-          buttonLink="/contact"
-          locale={locale}
-        />
-        <Logos3 
-          heading={t('homepage.logos.heading')}
-          description={t('homepage.logos.description')}
-        />
-        <CallToAction 
-          heading={t('homepage.cta.heading')}
-          description={t('homepage.cta.description')}
-          buttonText={t('homepage.cta.button_text')}
-          buttonLink="/contact"
-          locale={locale}
-        />
+        {!ready || !messages ? (
+          <div className="flex items-center justify-center min-h-[50vh]">
+            <div>Loading...</div>
+          </div>
+        ) : (
+          <>
+            <HeroSectionOne 
+              heading={t('homepage.hero.heading')}
+              description={t('homepage.hero.description')}
+              buttonText={t('homepage.hero.button_text')}
+              buttonLink="/contact"
+              locale={locale}
+            />
+            <Logos3 
+              heading={t('homepage.logos.heading')}
+              description={t('homepage.logos.description')}
+            />
+            <CallToAction 
+              heading={t('homepage.cta.heading')}
+              description={t('homepage.cta.description')}
+              buttonText={t('homepage.cta.button_text')}
+              buttonLink="/contact"
+              locale={locale}
+            />
+          </>
+        )}
       </main>
       <Footer locale={locale} />
       <StickyContactButtons />
