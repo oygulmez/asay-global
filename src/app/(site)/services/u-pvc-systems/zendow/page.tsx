@@ -1,24 +1,44 @@
+"use client"
+
 import { PageHeader } from "@/components/page-header";
 import Image from "next/image";
 import { ThermometerSnowflake, Ruler, Volume2, Leaf } from "lucide-react";
 import CallToAction from "@/components/call-to-action";
-
-export const metadata = {
-  title: "Zendow u-PVC Window and Door System",
-  description: "High-performance u-PVC window and door system with balanced insulation and strength.",
-};
+import { useState, useEffect } from 'react';
+import enMessages from '@/messages/en.json';
+import frMessages from '@/messages/fr.json';
+import esMessages from '@/messages/es.json';
 
 export default function ZendowProductPage() {
+  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+  
+  useEffect(() => {
+    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
+    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
+  }, []);
+  
+  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
+  const t = (messages as any).upvc_systems?.product_pages?.zendow;
+  
+  const createUrl = (path: string) => {
+    if (locale === 'en') return path;
+    return `/${locale}${path}`;
+  };
+  
+  // Safety check
+  if (!t || !t.page_header) {
+    return <div>Loading...</div>;
+  }
   return (
     <>
       <PageHeader
-        title="Zendow u-PVC Window and Door System"
-        description="Balanced insulation, structural performance and refined aesthetics for modern living."
+        title={t.page_header.title}
+        description={t.page_header.description}
         breadcrumbItems={[
-          { label: "Home", href: "/" },
-          { label: "Services", href: "/services" },
-          { label: "u-PVC Window & Door Systems", href: "/services/u-pvc-systems/window-door-systems" },
-          { label: "Zendow" },
+          { label: t.page_header.breadcrumbs.home, href: createUrl("/") },
+          { label: t.page_header.breadcrumbs.services, href: createUrl("/services") },
+          { label: t.page_header.breadcrumbs.window_door_systems, href: createUrl("/services/u-pvc-systems/window-door-systems") },
+          { label: t.page_header.breadcrumbs.zendow },
         ]}
       />
 

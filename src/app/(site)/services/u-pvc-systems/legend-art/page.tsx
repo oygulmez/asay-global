@@ -1,24 +1,44 @@
+"use client"
+
 import { PageHeader } from "@/components/page-header";
 import Image from "next/image";
 import { ThermometerSnowflake, Ruler, Volume2 } from "lucide-react";
 import CallToAction from "@/components/call-to-action";
-
-export const metadata = {
-  title: "Legend Art u-PVC Window and Door System",
-  description: "LegendArt u‑PVC with refined finishes, 70 mm profile and 5 chambers delivering thermal, static and acoustic performance.",
-};
+import { useState, useEffect } from 'react';
+import enMessages from '@/messages/en.json';
+import frMessages from '@/messages/fr.json';
+import esMessages from '@/messages/es.json';
 
 export default function LegendArtProductPage() {
+  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+  
+  useEffect(() => {
+    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
+    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
+  }, []);
+  
+  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
+  const t = (messages as any).upvc_systems?.product_pages?.legend_art;
+  
+  const createUrl = (path: string) => {
+    if (locale === 'en') return path;
+    return `/${locale}${path}`;
+  };
+  
+  // Safety check
+  if (!t || !t.page_header) {
+    return <div>Loading...</div>;
+  }
   return (
     <>
       <PageHeader
-        title="Legend Art u-PVC Window and Door System"
-        description="Enhanced thermal performance and elegant finishes designed for modern architecture."
+        title={t.page_header.title}
+        description={t.page_header.description}
         breadcrumbItems={[
-          { label: "Home", href: "/" },
-          { label: "Services", href: "/services" },
-          { label: "u-PVC Window & Door Systems", href: "/services/u-pvc-systems/window-door-systems" },
-          { label: "Legend Art" },
+          { label: t.page_header.breadcrumbs.home, href: createUrl("/") },
+          { label: t.page_header.breadcrumbs.services, href: createUrl("/services") },
+          { label: t.page_header.breadcrumbs.window_door_systems, href: createUrl("/services/u-pvc-systems/window-door-systems") },
+          { label: t.page_header.breadcrumbs.legend_art },
         ]}
       />
 

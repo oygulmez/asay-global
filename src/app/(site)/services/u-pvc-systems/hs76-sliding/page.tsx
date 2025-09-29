@@ -17,7 +17,14 @@ export default function HS76SlidingPage() {
   }, []);
   
   const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
-  const t = (messages as any).upvc_systems.product_pages.hs76_sliding;
+  
+  // Debug logs
+  console.log('Debug - locale:', locale);
+  console.log('Debug - upvc_systems exists:', !!(messages as any).upvc_systems);
+  console.log('Debug - product_pages exists:', !!(messages as any).upvc_systems?.product_pages);
+  console.log('Debug - hs76_sliding exists:', !!(messages as any).upvc_systems?.product_pages?.hs76_sliding);
+  
+  const t = (messages as any).upvc_systems?.product_pages?.hs76_sliding;
   
   const createUrl = (path: string) => {
     if (locale === 'en') return path;
@@ -26,7 +33,7 @@ export default function HS76SlidingPage() {
   
   // Safety check
   if (!t || !t.page_header) {
-    return <div>Loading...</div>;
+    return <div>Loading... (Debug: locale={locale}, t={JSON.stringify(t)})</div>;
   }
   return (
     <>
