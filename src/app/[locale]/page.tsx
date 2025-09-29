@@ -1,6 +1,4 @@
-"use client";
-
-import { useEffect, useState } from 'react';
+import { locales } from '@/i18n';
 import { HeroSectionOne } from '@/components/hero-section-1';
 import { Logos3 } from '@/components/blocks/logos3';
 import CallToAction from '@/components/call-to-action';
@@ -9,29 +7,14 @@ interface LocalePageProps {
   params: Promise<{ locale: string }>;
 }
 
-export default function LocalePage({ params }: LocalePageProps) {
-  const [locale, setLocale] = useState('en');
-  const [messages, setMessages] = useState<any>(null);
-  const [ready, setReady] = useState(false);
+export async function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
 
-  useEffect(() => {
-    params.then(({ locale: detectedLocale }) => {
-      setLocale(detectedLocale);
-      import(`@/messages/${detectedLocale}.json`).then((msgs) => {
-        setMessages(msgs.default);
-        setReady(true);
-      });
-    });
-  }, [params]);
-
-  if (!ready || !messages) {
-    return (
-      <div className="flex items-center justify-center min-h-[50vh]">
-        <div>Loading...</div>
-      </div>
-    );
-  }
-
+export default async function LocalePage({ params }: LocalePageProps) {
+  const { locale } = await params;
+  const messages = (await import(`@/messages/${locale}.json`)).default as any;
+  
   const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
 
   return (
