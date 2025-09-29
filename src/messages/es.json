@@ -454,6 +454,21 @@
             "window_door_systems": "Sistemas de Ventanas y Puertas u-PVC",
             "zendow": "Sistema Zendow"
           }
+        },
+        "general_features": {
+          "title": "Características Generales",
+          "description": "El Sistema Zendow Ventanas y Puertas PVC complementa perfectamente su estilo interior con un diseño meticulosamente considerado y detalles estéticos. Entregando altos estándares tanto en funcionalidad como en apariencia, Zendow se adapta perfectamente a una amplia gama de estilos arquitectónicos con sus líneas modernas, detalles elegantes y forma coherente. Diseñado para agregar valor con durabilidad y larga vida útil, es una elección ideal para aquellos que buscan comodidad y estética juntas."
+        },
+        "technical_specs": {
+          "title": "Especificaciones Técnicas",
+          "profile_width": "Ancho del Perfil",
+          "chambers": "Número de Cámaras",
+          "gaskets": "Número de Juntas",
+          "gasket_material": "Material de las Juntas",
+          "glazing_bead": "Junquillo",
+          "glass_thickness": "Espesor del Vidrio",
+          "thermal_transmittance": "Transmitancia Térmica (Uf)",
+          "standard": "Norma"
         }
       },
       "slimslide": {
@@ -613,6 +628,21 @@
             "window_door_systems": "Sistemas de Ventanas y Puertas u-PVC",
             "zendow": "Sistema Zendow"
           }
+        },
+        "general_features": {
+          "title": "Características Generales",
+          "description": "El Sistema Zendow Ventanas y Puertas PVC complementa perfectamente su estilo interior con un diseño meticulosamente considerado y detalles estéticos. Entregando altos estándares tanto en funcionalidad como en apariencia, Zendow se adapta perfectamente a una amplia gama de estilos arquitectónicos con sus líneas modernas, detalles elegantes y forma coherente. Diseñado para agregar valor con durabilidad y larga vida útil, es una elección ideal para aquellos que buscan comodidad y estética juntas."
+        },
+        "technical_specs": {
+          "title": "Especificaciones Técnicas",
+          "profile_width": "Ancho del Perfil",
+          "chambers": "Número de Cámaras",
+          "gaskets": "Número de Juntas",
+          "gasket_material": "Material de las Juntas",
+          "glazing_bead": "Junquillo",
+          "glass_thickness": "Espesor del Vidrio",
+          "thermal_transmittance": "Transmitancia Térmica (Uf)",
+          "standard": "Norma"
         }
       },
       "slimslide": {

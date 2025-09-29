@@ -758,6 +758,21 @@
             "window_door_systems": "u-PVC Window & Door Systems",
             "zendow": "Zendow System"
           }
+        },
+        "general_features": {
+          "title": "General Features",
+          "description": "The Zendow PVC Window and Door System seamlessly complements your interior style with a meticulously considered design and aesthetic details. Delivering high standards in both functionality and appearance, Zendow adapts perfectly to a wide range of architectural styles with its modern lines, elegant detailing and coherent form. Designed to add value with durability and long service life, it is an ideal choice for those seeking comfort and aesthetics together."
+        },
+        "technical_specs": {
+          "title": "Technical Specifications",
+          "profile_width": "Profile Width",
+          "chambers": "Number of Chambers",
+          "gaskets": "Number of Gaskets",
+          "gasket_material": "Gasket Material",
+          "glazing_bead": "Glazing Bead",
+          "glass_thickness": "Glass Thickness",
+          "thermal_transmittance": "Thermal Transmittance (Uf)",
+          "standard": "Standard"
         }
       },
       "slimslide": {

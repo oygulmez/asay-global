@@ -454,6 +454,21 @@
             "window_door_systems": "Systèmes de Fenêtres et Portes u-PVC",
             "zendow": "Système Zendow"
           }
+        },
+        "general_features": {
+          "title": "Caractéristiques Générales",
+          "description": "Le Système Zendow Fenêtres et Portes PVC complète parfaitement votre style intérieur avec un design méticuleusement réfléchi et des détails esthétiques. Offrant des standards élevés tant en fonctionnalité qu'en apparence, Zendow s'adapte parfaitement à une large gamme de styles architecturaux avec ses lignes modernes, ses détails élégants et sa forme cohérente. Conçu pour ajouter de la valeur avec durabilité et longue durée de vie, c'est un choix idéal pour ceux qui recherchent confort et esthétique ensemble."
+        },
+        "technical_specs": {
+          "title": "Spécifications Techniques",
+          "profile_width": "Largeur du Profil",
+          "chambers": "Nombre de Chambres",
+          "gaskets": "Nombre de Joints",
+          "gasket_material": "Matériau des Joints",
+          "glazing_bead": "Parclose",
+          "glass_thickness": "Épaisseur du Verre",
+          "thermal_transmittance": "Transmittance Thermique (Uf)",
+          "standard": "Norme"
         }
       },
       "slimslide": {
@@ -613,6 +628,21 @@
             "window_door_systems": "Systèmes de Fenêtres et Portes u-PVC",
             "zendow": "Système Zendow"
           }
+        },
+        "general_features": {
+          "title": "Caractéristiques Générales",
+          "description": "Le Système Zendow Fenêtres et Portes PVC complète parfaitement votre style intérieur avec un design méticuleusement réfléchi et des détails esthétiques. Offrant des standards élevés tant en fonctionnalité qu'en apparence, Zendow s'adapte parfaitement à une large gamme de styles architecturaux avec ses lignes modernes, ses détails élégants et sa forme cohérente. Conçu pour ajouter de la valeur avec durabilité et longue durée de vie, c'est un choix idéal pour ceux qui recherchent confort et esthétique ensemble."
+        },
+        "technical_specs": {
+          "title": "Spécifications Techniques",
+          "profile_width": "Largeur du Profil",
+          "chambers": "Nombre de Chambres",
+          "gaskets": "Nombre de Joints",
+          "gasket_material": "Matériau des Joints",
+          "glazing_bead": "Parclose",
+          "glass_thickness": "Épaisseur du Verre",
+          "thermal_transmittance": "Transmittance Thermique (Uf)",
+          "standard": "Norme"
         }
       },
       "slimslide": {

@@ -61,29 +61,26 @@ export default function ZendowProductPage() {
           {/* Right: Features */}
           <div className="space-y-10">
             <section>
-              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>General Features</h2>
+              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>{t.general_features.title}</h2>
               <p className="text-sm leading-relaxed" style={{ color: "#565656" }}>
-                The Zendow PVC Window and Door System seamlessly complements your interior style with a meticulously considered design and
-                aesthetic details. Delivering high standards in both functionality and appearance, Zendow adapts perfectly to a wide range of
-                architectural styles with its modern lines, elegant detailing and coherent form. Designed to add value with durability and
-                long service life, it is an ideal choice for those seeking comfort and aesthetics together.
+                {t.general_features.description}
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>Technical Specifications</h2>
+              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>{t.technical_specs.title}</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 text-sm" style={{ color: "#565656" }}>
                 <div>
-                  <span className="font-medium" style={{ color: "black" }}>Profile Width:</span> 70 mm
+                  <span className="font-medium" style={{ color: "black" }}>{t.technical_specs.profile_width}:</span> 70 mm
                 </div>
                 <div>
-                  <span className="font-medium" style={{ color: "black" }}>Number of Chambers:</span> 5
+                  <span className="font-medium" style={{ color: "black" }}>{t.technical_specs.chambers}:</span> 5
                 </div>
                 <div>
-                  <span className="font-medium" style={{ color: "black" }}>Number of Gaskets:</span> 2/3 (Central gasket optional)
+                  <span className="font-medium" style={{ color: "black" }}>{t.technical_specs.gaskets}:</span> 2/3 (Central gasket optional)
                 </div>
                 <div>
-                  <span className="font-medium" style={{ color: "black" }}>Gasket Material:</span> TPE Grey / Black
+                  <span className="font-medium" style={{ color: "black" }}>{t.technical_specs.gasket_material}:</span> TPE Grey / Black
                 </div>
                 <div>
                   <span className="font-medium" style={{ color: "black" }}>Glazing Bead:</span> Single-lip with PCE gasket
