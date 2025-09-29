@@ -477,14 +477,29 @@
           "description": "Perfiles ultra‑delgados que maximizan el área de vidrio con funcionamiento deslizante suave y líneas de vista mínimas."
         },
         "page_header": {
-          "title": "Sistema Slimslide",
-          "description": "Perfiles ultra‑delgados que maximizan el área de vidrio con funcionamiento deslizante suave.",
+          "title": "Slimslide",
+          "description": "Líneas de vista mínimas con deslizamiento suave, sellado y comodidad.",
           "breadcrumbs": {
             "home": "Inicio",
             "services": "Servicios",
             "sliding_systems": "Sistemas Deslizantes u-PVC",
-            "slimslide": "Sistema Slimslide"
+            "slimslide": "Slimslide"
           }
+        },
+        "general_features": {
+          "title": "Características Generales",
+          "description": "Slimslide es un sistema deslizante u-PVC de marco delgado con ancho de parteluz central reducido casi a la mitad, opción de umbral cero y vistas y paso sin barreras. La característica distintiva del sistema es el parteluz central excepcionalmente estrecho de 23 mm, creando una apariencia elegante con máxima área de vidrio. Slimslide combina el atractivo estético con el rendimiento funcional, ofreciendo funcionamiento suave y excelentes propiedades de sellado. El sistema está diseñado para aplicaciones arquitectónicas modernas donde la visibilidad mínima del marco y la máxima transparencia son prioridades."
+        },
+        "technical_specs": {
+          "title": "Especificaciones Técnicas",
+          "center_mullion": "Ancho del Parteluz Central",
+          "frame_depth": "Profundidad del Marco",
+          "sash_depth": "Profundidad del Batiente",
+          "glass_thickness": "Espesor del Vidrio",
+          "threshold_option": "Opción de Umbral",
+          "sealing_system": "Sistema de Sellado",
+          "operation": "Tipo de Operación",
+          "max_dimensions": "Dimensiones Máximas"
         }
       },
       "legend_surme_plus": {
@@ -494,13 +509,28 @@
         },
         "page_header": {
           "title": "Legend Sürme Plus",
-          "description": "Sistema deslizante avanzado con sellado mejorado y eficiencia térmica.",
+          "description": "Rendimiento deslizante premium diseñado para comodidad, sellado y durabilidad.",
           "breadcrumbs": {
             "home": "Inicio",
             "services": "Servicios",
             "sliding_systems": "Sistemas Deslizantes u-PVC",
             "legend_surme_plus": "Legend Sürme Plus"
           }
+        },
+        "general_features": {
+          "title": "Características Generales",
+          "description": "El Sistema de Ventanas y Puertas Deslizantes Deceuninck Legend Plus ofrece aislamiento acústico y aéreo superior, proporcionando protección fuerte contra el frío en invierno y el calor en verano. Sus cualidades destacadas son el diseño elegante y el funcionamiento sin esfuerzo que mejoran la comodidad diaria. Con un ancho de sistema de 76 mm y un marco de 5 cámaras, Legend Sürme Plus ofrece alto rendimiento, aislamiento potente y uso excepcionalmente fácil. Comparado con sistemas deslizantes típicos, apunta a un sellado de aire significativamente mejor y soporta acristalamiento hasta 52 mm. Las solicitudes de registro de diseño han sido presentadas ante la Oficina Turca de Patentes y Marcas."
+        },
+        "technical_specs": {
+          "title": "Especificaciones Técnicas",
+          "system_width": "Ancho del Sistema",
+          "sash_chambers": "Cámaras del Marco",
+          "gaskets": "Juntas",
+          "glazing_bead": "Junquillo",
+          "glass_thickness": "Espesor del Vidrio",
+          "opening_options": "Opciones de Apertura",
+          "standard": "Norma",
+          "thermal_transmittance": "Transmitancia Térmica (Uf)"
         }
       },
       "pvc_sliding_door": {
@@ -510,13 +540,28 @@
         },
         "page_header": {
           "title": "Sistema de Puerta Deslizante PVC",
-          "description": "Soluciones confiables de puertas deslizantes para aplicaciones residenciales y comerciales.",
+          "description": "Rendimiento deslizante premium diseñado para comodidad, sellado y durabilidad.",
           "breadcrumbs": {
             "home": "Inicio",
             "services": "Servicios",
             "sliding_systems": "Sistemas Deslizantes u-PVC",
             "pvc_sliding_door": "Sistema de Puerta Deslizante PVC"
           }
+        },
+        "general_features": {
+          "title": "Características Generales",
+          "description": "El Sistema de Puertas Deslizantes PVC es una solución versátil de ventanas y puertas deslizantes diseñada para aplicaciones arquitectónicas modernas. Este sistema cuenta con rieles configurables, juntas TPE de alta calidad y junquillos PCE para sellado superior y resistencia a la intemperie. Compatible con perfiles Legend Art y Zendow, ofrece flexibilidad en el diseño manteniendo excelentes estándares de rendimiento. El sistema proporciona funcionamiento deslizante suave, eficiencia térmica mejorada y rendimiento confiable a largo plazo para proyectos residenciales y comerciales."
+        },
+        "technical_specs": {
+          "title": "Especificaciones Técnicas",
+          "system_compatibility": "Compatibilidad del Sistema",
+          "track_configuration": "Configuración de Rieles",
+          "gasket_type": "Tipo de Junta",
+          "glazing_bead": "Junquillo",
+          "operation_type": "Tipo de Operación",
+          "thermal_performance": "Rendimiento Térmico",
+          "weather_resistance": "Resistencia a la Intemperie",
+          "applications": "Aplicaciones"
         }
       }
     },
@@ -651,14 +696,29 @@
           "description": "Perfiles ultra‑delgados que maximizan el área de vidrio con funcionamiento deslizante suave y líneas de vista mínimas."
         },
         "page_header": {
-          "title": "Sistema Slimslide",
-          "description": "Perfiles ultra‑delgados que maximizan el área de vidrio con funcionamiento deslizante suave.",
+          "title": "Slimslide",
+          "description": "Líneas de vista mínimas con deslizamiento suave, sellado y comodidad.",
           "breadcrumbs": {
             "home": "Inicio",
             "services": "Servicios",
             "sliding_systems": "Sistemas Deslizantes u-PVC",
-            "slimslide": "Sistema Slimslide"
+            "slimslide": "Slimslide"
           }
+        },
+        "general_features": {
+          "title": "Características Generales",
+          "description": "Slimslide es un sistema deslizante u-PVC de marco delgado con ancho de parteluz central reducido casi a la mitad, opción de umbral cero y vistas y paso sin barreras. La característica distintiva del sistema es el parteluz central excepcionalmente estrecho de 23 mm, creando una apariencia elegante con máxima área de vidrio. Slimslide combina el atractivo estético con el rendimiento funcional, ofreciendo funcionamiento suave y excelentes propiedades de sellado. El sistema está diseñado para aplicaciones arquitectónicas modernas donde la visibilidad mínima del marco y la máxima transparencia son prioridades."
+        },
+        "technical_specs": {
+          "title": "Especificaciones Técnicas",
+          "center_mullion": "Ancho del Parteluz Central",
+          "frame_depth": "Profundidad del Marco",
+          "sash_depth": "Profundidad del Batiente",
+          "glass_thickness": "Espesor del Vidrio",
+          "threshold_option": "Opción de Umbral",
+          "sealing_system": "Sistema de Sellado",
+          "operation": "Tipo de Operación",
+          "max_dimensions": "Dimensiones Máximas"
         }
       },
       "legend_surme_plus": {
@@ -668,13 +728,28 @@
         },
         "page_header": {
           "title": "Legend Sürme Plus",
-          "description": "Sistema deslizante avanzado con sellado mejorado y eficiencia térmica.",
+          "description": "Rendimiento deslizante premium diseñado para comodidad, sellado y durabilidad.",
           "breadcrumbs": {
             "home": "Inicio",
             "services": "Servicios",
             "sliding_systems": "Sistemas Deslizantes u-PVC",
             "legend_surme_plus": "Legend Sürme Plus"
           }
+        },
+        "general_features": {
+          "title": "Características Generales",
+          "description": "El Sistema de Ventanas y Puertas Deslizantes Deceuninck Legend Plus ofrece aislamiento acústico y aéreo superior, proporcionando protección fuerte contra el frío en invierno y el calor en verano. Sus cualidades destacadas son el diseño elegante y el funcionamiento sin esfuerzo que mejoran la comodidad diaria. Con un ancho de sistema de 76 mm y un marco de 5 cámaras, Legend Sürme Plus ofrece alto rendimiento, aislamiento potente y uso excepcionalmente fácil. Comparado con sistemas deslizantes típicos, apunta a un sellado de aire significativamente mejor y soporta acristalamiento hasta 52 mm. Las solicitudes de registro de diseño han sido presentadas ante la Oficina Turca de Patentes y Marcas."
+        },
+        "technical_specs": {
+          "title": "Especificaciones Técnicas",
+          "system_width": "Ancho del Sistema",
+          "sash_chambers": "Cámaras del Marco",
+          "gaskets": "Juntas",
+          "glazing_bead": "Junquillo",
+          "glass_thickness": "Espesor del Vidrio",
+          "opening_options": "Opciones de Apertura",
+          "standard": "Norma",
+          "thermal_transmittance": "Transmitancia Térmica (Uf)"
         }
       },
       "pvc_sliding_door": {
@@ -684,13 +759,28 @@
         },
         "page_header": {
           "title": "Sistema de Puerta Deslizante PVC",
-          "description": "Soluciones confiables de puertas deslizantes para aplicaciones residenciales y comerciales.",
+          "description": "Rendimiento deslizante premium diseñado para comodidad, sellado y durabilidad.",
           "breadcrumbs": {
             "home": "Inicio",
             "services": "Servicios",
             "sliding_systems": "Sistemas Deslizantes u-PVC",
             "pvc_sliding_door": "Sistema de Puerta Deslizante PVC"
           }
+        },
+        "general_features": {
+          "title": "Características Generales",
+          "description": "El Sistema de Puertas Deslizantes PVC es una solución versátil de ventanas y puertas deslizantes diseñada para aplicaciones arquitectónicas modernas. Este sistema cuenta con rieles configurables, juntas TPE de alta calidad y junquillos PCE para sellado superior y resistencia a la intemperie. Compatible con perfiles Legend Art y Zendow, ofrece flexibilidad en el diseño manteniendo excelentes estándares de rendimiento. El sistema proporciona funcionamiento deslizante suave, eficiencia térmica mejorada y rendimiento confiable a largo plazo para proyectos residenciales y comerciales."
+        },
+        "technical_specs": {
+          "title": "Especificaciones Técnicas",
+          "system_compatibility": "Compatibilidad del Sistema",
+          "track_configuration": "Configuración de Rieles",
+          "gasket_type": "Tipo de Junta",
+          "glazing_bead": "Junquillo",
+          "operation_type": "Tipo de Operación",
+          "thermal_performance": "Rendimiento Térmico",
+          "weather_resistance": "Resistencia a la Intemperie",
+          "applications": "Aplicaciones"
         }
       }
     }

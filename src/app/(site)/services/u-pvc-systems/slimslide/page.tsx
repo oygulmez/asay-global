@@ -1,23 +1,46 @@
+"use client"
+
 import { PageHeader } from "@/components/page-header";
 import { ThermometerSnowflake, Ruler, Volume2 } from "lucide-react";
 import CallToAction from "@/components/call-to-action";
+import { useState, useEffect } from 'react';
+import enMessages from '@/messages/en.json';
+import frMessages from '@/messages/fr.json';
+import esMessages from '@/messages/es.json';
 
-export const metadata = {
-  title: "Slimslide",
-  description: "Slim‑frame u‑PVC sliding system with near‑half center mullion width, zero‑threshold option and barrier‑free views and passage.",
-};
 
 export default function SlimslidePage() {
+  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+  const [messages, setMessages] = useState<any>(enMessages);
+
+  useEffect(() => {
+    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
+    const currentLocale = seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en';
+    setLocale(currentLocale);
+    setMessages(currentLocale === 'fr' ? frMessages : currentLocale === 'es' ? esMessages : enMessages);
+  }, []);
+
+  const createUrl = (path: string) => {
+    if (locale === 'en') return path;
+    return `/${locale}${path}`;
+  };
+
+  const t = (messages as any).upvc_systems?.product_pages?.slimslide;
+
+  if (!t || !t.page_header) {
+    return <div>Loading... (Debug: t={JSON.stringify(!!t)}, locale={locale})</div>;
+  }
+
   return (
     <>
       <PageHeader
-        title="Slimslide"
-        description="Minimal sightlines with smooth sliding, sealing and comfort."
+        title={t.page_header.title}
+        description={t.page_header.description}
         breadcrumbItems={[
-          { label: "Home", href: "/" },
-          { label: "Services", href: "/services" },
-          { label: "u-PVC Sliding Systems", href: "/services/u-pvc-systems/sliding-systems" },
-          { label: "Slimslide" },
+          { label: t.page_header.breadcrumbs.home, href: createUrl("/") },
+          { label: t.page_header.breadcrumbs.services, href: createUrl("/services") },
+          { label: t.page_header.breadcrumbs.sliding_systems, href: createUrl("/services/u-pvc-systems/sliding-systems") },
+          { label: t.page_header.title },
         ]}
       />
 
@@ -31,32 +54,14 @@ export default function SlimslidePage() {
 
           <div className="space-y-10">
             <section>
-              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>General Features</h2>
-              <div className="text-sm space-y-3" style={{ color: "#565656" }}>
-                <p>
-                  Axial sliding applications are highly preferred by end users thanks to the space gains they create indoors. With
-                  SLIMSLIDE’s design refinements, these advantages are further enhanced.
-                </p>
-                <p>
-                  Developed in line with contemporary architectural trends, SLIMSLIDE aims to <strong>increase daylight</strong> in sliding windows
-                  and doors by <strong>narrowing the center PVC profile</strong>. Compared to conventional sliding joinery, the center mullion
-                  width is reduced by almost half.
-                </p>
-                <p>
-                  To solve problems caused by thresholds in passage areas, the system introduces a <strong>zero‑threshold sliding frame</strong>
-                  option, delivering great convenience in living spaces. Thanks to its threshold‑free design and slim central structure,
-                  SLIMSLIDE enables <strong>barrier‑free passage and unobstructed views</strong>.
-                </p>
-                <p>
-                  Insulation details for the zero‑threshold configuration have also been carefully considered and engineered. Highly
-                  functional and easy to use, the system provides significant advantages in daily life, while its distinctive design and
-                  diverse color alternatives enrich interior aesthetics.
-                </p>
-              </div>
+              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>{t.general_features.title}</h2>
+              <p className="text-sm leading-relaxed" style={{ color: "#565656" }}>
+                {t.general_features.description}
+              </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>Technical Specifications</h2>
+              <h2 className="text-2xl font-semibold mb-3" style={{ color: "black" }}>{t.technical_specs.title}</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 text-sm" style={{ color: "#565656" }}>
                 <div><span className="font-medium" style={{ color: "black" }}>System Type:</span> Slim frame sliding</div>
                 <div><span className="font-medium" style={{ color: "black" }}>Sealing:</span> Multi-gasket concept</div>

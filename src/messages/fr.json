@@ -477,14 +477,29 @@
           "description": "Profils ultra‑minces maximisant la surface vitrée avec fonctionnement coulissant fluide et lignes de vue minimales."
         },
         "page_header": {
-          "title": "Système Slimslide",
-          "description": "Profils ultra‑minces maximisant la surface vitrée avec fonctionnement coulissant fluide.",
+          "title": "Slimslide",
+          "description": "Lignes de vue minimales avec coulissement fluide, étanchéité et confort.",
           "breadcrumbs": {
             "home": "Accueil",
             "services": "Services",
             "sliding_systems": "Systèmes Coulissants u-PVC",
-            "slimslide": "Système Slimslide"
+            "slimslide": "Slimslide"
           }
+        },
+        "general_features": {
+          "title": "Caractéristiques Générales",
+          "description": "Slimslide est un système coulissant u-PVC à cadre mince avec une largeur de meneau central presque réduite de moitié, une option de seuil zéro et des vues et passages sans barrière. La caractéristique distinctive du système est le meneau central exceptionnellement étroit de 23 mm, créant une apparence élégante avec une surface vitrée maximale. Slimslide combine l'attrait esthétique avec les performances fonctionnelles, offrant un fonctionnement fluide et d'excellentes propriétés d'étanchéité. Le système est conçu pour les applications architecturales modernes où la visibilité minimale du cadre et la transparence maximale sont prioritaires."
+        },
+        "technical_specs": {
+          "title": "Spécifications Techniques",
+          "center_mullion": "Largeur du Meneau Central",
+          "frame_depth": "Profondeur du Cadre",
+          "sash_depth": "Profondeur de l'Ouvrant",
+          "glass_thickness": "Épaisseur du Verre",
+          "threshold_option": "Option de Seuil",
+          "sealing_system": "Système d'Étanchéité",
+          "operation": "Type de Fonctionnement",
+          "max_dimensions": "Dimensions Maximales"
         }
       },
       "legend_surme_plus": {
@@ -494,13 +509,28 @@
         },
         "page_header": {
           "title": "Legend Sürme Plus",
-          "description": "Système coulissant avancé avec étanchéité renforcée et efficacité thermique.",
+          "description": "Performance coulissante premium conçue pour le confort, l'étanchéité et la durabilité.",
           "breadcrumbs": {
             "home": "Accueil",
             "services": "Services",
             "sliding_systems": "Systèmes Coulissants u-PVC",
             "legend_surme_plus": "Legend Sürme Plus"
           }
+        },
+        "general_features": {
+          "title": "Caractéristiques Générales",
+          "description": "Le Système de Fenêtres et Portes Coulissantes Deceuninck Legend Plus offre une isolation acoustique et aérienne supérieure, fournissant une protection forte contre le froid en hiver et la chaleur en été. Ses qualités remarquables sont le design élégant et le fonctionnement sans effort qui améliorent le confort quotidien. Avec une largeur de système de 76 mm et un ouvrant à 5 chambres, Legend Sürme Plus offre de hautes performances, une isolation puissante et une utilisation exceptionnellement facile. Comparé aux systèmes coulissants typiques, il vise une étanchéité à l'air significativement meilleure et supporte un vitrage jusqu'à 52 mm. Les demandes d'enregistrement de design ont été déposées auprès de l'Office Turc des Brevets et des Marques."
+        },
+        "technical_specs": {
+          "title": "Spécifications Techniques",
+          "system_width": "Largeur du Système",
+          "sash_chambers": "Chambres de l'Ouvrant",
+          "gaskets": "Joints",
+          "glazing_bead": "Parclose",
+          "glass_thickness": "Épaisseur du Verre",
+          "opening_options": "Options d'Ouverture",
+          "standard": "Norme",
+          "thermal_transmittance": "Transmittance Thermique (Uf)"
         }
       },
       "pvc_sliding_door": {
@@ -510,13 +540,28 @@
         },
         "page_header": {
           "title": "Système de Porte Coulissante PVC",
-          "description": "Solutions de portes coulissantes fiables pour applications résidentielles et commerciales.",
+          "description": "Performance coulissante premium conçue pour le confort, l'étanchéité et la durabilité.",
           "breadcrumbs": {
             "home": "Accueil",
             "services": "Services",
             "sliding_systems": "Systèmes Coulissants u-PVC",
             "pvc_sliding_door": "Système de Porte Coulissante PVC"
           }
+        },
+        "general_features": {
+          "title": "Caractéristiques Générales",
+          "description": "Le Système de Portes Coulissantes PVC est une solution polyvalente de fenêtres et portes coulissantes conçue pour les applications architecturales modernes. Ce système présente des rails configurables, des joints TPE de haute qualité et des parcloses PCE pour une étanchéité supérieure et une résistance aux intempéries. Compatible avec les profils Legend Art et Zendow, il offre une flexibilité de conception tout en maintenant d'excellents standards de performance. Le système fournit un fonctionnement coulissant fluide, une efficacité thermique améliorée et des performances fiables à long terme pour les projets résidentiels et commerciaux."
+        },
+        "technical_specs": {
+          "title": "Spécifications Techniques",
+          "system_compatibility": "Compatibilité du Système",
+          "track_configuration": "Configuration des Rails",
+          "gasket_type": "Type de Joint",
+          "glazing_bead": "Parclose",
+          "operation_type": "Type de Fonctionnement",
+          "thermal_performance": "Performance Thermique",
+          "weather_resistance": "Résistance aux Intempéries",
+          "applications": "Applications"
         }
       }
     },
@@ -651,14 +696,29 @@
           "description": "Profils ultra‑minces maximisant la surface vitrée avec fonctionnement coulissant fluide et lignes de vue minimales."
         },
         "page_header": {
-          "title": "Système Slimslide",
-          "description": "Profils ultra‑minces maximisant la surface vitrée avec fonctionnement coulissant fluide.",
+          "title": "Slimslide",
+          "description": "Lignes de vue minimales avec coulissement fluide, étanchéité et confort.",
           "breadcrumbs": {
             "home": "Accueil",
             "services": "Services",
             "sliding_systems": "Systèmes Coulissants u-PVC",
-            "slimslide": "Système Slimslide"
+            "slimslide": "Slimslide"
           }
+        },
+        "general_features": {
+          "title": "Caractéristiques Générales",
+          "description": "Slimslide est un système coulissant u-PVC à cadre mince avec une largeur de meneau central presque réduite de moitié, une option de seuil zéro et des vues et passages sans barrière. La caractéristique distinctive du système est le meneau central exceptionnellement étroit de 23 mm, créant une apparence élégante avec une surface vitrée maximale. Slimslide combine l'attrait esthétique avec les performances fonctionnelles, offrant un fonctionnement fluide et d'excellentes propriétés d'étanchéité. Le système est conçu pour les applications architecturales modernes où la visibilité minimale du cadre et la transparence maximale sont prioritaires."
+        },
+        "technical_specs": {
+          "title": "Spécifications Techniques",
+          "center_mullion": "Largeur du Meneau Central",
+          "frame_depth": "Profondeur du Cadre",
+          "sash_depth": "Profondeur de l'Ouvrant",
+          "glass_thickness": "Épaisseur du Verre",
+          "threshold_option": "Option de Seuil",
+          "sealing_system": "Système d'Étanchéité",
+          "operation": "Type de Fonctionnement",
+          "max_dimensions": "Dimensions Maximales"
         }
       },
       "legend_surme_plus": {
@@ -668,13 +728,28 @@
         },
         "page_header": {
           "title": "Legend Sürme Plus",
-          "description": "Système coulissant avancé avec étanchéité renforcée et efficacité thermique.",
+          "description": "Performance coulissante premium conçue pour le confort, l'étanchéité et la durabilité.",
           "breadcrumbs": {
             "home": "Accueil",
             "services": "Services",
             "sliding_systems": "Systèmes Coulissants u-PVC",
             "legend_surme_plus": "Legend Sürme Plus"
           }
+        },
+        "general_features": {
+          "title": "Caractéristiques Générales",
+          "description": "Le Système de Fenêtres et Portes Coulissantes Deceuninck Legend Plus offre une isolation acoustique et aérienne supérieure, fournissant une protection forte contre le froid en hiver et la chaleur en été. Ses qualités remarquables sont le design élégant et le fonctionnement sans effort qui améliorent le confort quotidien. Avec une largeur de système de 76 mm et un ouvrant à 5 chambres, Legend Sürme Plus offre de hautes performances, une isolation puissante et une utilisation exceptionnellement facile. Comparé aux systèmes coulissants typiques, il vise une étanchéité à l'air significativement meilleure et supporte un vitrage jusqu'à 52 mm. Les demandes d'enregistrement de design ont été déposées auprès de l'Office Turc des Brevets et des Marques."
+        },
+        "technical_specs": {
+          "title": "Spécifications Techniques",
+          "system_width": "Largeur du Système",
+          "sash_chambers": "Chambres de l'Ouvrant",
+          "gaskets": "Joints",
+          "glazing_bead": "Parclose",
+          "glass_thickness": "Épaisseur du Verre",
+          "opening_options": "Options d'Ouverture",
+          "standard": "Norme",
+          "thermal_transmittance": "Transmittance Thermique (Uf)"
         }
       },
       "pvc_sliding_door": {
@@ -684,13 +759,28 @@
         },
         "page_header": {
           "title": "Système de Porte Coulissante PVC",
-          "description": "Solutions de portes coulissantes fiables pour applications résidentielles et commerciales.",
+          "description": "Performance coulissante premium conçue pour le confort, l'étanchéité et la durabilité.",
           "breadcrumbs": {
             "home": "Accueil",
             "services": "Services",
             "sliding_systems": "Systèmes Coulissants u-PVC",
             "pvc_sliding_door": "Système de Porte Coulissante PVC"
           }
+        },
+        "general_features": {
+          "title": "Caractéristiques Générales",
+          "description": "Le Système de Portes Coulissantes PVC est une solution polyvalente de fenêtres et portes coulissantes conçue pour les applications architecturales modernes. Ce système présente des rails configurables, des joints TPE de haute qualité et des parcloses PCE pour une étanchéité supérieure et une résistance aux intempéries. Compatible avec les profils Legend Art et Zendow, il offre une flexibilité de conception tout en maintenant d'excellents standards de performance. Le système fournit un fonctionnement coulissant fluide, une efficacité thermique améliorée et des performances fiables à long terme pour les projets résidentiels et commerciaux."
+        },
+        "technical_specs": {
+          "title": "Spécifications Techniques",
+          "system_compatibility": "Compatibilité du Système",
+          "track_configuration": "Configuration des Rails",
+          "gasket_type": "Type de Joint",
+          "glazing_bead": "Parclose",
+          "operation_type": "Type de Fonctionnement",
+          "thermal_performance": "Performance Thermique",
+          "weather_resistance": "Résistance aux Intempéries",
+          "applications": "Applications"
         }
       }
     }

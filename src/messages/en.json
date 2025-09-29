@@ -781,14 +781,29 @@
           "description": "Ultra-slim profiles maximizing glass area with smooth sliding operation and minimal sightlines."
         },
         "page_header": {
-          "title": "Slimslide System",
-          "description": "Ultra-slim profiles maximizing glass area with smooth sliding operation.",
+          "title": "Slimslide",
+          "description": "Minimal sightlines with smooth sliding, sealing and comfort.",
           "breadcrumbs": {
             "home": "Home",
             "services": "Services",
-            "sliding_systems": "u-PVC Sliding Systems", 
-            "slimslide": "Slimslide System"
+            "sliding_systems": "u-PVC Sliding Systems",
+            "slimslide": "Slimslide"
           }
+        },
+        "general_features": {
+          "title": "General Features",
+          "description": "Slimslide is a slim-frame u-PVC sliding system with near-half center mullion width, zero-threshold option and barrier-free views and passage. The system's distinguishing feature is the exceptionally narrow 23 mm center mullion, creating a sleek appearance with maximum glass area. Slimslide combines aesthetic appeal with functional performance, offering smooth operation and excellent sealing properties. The system is designed for modern architectural applications where minimal frame visibility and maximum transparency are priorities."
+        },
+        "technical_specs": {
+          "title": "Technical Specifications",
+          "center_mullion": "Center Mullion Width",
+          "frame_depth": "Frame Depth",
+          "sash_depth": "Sash Depth",
+          "glass_thickness": "Glass Thickness",
+          "threshold_option": "Threshold Option",
+          "sealing_system": "Sealing System",
+          "operation": "Operation Type",
+          "max_dimensions": "Maximum Dimensions"
         }
       },
       "legend_surme_plus": {
@@ -798,13 +813,28 @@
         },
         "page_header": {
           "title": "Legend Sürme Plus",
-          "description": "Advanced sliding system with enhanced sealing and thermal efficiency.",
+          "description": "Premium sliding performance engineered for comfort, sealing and durability.",
           "breadcrumbs": {
             "home": "Home",
             "services": "Services",
             "sliding_systems": "u-PVC Sliding Systems",
             "legend_surme_plus": "Legend Sürme Plus"
           }
+        },
+        "general_features": {
+          "title": "General Features",
+          "description": "The Deceuninck Legend Sliding Plus Window & Door System delivers superior acoustic and air insulation, providing strong protection against cold in winter and heat in summer. Its standout qualities are the elegant design and effortless operation that enhance everyday comfort. With 76 mm system width and a 5‑chamber sash, Legend Sürme Plus offers high performance, powerful isolation and exceptionally easy use. Compared to typical sliding systems, it targets significantly better air tightness and supports glazing up to 52 mm. Design registration applications have been filed with the Turkish Patent and Trademark Office."
+        },
+        "technical_specs": {
+          "title": "Technical Specifications",
+          "system_width": "System Width",
+          "sash_chambers": "Sash Chambers",
+          "gaskets": "Gaskets",
+          "glazing_bead": "Glazing Bead",
+          "glass_thickness": "Glass Thickness",
+          "opening_options": "Opening Options",
+          "standard": "Standard",
+          "thermal_transmittance": "Thermal Transmittance (Uf)"
         }
       },
       "pvc_sliding_door": {
@@ -814,13 +844,28 @@
         },
         "page_header": {
           "title": "PVC Sliding Door System",
-          "description": "Reliable sliding door solutions for residential and commercial applications.",
+          "description": "Premium sliding performance engineered for comfort, sealing and durability.",
           "breadcrumbs": {
             "home": "Home",
             "services": "Services",
             "sliding_systems": "u-PVC Sliding Systems",
             "pvc_sliding_door": "PVC Sliding Door System"
           }
+        },
+        "general_features": {
+          "title": "General Features",
+          "description": "The PVC Sliding Door System is a versatile sliding window and door solution designed for modern architectural applications. This system features configurable tracks, high-quality TPE gaskets, and PCE glazing beads for superior sealing and weather resistance. Compatible with Legend Art and Zendow profiles, it offers flexibility in design while maintaining excellent performance standards. The system provides smooth sliding operation, enhanced thermal efficiency, and reliable long-term performance for both residential and commercial projects."
+        },
+        "technical_specs": {
+          "title": "Technical Specifications",
+          "system_compatibility": "System Compatibility",
+          "track_configuration": "Track Configuration",
+          "gasket_type": "Gasket Type",
+          "glazing_bead": "Glazing Bead",
+          "operation_type": "Operation Type",
+          "thermal_performance": "Thermal Performance",
+          "weather_resistance": "Weather Resistance",
+          "applications": "Applications"
         }
       }
     }
