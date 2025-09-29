@@ -134,6 +134,27 @@
       "usa_office_label": "Oficina Principal (EE.UU.):",
       "turkey_office_label": "Oficina Principal (Turquía):",
       "view_dealers": "Ver Distribuidores Autorizados"
+    },
+    "contact_form": {
+      "title": "Póngase en contacto",
+      "name": "Nombre, Apellido",
+      "email": "Dirección de Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "company": "Nombre de la Empresa (Opcional)",
+      "topic": "Seleccionar un Tema",
+      "topic_options": {
+        "contact_request": "Solicitud de Contacto",
+        "dealership_application": "Solicitud de Distribución",
+        "pricing_inquiry": "Consulta de Precios",
+        "other": "Otro"
+      },
+      "message": "Su Mensaje",
+      "sending": "Enviando...",
+      "sent": "Enviado ✓",
+      "send": "Enviar",
+      "error_message": "Error al enviar el correo electrónico. Inténtelo de nuevo.",
+      "network_error": "Error de red. Inténtelo de nuevo.",
+      "success_message": "¡Gracias! Su mensaje ha sido enviado exitosamente."
     }
   },
   "services": {
@@ -178,6 +199,41 @@
       "error_message": "Error al enviar el correo electrónico. Inténtelo de nuevo.",
       "network_error": "Error de red. Inténtelo de nuevo.",
       "success_message": "¡Gracias! Su mensaje ha sido enviado exitosamente."
+    }
+  },
+  "call_to_action": {
+    "title": "¿Listo para Transformar Su Proyecto de Construcción?",
+    "description": "Experimente calidad premium y soluciones innovadoras que mejoran el rendimiento, comodidad y atractivo estético de su edificio. Nuestro equipo de expertos está listo para dar vida a su visión con consultoría profesional y soluciones personalizadas para las necesidades específicas de su proyecto.",
+    "contact_button": "Contacto",
+    "dealers_button": "Ver Distribuidores Autorizados"
+  },
+  "sticky_buttons": {
+    "email_label": "Envíanos un correo",
+    "scroll_top_label": "Volver arriba"
+  },
+  "upvc_systems": {
+    "meta": {
+      "title": "Sistemas u-PVC",
+      "description": "Familias de productos u‑PVC que cubren sistemas de ventanas, puertas y deslizantes diseñados para durabilidad, eficiencia energética y bajo mantenimiento."
+    },
+    "page_header": {
+      "title": "Sistemas u-PVC",
+      "description": "Diseñados para durabilidad, eficiencia energética y bajo mantenimiento.",
+      "breadcrumbs": {
+        "home": "Inicio",
+        "services": "Servicios",
+        "upvc_systems": "Sistemas u-PVC"
+      }
+    },
+    "window_door_systems": {
+      "title": "Sistemas de Ventanas y Puertas u-PVC",
+      "description": "Sistemas premium de ventanas y puertas u-PVC que ofrecen excelente aislamiento térmico, reducción de ruido y durabilidad a largo plazo. Compatible con cerraduras multipunto, varias opciones de acristalamiento y perfiles modernos.",
+      "features": [
+        "Alta eficiencia energética (perfiles multi-cámara)",
+        "Resistencia al clima y UV, bajo mantenimiento",
+        "Amplia gama de colores, laminados y accesorios"
+      ],
+      "learn_more": "Saber Más"
     }
   },
   "footer": {

@@ -1,10 +1,21 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import enMessages from '@/messages/en.json';
+import frMessages from '@/messages/fr.json';
+import esMessages from '@/messages/es.json';
 
 export default function ContactForm() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
+  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+
+  useEffect(() => {
+    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
+    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
+  }, []);
+
+  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -43,52 +54,52 @@ export default function ContactForm() {
         (e.target as HTMLFormElement).reset();
       } else {
         setStatus("error");
-        setErrorMessage("Failed to send email. Please try again.");
+        setErrorMessage((messages as any).contact.contact_form.error_message);
       }
     } catch (error) {
       setStatus("error");
-      setErrorMessage("Network error. Please try again.");
+      setErrorMessage((messages as any).contact.contact_form.network_error);
     }
   };
 
   return (
     <div className="rounded-lg border p-6 bg-white">
-      <h2 className="text-xl font-semibold mb-6" style={{ color: "black" }}>Get in touch</h2>
+      <h2 className="text-xl font-semibold mb-6" style={{ color: "black" }}>{(messages as any).contact.contact_form.title}</h2>
       <form onSubmit={onSubmit} className="space-y-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="space-y-1">
-            <label className="text-sm font-medium" htmlFor="name" style={{ color: "black" }}>Name, Surname</label>
+            <label className="text-sm font-medium" htmlFor="name" style={{ color: "black" }}>{(messages as any).contact.contact_form.name}</label>
             <input id="name" name="name" required className="w-full border px-3 py-2 rounded-md focus:outline-none" />
           </div>
           <div className="space-y-1">
-            <label className="text-sm font-medium" htmlFor="email" style={{ color: "black" }}>E-mail Address</label>
+            <label className="text-sm font-medium" htmlFor="email" style={{ color: "black" }}>{(messages as any).contact.contact_form.email}</label>
             <input id="email" name="email" type="email" required className="w-full border px-3 py-2 rounded-md focus:outline-none" />
           </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="space-y-1">
-            <label className="text-sm font-medium" htmlFor="phone" style={{ color: "black" }}>Phone Number</label>
+            <label className="text-sm font-medium" htmlFor="phone" style={{ color: "black" }}>{(messages as any).contact.contact_form.phone}</label>
             <input id="phone" name="phone" type="tel" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
           </div>
           <div className="space-y-1">
-            <label className="text-sm font-medium" htmlFor="company" style={{ color: "black" }}>Company Name (Optional)</label>
+            <label className="text-sm font-medium" htmlFor="company" style={{ color: "black" }}>{(messages as any).contact.contact_form.company}</label>
             <input id="company" name="company" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
           </div>
         </div>
 
         <div className="space-y-1">
-          <label className="text-sm font-medium" htmlFor="topic" style={{ color: "black" }}>Select a Topic</label>
+          <label className="text-sm font-medium" htmlFor="topic" style={{ color: "black" }}>{(messages as any).contact.contact_form.topic}</label>
           <select id="topic" name="topic" className="w-full border px-3 py-2 rounded-md focus:outline-none">
-            <option value="Contact Request">Contact Request</option>
-            <option value="Dealership Application">Dealership Application</option>
-            <option value="Pricing Inquiry">Pricing Inquiry</option>
-            <option value="Other">Other</option>
+            <option value="Contact Request">{(messages as any).contact.contact_form.topic_options.contact_request}</option>
+            <option value="Dealership Application">{(messages as any).contact.contact_form.topic_options.dealership_application}</option>
+            <option value="Pricing Inquiry">{(messages as any).contact.contact_form.topic_options.pricing_inquiry}</option>
+            <option value="Other">{(messages as any).contact.contact_form.topic_options.other}</option>
           </select>
         </div>
 
         <div className="space-y-1">
-          <label className="text-sm font-medium" htmlFor="message" style={{ color: "black" }}>Your Message</label>
+          <label className="text-sm font-medium" htmlFor="message" style={{ color: "black" }}>{(messages as any).contact.contact_form.message}</label>
           <textarea id="message" name="message" rows={6} className="w-full border px-3 py-2 rounded-md focus:outline-none" />
         </div>
 
@@ -97,7 +108,7 @@ export default function ContactForm() {
           disabled={status !== "idle"} 
           className="px-4 py-2 bg-[#333333] text-white rounded-md disabled:opacity-50"
         >
-          {status === "sending" ? "Sending..." : status === "sent" ? "Sent ✓" : "Send"}
+          {status === "sending" ? (messages as any).contact.contact_form.sending : status === "sent" ? (messages as any).contact.contact_form.sent : (messages as any).contact.contact_form.send}
         </button>
         
         {status === "error" && (
@@ -108,7 +119,7 @@ export default function ContactForm() {
         
         {status === "sent" && (
           <div className="text-green-600 text-sm mt-2">
-            Thank you! Your message has been sent successfully.
+            {(messages as any).contact.contact_form.success_message}
           </div>
         )}
       </form>

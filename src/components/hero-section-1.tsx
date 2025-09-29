@@ -44,6 +44,12 @@ export function HeroSectionOne() {
     const [dragStartOffset, setDragStartOffset] = useState(0)
 
     const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en')
+    
+    // Helper function to create locale-aware URLs
+    const createUrl = (path: string) => {
+        if (locale === 'en') return path;
+        return `/${locale}${path}`;
+    };
 
     useEffect(() => {
         const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en'
@@ -136,7 +142,7 @@ export function HeroSectionOne() {
                         <div className="mx-auto max-w-7xl px-6">
                             <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
                                 <AnimatedGroup variants={transitionVariants}>
-                                    <a href="/about">
+                                    <a href={createUrl("/about")}>
                                         <div
                                             className="bg-muted group mx-auto flex w-fit items-center gap-4 rounded-full border p-1 pl-4 shadow-md shadow-black/5 transition-all duration-300 dark:border-t-white/5 dark:shadow-zinc-950 hover:bg-muted/80 cursor-pointer">
                                                 <span className="text-foreground text-sm">{(locale === 'fr' ? (frMessages as any).hero.badge : locale === 'es' ? (esMessages as any).hero.badge : (enMessages as any).hero.badge)}</span>
@@ -289,7 +295,7 @@ export function HeroSectionOne() {
 
             {/* Our Services Gallery */}
             <Gallery6 
-                demoUrl="/contact"
+                demoUrl={createUrl("/contact")}
                 heading={(locale === 'fr' ? (frMessages as any).gallery.heading : locale === 'es' ? (esMessages as any).gallery.heading : (enMessages as any).gallery.heading)}
                 readMore={(locale === 'fr' ? (frMessages as any).gallery.read_more : locale === 'es' ? (esMessages as any).gallery.read_more : (enMessages as any).gallery.read_more)}
                 items={[
@@ -297,35 +303,35 @@ export function HeroSectionOne() {
                         id: "service-1",
                         title: (locale === 'fr' ? (frMessages as any).homepage.services.interior_exterior_decorative.title : locale === 'es' ? (esMessages as any).homepage.services.interior_exterior_decorative.title : (enMessages as any).homepage.services.interior_exterior_decorative.title),
                         summary: (locale === 'fr' ? (frMessages as any).homepage.services.interior_exterior_decorative.summary : locale === 'es' ? (esMessages as any).homepage.services.interior_exterior_decorative.summary : (enMessages as any).homepage.services.interior_exterior_decorative.summary),
-                        url: "/services/interior-and-exterior-decorative-products",
+                        url: createUrl("/services/interior-and-exterior-decorative-products"),
                         image: "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-1.jpg",
                     },
                     {
                         id: "service-2", 
                         title: (locale === 'fr' ? (frMessages as any).homepage.services.steel_framings.title : locale === 'es' ? (esMessages as any).homepage.services.steel_framings.title : (enMessages as any).homepage.services.steel_framings.title),
                         summary: (locale === 'fr' ? (frMessages as any).homepage.services.steel_framings.summary : locale === 'es' ? (esMessages as any).homepage.services.steel_framings.summary : (enMessages as any).homepage.services.steel_framings.summary),
-                        url: "/services/steel-framings",
+                        url: createUrl("/services/steel-framings"),
                         image: "/images/services/steel-structure/steel-framings-img-1.jpg",
                     },
                     {
                         id: "service-3",
                         title: (locale === 'fr' ? (frMessages as any).homepage.services.aluminum_architectural.title : locale === 'es' ? (esMessages as any).homepage.services.aluminum_architectural.title : (enMessages as any).homepage.services.aluminum_architectural.title),
                         summary: (locale === 'fr' ? (frMessages as any).homepage.services.aluminum_architectural.summary : locale === 'es' ? (esMessages as any).homepage.services.aluminum_architectural.summary : (enMessages as any).homepage.services.aluminum_architectural.summary),
-                        url: "/services/aluminum-architectural-solutions",
+                        url: createUrl("/services/aluminum-architectural-solutions"),
                         image: "/images/services/aluminum-solutions/Aluminum-Architectural-Solutions-img--1.jpg",
                     },
                     {
                         id: "service-4",
                         title: (locale === 'fr' ? (frMessages as any).homepage.services.architectural_glass.title : locale === 'es' ? (esMessages as any).homepage.services.architectural_glass.title : (enMessages as any).homepage.services.architectural_glass.title),
                         summary: (locale === 'fr' ? (frMessages as any).homepage.services.architectural_glass.summary : locale === 'es' ? (esMessages as any).homepage.services.architectural_glass.summary : (enMessages as any).homepage.services.architectural_glass.summary),
-                        url: "/services/architectural-glass-solutions", 
+                        url: createUrl("/services/architectural-glass-solutions"), 
                         image: "/images/services/glass-solutions/architectural-glass-gallery-1.jpg",
                     },
                     {
                         id: "service-5",
                         title: (locale === 'fr' ? (frMessages as any).homepage.services.upvc_systems.title : locale === 'es' ? (esMessages as any).homepage.services.upvc_systems.title : (enMessages as any).homepage.services.upvc_systems.title),
                         summary: (locale === 'fr' ? (frMessages as any).homepage.services.upvc_systems.summary : locale === 'es' ? (esMessages as any).homepage.services.upvc_systems.summary : (enMessages as any).homepage.services.upvc_systems.summary),
-                        url: "/services/u-pvc-systems",
+                        url: createUrl("/services/u-pvc-systems"),
                         image: "/images/services/upvc-systems/pvc-window-and-door-system.jpg",
                     },
                 ]}

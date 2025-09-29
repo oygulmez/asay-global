@@ -1,19 +1,39 @@
+"use client"
+
 import { PageHeader } from "@/components/page-header";
 import Link from "next/link";
 import Image from "next/image";
-
-export const metadata = {
-  title: "u-PVC Systems",
-  description: "u‑PVC product families covering window, door and sliding systems engineered for durability, energy efficiency and low maintenance.",
-};
+import { useEffect, useState } from 'react';
+import enMessages from '@/messages/en.json';
+import frMessages from '@/messages/fr.json';
+import esMessages from '@/messages/es.json';
 
 export default function UPVCSystemsPage() {
+  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+
+  useEffect(() => {
+    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
+    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
+  }, []);
+
+  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
+  
+  // Helper function to create locale-aware URLs
+  const createUrl = (path: string) => {
+    if (locale === 'en') return path;
+    return `/${locale}${path}`;
+  };
+
   return (
     <>
       <PageHeader
-        title="u-PVC Systems"
-        description="Engineered for durability, energy efficiency and low maintenance."
-        breadcrumbItems={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "u-PVC Systems" }]}
+        title={(messages as any).upvc_systems.page_header.title}
+        description={(messages as any).upvc_systems.page_header.description}
+        breadcrumbItems={[
+          { label: (messages as any).upvc_systems.page_header.breadcrumbs.home, href: createUrl("/") }, 
+          { label: (messages as any).upvc_systems.page_header.breadcrumbs.services, href: createUrl("/services") }, 
+          { label: (messages as any).upvc_systems.page_header.breadcrumbs.upvc_systems }
+        ]}
       />
 
       <div className="container mx-auto px-6 py-16">

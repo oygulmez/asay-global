@@ -98,11 +98,11 @@ export default function DealersPage() {
         (e.target as HTMLFormElement).reset();
       } else {
         setStatus("error");
-        setErrorMessage("Failed to send email. Please try again.");
+        setErrorMessage((messages as any).dealers.form.error_message);
       }
     } catch (error) {
       setStatus("error");
-      setErrorMessage("Network error. Please try again.");
+      setErrorMessage((messages as any).dealers.form.network_error);
     }
   };
 
@@ -144,48 +144,48 @@ export default function DealersPage() {
             <form onSubmit={onSubmit} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-1">
-                  <label className="text-sm font-medium" htmlFor="firstName" style={{ color: 'black' }}>First Name</label>
+                  <label className="text-sm font-medium" htmlFor="firstName" style={{ color: 'black' }}>{(messages as any).dealers.form.first_name}</label>
                   <input id="firstName" name="firstName" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
                 <div className="space-y-1">
-                  <label className="text-sm font-medium" htmlFor="lastName" style={{ color: 'black' }}>Last Name</label>
+                  <label className="text-sm font-medium" htmlFor="lastName" style={{ color: 'black' }}>{(messages as any).dealers.form.last_name}</label>
                   <input id="lastName" name="lastName" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-1">
-                  <label className="text-sm font-medium" htmlFor="phone" style={{ color: 'black' }}>Phone Number</label>
+                  <label className="text-sm font-medium" htmlFor="phone" style={{ color: 'black' }}>{(messages as any).dealers.form.phone}</label>
                   <input id="phone" name="phone" type="tel" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
                 <div className="space-y-1">
-                  <label className="text-sm font-medium" htmlFor="email" style={{ color: 'black' }}>E-mail Address</label>
+                  <label className="text-sm font-medium" htmlFor="email" style={{ color: 'black' }}>{(messages as any).dealers.form.email}</label>
                   <input id="email" name="email" type="email" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-1">
-                  <label className="text-sm font-medium" htmlFor="country" style={{ color: 'black' }}>Country</label>
+                  <label className="text-sm font-medium" htmlFor="country" style={{ color: 'black' }}>{(messages as any).dealers.form.country}</label>
                   <input id="country" name="country" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
                 <div className="space-y-1">
-                  <label className="text-sm font-medium" htmlFor="company" style={{ color: 'black' }}>Company Name</label>
+                  <label className="text-sm font-medium" htmlFor="company" style={{ color: 'black' }}>{(messages as any).dealers.form.company}</label>
                   <input id="company" name="company" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-1">
-                  <label className="text-sm font-medium" htmlFor="title" style={{ color: 'black' }}>Job Title</label>
+                  <label className="text-sm font-medium" htmlFor="title" style={{ color: 'black' }}>{(messages as any).dealers.form.job_title}</label>
                   <input id="title" name="title" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
                 <div className="space-y-1">
-                  <label className="text-sm font-medium" htmlFor="subject" style={{ color: 'black' }}>Subject</label>
+                  <label className="text-sm font-medium" htmlFor="subject" style={{ color: 'black' }}>{(messages as any).dealers.form.subject}</label>
                   <input id="subject" name="subject" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
                 </div>
               </div>
               <div className="space-y-1">
-                <label className="text-sm font-medium" htmlFor="preferredDealer" style={{ color: 'black' }}>Preferred Dealer to Contact</label>
+                <label className="text-sm font-medium" htmlFor="preferredDealer" style={{ color: 'black' }}>{(messages as any).dealers.form.preferred_dealer}</label>
                 <select id="preferredDealer" name="preferredDealer" className="w-full border px-3 py-2 rounded-md focus:outline-none">
-                  <option value="">Select a Dealer</option>
+                  <option value="">{(messages as any).dealers.form.select_dealer}</option>
                   <option value="italy">Italy</option>
                   <option value="greece">Greece</option>
                   <option value="armenia">Armenia</option>
@@ -197,7 +197,7 @@ export default function DealersPage() {
                 </select>
               </div>
               <div className="space-y-1">
-                <label className="text-sm font-medium" htmlFor="message" style={{ color: 'black' }}>Your Message</label>
+                <label className="text-sm font-medium" htmlFor="message" style={{ color: 'black' }}>{(messages as any).dealers.form.message}</label>
                 <textarea id="message" name="message" rows={6} className="w-full border px-3 py-2 rounded-md focus:outline-none" />
               </div>
               <button 
@@ -205,7 +205,7 @@ export default function DealersPage() {
                 disabled={status !== "idle"} 
                 className="px-4 py-2 bg-[#333333] text-white rounded-md disabled:opacity-50"
               >
-                {status === "sending" ? "Sending..." : status === "sent" ? "Sent ✓" : "Send"}
+                {status === "sending" ? (messages as any).dealers.form.sending : status === "sent" ? (messages as any).dealers.form.sent : (messages as any).dealers.form.send}
               </button>
               
               {status === "error" && (
@@ -216,7 +216,7 @@ export default function DealersPage() {
               
               {status === "sent" && (
                 <div className="text-green-600 text-sm mt-2">
-                  Thank you! Your message has been sent successfully.
+                  {(messages as any).dealers.form.success_message}
                 </div>
               )}
             </form>

@@ -134,6 +134,27 @@
       "usa_office_label": "Head Office (USA):",
       "turkey_office_label": "Head Office (Turkey):",
       "view_dealers": "View Authorized Dealers"
+    },
+    "contact_form": {
+      "title": "Get in touch",
+      "name": "Name, Surname",
+      "email": "E-mail Address",
+      "phone": "Phone Number",
+      "company": "Company Name (Optional)",
+      "topic": "Select a Topic",
+      "topic_options": {
+        "contact_request": "Contact Request",
+        "dealership_application": "Dealership Application",
+        "pricing_inquiry": "Pricing Inquiry",
+        "other": "Other"
+      },
+      "message": "Your Message",
+      "sending": "Sending...",
+      "sent": "Sent ✓",
+      "send": "Send",
+      "error_message": "Failed to send email. Please try again.",
+      "network_error": "Network error. Please try again.",
+      "success_message": "Thank you! Your message has been sent successfully."
     }
   },
   "services": {
@@ -178,6 +199,41 @@
       "error_message": "Failed to send email. Please try again.",
       "network_error": "Network error. Please try again.",
       "success_message": "Thank you! Your message has been sent successfully."
+    }
+  },
+  "call_to_action": {
+    "title": "Ready to Transform Your Building Project?",
+    "description": "Experience premium quality and innovative solutions that enhance your building's performance, comfort, and aesthetic appeal. Our expert team is ready to bring your vision to life with professional consultation and tailored solutions for your specific project needs.",
+    "contact_button": "Contact",
+    "dealers_button": "View Authorized Dealers"
+  },
+  "sticky_buttons": {
+    "email_label": "Email us",
+    "scroll_top_label": "Scroll to top"
+  },
+  "upvc_systems": {
+    "meta": {
+      "title": "u-PVC Systems",
+      "description": "u‑PVC product families covering window, door and sliding systems engineered for durability, energy efficiency and low maintenance."
+    },
+    "page_header": {
+      "title": "u-PVC Systems",
+      "description": "Engineered for durability, energy efficiency and low maintenance.",
+      "breadcrumbs": {
+        "home": "Home",
+        "services": "Services",
+        "upvc_systems": "u-PVC Systems"
+      }
+    },
+    "window_door_systems": {
+      "title": "u-PVC Window & Door Systems",
+      "description": "Premium u-PVC window and door systems offering excellent thermal insulation, sound reduction and long-term durability. Compatible with multi-point locking, various glazing options and modern profiles.",
+      "features": [
+        "High energy efficiency (multi-chamber profiles)",
+        "Weather and UV resistance, low maintenance",
+        "Wide range of colors, laminates and accessories"
+      ],
+      "learn_more": "Learn More"
     }
   },
   "footer": {
