@@ -14,10 +14,17 @@ export default function PVCSlidingDoorSystemPage() {
   const [messages, setMessages] = useState<any>(enMessages);
 
   useEffect(() => {
-    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
-    const currentLocale = seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en';
-    setLocale(currentLocale);
-    setMessages(currentLocale === 'fr' ? frMessages : currentLocale === 'es' ? esMessages : enMessages);
+    if (typeof window !== 'undefined') {
+      const path = window.location.pathname;
+      let currentLocale: 'en' | 'fr' | 'es' = 'en';
+      if (path.startsWith('/fr/')) {
+        currentLocale = 'fr';
+      } else if (path.startsWith('/es/')) {
+        currentLocale = 'es';
+      }
+      setLocale(currentLocale);
+      setMessages(currentLocale === 'fr' ? frMessages : currentLocale === 'es' ? esMessages : enMessages);
+    }
   }, []);
 
   const createUrl = (path: string) => {

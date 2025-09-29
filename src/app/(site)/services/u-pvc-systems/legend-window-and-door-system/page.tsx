@@ -13,8 +13,16 @@ export default function UPVCWindowDoorSystemsPage() {
   const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
   
   useEffect(() => {
-    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
-    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
+    if (typeof window !== 'undefined') {
+      const path = window.location.pathname;
+      if (path.startsWith('/fr/')) {
+        setLocale('fr');
+      } else if (path.startsWith('/es/')) {
+        setLocale('es');
+      } else {
+        setLocale('en');
+      }
+    }
   }, []);
   
   const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
