@@ -1,5 +1,5 @@
 // URL slug mappings for different languages
-export const slugMappings = {
+export const slugMappings: Record<string, Record<string, string>> = {
   en: {
     // Main pages
     'home': '',
@@ -87,7 +87,7 @@ export const slugMappings = {
 };
 
 // Reverse mappings for URL to key conversion
-export const reverseSlugMappings = {
+export const reverseSlugMappings: Record<string, Record<string, string>> = {
   en: Object.fromEntries(Object.entries(slugMappings.en).map(([key, slug]) => [slug, key])),
   fr: Object.fromEntries(Object.entries(slugMappings.fr).map(([key, slug]) => [slug, key])),
   es: Object.fromEntries(Object.entries(slugMappings.es).map(([key, slug]) => [slug, key]))
@@ -95,11 +95,11 @@ export const reverseSlugMappings = {
 
 // Helper functions
 export function getSlugForLocale(key: string, locale: 'en' | 'fr' | 'es'): string {
-  return slugMappings[locale][key] || slugMappings.en[key] || key;
+  return slugMappings[locale]?.[key] || slugMappings.en?.[key] || key;
 }
 
 export function getKeyFromSlug(slug: string, locale: 'en' | 'fr' | 'es'): string {
-  return reverseSlugMappings[locale][slug] || reverseSlugMappings.en[slug] || slug;
+  return reverseSlugMappings[locale]?.[slug] || reverseSlugMappings.en?.[slug] || slug;
 }
 
 export function createLocalizedUrl(path: string, locale: 'en' | 'fr' | 'es'): string {
