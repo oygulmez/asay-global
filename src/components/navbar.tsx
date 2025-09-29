@@ -30,11 +30,17 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
   const current = (locale === 'fr' || locale === 'es' || locale === 'en') ? locale : 'en';
   const dict = current === 'fr' ? (require('@/messages/fr.json')) : current === 'es' ? (require('@/messages/es.json')) : (require('@/messages/en.json'));
   const t = (key: string) => key.split('.').reduce((o: any, k: string) => o?.[k], dict);
+  
+  // Helper function to create locale-aware URLs
+  const createUrl = (path: string) => {
+    if (current === 'en') return path;
+    return `/${current}${path}`;
+  };
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white">
       <div className="container mx-auto h-18 md:h-22 px-6 flex items-center gap-6">
         {/* Left: Logo */}
-        <Link href="/" className="inline-flex items-center" aria-label="ARG Structural Solutions">
+        <Link href={createUrl("/")} className="inline-flex items-center" aria-label="ARG Structural Solutions">
           <img src="/asay-global-logo-main.svg" alt="Asay Global" className="h-14 md:h-14 lg:h-15 w-auto" />
         </Link>
 
@@ -46,12 +52,12 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
           <NavigationMenu>
             <NavigationMenuList className="gap-6">
               <NavigationMenuItem>
-                <Link href="/" className={cn("text-sm font-medium px-2 py-1 rounded-md transition-colors hover:bg-muted")}>
+                <Link href={createUrl("/")} className={cn("text-sm font-medium px-2 py-1 rounded-md transition-colors hover:bg-muted")}>
                   {t('nav.home')}
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link href="/about" className={cn("text-sm font-medium px-2 py-1 rounded-md transition-colors hover:bg-muted")}>
+                <Link href={createUrl("/about")} className={cn("text-sm font-medium px-2 py-1 rounded-md transition-colors hover:bg-muted")}>
                   {t('nav.about')}
                 </Link>
               </NavigationMenuItem>
@@ -62,25 +68,25 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
                   </DropdownMenuTrigger>
                   <DropdownMenuContent align="end" className="w-[320px]">
                     <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href="/services/interior-and-exterior-decorative-products" className="block w-full px-2 py-2">{t('nav.services_menu.decorative')}</Link>
+                      <Link href={createUrl("/services/interior-and-exterior-decorative-products")} className="block w-full px-2 py-2">{t('nav.services_menu.decorative')}</Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href="/services/steel-framings" className="block w-full px-2 py-2">{t('nav.services_menu.steel')}</Link>
+                      <Link href={createUrl("/services/steel-framings")} className="block w-full px-2 py-2">{t('nav.services_menu.steel')}</Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href="/services/aluminum-architectural-solutions" className="block w-full px-2 py-2">{t('nav.services_menu.aluminum')}</Link>
+                      <Link href={createUrl("/services/aluminum-architectural-solutions")} className="block w-full px-2 py-2">{t('nav.services_menu.aluminum')}</Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href="/services/architectural-glass-solutions" className="block w-full px-2 py-2">{t('nav.services_menu.glass')}</Link>
+                      <Link href={createUrl("/services/architectural-glass-solutions")} className="block w-full px-2 py-2">{t('nav.services_menu.glass')}</Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href="/services/u-pvc-systems" className="block w-full px-2 py-2">{t('nav.services_menu.upvc')}</Link>
+                      <Link href={createUrl("/services/u-pvc-systems")} className="block w-full px-2 py-2">{t('nav.services_menu.upvc')}</Link>
                     </DropdownMenuItem>
                   </DropdownMenuContent>
                 </DropdownMenu>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link href="/contact" className={cn("text-sm font-medium px-2 py-1 rounded-md transition-colors hover:bg-muted")}>
+                <Link href={createUrl("/contact")} className={cn("text-sm font-medium px-2 py-1 rounded-md transition-colors hover:bg-muted")}>
                   {t('nav.contact')}
                 </Link>
               </NavigationMenuItem>
@@ -110,7 +116,7 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
           </DropdownMenu>
 
           <Button asChild size="sm" className="bg-[#333333] text-white hover:bg-[#998675]">
-            <Link href="/dealers">{t('nav.dealers')}</Link>
+            <Link href={createUrl("/dealers")}>{t('nav.dealers')}</Link>
           </Button>
         </div>
 
@@ -151,29 +157,29 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
                 <SheetTitle className="sr-only">Mobile Navigation</SheetTitle>
               </SheetHeader>
               <div className="flex items-center justify-start mb-2 pl-3">
-                <Link href="/" aria-label="ARG Structural Solutions" className="inline-flex">
+                <Link href={createUrl("/")} aria-label="ARG Structural Solutions" className="inline-flex">
                   <img src="/asay-global-logo-main.svg" alt="Asay Global" className="h-16 w-auto" />
                 </Link>
               </div>
               <nav className="mt-4 space-y-1" onClick={() => (document.querySelector('[data-state="open"]') as HTMLElement)?.click()}>
-                <Link href="/" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.home')}</Link>
-                <Link href="/about" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.about')}</Link>
+                <Link href={createUrl("/")} className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.home')}</Link>
+                <Link href={createUrl("/about")} className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.about')}</Link>
                 <div className="pt-1">
-                  <Link href="/services" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.services')}</Link>
+                  <Link href={createUrl("/services")} className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.services')}</Link>
                   <div className="grid gap-1 px-3">
-                    <Link href="/services/interior-and-exterior-decorative-products" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.decorative')}</Link>
-                    <Link href="/services/steel-framings" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.steel')}</Link>
-                    <Link href="/services/aluminum-architectural-solutions" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.aluminum')}</Link>
-                    <Link href="/services/architectural-glass-solutions" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.glass')}</Link>                 
-                    <Link href="/services/u-pvc-systems" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.upvc')}</Link> </div>
+                    <Link href={createUrl("/services/interior-and-exterior-decorative-products")} className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.decorative')}</Link>
+                    <Link href={createUrl("/services/steel-framings")} className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.steel')}</Link>
+                    <Link href={createUrl("/services/aluminum-architectural-solutions")} className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.aluminum')}</Link>
+                    <Link href={createUrl("/services/architectural-glass-solutions")} className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.glass')}</Link>                 
+                    <Link href={createUrl("/services/u-pvc-systems")} className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.upvc')}</Link> </div>
 
                 </div>
-                <Link href="/contact" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.contact')}</Link>
+                <Link href={createUrl("/contact")} className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.contact')}</Link>
               </nav>
               <Separator className="my-4" />
               <div className="mt-auto grid gap-2">
                 <Button asChild size="lg" className="w-full bg-[#333333] text-white hover:bg-[#998675]">
-                  <Link href="/dealers">{t('nav.dealers')}</Link>
+                  <Link href={createUrl("/dealers")}>{t('nav.dealers')}</Link>
                 </Button>
               </div>
             </SheetContent>

@@ -8,13 +8,19 @@ export function Footer({ locale }: { locale?: Locale } = {}) {
   const current = (locale === 'fr' || locale === 'es' || locale === 'en') ? locale : 'en';
   const dict = current === 'fr' ? (require('@/messages/fr.json')) : current === 'es' ? (require('@/messages/es.json')) : (require('@/messages/en.json'))
   const t = (key: string) => key.split('.').reduce((o: any, k: string) => o?.[k], dict)
+  
+  // Helper function to create locale-aware URLs
+  const createUrl = (path: string) => {
+    if (current === 'en') return path;
+    return `/${current}${path}`;
+  };
   return (
     <footer className="bg-[#333333] text-white">
       <div className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <Link href="/" className="inline-flex items-center">
+            <Link href={createUrl("/")} className="inline-flex items-center">
               <img 
                 src="/asay-global-logo-white.svg" 
                 alt="Asay Global" 
@@ -31,27 +37,27 @@ export function Footer({ locale }: { locale?: Locale } = {}) {
             <h3 className="text-lg font-semibold">{t('footer.services')}</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/services#decorative" className="text-gray-300 hover:text-white transition-colors">
+                <Link href={createUrl("/services#decorative")} className="text-gray-300 hover:text-white transition-colors">
                   {t('nav.services_menu.decorative')}
                 </Link>
               </li>
               <li>
-                <Link href="/services#steel-structure" className="text-gray-300 hover:text-white transition-colors">
+                <Link href={createUrl("/services#steel-structure")} className="text-gray-300 hover:text-white transition-colors">
                   {t('nav.services_menu.steel')}
                 </Link>
               </li>
               <li>
-                <Link href="/services#aluminum-solutions" className="text-gray-300 hover:text-white transition-colors">
+                <Link href={createUrl("/services#aluminum-solutions")} className="text-gray-300 hover:text-white transition-colors">
                   {t('nav.services_menu.aluminum')}
                 </Link>
               </li>
               <li>
-                <Link href="/services#glass-solutions" className="text-gray-300 hover:text-white transition-colors">
+                <Link href={createUrl("/services#glass-solutions")} className="text-gray-300 hover:text-white transition-colors">
                   {t('nav.services_menu.glass')}
                 </Link>
               </li>
                 <li>
-                  <Link href="/services/u-pvc-systems" className="text-gray-300 hover:text-white transition-colors">
+                  <Link href={createUrl("/services/u-pvc-systems")} className="text-gray-300 hover:text-white transition-colors">
                     {t('nav.services_menu.upvc')}
                   </Link>
                 </li>
@@ -63,27 +69,27 @@ export function Footer({ locale }: { locale?: Locale } = {}) {
             <h3 className="text-lg font-semibold">{t('footer.navigation')}</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/" className="text-gray-300 hover:text-white transition-colors">
+                <Link href={createUrl("/")} className="text-gray-300 hover:text-white transition-colors">
                   {t('footer.home')}
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
+                <Link href={createUrl("/about")} className="text-gray-300 hover:text-white transition-colors">
                   {t('footer.about')}
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-gray-300 hover:text-white transition-colors">
+                <Link href={createUrl("/services")} className="text-gray-300 hover:text-white transition-colors">
                   {t('footer.services_link')}
                 </Link>
               </li>
               <li>
-                <Link href="/dealers" className="text-gray-300 hover:text-white transition-colors">
+                <Link href={createUrl("/dealers")} className="text-gray-300 hover:text-white transition-colors">
                   {t('footer.dealers')}
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-300 hover:text-white transition-colors">
+                <Link href={createUrl("/contact")} className="text-gray-300 hover:text-white transition-colors">
                   {t('footer.contact_link')}
                 </Link>
               </li>
@@ -111,13 +117,13 @@ export function Footer({ locale }: { locale?: Locale } = {}) {
               {t('footer.copyright')}
             </div>
             <div className="flex space-x-6 text-sm">
-              <Link href="/legal#privacy" className="text-gray-400 hover:text-white transition-colors">
+              <Link href={createUrl("/legal#privacy")} className="text-gray-400 hover:text-white transition-colors">
                 {t('footer.privacy')}
               </Link>
-              <Link href="/legal#terms" className="text-gray-400 hover:text-white transition-colors">
+              <Link href={createUrl("/legal#terms")} className="text-gray-400 hover:text-white transition-colors">
                 {t('footer.terms')}
               </Link>
-              <Link href="/legal#cookies" className="text-gray-400 hover:text-white transition-colors">
+              <Link href={createUrl("/legal#cookies")} className="text-gray-400 hover:text-white transition-colors">
                 {t('footer.cookies')}
               </Link>
             </div>

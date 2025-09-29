@@ -1,0 +1,19 @@
+import {locales} from '@/i18n';
+import SiteServices from '../../(site)/services/page';
+
+export async function generateMetadata({params: {locale}}: {params: {locale: string}}) {
+  const messages = (await import(`@/messages/${locale}.json`)).default as any;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages as any);
+  return {
+    title: t('services.meta.title'),
+    description: t('services.meta.description'),
+  };
+}
+
+export default async function ServicesPage() {
+  return <SiteServices />;
+}
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
