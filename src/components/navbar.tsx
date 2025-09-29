@@ -98,7 +98,7 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
               <DropdownMenuItem asChild>
-                <Link href="/en"><img src="/flags/gb.svg" alt="English" width="16" height="11" className="me-2 inline rounded-none border"/>English</Link>
+                <Link href="/"><img src="/flags/gb.svg" alt="English" width="16" height="11" className="me-2 inline rounded-none border"/>English</Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
                 <Link href="/fr"><img src="/flags/fr.svg" alt="Français" width="16" height="11" className="me-2 inline rounded-none border"/>Français</Link>
