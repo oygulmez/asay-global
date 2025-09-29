@@ -36,6 +36,32 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
     if (current === 'en') return path;
     return `/${current}${path}`;
   };
+
+  // Helper function to create language-specific URLs for current page
+  const createLanguageUrl = (targetLocale: 'en' | 'fr' | 'es') => {
+    if (typeof window === 'undefined') return '/';
+    
+    const fullPath = window.location.pathname;
+    let currentPath = '/';
+    
+    // Extract path without locale prefix
+    const segments = fullPath.split('/');
+    if (segments[1] === 'fr' || segments[1] === 'es') {
+      currentPath = '/' + segments.slice(2).join('/');
+    } else {
+      currentPath = fullPath;
+    }
+    
+    // Ensure currentPath starts with / and handle empty path
+    if (!currentPath.startsWith('/')) currentPath = '/' + currentPath;
+    if (currentPath === '/') currentPath = '/';
+    
+    // Return URL for target locale
+    if (targetLocale === 'en') {
+      return currentPath === '/' ? '/' : currentPath;
+    }
+    return `/${targetLocale}${currentPath}`;
+  };
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white">
       <div className="container mx-auto h-18 md:h-22 px-6 flex items-center gap-6">
@@ -104,13 +130,13 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
               <DropdownMenuItem asChild>
-                <Link href="/"><img src="/flags/gb.svg" alt="English" width="16" height="11" className="me-2 inline rounded-none border"/>English</Link>
+                <Link href={createLanguageUrl('en')}><img src="/flags/gb.svg" alt="English" width="16" height="11" className="me-2 inline rounded-none border"/>English</Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
-                <Link href="/fr"><img src="/flags/fr.svg" alt="Français" width="16" height="11" className="me-2 inline rounded-none border"/>Français</Link>
+                <Link href={createLanguageUrl('fr')}><img src="/flags/fr.svg" alt="Français" width="16" height="11" className="me-2 inline rounded-none border"/>Français</Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
-                <Link href="/es"><img src="/flags/es.svg" alt="Español" width="16" height="11" className="me-2 inline rounded-none border"/>Español</Link>
+                <Link href={createLanguageUrl('es')}><img src="/flags/es.svg" alt="Español" width="16" height="11" className="me-2 inline rounded-none border"/>Español</Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
@@ -132,19 +158,19 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-32">
               <DropdownMenuItem asChild>
-                <Link href="/" className="flex items-center gap-2">
+                <Link href={createLanguageUrl('en')} className="flex items-center gap-2">
                   <img src="/flags/gb.svg" alt="English" width="18" height="12" className="rounded-none border" />
                   English
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
-                <Link href="/fr" className="flex items-center gap-2">
+                <Link href={createLanguageUrl('fr')} className="flex items-center gap-2">
                   <img src="/flags/fr.svg" alt="Français" width="18" height="12" className="rounded-none border" />
                   Français
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
-                <Link href="/es" className="flex items-center gap-2">
+                <Link href={createLanguageUrl('es')} className="flex items-center gap-2">
                   <img src="/flags/es.svg" alt="Español" width="18" height="12" className="rounded-none border" />
                   Español
                 </Link>
