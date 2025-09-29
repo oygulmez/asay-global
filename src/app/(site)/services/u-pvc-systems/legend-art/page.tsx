@@ -2,7 +2,7 @@
 
 import { PageHeader } from "@/components/page-header";
 import Image from "next/image";
-import { ThermometerSnowflake, Ruler, Volume2 } from "lucide-react";
+import { ThermometerSnowflake, Ruler, Volume2, Leaf } from "lucide-react";
 import CallToAction from "@/components/call-to-action";
 import { useState, useEffect } from 'react';
 import enMessages from '@/messages/en.json';
@@ -105,36 +105,44 @@ export default function LegendArtProductPage() {
         <section className="py-20 md:py-32 w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] mt-16" style={{ backgroundColor: '#333333' }}>
           <div className="mx-auto max-w-7xl px-6">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold mb-4 text-white">Why Choose Legend Art</h2>
-              <p className="text-white/80 text-base max-w-3xl mx-auto">High insulation, strong static performance and superior acoustic comfort.</p>
+              <h2 className="text-3xl font-bold mb-4 text-white">{t.why_choose.title}</h2>
+              <p className="text-white/80 text-base max-w-3xl mx-auto">{t.why_choose.subtitle}</p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="group text-center p-6 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                 <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
                   <ThermometerSnowflake className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-white">Superior Insulation</h3>
+                <h3 className="text-lg font-semibold mb-3 text-white">{t.why_choose.features[0].title}</h3>
                 <p className="text-white/70 text-sm leading-relaxed">
-                  5‑chamber, 70&nbsp;mm profile with slim rebate enabling thicker glazing yields <strong>Uf 1.1–1.3&nbsp;W/m²·K</strong> and potential
-                  window U‑values below <strong>0.9&nbsp;W/m²·K</strong> depending on glass.
+                  {t.why_choose.features[0].description}
                 </p>
               </div>
               <div className="group text-center p-6 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                 <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
                   <Ruler className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-white">Static Strength</h3>
+                <h3 className="text-lg font-semibold mb-3 text-white">{t.why_choose.features[1].title}</h3>
                 <p className="text-white/70 text-sm leading-relaxed">
-                  Static mullions and façade profiles deliver optimal solutions even in high‑wind regions.
+                  {t.why_choose.features[1].description}
                 </p>
               </div>
               <div className="group text-center p-6 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                 <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
                   <Volume2 className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-white">Acoustic Performance</h3>
+                <h3 className="text-lg font-semibold mb-3 text-white">{t.why_choose.features[2].title}</h3>
                 <p className="text-white/70 text-sm leading-relaxed">
-                  PVC’s inherent insulation and the multi‑chamber geometry turn demanding acoustic areas into calm living spaces.
+                  {t.why_choose.features[2].description}
+                </p>
+              </div>
+              <div className="group text-center p-6 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                  <Leaf className="w-6 h-6 text-white" />
+                </div>
+                <h3 className="text-lg font-semibold mb-3 text-white">{t.why_choose.features[3].title}</h3>
+                <p className="text-white/70 text-sm leading-relaxed">
+                  {t.why_choose.features[3].description}
                 </p>
               </div>
             </div>
@@ -146,9 +154,9 @@ export default function LegendArtProductPage() {
           <div className="relative mx-auto max-w-7xl rounded-3xl border border-gray-200 bg-gradient-to-b from-white to-[#f8f8f8] p-8 md:p-12 shadow-sm">
             <div className="mb-8 text-center">
               <div className="text-xs uppercase tracking-wider mb-2" style={{ color: "#998675" }}>Finishes</div>
-              <h2 className="text-3xl font-bold mb-3" style={{ color: "black" }}>Color Options</h2>
+              <h2 className="text-3xl font-bold mb-3" style={{ color: "black" }}>{t.color_options.title}</h2>
               <p className="mx-auto max-w-3xl text-sm md:text-base" style={{ color: "#565656" }}>
-                Explore laminate color alternatives with superior weather resistance and low maintenance.
+                {t.color_options.subtitle}
               </p>
             </div>
 
@@ -163,7 +171,7 @@ export default function LegendArtProductPage() {
                     className="object-contain"
                   />
                 </div>
-                <p className="mt-3 text-xs" style={{ color: "#8a8a8a" }}>Combine interior and exterior laminate colors coherently.</p>
+                <p className="mt-3 text-xs" style={{ color: "#8a8a8a" }}>{t.color_options.note}</p>
               </div>
 
               <div className="lg:col-span-7">
