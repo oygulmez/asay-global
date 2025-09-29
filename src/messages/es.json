@@ -236,6 +236,268 @@
       "learn_more": "Saber Más"
     }
   },
+  "aluminum_systems": {
+    "meta": {
+      "title": "Soluciones Arquitectónicas de Aluminio",
+      "description": "Sistemas de aluminio de alto rendimiento para fachadas, ventanas, puertas y muros cortina—resistencia, resistencia a la corrosión y flexibilidad de diseño para proyectos modernos."
+    },
+    "page_header": {
+      "title": "Soluciones Arquitectónicas de Aluminio",
+      "description": "Sistemas de aluminio de alto rendimiento diseñados para fachadas, ventanas, puertas y muros cortina modernos.",
+      "breadcrumbs": {
+        "home": "Inicio",
+        "services": "Servicios",
+        "aluminum_systems": "Soluciones Arquitectónicas de Aluminio"
+      }
+    },
+    "overview": {
+      "title": "Excelencia en Ingeniería del Aluminio",
+      "description": "Como proveedor líder de soluciones arquitectónicas de aluminio, nos especializamos en diseñar y fabricar sistemas de aluminio premium para edificios contemporáneos. Nuestra gama completa incluye muros cortina, sistemas de ventanas, puertas y soluciones de acristalamiento estructural. Con una relación resistencia-peso superior, resistencia a la corrosión y flexibilidad de diseño, nuestros productos de aluminio ofrecen un rendimiento excepcional mientras cumplen con los más altos estándares estéticos para proyectos arquitectónicos modernos."
+    },
+    "partners_title": "Socios de Soluciones Arquitectónicas de Aluminio",
+    "solutions": {
+      "title": "Soluciones de Aluminio",
+      "subtitle": "Asay Global - Proveedor de Sistemas Arquitectónicos de Aluminio Premium.",
+      "windows": {
+        "title": "Ventanas",
+        "description": "Asay Global entrega ventanas de aluminio versátiles como distribuidor líder. Nuestra funcionalidad óptima se encuentra con un excelente diseño, seguridad y eficiencia energética en estos sistemas confiables aprobados."
+      },
+      "doors": {
+        "title": "Puertas",
+        "description": "Las puertas de aluminio de Asay Global son robustas, altamente seguras y completamente personalizables. Como distribuidor premier, creamos entradas de alta calidad con libertad de diseño ilimitada para sus proyectos."
+      },
+      "sliding_folding": {
+        "title": "Corredizo y Plegable",
+        "description": "Las puertas corredizas de Asay Global mejoran el diseño y la accesibilidad. Las grandes superficies acristaladas traen luz solar al interior con variantes motorizadas y mosquiteros integrados para mayor comodidad."
+      },
+      "conservatories": {
+        "title": "Invernaderos",
+        "description": "Asay Global ofrece invernaderos desde estructuras acristaladas no aisladas hasta altamente aisladas. Compatibles con nuestras ventanas y puertas, son extensiones perfectas de espacios habitables."
+      },
+      "facades": {
+        "title": "Fachadas",
+        "description": "Asay Global proporciona soluciones de fachada para todas las necesidades de construcción. Nuestras fachadas de montantes, fachadas unitizadas y muros ventana ofrecen ajustes perfectos de alta calidad como distribuidor de confianza."
+      }
+    },
+    "advantages": {
+      "title": "Ventajas del Sistema de Aluminio",
+      "structural_strength": {
+        "title": "Resistencia Estructural",
+        "description": "La relación resistencia-peso excepcional proporciona una capacidad de carga superior. Las aleaciones de aluminio de alta calidad aseguran la integridad mientras permanecen ligeras para una instalación eficiente y cargas de edificio reducidas."
+      },
+      "corrosion_resistance": {
+        "title": "Resistencia a la Corrosión",
+        "description": "El anodizado avanzado y el recubrimiento en polvo proporcionan protección excepcional contra la corrosión y la intemperie. Rendimiento duradero en ambientes costeros e industriales con mantenimiento mínimo."
+      },
+      "design_flexibility": {
+        "title": "Flexibilidad de Diseño",
+        "description": "Posibilidades arquitectónicas ilimitadas con capacidades de extrusión personalizadas. Formas complejas, curvas y perfiles únicos fabricados para cumplir con requisitos de diseño específicos."
+      },
+      "eco_friendly": {
+        "title": "Ecológico",
+        "description": "Material 100% reciclable con reutilización infinita. La fabricación eficiente en energía y las contribuciones a las certificaciones de edificios verdes hacen del aluminio una elección responsable."
+      }
+    }
+  },
+  "glass_systems": {
+    "meta": {
+      "title": "Soluciones de Vidrio Arquitectónico",
+      "description": "Acristalamiento eficiente en energía y especializado para fachadas, claraboyas e interiores—rendimiento térmico, acústico y de seguridad para la arquitectura contemporánea."
+    },
+    "page_header": {
+      "title": "Soluciones de Vidrio Arquitectónico",
+      "description": "Sistemas de vidrio arquitectónico de alto rendimiento: fachadas, claraboyas, marquesinas y acristalamiento interior para edificios modernos.",
+      "breadcrumbs": {
+        "home": "Inicio",
+        "services": "Servicios",
+        "glass_systems": "Soluciones de Vidrio Arquitectónico"
+      }
+    },
+    "overview": {
+      "title": "Especialista en Vidrio Arquitectónico",
+      "description": "Como Asay Global, nos especializamos en soluciones de vidrio arquitectónico de vanguardia que redefinen el rendimiento y la estética de los edificios modernos. Nuestro portafolio completo incluye sistemas de acristalamiento eficientes en energía, tecnologías de vidrio inteligente, acristalamiento estructural y aplicaciones de vidrio especializadas para fachadas, muros cortina y particiones interiores. Con experiencia en rendimiento térmico, control acústico y diseño sostenible, entregamos soluciones de vidrio innovadoras que cumplen con los más altos estándares de la arquitectura contemporánea mientras aseguran comodidad, seguridad y eficiencia energética óptimas."
+    },
+    "technologies": {
+      "title": "Tecnologías del Vidrio",
+      "subtitle": "Asay Global - Proveedor líder de soluciones de vidrio arquitectónico avanzadas",
+      "insulating_glass": {
+        "title": "Vidrio Aislante",
+        "description": "Sistemas de vidrio doble o triple avanzados con espacios sellados llenos de aire seco o gases inertes. Proporciona excelente aislamiento térmico, control de condensación y eficiencia energética para edificios modernos."
+      },
+      "colorless_flat_glass": {
+        "title": "Vidrio Plano Incoloro",
+        "description": "Vidrio flotado premium con claridad óptica excepcional y espesor uniforme; la base de todos los acristalamientos arquitectónicos con transparencia perfecta y transmisión de luz."
+      },
+      "tentesol_glass": {
+        "title": "Vidrio Tentesol",
+        "description": "Vidrio de control solar de alto rendimiento con recubrimientos reflectivos. Reduce la ganancia de calor solar hasta un 60% mientras mantiene excelente luz natural, asegurando interiores cómodos."
+      },
+      "painted_glass": {
+        "title": "Vidrio Pintado",
+        "description": "Vidrio arquitectónico pintado cerámico disponible en colores ilimitados. Ideal para antepechos, particiones y elementos de fachada que requieren estética y funcionalidad."
+      }
+    },
+    "advantages": {
+      "title": "Ventajas del Sistema de Vidrio",
+      "energy_efficiency": {
+        "title": "Eficiencia Energética",
+        "description": "Los recubrimientos low-E avanzados y el triple acristalamiento reducen la transferencia de calor hasta un 70%, mejorando el rendimiento energético del edificio."
+      },
+      "solar_control": {
+        "title": "Control Solar",
+        "description": "Los recubrimientos solares selectivos permiten la luz natural mientras bloquean los UV y el exceso de ganancia de calor para mantener la comodidad y proteger el mobiliario."
+      },
+      "acoustic_performance": {
+        "title": "Rendimiento Acústico",
+        "description": "Las configuraciones de vidrio laminado y asimétrico proporcionan hasta 50dB de reducción de ruido para interiores silenciosos."
+      },
+      "safety_security": {
+        "title": "Seguridad y Protección",
+        "description": "El vidrio de seguridad templado y laminado cumple con códigos estrictos y proporciona protección resistente a impactos contra el clima y amenazas de seguridad."
+      }
+    }
+  },
+  "steel_systems": {
+    "meta": {
+      "title": "Estructuras de Acero",
+      "description": "Soluciones de acero estructural para proyectos comerciales e industriales—ingeniería, fabricación e instalación con cumplimiento de códigos."
+    },
+    "page_header": {
+      "title": "Estructuras de Acero",
+      "description": "Sistemas de estructura de acero de alto rendimiento diseñados para resistencia, longevidad y arquitectura moderna.",
+      "breadcrumbs": {
+        "home": "Inicio",
+        "services": "Servicios",
+        "steel_systems": "Estructuras de Acero"
+      }
+    },
+    "overview": {
+      "title": "Excelencia en Ingeniería del Acero",
+      "description": "Asay Real Global aporta más de 22 años de experiencia en ingeniería del acero y estructuras metálicas, sirviendo a 38 países en 5 continentes con miles de proyectos exitosos. Nos especializamos en diseñar y fabricar sistemas de acero premium para construcción contemporánea incluyendo acero estructural, estructuras de acero, edificios industriales y fabricación de acero personalizada. Con resistencia, durabilidad y flexibilidad de diseño superiores, nuestras soluciones de acero ofrecen rendimiento excepcional mientras cumplen con los más altos estándares de ingeniería para proyectos de construcción modernos."
+    },
+    "standards_title": "Diseñado según Estándares Globales",
+    "solutions": {
+      "title": "Soluciones y Ventajas",
+      "subtitle": "Sistemas de acero de alto rendimiento adaptados a las necesidades de construcción modernas.",
+      "structural_steel": {
+        "title": "Acero Estructural",
+        "description": "Asay Global entrega soluciones de acero estructural completas como proveedor líder. Nuestra experiencia en ingeniería asegura capacidad de carga superior, resistencia sísmica y durabilidad a largo plazo para proyectos de construcción críticos."
+      },
+      "steel_frameworks": {
+        "title": "Estructuras de Acero",
+        "description": "Sistemas estructurales robustos y flexibles con construcción rápida y eficiencia de costos. Las estructuras diseñadas a medida se adaptan a diversos requisitos arquitectónicos y tipos de edificios."
+      },
+      "industrial_buildings": {
+        "title": "Edificios Industriales",
+        "description": "Estructuras de acero especializadas para almacenes, fábricas e instalaciones de manufactura. Maximizan claros libres, optimizan funcionalidad y aseguran cumplimiento con estándares de seguridad industrial."
+      },
+      "custom_fabrication": {
+        "title": "Fabricación Personalizada",
+        "description": "Fabricación de acero avanzada usando maquinaria de precisión y tecnología de vanguardia. Componentes fabricados según especificaciones exactas para desafíos arquitectónicos y de ingeniería únicos."
+      },
+      "steel_bridges": {
+        "title": "Puentes de Acero",
+        "description": "Excelencia en ingeniería combinando integridad estructural con estética. Soluciones desde pasarelas peatonales hasta infraestructura de transporte mayor."
+      }
+    },
+    "advantages": {
+      "title": "Ventajas de la Ingeniería del Acero",
+      "advanced_technology": {
+        "title": "Tecnología Avanzada",
+        "description": "Usando las últimas máquinas tecnológicas y programas de diseño con tecnologías de construcción avanzadas completamente automáticas controladas por computadora para fabricación de acero de precisión y excelencia en ingeniería."
+      },
+      "global_experience": {
+        "title": "Experiencia Global",
+        "description": "Sirviendo a 38 países en 5 continentes con más de 22 años de experiencia internacional. Más de 100 proyectos completados en Europa, Asia, América Central, Reino Unido y América del Norte."
+      },
+      "superior_strength": {
+        "title": "Resistencia Superior",
+        "description": "Capacidad de carga excepcional e integridad estructural. Las aleaciones de acero de alta calidad aseguran máxima resistencia y durabilidad para ambientes exigentes."
+      },
+      "professional_team": {
+        "title": "Equipo Profesional",
+        "description": "Personal profesional, experimentado y dinámico entregando soluciones rápidas y confiables con décadas de experiencia global y procesos certificados por la industria."
+      }
+    }
+  },
+  "decorative_systems": {
+    "meta": {
+      "title": "Productos Decorativos Interiores y Exteriores",
+      "description": "Soluciones decorativas B2B para interiores y fachadas—sistemas de muros, techos y revestimientos diseñados para durabilidad, estética e instalación rápida."
+    },
+    "page_header": {
+      "title": "Productos Decorativos Interiores y Exteriores",
+      "description": "Transforme espacios con soluciones decorativas premium que combinan estética con funcionalidad",
+      "breadcrumbs": {
+        "home": "Inicio",
+        "services": "Servicios",
+        "decorative_systems": "Productos Decorativos Interiores y Exteriores"
+      }
+    },
+    "overview": {
+      "title": "Especialista en Soluciones Decorativas",
+      "description": "Como Asay Real Global, nos especializamos en productos decorativos interiores y exteriores premium que realzan la belleza arquitectónica y la funcionalidad. Nuestra gama completa incluye paneles de pared, sistemas de techos, revestimiento de fachadas y elementos decorativos diseñados para elevar cualquier espacio. Con un enfoque en innovación, calidad y excelencia estética, proporcionamos soluciones que cumplen con diversos requisitos de diseño mientras aseguran durabilidad y rendimiento a través de proyectos residenciales, comerciales e institucionales."
+    },
+    "solutions": {
+      "title": "Soluciones Decorativas",
+      "subtitle": "Asay Global - Proveedor premier de productos arquitectónicos decorativos innovadores",
+      "wall_panels": {
+        "title": "Paneles de Pared",
+        "description": "Sistemas de paneles de pared interiores y exteriores versátiles combinando estética moderna con rendimiento superior e instalación fácil.",
+        "features": [
+          "Instalación rápida, bajo mantenimiento",
+          "Resistencia a impactos y humedad",
+          "Amplias opciones de acabados y texturas"
+        ]
+      },
+      "composite_decking": {
+        "title": "Tarima Compuesta",
+        "description": "Perfiles de tarima compuesta de alta calidad proporcionando superficies antideslizantes con apariencia de madera natural y resistencia a la intemperie.",
+        "features": [
+          "Resistencia UV y a la decoloración",
+          "Superficie antideslizante, cómoda para pies descalzos",
+          "Baja absorción de agua"
+        ]
+      },
+      "facade_systems": {
+        "title": "Sistemas de Fachada",
+        "description": "Sistemas de revestimiento de fachada resistentes a la intemperie ofreciendo protección superior y diseño contemporáneo para exteriores de edificios.",
+        "features": [
+          "Alta durabilidad en climas rigurosos",
+          "Contribución térmica y acústica",
+          "Estética arquitectónica contemporánea"
+        ]
+      },
+      "interior_cladding": {
+        "title": "Revestimiento Interior Elegante",
+        "description": "Soluciones de revestimiento interior elegantes aportando calidez y sofisticación a espacios interiores con mantenimiento fácil.",
+        "features": [
+          "Texturas cálidas y aspecto natural",
+          "Resistente a manchas, fácil de limpiar",
+          "Compatible con interiores modernos"
+        ]
+      }
+    },
+    "advantages": {
+      "title": "Ventajas de los Productos Decorativos",
+      "design_versatility": {
+        "title": "Versatilidad de Diseño",
+        "description": "Posibilidades de diseño ilimitadas con nuestra gama de texturas, colores y patrones. Se adapta a cualquier visión arquitectónica desde minimal hasta clásica."
+      },
+      "sound_proof": {
+        "title": "Insonorización",
+        "description": "Los perfiles multi-cámara y sellado especial proporcionan aislamiento acústico superior, minimizando el ruido urbano para espacios más silenciosos."
+      },
+      "modern_design": {
+        "title": "Diseño Moderno",
+        "description": "Perfiles elegantes y marcos delgados maximizan el área de vidrio mientras se alinean con la estética arquitectónica contemporánea."
+      },
+      "long_lasting_durability": {
+        "title": "Durabilidad de Larga Duración",
+        "description": "Materiales resistentes a UV resisten impactos y clima, entregando más de 30 años de rendimiento con mantenimiento mínimo."
+      }
+    }
+  },
   "footer": {
     "company_desc": "Con 22 años de experiencia, Asay Global se especializa en la producción y suministro de materiales de construcción de alta calidad para mercados globales.",
     "services": "Servicios",

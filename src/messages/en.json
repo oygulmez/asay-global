@@ -236,6 +236,268 @@
       "learn_more": "Learn More"
     }
   },
+  "aluminum_systems": {
+    "meta": {
+      "title": "Aluminum Architectural Solutions",
+      "description": "High‑performance aluminum systems for façades, windows, doors and curtain walls—strength, corrosion resistance and design flexibility for modern projects."
+    },
+    "page_header": {
+      "title": "Aluminum Architectural Solutions",
+      "description": "High-performance aluminum systems engineered for modern facades, windows, doors and curtain walls.",
+      "breadcrumbs": {
+        "home": "Home",
+        "services": "Services",
+        "aluminum_systems": "Aluminum Architectural Solutions"
+      }
+    },
+    "overview": {
+      "title": "Aluminum Engineering Excellence",
+      "description": "As a leading provider of aluminum architectural solutions, we specialize in designing and manufacturing premium aluminum systems for contemporary buildings. Our comprehensive range includes curtain walls, window systems, doors, and structural glazing solutions. With superior strength-to-weight ratio, corrosion resistance, and design flexibility, our aluminum products deliver exceptional performance while meeting the highest aesthetic standards for modern architectural projects."
+    },
+    "partners_title": "Aluminum Architectural Solutions Partners",
+    "solutions": {
+      "title": "Aluminum Solutions",
+      "subtitle": "Asay Global - Provider of Premium Aluminum Architectural Systems.",
+      "windows": {
+        "title": "Windows",
+        "description": "Asay Global delivers versatile aluminium windows as the USA's leading distributor. Our optimal functionality meets excellent design, safety and energy efficiency in these trustworthy systems trusted across America."
+      },
+      "doors": {
+        "title": "Doors",
+        "description": "Asay Global's aluminium doors are robust, highly secure and fully customisable. As the premier USA distributor, we create high-quality entrances with unlimited design freedom for your projects."
+      },
+      "sliding_folding": {
+        "title": "Sliding & Folding",
+        "description": "Asay Global's sliding doors improve design and accessibility across the USA. Large glazed surfaces bring sunlight inside with motorised variants and integrated flyscreens for enhanced comfort."
+      },
+      "conservatories": {
+        "title": "Conservatories",
+        "description": "Asay Global offers conservatories from non-insulated to highly insulated glazed structures across the USA. Compatible with our windows and doors, they're perfect living space extensions."
+      },
+      "facades": {
+        "title": "Façades",
+        "description": "Asay Global provides façade solutions for all USA building needs. Our stick façades, unitised façades and window walls deliver perfect high-quality fits as America's trusted distributor."
+      }
+    },
+    "advantages": {
+      "title": "Aluminum System Advantages",
+      "structural_strength": {
+        "title": "Structural Strength",
+        "description": "Exceptional strength-to-weight ratio provides superior load-bearing capacity. High‑grade aluminum alloys ensure integrity while remaining lightweight for efficient installation and reduced building loads."
+      },
+      "corrosion_resistance": {
+        "title": "Corrosion Resistance",
+        "description": "Advanced anodizing and powder coating provide outstanding protection against corrosion and weathering. Long‑lasting performance in coastal and industrial environments with minimal maintenance."
+      },
+      "design_flexibility": {
+        "title": "Design Flexibility",
+        "description": "Unlimited architectural possibilities with custom extrusion capabilities. Complex shapes, curves and unique profiles manufactured to meet specific design requirements."
+      },
+      "eco_friendly": {
+        "title": "Eco-Friendly",
+        "description": "100% recyclable material with infinite reusability. Energy‑efficient manufacturing and contributions to green building certifications make aluminum a responsible choice."
+      }
+    }
+  },
+  "glass_systems": {
+    "meta": {
+      "title": "Architectural Glass Solutions",
+      "description": "Energy‑efficient and specialty glazing for façades, skylights and interiors—thermal, acoustic and safety performance for contemporary architecture."
+    },
+    "page_header": {
+      "title": "Architectural Glass Solutions",
+      "description": "High-performance architectural glass systems: façades, skylights, canopies and interior glazing for modern buildings.",
+      "breadcrumbs": {
+        "home": "Home",
+        "services": "Services",
+        "glass_systems": "Architectural Glass Solutions"
+      }
+    },
+    "overview": {
+      "title": "Architectural Glass Specialist",
+      "description": "As Asay Global, we specialize in cutting-edge architectural glass solutions that redefine modern building performance and aesthetics. Our comprehensive portfolio includes energy-efficient glazing systems, smart glass technologies, structural glazing, and specialized glass applications for facades, curtain walls, and interior partitions. With expertise in thermal performance, acoustic control, and sustainable design, we deliver innovative glass solutions that meet the highest standards of contemporary architecture while ensuring optimal comfort, safety, and energy efficiency."
+    },
+    "technologies": {
+      "title": "Glass Technologies",
+      "subtitle": "Asay Global - Leading provider of advanced architectural glass solutions",
+      "insulating_glass": {
+        "title": "Insulating Glass",
+        "description": "Advanced double or triple-pane glass systems with sealed spaces filled with dry air or inert gases. Delivers excellent thermal insulation, condensation control and energy efficiency for modern buildings."
+      },
+      "colorless_flat_glass": {
+        "title": "Colorless Flat Glass",
+        "description": "Premium float glass with exceptional optical clarity and uniform thickness; the foundation for all architectural glazing with perfect transparency and light transmission."
+      },
+      "tentesol_glass": {
+        "title": "Tentesol Glass",
+        "description": "High-performance solar control glass with reflective coatings. Reduces solar heat gain by up to 60% while maintaining excellent natural light, ensuring comfortable interiors."
+      },
+      "painted_glass": {
+        "title": "Painted Glass",
+        "description": "Ceramic-painted architectural glass available in unlimited colors. Ideal for spandrels, partitions and façade elements requiring aesthetics and functionality."
+      }
+    },
+    "advantages": {
+      "title": "Glass System Advantages",
+      "energy_efficiency": {
+        "title": "Energy Efficiency",
+        "description": "Advanced low‑E coatings and triple‑glazing reduce heat transfer by up to 70%, improving building energy performance."
+      },
+      "solar_control": {
+        "title": "Solar Control",
+        "description": "Selective solar coatings allow natural light while blocking UV and excess heat gain to maintain comfort and protect furnishings."
+      },
+      "acoustic_performance": {
+        "title": "Acoustic Performance",
+        "description": "Laminated and asymmetric glass configurations provide up to 50dB noise reduction for peaceful interiors."
+      },
+      "safety_security": {
+        "title": "Safety & Security",
+        "description": "Tempered and laminated safety glass meets strict codes and provides impact‑resistant protection against weather and security threats."
+      }
+    }
+  },
+  "steel_systems": {
+    "meta": {
+      "title": "Steel Framings",
+      "description": "Structural steel solutions for commercial and industrial projects—engineering, fabrication and installation with code compliance."
+    },
+    "page_header": {
+      "title": "Steel Framings",
+      "description": "High-performance steel framing systems engineered for strength, longevity, and modern architecture.",
+      "breadcrumbs": {
+        "home": "Home",
+        "services": "Services",
+        "steel_systems": "Steel Framings"
+      }
+    },
+    "overview": {
+      "title": "Steel Engineering Excellence",
+      "description": "Asay Real Global brings over 22 years of expertise in steel engineering and steel structures, serving 38 countries across 5 continents with thousands of successful projects. We specialize in designing and manufacturing premium steel systems for contemporary construction including structural steel, steel frameworks, industrial buildings, and custom steel fabrication. With superior strength, durability, and design flexibility, our steel solutions deliver exceptional performance while meeting the highest engineering standards for modern construction projects."
+    },
+    "standards_title": "Engineered to Global Standards",
+    "solutions": {
+      "title": "Solutions & Advantages",
+      "subtitle": "High-performance steel systems tailored to modern construction needs.",
+      "structural_steel": {
+        "title": "Structural Steel",
+        "description": "Asay Global delivers comprehensive structural steel solutions as the leading provider. Our engineering expertise ensures superior load-bearing capacity, seismic resistance, and long-term durability for critical construction projects."
+      },
+      "steel_frameworks": {
+        "title": "Steel Frameworks",
+        "description": "Robust, flexible structural systems with rapid construction and cost efficiency. Custom-designed frameworks adapt to diverse architectural requirements and building types."
+      },
+      "industrial_buildings": {
+        "title": "Industrial Buildings",
+        "description": "Specialized steel structures for warehouses, factories, and manufacturing facilities. Maximize clear spans, optimize functionality, and ensure compliance with industrial safety standards."
+      },
+      "custom_fabrication": {
+        "title": "Custom Fabrication",
+        "description": "Advanced steel fabrication using precision machinery and cutting-edge technology. Components manufactured to exact specifications for unique architectural and engineering challenges."
+      },
+      "steel_bridges": {
+        "title": "Steel Bridges",
+        "description": "Engineering excellence combining structural integrity with aesthetics. Solutions for pedestrian walkways to major transportation infrastructure."
+      }
+    },
+    "advantages": {
+      "title": "Steel Engineering Advantages",
+      "advanced_technology": {
+        "title": "Advanced Technology",
+        "description": "Using the latest technological machines and design programs with fully automatic computer-controlled advanced construction technologies for precision steel fabrication and engineering excellence."
+      },
+      "global_experience": {
+        "title": "Global Experience",
+        "description": "Serving 38 countries across 5 continents with over 22 years of international experience. 100+ completed projects across Europe, Asia, Central America, the UK and North America."
+      },
+      "superior_strength": {
+        "title": "Superior Strength",
+        "description": "Exceptional load-bearing capacity and structural integrity. High‑grade steel alloys ensure maximum strength and durability for demanding environments."
+      },
+      "professional_team": {
+        "title": "Professional Team",
+        "description": "Professional, experienced and dynamic staff delivering fast and reliable solutions with decades of global expertise and industry‑certified processes."
+      }
+    }
+  },
+  "decorative_systems": {
+    "meta": {
+      "title": "Interior & Exterior Decorative Products",
+      "description": "B2B decorative solutions for interiors and facades—wall, ceiling and cladding systems engineered for durability, aesthetics and fast installation."
+    },
+    "page_header": {
+      "title": "Interior and Exterior Decorative Products",
+      "description": "Transform spaces with premium decorative solutions that combine aesthetics with functionality",
+      "breadcrumbs": {
+        "home": "Home",
+        "services": "Services",
+        "decorative_systems": "Interior and Exterior Decorative Products"
+      }
+    },
+    "overview": {
+      "title": "Decorative Solutions Specialist",
+      "description": "As Asay Real Global, we specialize in premium interior and exterior decorative products that enhance architectural beauty and functionality. Our comprehensive range includes wall panels, ceiling systems, facade cladding, and decorative elements designed to elevate any space. With a focus on innovation, quality, and aesthetic excellence, we provide solutions that meet diverse design requirements while ensuring durability and performance across residential, commercial, and institutional projects."
+    },
+    "solutions": {
+      "title": "Decorative Solutions",
+      "subtitle": "Asay Global - Premier provider of innovative decorative architectural products",
+      "wall_panels": {
+        "title": "Wall Panels",
+        "description": "Versatile interior and exterior wall panel systems combining modern aesthetics with superior performance and easy installation.",
+        "features": [
+          "Quick installation, low maintenance",
+          "Impact and moisture resistance",
+          "Wide finish and texture options"
+        ]
+      },
+      "composite_decking": {
+        "title": "Composite Decking",
+        "description": "High-quality composite decking profiles providing slip-resistant surfaces with natural wood appearance and weather resistance.",
+        "features": [
+          "UV and fade resistance",
+          "Anti-slip surface, barefoot friendly",
+          "Low water absorption"
+        ]
+      },
+      "facade_systems": {
+        "title": "Facade Systems",
+        "description": "Weather-resistant facade cladding systems offering superior protection and contemporary design for building exteriors.",
+        "features": [
+          "High durability in harsh climates",
+          "Thermal and acoustic contribution",
+          "Contemporary architectural aesthetics"
+        ]
+      },
+      "interior_cladding": {
+        "title": "Elegant Interior Cladding",
+        "description": "Elegant interior cladding solutions providing warmth and sophistication to indoor spaces with easy maintenance.",
+        "features": [
+          "Warm textures and natural look",
+          "Stain-resistant, easy to clean",
+          "Compatible with modern interiors"
+        ]
+      }
+    },
+    "advantages": {
+      "title": "Decorative Product Advantages",
+      "design_versatility": {
+        "title": "Design Versatility",
+        "description": "Unlimited design possibilities with our range of textures, colors, and patterns. Adapts to any architectural vision from minimal to classic."
+      },
+      "sound_proof": {
+        "title": "Sound Proof",
+        "description": "Multi-chamber profiles and special sealing provide superior sound insulation, minimizing urban noise for quieter spaces."
+      },
+      "modern_design": {
+        "title": "Modern Design",
+        "description": "Elegant profiles and slim frames maximize glass area while aligning with contemporary architectural aesthetics."
+      },
+      "long_lasting_durability": {
+        "title": "Long Lasting Durability",
+        "description": "UV-resistant materials withstand impact and weather, delivering 30+ years of performance with minimal maintenance."
+      }
+    }
+  },
   "footer": {
     "company_desc": "With 22 years of industry experience, Asay Global specializes in the production and supply of high-quality building materials for global markets.",
     "services": "Services",

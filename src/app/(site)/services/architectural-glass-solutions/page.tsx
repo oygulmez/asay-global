@@ -1,32 +1,47 @@
+"use client"
+
 import { PageHeader } from "@/components/page-header";
 import CallToAction from "@/components/call-to-action";
 import { ApplicationAreasGallery } from "@/components/image-gallery";
 import { Shield, Sun, Zap, Waves } from "lucide-react";
-
-export const metadata = {
-  title: "Architectural Glass Solutions",
-  description: "Energy‑efficient and specialty glazing for façades, skylights and interiors—thermal, acoustic and safety performance for contemporary architecture.",
-};
+import { useState, useEffect } from 'react';
+import enMessages from '@/messages/en.json';
+import frMessages from '@/messages/fr.json';
+import esMessages from '@/messages/es.json';
 
 export default function ArchitecturalGlassSolutionsPage() {
+  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+  
+  useEffect(() => {
+    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
+    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
+  }, []);
+  
+  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
+  const t = messages.glass_systems;
+  
+  const createUrl = (path: string) => {
+    if (locale === 'en') return path;
+    return `/${locale}${path}`;
+  };
   return (
     <>
       <PageHeader
-        title="Architectural Glass Solutions"
-        description="High-performance architectural glass systems: façades, skylights, canopies and interior glazing for modern buildings."
+        title={t.page_header.title}
+        description={t.page_header.description}
         breadcrumbItems={[
-          { label: "Home", href: "/" },
-          { label: "Services", href: "/services" },
-          { label: "Architectural Glass Solutions" }
+          { label: t.page_header.breadcrumbs.home, href: createUrl("/") },
+          { label: t.page_header.breadcrumbs.services, href: createUrl("/services") },
+          { label: t.page_header.breadcrumbs.glass_systems }
         ]}
       />
 
       <div className="container mx-auto px-6 py-16">
         {/* Overview */}
         <div className="max-w-4xl mx-auto mb-16 text-center">
-          <h2 className="text-3xl font-bold mb-4" style={{ color: 'black' }}>Architectural Glass Specialist </h2>
+          <h2 className="text-3xl font-bold mb-4" style={{ color: 'black' }}>{t.overview.title}</h2>
           <p className="text-base leading-relaxed" style={{ color: '#565656' }}>
-          As Asay Global, we specialize in cutting-edge architectural glass solutions that redefine modern building performance and aesthetics. Our comprehensive portfolio includes energy-efficient glazing systems, smart glass technologies, structural glazing, and specialized glass applications for facades, curtain walls, and interior partitions. With expertise in thermal performance, acoustic control, and sustainable design, we deliver innovative glass solutions that meet the highest standards of contemporary architecture while ensuring optimal comfort, safety, and energy efficiency.</p>
+          {t.overview.description}</p>
         </div>
 
         <div className="mx-auto max-w-7xl px-6">
@@ -39,8 +54,8 @@ export default function ArchitecturalGlassSolutionsPage() {
         <section className="py-16">
           <div className="mx-auto max-w-7xl px-6">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-3" style={{ color: 'black' }}>Glass Technologies</h2>
-              <p className="text-base" style={{ color: '#565656' }}>Asay Global - Leading provider of advanced architectural glass solutions</p>
+              <h2 className="text-3xl font-bold mb-3" style={{ color: 'black' }}>{t.technologies.title}</h2>
+              <p className="text-base" style={{ color: '#565656' }}>{t.technologies.subtitle}</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* Insulating Glass */}
@@ -48,10 +63,10 @@ export default function ArchitecturalGlassSolutionsPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                   <img src="/images/services/glass-solutions/Architectural-Glass-Solutions-Insulating-Glass.png" alt="Insulating Glass" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
-                    <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">Insulating Glass</span>
-                    <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Insulating Glass</h3>
+                    <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.technologies.insulating_glass.title}</span>
+                    <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.technologies.insulating_glass.title}</h3>
                     <p className="text-sm" style={{ color: '#565656' }}>
-                      Advanced double or triple-pane glass systems with sealed spaces filled with dry air or inert gases. Delivers excellent thermal insulation, condensation control and energy efficiency for modern buildings.
+                      {t.technologies.insulating_glass.description}
                     </p>
                   </div>
                 </div>
@@ -62,10 +77,10 @@ export default function ArchitecturalGlassSolutionsPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                   <img src="/images/services/glass-solutions/Architectural-Glass-Solutions-Colorless-Flat-Glass.png" alt="Colorless Flat Glass" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
-                    <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">Float Glass</span>
-                    <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Colorless Flat Glass</h3>
+                    <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.technologies.colorless_flat_glass.title}</span>
+                    <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.technologies.colorless_flat_glass.title}</h3>
                     <p className="text-sm" style={{ color: '#565656' }}>
-                      Premium float glass with exceptional optical clarity and uniform thickness; the foundation for all architectural glazing with perfect transparency and light transmission.
+                      {t.technologies.colorless_flat_glass.description}
                     </p>
                   </div>
                 </div>
@@ -76,10 +91,10 @@ export default function ArchitecturalGlassSolutionsPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                   <img src="/images/services/glass-solutions/Architectural-Glass-SolutionsTentesol-Glass.png" alt="Tentesol Glass" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
-                    <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">Solar Control</span>
-                    <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Tentesol Glass</h3>
+                    <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.technologies.tentesol_glass.title}</span>
+                    <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.technologies.tentesol_glass.title}</h3>
                     <p className="text-sm" style={{ color: '#565656' }}>
-                      High-performance solar control glass with reflective coatings. Reduces solar heat gain by up to 60% while maintaining excellent natural light, ensuring comfortable interiors.
+                      {t.technologies.tentesol_glass.description}
                     </p>
                   </div>
                 </div>
@@ -90,10 +105,10 @@ export default function ArchitecturalGlassSolutionsPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                   <img src="/images/services/glass-solutions/Architectural-Glass-Solutions-Painted-Glass.png" alt="Painted Glass" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
-                    <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">Decorative</span>
-                    <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>Painted Glass</h3>
+                    <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.technologies.painted_glass.title}</span>
+                    <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.technologies.painted_glass.title}</h3>
                     <p className="text-sm" style={{ color: '#565656' }}>
-                      Ceramic-painted architectural glass available in unlimited colors. Ideal for spandrels, partitions and façade elements requiring aesthetics and functionality.
+                      {t.technologies.painted_glass.description}
                     </p>
                   </div>
                 </div>
@@ -106,7 +121,7 @@ export default function ArchitecturalGlassSolutionsPage() {
         <section className="py-20 md:py-32 w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]" style={{ backgroundColor: '#000000' }}>
           <div className="mx-auto max-w-7xl px-6">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold mb-4 text-white">Glass System Advantages</h2>
+              <h2 className="text-3xl font-bold mb-4 text-white">{t.advantages.title}</h2>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -115,8 +130,8 @@ export default function ArchitecturalGlassSolutionsPage() {
                 <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
                   <Zap className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-white">Energy Efficiency</h3>
-                <p className="text-white/70 text-sm leading-relaxed">Advanced low‑E coatings and triple‑glazing reduce heat transfer by up to 70%, improving building energy performance.</p>
+                <h3 className="text-lg font-semibold mb-3 text-white">{t.advantages.energy_efficiency.title}</h3>
+                <p className="text-white/70 text-sm leading-relaxed">{t.advantages.energy_efficiency.description}</p>
               </div>
 
               {/* Solar Control */}
@@ -124,8 +139,8 @@ export default function ArchitecturalGlassSolutionsPage() {
                 <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
                   <Sun className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-white">Solar Control</h3>
-                <p className="text-white/70 text-sm leading-relaxed">Selective solar coatings allow natural light while blocking UV and excess heat gain to maintain comfort and protect furnishings.</p>
+                <h3 className="text-lg font-semibold mb-3 text-white">{t.advantages.solar_control.title}</h3>
+                <p className="text-white/70 text-sm leading-relaxed">{t.advantages.solar_control.description}</p>
               </div>
 
               {/* Acoustic Performance */}
@@ -133,8 +148,8 @@ export default function ArchitecturalGlassSolutionsPage() {
                 <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
                   <Waves className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-white">Acoustic Performance</h3>
-                <p className="text-white/70 text-sm leading-relaxed">Laminated and asymmetric glass configurations provide up to 50dB noise reduction for peaceful interiors.</p>
+                <h3 className="text-lg font-semibold mb-3 text-white">{t.advantages.acoustic_performance.title}</h3>
+                <p className="text-white/70 text-sm leading-relaxed">{t.advantages.acoustic_performance.description}</p>
               </div>
 
               {/* Safety & Security */}
@@ -142,8 +157,8 @@ export default function ArchitecturalGlassSolutionsPage() {
                 <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
                   <Shield className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-white">Safety & Security</h3>
-                <p className="text-white/70 text-sm leading-relaxed">Tempered and laminated safety glass meets strict codes and provides impact‑resistant protection against weather and security threats.</p>
+                <h3 className="text-lg font-semibold mb-3 text-white">{t.advantages.safety_security.title}</h3>
+                <p className="text-white/70 text-sm leading-relaxed">{t.advantages.safety_security.description}</p>
               </div>
             </div>
           </div>
