@@ -536,6 +536,77 @@
         "title": "Durabilité Longue Durée",
         "description": "Matériaux résistants aux UV résistent aux impacts et aux intempéries, offrant plus de 30 ans de performance avec maintenance minimale."
       }
+    },
+    "window_door_category": {
+      "meta": {
+        "title": "Systèmes de Fenêtres et Portes u-PVC",
+        "description": "Explorez les familles de produits de fenêtres et portes u-PVC incluant Legend, Legend Art et Zendow avec haute isolation et performance durable."
+      },
+      "page_header": {
+        "title": "Systèmes de Fenêtres et Portes u-PVC",
+        "description": "Parcourez les produits de fenêtres et portes u-PVC conçus pour l'isolation, la durabilité et la performance d'étanchéité.",
+        "breadcrumbs": {
+          "home": "Accueil",
+          "services": "Services",
+          "upvc_systems": "Systèmes u-PVC",
+          "window_door_systems": "Systèmes de Fenêtres et Portes u-PVC"
+        }
+      },
+      "products": {
+        "legend": {
+          "title": "Système Legend Fenêtres et Portes u-PVC",
+          "description": "Haute isolation, performance statique robuste et larges options de vitrage.",
+          "view_product": "Voir le Produit"
+        },
+        "legend_art": {
+          "title": "Système Legend Art Fenêtres et Portes u-PVC",
+          "description": "Design esthétique avec performance premium pour l'architecture moderne.",
+          "view_product": "Voir le Produit"
+        },
+        "zendow": {
+          "title": "Système Zendow Fenêtres et Portes u-PVC",
+          "description": "Performance thermique avancée avec style contemporain et polyvalence.",
+          "view_product": "Voir le Produit"
+        }
+      }
+    },
+    "sliding_category": {
+      "meta": {
+        "title": "Systèmes Coulissants u-PVC",
+        "description": "Découvrez les solutions coulissantes u-PVC incluant HS76, Slimslide et Legend Sürme Plus pour grandes ouvertures et fonctionnement fluide."
+      },
+      "page_header": {
+        "title": "Systèmes Coulissants u-PVC",
+        "description": "Explorez les solutions coulissantes conçues pour grandes ouvertures, fonctionnement fluide et excellente performance d'étanchéité.",
+        "breadcrumbs": {
+          "home": "Accueil",
+          "services": "Services",
+          "upvc_systems": "Systèmes u-PVC",
+          "sliding_systems": "Systèmes Coulissants u-PVC"
+        }
+      },
+      "products": {
+        "hs76": {
+          "title": "Système Coulissant HS76",
+          "description": "Système lever-coulisser avec seuil bas et excellente performance thermique.",
+          "view_product": "Voir le Produit"
+        },
+        "slimslide": {
+          "title": "Système Slimslide",
+          "description": "Profils ultra-minces maximisant la surface vitrée avec fonctionnement coulissant fluide.",
+          "view_product": "Voir le Produit"
+        },
+        "legend_surme_plus": {
+          "title": "Legend Sürme Plus",
+          "description": "Système coulissant avancé avec étanchéité renforcée et efficacité thermique.",
+          "view_product": "Voir le Produit"
+        },
+        "pvc_sliding_door": {
+          "title": "Système de Porte Coulissante PVC",
+          "description": "Solutions de portes coulissantes fiables pour applications résidentielles et commerciales.",
+          "view_product": "Voir le Produit"
+        }
+      }
     }
   },
   "products_features": {
