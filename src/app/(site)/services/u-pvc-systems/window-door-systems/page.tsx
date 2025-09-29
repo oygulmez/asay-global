@@ -17,16 +17,20 @@ export default function WindowDoorCategoryPage() {
   }, []);
   
   const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
-  const t = (messages as any).window_door_category;
+  const t = (messages as any).upvc_systems?.window_door_category || (messages as any).window_door_category;
   
   const createUrl = (path: string) => {
     if (locale === 'en') return path;
     return `/${locale}${path}`;
   };
 
-  // Safety check
+  // Debug and safety check
+  console.log('Debug - locale:', locale);
+  console.log('Debug - messages keys:', Object.keys(messages));
+  console.log('Debug - t:', t);
+  
   if (!t || !t.page_header) {
-    return <div>Loading...</div>;
+    return <div>Loading... (Debug: t={JSON.stringify(t)}, locale={locale})</div>;
   }
 
   return (
