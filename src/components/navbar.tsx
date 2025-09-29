@@ -97,8 +97,8 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="sm" aria-label="Select language" className="inline-flex items-center gap-2">
-                <img src="/flags/gb.svg" alt="English" width="18" height="12" className="rounded-none border" />
-                <span className="text-xs font-medium tracking-wide">EN</span>
+                <img src={locale === 'fr' ? '/flags/fr.svg' : locale === 'es' ? '/flags/es.svg' : '/flags/gb.svg'} alt={locale === 'fr' ? 'Français' : locale === 'es' ? 'Español' : 'English'} width="18" height="12" className="rounded-none border" />
+                <span className="text-xs font-medium tracking-wide">{locale === 'fr' ? 'FR' : locale === 'es' ? 'ES' : 'EN'}</span>
                 <ChevronDown className="size-3.5 opacity-70" aria-hidden />
               </Button>
             </DropdownMenuTrigger>
@@ -126,22 +126,28 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="ghost" size="sm" className="flex items-center gap-1 px-2 py-1">
-                <img src="/flags/gb.svg" alt="English" width="18" height="12" className="rounded-none border" />
+                <img src={locale === 'fr' ? '/flags/fr.svg' : locale === 'es' ? '/flags/es.svg' : '/flags/gb.svg'} alt={locale === 'fr' ? 'Français' : locale === 'es' ? 'Español' : 'English'} width="18" height="12" className="rounded-none border" />
                 <ChevronDown className="h-4 w-4" />
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-32">
-              <DropdownMenuItem className="flex items-center gap-2">
-                <img src="/flags/gb.svg" alt="English" width="18" height="12" className="rounded-none border" />
-                English
+              <DropdownMenuItem asChild>
+                <Link href="/" className="flex items-center gap-2">
+                  <img src="/flags/gb.svg" alt="English" width="18" height="12" className="rounded-none border" />
+                  English
+                </Link>
               </DropdownMenuItem>
-              <DropdownMenuItem className="flex items-center gap-2">
-                <img src="/flags/fr.svg" alt="Français" width="18" height="12" className="rounded-none border" />
-                Français
+              <DropdownMenuItem asChild>
+                <Link href="/fr" className="flex items-center gap-2">
+                  <img src="/flags/fr.svg" alt="Français" width="18" height="12" className="rounded-none border" />
+                  Français
+                </Link>
               </DropdownMenuItem>
-              <DropdownMenuItem className="flex items-center gap-2">
-                <img src="/flags/es.svg" alt="Español" width="18" height="12" className="rounded-none border" />
-                Español
+              <DropdownMenuItem asChild>
+                <Link href="/es" className="flex items-center gap-2">
+                  <img src="/flags/es.svg" alt="Español" width="18" height="12" className="rounded-none border" />
+                  Español
+                </Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
