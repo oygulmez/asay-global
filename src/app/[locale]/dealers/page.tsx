@@ -1,7 +1,9 @@
 import {locales} from '@/i18n';
 import SiteDealers from '../../(site)/dealers/page';
 
-export async function generateMetadata({params: {locale}}: {params: {locale: string}}) {
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
+  let {locale} = await params;
+  if (!['en','fr','es'].includes(locale)) locale = 'en';
   const messages = (await import(`@/messages/${locale}.json`)).default as any;
   const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages as any);
   return {

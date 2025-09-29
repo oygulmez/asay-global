@@ -1,11 +1,14 @@
 import {locales} from '@/i18n';
 import SiteUPVC from '../../../(site)/services/u-pvc-systems/page';
 
-export async function generateMetadata({params: {locale}}: {params: {locale: string}}) {
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
+  let {locale} = await params;
+  if (!['en','fr','es'].includes(locale)) locale = 'en';
   const messages = (await import(`@/messages/${locale}.json`)).default as any;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages as any);
   return {
-    title: "u-PVC Systems",
-    description: "u‑PVC product families covering window, door and sliding systems engineered for durability, energy efficiency and low maintenance.",
+    title: t('upvc_systems.meta.title'),
+    description: t('upvc_systems.meta.description'),
   };
 }
 

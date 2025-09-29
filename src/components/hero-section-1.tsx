@@ -9,6 +9,7 @@ import { AnimatedGroup } from '@/components/ui/animated-group'
 import { Gallery6 } from '@/components/gallery6'
 import { FeaturesSectionWithHoverEffects } from '@/components/feature-section-with-hover-effects'
 import { cn } from '@/lib/utils'
+import { createLocalizedUrl } from '@/lib/slugs'
 import enMessages from '@/messages/en.json'
 import frMessages from '@/messages/fr.json'
 import esMessages from '@/messages/es.json'
@@ -45,10 +46,9 @@ export function HeroSectionOne() {
 
     const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en')
     
-    // Helper function to create locale-aware URLs
+    // Helper function to create locale-aware URLs with localized slugs
     const createUrl = (path: string) => {
-        if (locale === 'en') return path;
-        return `/${locale}${path}`;
+        return createLocalizedUrl(path, locale);
     };
 
     useEffect(() => {

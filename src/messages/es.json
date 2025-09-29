@@ -10,8 +10,7 @@
     "title": "Calidad Premium, Alcance Global",
     "cardTitle": "Le Ofrecemos Una Gama Completa De Soluciones Estructurales.",
     "cardDesc": "Como socio principal de fabricantes autorizados y licenciados de marcas globales líderes, brindamos acceso directo a materiales de construcción de primera calidad y soluciones de construcción de vanguardia."
-  }
-  ,
+  },
   "nav": {
     "home": "Inicio",
     "about": "Sobre Nosotros",
@@ -169,9 +168,60 @@
         "home": "Inicio",
         "services": "Servicios"
       }
+    },
+    "interior_exterior_decorative": {
+      "meta": {
+        "title": "Productos Decorativos Interiores y Exteriores",
+        "description": "Materiales decorativos de alta calidad para aplicaciones interiores y exteriores, mejorando el atractivo estético de sus proyectos."
+      },
+      "page_header": {
+        "title": "Productos Decorativos Interiores y Exteriores",
+        "description": "Materiales decorativos de alta calidad que mejoran la estética de sus espacios.",
+        "breadcrumbs": {
+          "home": "Inicio",
+          "services": "Servicios",
+          "interior_exterior_decorative": "Decorativos Interiores y Exteriores"
+        }
+      },
+      "overview": {
+        "title": "Soluciones Decorativas Completas",
+        "description": "Desde acabados interiores elegantes hasta revestimientos exteriores duraderos, proporcionamos materiales decorativos premium que combinan estética y funcionalidad."
+      },
+      "solutions": [
+        {
+          "title": "Paneles de Pared Interiores",
+          "description": "Sistemas de paneles de pared elegantes y duraderos para interiores residenciales y comerciales."
+        },
+        {
+          "title": "Revestimiento Exterior",
+          "description": "Soluciones de revestimiento resistentes a la intemperie que mejoran las fachadas de edificios."
+        },
+        {
+          "title": "Perfiles Decorativos",
+          "description": "Perfiles decorativos personalizables para diseños arquitectónicos únicos."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Calidad Premium",
+          "description": "Materiales de alto grado que garantizan belleza y rendimiento duraderos."
+        },
+        {
+          "title": "Flexibilidad de Diseño",
+          "description": "Amplia gama de colores, texturas y acabados para adaptarse a cualquier visión de diseño."
+        },
+        {
+          "title": "Instalación Fácil",
+          "description": "Diseñado para una instalación eficiente que reduce los plazos del proyecto."
+        }
+      ]
     }
   },
   "dealers": {
+    "meta": {
+      "title": "Distribuidores Autorizados",
+      "description": "Encuentre nuestros socios de confianza y distribuidores autorizados en todo el mundo. Conéctese con expertos locales para consultoría profesional y soporte."
+    },
     "page_header": {
       "title": "Distribuidores Autorizados",
       "description": "Encuentre nuestros socios de confianza y puntos de venta.",
@@ -435,19 +485,58 @@
           "subtitle": "Ofrecemos alternativas de colores laminados que proporcionan durabilidad superior contra condiciones climáticas adversas mientras requieren bajo mantenimiento. Diferentes colores laminados pueden aplicarse en caras interiores y exteriores para lograr fachadas más estéticas y coherentes.",
           "note": "Los colores laminados interiores y exteriores pueden combinarse.",
           "colors": [
-            { "name": "Roble Dorado", "file": "altin-mese.jpg" },
-            { "name": "Roble Antiguo", "file": "antik-mese.jpg" },
-            { "name": "Gris Antracita", "file": "antrasit-gri.jpg" },
-            { "name": "Avellana", "file": "findik.jpg" },
-            { "name": "Crema", "file": "krem.jpg" },
-            { "name": "Negro Ceniza", "file": "kul-siyahi.jpg" },
-            { "name": "Caoba", "file": "maun.jpg" },
-            { "name": "Antracita Metálico", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Plata Metálico", "file": "metalik-gumus.jpg" },
-            { "name": "Corona Platino", "file": "platin-crown.jpg" },
-            { "name": "Pirita", "file": "pyrite.jpg" },
-            { "name": "Visón", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
+            {
+              "name": "Roble Dorado",
+              "file": "altin-mese.jpg"
+            },
+            {
+              "name": "Roble Antiguo",
+              "file": "antik-mese.jpg"
+            },
+            {
+              "name": "Gris Antracita",
+              "file": "antrasit-gri.jpg"
+            },
+            {
+              "name": "Avellana",
+              "file": "findik.jpg"
+            },
+            {
+              "name": "Crema",
+              "file": "krem.jpg"
+            },
+            {
+              "name": "Negro Ceniza",
+              "file": "kul-siyahi.jpg"
+            },
+            {
+              "name": "Caoba",
+              "file": "maun.jpg"
+            },
+            {
+              "name": "Antracita Metálico",
+              "file": "metalik-antrasit-gri.jpg"
+            },
+            {
+              "name": "Plata Metálico",
+              "file": "metalik-gumus.jpg"
+            },
+            {
+              "name": "Corona Platino",
+              "file": "platin-crown.jpg"
+            },
+            {
+              "name": "Pirita",
+              "file": "pyrite.jpg"
+            },
+            {
+              "name": "Visón",
+              "file": "vizon.jpg"
+            },
+            {
+              "name": "Winchester",
+              "file": "winchester.jpg"
+            }
           ]
         }
       },
@@ -508,19 +597,58 @@
           "subtitle": "Ofrecemos alternativas de colores laminados que proporcionan durabilidad superior contra condiciones climáticas adversas mientras requieren bajo mantenimiento. Diferentes colores laminados pueden aplicarse en caras interiores y exteriores para lograr fachadas más estéticas y coherentes.",
           "note": "Los colores laminados interiores y exteriores pueden combinarse.",
           "colors": [
-            { "name": "Roble Dorado", "file": "altin-mese.jpg" },
-            { "name": "Roble Antiguo", "file": "antik-mese.jpg" },
-            { "name": "Gris Antracita", "file": "antrasit-gri.jpg" },
-            { "name": "Avellana", "file": "findik.jpg" },
-            { "name": "Crema", "file": "krem.jpg" },
-            { "name": "Negro Ceniza", "file": "kul-siyahi.jpg" },
-            { "name": "Caoba", "file": "maun.jpg" },
-            { "name": "Antracita Metálico", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Plata Metálico", "file": "metalik-gumus.jpg" },
-            { "name": "Corona Platino", "file": "platin-crown.jpg" },
-            { "name": "Pirita", "file": "pyrite.jpg" },
-            { "name": "Visón", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
+            {
+              "name": "Roble Dorado",
+              "file": "altin-mese.jpg"
+            },
+            {
+              "name": "Roble Antiguo",
+              "file": "antik-mese.jpg"
+            },
+            {
+              "name": "Gris Antracita",
+              "file": "antrasit-gri.jpg"
+            },
+            {
+              "name": "Avellana",
+              "file": "findik.jpg"
+            },
+            {
+              "name": "Crema",
+              "file": "krem.jpg"
+            },
+            {
+              "name": "Negro Ceniza",
+              "file": "kul-siyahi.jpg"
+            },
+            {
+              "name": "Caoba",
+              "file": "maun.jpg"
+            },
+            {
+              "name": "Antracita Metálico",
+              "file": "metalik-antrasit-gri.jpg"
+            },
+            {
+              "name": "Plata Metálico",
+              "file": "metalik-gumus.jpg"
+            },
+            {
+              "name": "Corona Platino",
+              "file": "platin-crown.jpg"
+            },
+            {
+              "name": "Pirita",
+              "file": "pyrite.jpg"
+            },
+            {
+              "name": "Visón",
+              "file": "vizon.jpg"
+            },
+            {
+              "name": "Winchester",
+              "file": "winchester.jpg"
+            }
           ]
         }
       },
@@ -581,19 +709,58 @@
           "subtitle": "Ofrecemos alternativas de colores laminados que proporcionan durabilidad superior contra condiciones climáticas adversas mientras requieren bajo mantenimiento. Diferentes colores laminados pueden aplicarse en caras interiores y exteriores para lograr fachadas más estéticas y coherentes.",
           "note": "Los colores laminados interiores y exteriores pueden combinarse.",
           "colors": [
-            { "name": "Roble Dorado", "file": "altin-mese.jpg" },
-            { "name": "Roble Antiguo", "file": "antik-mese.jpg" },
-            { "name": "Gris Antracita", "file": "antrasit-gri.jpg" },
-            { "name": "Avellana", "file": "findik.jpg" },
-            { "name": "Crema", "file": "krem.jpg" },
-            { "name": "Negro Ceniza", "file": "kul-siyahi.jpg" },
-            { "name": "Caoba", "file": "maun.jpg" },
-            { "name": "Antracita Metálico", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Plata Metálico", "file": "metalik-gumus.jpg" },
-            { "name": "Corona Platino", "file": "platin-crown.jpg" },
-            { "name": "Pirita", "file": "pyrite.jpg" },
-            { "name": "Visón", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
+            {
+              "name": "Roble Dorado",
+              "file": "altin-mese.jpg"
+            },
+            {
+              "name": "Roble Antiguo",
+              "file": "antik-mese.jpg"
+            },
+            {
+              "name": "Gris Antracita",
+              "file": "antrasit-gri.jpg"
+            },
+            {
+              "name": "Avellana",
+              "file": "findik.jpg"
+            },
+            {
+              "name": "Crema",
+              "file": "krem.jpg"
+            },
+            {
+              "name": "Negro Ceniza",
+              "file": "kul-siyahi.jpg"
+            },
+            {
+              "name": "Caoba",
+              "file": "maun.jpg"
+            },
+            {
+              "name": "Antracita Metálico",
+              "file": "metalik-antrasit-gri.jpg"
+            },
+            {
+              "name": "Plata Metálico",
+              "file": "metalik-gumus.jpg"
+            },
+            {
+              "name": "Corona Platino",
+              "file": "platin-crown.jpg"
+            },
+            {
+              "name": "Pirita",
+              "file": "pyrite.jpg"
+            },
+            {
+              "name": "Visón",
+              "file": "vizon.jpg"
+            },
+            {
+              "name": "Winchester",
+              "file": "winchester.jpg"
+            }
           ]
         }
       },
@@ -634,12 +801,12 @@
           "description": "Sistema deslizante avanzado con sellado mejorado y eficiencia térmica para grandes aberturas."
         },
         "page_header": {
-          "title": "Legend Sliding Plus",
+          "title": "Legend Corredera Plus",
           "description": "Rendimiento deslizante premium diseñado para comodidad, sellado y durabilidad.",
           "breadcrumbs": {
             "home": "Inicio",
             "services": "Servicios",
-            "sliding_systems": "Sistemas Deslizantes u-PVC",
+            "sliding_systems": "Sistemas correderos u‑PVC",
             "legend_surme_plus": "Legend Sliding Plus"
           }
         },
@@ -689,303 +856,14 @@
           "weather_resistance": "Resistencia a la Intemperie",
           "applications": "Aplicaciones"
         }
-      }
-    },
-    "product_pages": {
-      "hs76_sliding": {
-        "meta": {
-          "title": "HS76 Deslizante",
-          "description": "Sistema u‑PVC de elevación‑deslizamiento con umbral de aluminio bajo para acceso en silla de ruedas, perfiles Clase A y rendimiento térmico Uf 1.2 W/m²·K."
-        },
-        "page_header": {
-          "title": "HS76 Deslizante",
-          "description": "Perfiles de elevación‑deslizamiento de alto rendimiento con sellado y comodidad.",
-          "breadcrumbs": {
-            "home": "Inicio",
-            "services": "Servicios",
-            "sliding_systems": "Sistemas Deslizantes u-PVC",
-            "hs76_sliding": "HS76 Deslizante"
-          }
-        },
-        "general_features": {
-          "title": "Características Generales",
-          "description": "El sistema HS76 presenta un umbral de aluminio bajo especialmente diseñado que minimiza la altura del perfil en el suelo, creando una apariencia más elegante mientras asegura la integridad funcional. Con esta nueva aplicación, Egepen Deceuninck proporciona un diseño de umbral que permite el acceso en silla de ruedas en puertas de paso de acuerdo con las directrices del Instituto de Normas Turcas. La altura de umbral visualmente reducida también ofrece mejores resultados de aislamiento térmico en análisis térmicos."
-        },
-        "technical_specs": {
-          "title": "Especificaciones Técnicas",
-          "frame_width": "Ancho Marco",
-          "sash_width": "Ancho Hoja",
-          "chambers": "Cámaras",
-          "gaskets": "Juntas",
-          "glazing_bead": "Junquillo",
-          "glass_thickness": "Espesor Vidrio",
-          "standard": "Norma",
-          "thermal_transmittance": "Transmitancia Térmica (Uf)"
-        }
       },
-      "legend_window_door": {
-        "meta": {
-          "title": "Sistema Legend Ventanas y Puertas u-PVC",
-          "description": "Alto aislamiento, rendimiento estático robusto y amplias opciones de acristalamiento con perfiles u-PVC premium."
-        },
+      "legend_sliding_plus": {
         "page_header": {
-          "title": "Sistema Legend Ventanas y Puertas u-PVC",
-          "description": "Soluciones premium de ventanas y puertas con aislamiento y rendimiento superiores.",
+          "title": "Legend Corredera Plus",
           "breadcrumbs": {
             "home": "Inicio",
             "services": "Servicios",
-            "window_door_systems": "Sistemas de Ventanas y Puertas u-PVC",
-            "legend": "Sistema Legend"
-          }
-        },
-        "general_features": {
-          "title": "Características Generales",
-          "description": "El Sistema Legend Ventanas y Puertas u-PVC está diseñado con un perfil de 6 cámaras y un ancho de instalación de 80 mm. El sistema ha sido diseñado teniendo en cuenta criterios de alto rendimiento; los perfiles se forman combinando los elementos estructurales más adecuados. Durante el proceso de diseño, el rendimiento de la ventana como aislamiento (térmico y acústico), resistencia estructural y sellado han sido evaluados de manera holística junto con la geometría del perfil. Todos los perfiles del sistema se fabrican de acuerdo con la norma EN 12608-1."
-        },
-        "technical_specs": {
-          "title": "Especificaciones Técnicas",
-          "profile_width": "Ancho del Perfil",
-          "chambers": "Número de Cámaras",
-          "gaskets": "Número de Juntas",
-          "gasket_material": "Material de las Juntas",
-          "glazing_bead": "Junquillo",
-          "glass_thickness": "Espesor del Vidrio",
-          "thermal_transmittance": "Transmitancia Térmica (Uf)",
-          "standard": "Norma"
-        },
-        "why_choose": {
-          "title": "Por Qué Elegir el Sistema Legend Ventanas y Puertas",
-          "subtitle": "Alto aislamiento, fuerte rendimiento estático, rica gama de productos y amplias opciones de acristalamiento — diseñado como un sistema de ventana holístico.",
-          "features": [
-            {
-              "title": "Aislamiento Superior",
-              "description": "Diseño multi-cámara y sistema de juntas avanzado ofrecen rendimiento térmico excepcional."
-            },
-            {
-              "title": "Integridad Estructural",
-              "description": "Perfiles reforzados e ingeniería de precisión aseguran durabilidad y estabilidad a largo plazo."
-            },
-            {
-              "title": "Diseño Versátil",
-              "description": "Gama completa de tipos de apertura y configuraciones para cualquier requerimiento arquitectónico."
-            },
-            {
-              "title": "Flexibilidad de Acristalamiento",
-              "description": "Soporta varios espesores y tipos de vidrio incluyendo acristalamiento eficiente energéticamente y de seguridad."
-            }
-          ]
-        },
-        "color_options": {
-          "title": "Opciones de Color",
-          "subtitle": "Ofrecemos alternativas de colores laminados que proporcionan durabilidad superior contra condiciones climáticas adversas mientras requieren bajo mantenimiento. Diferentes colores laminados pueden aplicarse en caras interiores y exteriores para lograr fachadas más estéticas y coherentes.",
-          "note": "Los colores laminados interiores y exteriores pueden combinarse.",
-          "colors": [
-            { "name": "Roble Dorado", "file": "altin-mese.jpg" },
-            { "name": "Roble Antiguo", "file": "antik-mese.jpg" },
-            { "name": "Gris Antracita", "file": "antrasit-gri.jpg" },
-            { "name": "Avellana", "file": "findik.jpg" },
-            { "name": "Crema", "file": "krem.jpg" },
-            { "name": "Negro Ceniza", "file": "kul-siyahi.jpg" },
-            { "name": "Caoba", "file": "maun.jpg" },
-            { "name": "Antracita Metálico", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Plata Metálico", "file": "metalik-gumus.jpg" },
-            { "name": "Corona Platino", "file": "platin-crown.jpg" },
-            { "name": "Pirita", "file": "pyrite.jpg" },
-            { "name": "Visón", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
-          ]
-        }
-      },
-      "legend_art": {
-        "meta": {
-          "title": "Sistema Legend Art Ventanas y Puertas u-PVC",
-          "description": "Diseño estético con rendimiento premium para arquitectura moderna y fachadas sofisticadas."
-        },
-        "page_header": {
-          "title": "Sistema Legend Art Ventanas y Puertas u-PVC",
-          "description": "Acabados de diseño con rendimiento premium para arquitectura moderna.",
-          "breadcrumbs": {
-            "home": "Inicio",
-            "services": "Servicios",
-            "window_door_systems": "Sistemas de Ventanas y Puertas u-PVC",
-            "legend_art": "Sistema Legend Art"
-          }
-        },
-        "general_features": {
-          "title": "Características Generales",
-          "description": "El Sistema LegendArt Ventanas y Puertas pone la estética y elegancia al frente con un diseño meticulosamente diseñado que armoniza con su estilo interior. Con líneas modernas y refinadas que se alinean con la arquitectura y decoración, LegendArt transforma cada espacio en un área de vida excepcional gracias a su aislamiento acústico y resistencia estática. El sistema ofrece soluciones ambientalmente amigables mientras mantiene rendimiento consistente y coherencia visual."
-        },
-        "technical_specs": {
-          "title": "Especificaciones Técnicas",
-          "profile_width": "Ancho del Perfil",
-          "chambers": "Número de Cámaras",
-          "gaskets": "Número de Juntas",
-          "gasket_material": "Material de las Juntas",
-          "glazing_bead": "Junquillo",
-          "glass_thickness": "Espesor del Vidrio",
-          "thermal_transmittance": "Transmitancia Térmica (Uf)",
-          "standard": "Norma"
-        },
-        "why_choose": {
-          "title": "Por Qué Elegir Legend Art u-PVC",
-          "subtitle": "Alto aislamiento, fuerte rendimiento estático, rica gama de productos y amplias opciones de acristalamiento — diseñado como un sistema de ventana holístico.",
-          "features": [
-            {
-              "title": "Aislamiento Superior",
-              "description": "Diseño multi-cámara y sistema de juntas avanzado ofrecen rendimiento térmico excepcional."
-            },
-            {
-              "title": "Integridad Estructural",
-              "description": "Perfiles reforzados e ingeniería de precisión aseguran durabilidad y estabilidad a largo plazo."
-            },
-            {
-              "title": "Diseño Versátil",
-              "description": "Gama completa de tipos de apertura y configuraciones para cualquier requerimiento arquitectónico."
-            },
-            {
-              "title": "Flexibilidad de Acristalamiento",
-              "description": "Soporta varios espesores y tipos de vidrio incluyendo acristalamiento eficiente energéticamente y de seguridad."
-            }
-          ]
-        },
-        "color_options": {
-          "title": "Opciones de Color",
-          "subtitle": "Ofrecemos alternativas de colores laminados que proporcionan durabilidad superior contra condiciones climáticas adversas mientras requieren bajo mantenimiento. Diferentes colores laminados pueden aplicarse en caras interiores y exteriores para lograr fachadas más estéticas y coherentes.",
-          "note": "Los colores laminados interiores y exteriores pueden combinarse.",
-          "colors": [
-            { "name": "Roble Dorado", "file": "altin-mese.jpg" },
-            { "name": "Roble Antiguo", "file": "antik-mese.jpg" },
-            { "name": "Gris Antracita", "file": "antrasit-gri.jpg" },
-            { "name": "Avellana", "file": "findik.jpg" },
-            { "name": "Crema", "file": "krem.jpg" },
-            { "name": "Negro Ceniza", "file": "kul-siyahi.jpg" },
-            { "name": "Caoba", "file": "maun.jpg" },
-            { "name": "Antracita Metálico", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Plata Metálico", "file": "metalik-gumus.jpg" },
-            { "name": "Corona Platino", "file": "platin-crown.jpg" },
-            { "name": "Pirita", "file": "pyrite.jpg" },
-            { "name": "Visón", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
-          ]
-        }
-      },
-      "zendow": {
-        "meta": {
-          "title": "Sistema Zendow Ventanas y Puertas u-PVC",
-          "description": "Rendimiento térmico avanzado con estilo contemporáneo y versatilidad para edificios modernos."
-        },
-        "page_header": {
-          "title": "Sistema Zendow Ventanas y Puertas u-PVC",
-          "description": "Rendimiento térmico avanzado con estilo contemporáneo y versatilidad.",
-          "breadcrumbs": {
-            "home": "Inicio",
-            "services": "Servicios",
-            "window_door_systems": "Sistemas de Ventanas y Puertas u-PVC",
-            "zendow": "Sistema Zendow"
-          }
-        },
-        "general_features": {
-          "title": "Características Generales",
-          "description": "El Sistema Zendow Ventanas y Puertas PVC complementa perfectamente su estilo interior con un diseño meticulosamente considerado y detalles estéticos. Entregando altos estándares tanto en funcionalidad como en apariencia, Zendow se adapta perfectamente a una amplia gama de estilos arquitectónicos con sus líneas modernas, detalles elegantes y forma coherente. Diseñado para agregar valor con durabilidad y larga vida útil, es una elección ideal para aquellos que buscan comodidad y estética juntas."
-        },
-        "technical_specs": {
-          "title": "Especificaciones Técnicas",
-          "profile_width": "Ancho del Perfil",
-          "chambers": "Número de Cámaras",
-          "gaskets": "Número de Juntas",
-          "gasket_material": "Material de las Juntas",
-          "glazing_bead": "Junquillo",
-          "glass_thickness": "Espesor del Vidrio",
-          "thermal_transmittance": "Transmitancia Térmica (Uf)",
-          "standard": "Norma"
-        },
-        "why_choose": {
-          "title": "Por Qué Elegir Zendow u-PVC",
-          "subtitle": "Alto aislamiento, fuerte rendimiento estático, rica gama de productos y amplias opciones de acristalamiento — diseñado como un sistema de ventana holístico.",
-          "features": [
-            {
-              "title": "Aislamiento Superior",
-              "description": "Diseño multi-cámara y sistema de juntas avanzado ofrecen rendimiento térmico excepcional."
-            },
-            {
-              "title": "Integridad Estructural",
-              "description": "Perfiles reforzados e ingeniería de precisión aseguran durabilidad y estabilidad a largo plazo."
-            },
-            {
-              "title": "Diseño Versátil",
-              "description": "Gama completa de tipos de apertura y configuraciones para cualquier requerimiento arquitectónico."
-            },
-            {
-              "title": "Flexibilidad de Acristalamiento",
-              "description": "Soporta varios espesores y tipos de vidrio incluyendo acristalamiento eficiente energéticamente y de seguridad."
-            }
-          ]
-        },
-        "color_options": {
-          "title": "Opciones de Color",
-          "subtitle": "Ofrecemos alternativas de colores laminados que proporcionan durabilidad superior contra condiciones climáticas adversas mientras requieren bajo mantenimiento. Diferentes colores laminados pueden aplicarse en caras interiores y exteriores para lograr fachadas más estéticas y coherentes.",
-          "note": "Los colores laminados interiores y exteriores pueden combinarse.",
-          "colors": [
-            { "name": "Roble Dorado", "file": "altin-mese.jpg" },
-            { "name": "Roble Antiguo", "file": "antik-mese.jpg" },
-            { "name": "Gris Antracita", "file": "antrasit-gri.jpg" },
-            { "name": "Avellana", "file": "findik.jpg" },
-            { "name": "Crema", "file": "krem.jpg" },
-            { "name": "Negro Ceniza", "file": "kul-siyahi.jpg" },
-            { "name": "Caoba", "file": "maun.jpg" },
-            { "name": "Antracita Metálico", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Plata Metálico", "file": "metalik-gumus.jpg" },
-            { "name": "Corona Platino", "file": "platin-crown.jpg" },
-            { "name": "Pirita", "file": "pyrite.jpg" },
-            { "name": "Visón", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
-          ]
-        }
-      },
-      "slimslide": {
-        "meta": {
-          "title": "Sistema Slimslide",
-          "description": "Perfiles ultra‑delgados que maximizan el área de vidrio con funcionamiento deslizante suave y líneas de vista mínimas."
-        },
-        "page_header": {
-          "title": "Slimslide",
-          "description": "Líneas de vista mínimas con deslizamiento suave, sellado y comodidad.",
-          "breadcrumbs": {
-            "home": "Inicio",
-            "services": "Servicios",
-            "sliding_systems": "Sistemas Deslizantes u-PVC",
-            "slimslide": "Slimslide"
-          }
-        },
-        "general_features": {
-          "title": "Características Generales",
-          "description": "Slimslide es un sistema deslizante u-PVC de marco delgado con ancho de parteluz central reducido casi a la mitad, opción de umbral cero y vistas y paso sin barreras. La característica distintiva del sistema es el parteluz central excepcionalmente estrecho de 23 mm, creando una apariencia elegante con máxima área de vidrio. Slimslide combina el atractivo estético con el rendimiento funcional, ofreciendo funcionamiento suave y excelentes propiedades de sellado. El sistema está diseñado para aplicaciones arquitectónicas modernas donde la visibilidad mínima del marco y la máxima transparencia son prioridades."
-        },
-        "technical_specs": {
-          "title": "Especificaciones Técnicas",
-          "center_mullion": "Ancho del Parteluz Central",
-          "frame_depth": "Profundidad del Marco",
-          "sash_depth": "Profundidad del Batiente",
-          "glass_thickness": "Espesor del Vidrio",
-          "threshold_option": "Opción de Umbral",
-          "sealing_system": "Sistema de Sellado",
-          "operation": "Tipo de Operación",
-          "max_dimensions": "Dimensiones Máximas"
-        }
-      },
-      "legend_surme_plus": {
-        "meta": {
-          "title": "Legend Sliding Plus",
-          "description": "Sistema deslizante avanzado con sellado mejorado y eficiencia térmica para grandes aberturas."
-        },
-        "page_header": {
-          "title": "Legend Sliding Plus",
-          "description": "Rendimiento deslizante premium diseñado para comodidad, sellado y durabilidad.",
-          "breadcrumbs": {
-            "home": "Inicio",
-            "services": "Servicios",
-            "sliding_systems": "Sistemas Deslizantes u-PVC",
-            "legend_surme_plus": "Legend Sliding Plus"
+            "sliding_systems": "Sistemas correderos u‑PVC"
           }
         },
         "general_features": {
@@ -1002,37 +880,6 @@
           "opening_options": "Opciones de Apertura",
           "standard": "Norma",
           "thermal_transmittance": "Transmitancia Térmica (Uf)"
-        }
-      },
-      "pvc_sliding_door": {
-        "meta": {
-          "title": "Sistema de Puerta Deslizante PVC",
-          "description": "Soluciones confiables de puertas deslizantes para aplicaciones residenciales y comerciales con funcionamiento suave."
-        },
-        "page_header": {
-          "title": "Sistema de Puerta Deslizante PVC",
-          "description": "Rendimiento deslizante premium diseñado para comodidad, sellado y durabilidad.",
-          "breadcrumbs": {
-            "home": "Inicio",
-            "services": "Servicios",
-            "sliding_systems": "Sistemas Deslizantes u-PVC",
-            "pvc_sliding_door": "Sistema de Puerta Deslizante PVC"
-          }
-        },
-        "general_features": {
-          "title": "Características Generales",
-          "description": "El Sistema de Puertas Deslizantes PVC es una solución versátil de ventanas y puertas deslizantes diseñada para aplicaciones arquitectónicas modernas. Este sistema cuenta con rieles configurables, juntas TPE de alta calidad y junquillos PCE para sellado superior y resistencia a la intemperie. Compatible con perfiles Legend Art y Zendow, ofrece flexibilidad en el diseño manteniendo excelentes estándares de rendimiento. El sistema proporciona funcionamiento deslizante suave, eficiencia térmica mejorada y rendimiento confiable a largo plazo para proyectos residenciales y comerciales."
-        },
-        "technical_specs": {
-          "title": "Especificaciones Técnicas",
-          "system_compatibility": "Compatibilidad del Sistema",
-          "track_configuration": "Configuración de Rieles",
-          "gasket_type": "Tipo de Junta",
-          "glazing_bead": "Junquillo",
-          "operation_type": "Tipo de Operación",
-          "thermal_performance": "Rendimiento Térmico",
-          "weather_resistance": "Resistencia a la Intemperie",
-          "applications": "Aplicaciones"
         }
       }
     }

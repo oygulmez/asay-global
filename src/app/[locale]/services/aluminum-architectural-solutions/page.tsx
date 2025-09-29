@@ -1,11 +1,14 @@
 import {locales} from '@/i18n';
 import SiteAluminum from '../../../(site)/services/aluminum-architectural-solutions/page';
 
-export async function generateMetadata({params: {locale}}: {params: {locale: string}}) {
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
+  let {locale} = await params;
+  if (!['en','fr','es'].includes(locale)) locale = 'en';
   const messages = (await import(`@/messages/${locale}.json`)).default as any;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages as any);
   return {
-    title: "Aluminum Architectural Solutions",
-    description: "Modern aluminum systems and architectural solutions offering excellent performance and contemporary design possibilities.",
+    title: t('aluminum_solutions.meta.title'),
+    description: t('aluminum_solutions.meta.description'),
   };
 }
 

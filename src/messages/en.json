@@ -168,9 +168,60 @@
         "home": "Home",
         "services": "Services"
       }
+    },
+    "interior_exterior_decorative": {
+      "meta": {
+        "title": "Interior and Exterior Decorative Products",
+        "description": "High-quality decorative materials for both interior and exterior applications, enhancing the aesthetic appeal of your projects."
+      },
+      "page_header": {
+        "title": "Interior and Exterior Decorative Products",
+        "description": "High-quality decorative materials enhancing the aesthetic appeal of your spaces.",
+        "breadcrumbs": {
+          "home": "Home",
+          "services": "Services",
+          "interior_exterior_decorative": "Interior & Exterior Decorative"
+        }
+      },
+      "overview": {
+        "title": "Comprehensive Decorative Solutions",
+        "description": "From elegant interior finishes to durable exterior cladding, we provide premium decorative materials that combine aesthetics with functionality."
+      },
+      "solutions": [
+        {
+          "title": "Interior Wall Panels",
+          "description": "Stylish and durable wall panel systems for residential and commercial interiors."
+        },
+        {
+          "title": "Exterior Cladding",
+          "description": "Weather-resistant cladding solutions that enhance building facades."
+        },
+        {
+          "title": "Decorative Profiles",
+          "description": "Customizable decorative profiles for unique architectural designs."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Premium Quality",
+          "description": "High-grade materials ensuring long-lasting beauty and performance."
+        },
+        {
+          "title": "Design Flexibility",
+          "description": "Wide range of colors, textures and finishes to match any design vision."
+        },
+        {
+          "title": "Easy Installation",
+          "description": "Designed for efficient installation reducing project timelines."
+        }
+      ]
     }
   },
   "dealers": {
+    "meta": {
+      "title": "Authorized Dealers",
+      "description": "Find our trusted partners and authorized dealers worldwide. Connect with local experts for professional consultation and support."
+    },
     "page_header": {
       "title": "Authorized Dealers",
       "description": "Find our trusted partners and sales points.",
@@ -405,6 +456,89 @@
             "window_door_systems": "u-PVC Window & Door Systems",
             "legend_window_door": "Legend Window & Door System"
           }
+        },
+        "general_features": {
+          "title": "General Features",
+          "description": "The Legend PVC Window and Door System is designed with an 80 mm installation width and features a 6-chamber profile structure. The system's design has been developed with particular emphasis on high performance criteria, where profiles are created by combining the most suitable structural elements. The design process has holistically evaluated window performance including insulation (thermal and acoustic), structural strength, and sealing properties alongside the profile geometry. All profiles in the system are manufactured in accordance with EN 12608-1 standard."
+        },
+        "technical_specs": {
+          "title": "Technical Specifications",
+          "profile_width": "Profile Width: 80 mm",
+          "chambers": "Number of Chambers: 6",
+          "gaskets": "Number of Gaskets: 3 (Center Gasketed)",
+          "gasket_material": "Gasket Material: TPE Grey / Black",
+          "glazing_bead": "Glazing Bead: Single Hook - PCE Gasketed",
+          "glass_thickness": "Glass Thickness: 24, 30, 36, 44, 52 mm",
+          "thermal_transmittance": "Thermal Transmittance (Uf): 0.92 W/m²·K",
+          "standard": "Standard: EN 12608-1"
+        },
+        "why_choose": {
+          "title": "Why Choose Legend Window & Door System",
+          "subtitle": "Engineered for durable performance, energy efficiency and modern aesthetics.",
+          "features": [
+            {
+              "title": "Superior Insulation",
+              "description": "Multi-chamber profiles and advanced gaskets improve energy efficiency."
+            },
+            {
+              "title": "Structural Integrity",
+              "description": "Reinforced construction provides long-term stability and durability."
+            },
+            {
+              "title": "Acoustic Comfort",
+              "description": "Effective sound reduction supports quiet, comfortable interiors."
+            },
+            {
+              "title": "Design Flexibility",
+              "description": "Supports various configurations and glazing options for modern architecture."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Color Options",
+          "subtitle": "Laminate color alternatives provide superior durability and low maintenance. Interior and exterior colors can be combined.",
+          "note": "Interior and exterior laminate colors can be combined.",
+          "colors": [
+            {
+              "name": "Golden Oak"
+            },
+            {
+              "name": "Antique Oak"
+            },
+            {
+              "name": "Anthracite Grey"
+            },
+            {
+              "name": "Hazelnut"
+            },
+            {
+              "name": "Cream"
+            },
+            {
+              "name": "Ash Black"
+            },
+            {
+              "name": "Mahogany"
+            },
+            {
+              "name": "Metallic Anthracite"
+            },
+            {
+              "name": "Metallic Silver"
+            },
+            {
+              "name": "Platinum Crown"
+            },
+            {
+              "name": "Pyrite"
+            },
+            {
+              "name": "Vizon"
+            },
+            {
+              "name": "Winchester"
+            }
+          ]
         }
       },
       "legend_art": {
@@ -417,6 +551,89 @@
             "window_door_systems": "u-PVC Window & Door Systems",
             "legend_art": "Legend Art System"
           }
+        },
+        "general_features": {
+          "title": "General Features",
+          "description": "The LegendArt Window and Door System brings aesthetics and elegance to the forefront with a meticulously engineered design that harmonizes with your interior style. With modern and refined lines that align with architecture and decoration, LegendArt transforms every space into an exceptional living area thanks to its acoustic insulation and static strength. The system offers environmentally friendly solutions while maintaining consistent performance and visual coherence."
+        },
+        "technical_specs": {
+          "title": "Technical Specifications",
+          "profile_width": "Profile Width",
+          "chambers": "Number of Chambers",
+          "gaskets": "Number of Gaskets",
+          "gasket_material": "Gasket Material",
+          "glazing_bead": "Glazing Bead",
+          "glass_thickness": "Glass Thickness",
+          "thermal_transmittance": "Thermal Transmittance (Uf)",
+          "standard": "Standard"
+        },
+        "why_choose": {
+          "title": "Why Choose Legend Art System",
+          "subtitle": "Engineered for durable performance, energy efficiency and modern aesthetics.",
+          "features": [
+            {
+              "title": "Superior Insulation",
+              "description": "Multi-chamber profiles and advanced gaskets improve energy efficiency."
+            },
+            {
+              "title": "Structural Integrity",
+              "description": "Reinforced construction provides long-term stability and durability."
+            },
+            {
+              "title": "Acoustic Comfort",
+              "description": "Effective sound reduction supports quiet, comfortable interiors."
+            },
+            {
+              "title": "Design Flexibility",
+              "description": "Supports various configurations and glazing options for modern architecture."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Color Options",
+          "subtitle": "Laminate color alternatives provide superior durability and low maintenance. Interior and exterior colors can be combined.",
+          "note": "Interior and exterior laminate colors can be combined.",
+          "colors": [
+            {
+              "name": "Golden Oak"
+            },
+            {
+              "name": "Antique Oak"
+            },
+            {
+              "name": "Anthracite Grey"
+            },
+            {
+              "name": "Hazelnut"
+            },
+            {
+              "name": "Cream"
+            },
+            {
+              "name": "Ash Black"
+            },
+            {
+              "name": "Mahogany"
+            },
+            {
+              "name": "Metallic Anthracite"
+            },
+            {
+              "name": "Metallic Silver"
+            },
+            {
+              "name": "Platinum Crown"
+            },
+            {
+              "name": "Pyrite"
+            },
+            {
+              "name": "Vizon"
+            },
+            {
+              "name": "Winchester"
+            }
+          ]
         }
       },
       "zendow": {
@@ -429,6 +646,315 @@
             "window_door_systems": "u-PVC Window & Door Systems",
             "zendow": "Zendow System"
           }
+        },
+        "general_features": {
+          "title": "General Features",
+          "description": "The Zendow PVC Window and Door System seamlessly complements your interior style with a meticulously considered design and aesthetic details. Delivering high standards in both functionality and appearance, Zendow adapts perfectly to a wide range of architectural styles with its modern lines, elegant detailing and coherent form. Designed to add value with durability and long service life, it is an ideal choice for those seeking comfort and aesthetics together."
+        },
+        "technical_specs": {
+          "title": "Technical Specifications",
+          "profile_width": "Profile Width",
+          "chambers": "Number of Chambers",
+          "gaskets": "Number of Gaskets",
+          "gasket_material": "Gasket Material",
+          "glazing_bead": "Glazing Bead",
+          "glass_thickness": "Glass Thickness",
+          "thermal_transmittance": "Thermal Transmittance (Uf)",
+          "standard": "Standard"
+        },
+        "why_choose": {
+          "title": "Why Choose Zendow System",
+          "subtitle": "Engineered for durable performance, energy efficiency and modern aesthetics.",
+          "features": [
+            {
+              "title": "Superior Insulation",
+              "description": "Multi-chamber profiles and advanced gaskets improve energy efficiency."
+            },
+            {
+              "title": "Structural Integrity",
+              "description": "Reinforced construction provides long-term stability and durability."
+            },
+            {
+              "title": "Acoustic Comfort",
+              "description": "Effective sound reduction supports quiet, comfortable interiors."
+            },
+            {
+              "title": "Design Flexibility",
+              "description": "Supports various configurations and glazing options for modern architecture."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Color Options",
+          "subtitle": "Laminate color alternatives provide superior durability and low maintenance. Interior and exterior colors can be combined.",
+          "note": "Interior and exterior laminate colors can be combined.",
+          "colors": [
+            {
+              "name": "Golden Oak"
+            },
+            {
+              "name": "Antique Oak"
+            },
+            {
+              "name": "Anthracite Grey"
+            },
+            {
+              "name": "Hazelnut"
+            },
+            {
+              "name": "Cream"
+            },
+            {
+              "name": "Ash Black"
+            },
+            {
+              "name": "Mahogany"
+            },
+            {
+              "name": "Metallic Anthracite"
+            },
+            {
+              "name": "Metallic Silver"
+            },
+            {
+              "name": "Platinum Crown"
+            },
+            {
+              "name": "Pyrite"
+            },
+            {
+              "name": "Vizon"
+            },
+            {
+              "name": "Winchester"
+            }
+          ]
+        }
+      },
+      "hs76_sliding": {
+        "page_header": {
+          "title": "HS76 Sliding System",
+          "description": "Lift-and-slide u-PVC system offering smooth operation, wide openings and excellent thermal performance.",
+          "breadcrumbs": {
+            "home": "Home",
+            "services": "Services",
+            "sliding_systems": "u-PVC Sliding Systems",
+            "hs76_sliding": "HS76 Sliding System"
+          }
+        },
+        "general_features": {
+          "title": "General Features",
+          "description": "The HS76 system features a specially designed low aluminum threshold that minimizes profile height on the floor, creating a more elegant appearance while ensuring functional integrity. With this new application, Egepen Deceuninck provides a threshold design that enables wheelchair access on passage doors in accordance with Turkish Standards Institute guidance. The visually reduced threshold height also delivers better thermal insulation results in thermal analyses."
+        },
+        "technical_specs": {
+          "title": "Technical Specifications",
+          "frame_width": "Frame Width",
+          "sash_width": "Sash Width",
+          "chambers": "Number of Chambers",
+          "gaskets": "Gasket Material",
+          "glazing_bead": "Glazing Bead",
+          "glass_thickness": "Glass Thickness",
+          "standard": "Standard",
+          "thermal_transmittance": "Thermal Transmittance (Uf)"
+        },
+        "why_choose": {
+          "title": "Why Choose HS76 Sliding System",
+          "subtitle": "Designed for large openings with smooth lift-and-slide action and reliable sealing.",
+          "features": [
+            {
+              "title": "Wide Openings",
+              "description": "Lift-and-slide hardware supports large, heavy sashes without compromising performance."
+            },
+            {
+              "title": "Energy Efficiency",
+              "description": "Optimized profiles and sealing reduce heat loss and improve comfort."
+            },
+            {
+              "title": "Smooth Operation",
+              "description": "Lift mechanism minimizes friction for effortless movement."
+            },
+            {
+              "title": "Durable Construction",
+              "description": "Reinforced profiles ensure long-term stability and reliability."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Color Options",
+          "subtitle": "Laminate color alternatives provide superior durability and low maintenance.",
+          "note": "Interior and exterior laminate colors can be combined.",
+          "colors": [
+            {
+              "name": "Golden Oak"
+            },
+            {
+              "name": "Antique Oak"
+            },
+            {
+              "name": "Anthracite Grey"
+            },
+            {
+              "name": "Hazelnut"
+            },
+            {
+              "name": "Cream"
+            },
+            {
+              "name": "Ash Black"
+            },
+            {
+              "name": "Mahogany"
+            },
+            {
+              "name": "Metallic Anthracite"
+            },
+            {
+              "name": "Metallic Silver"
+            },
+            {
+              "name": "Platinum Crown"
+            },
+            {
+              "name": "Pyrite"
+            },
+            {
+              "name": "Vizon"
+            },
+            {
+              "name": "Winchester"
+            }
+          ]
+        }
+      },
+      "legend_sliding_plus": {
+        "page_header": {
+          "title": "Legend Sliding Plus",
+          "description": "Advanced sliding system with enhanced sealing and thermal efficiency.",
+          "breadcrumbs": {
+            "home": "Home",
+            "services": "Services",
+            "sliding_systems": "u-PVC Sliding Systems",
+            "legend_sliding_plus": "Legend Sliding Plus"
+          }
+        },
+        "general_features": {
+          "title": "General Features",
+          "description": "The Legend Sliding Plus system represents the pinnacle of sliding door technology, combining advanced engineering with elegant design. This system features enhanced sealing mechanisms, improved thermal performance, and superior weather resistance. Designed for modern architectural applications, it offers smooth operation, exceptional durability, and aesthetic appeal. The system's multi-chamber profile structure ensures optimal thermal insulation while maintaining structural integrity for large openings and heavy-duty applications."
+        },
+        "technical_specs": {
+          "title": "Technical Specifications",
+          "system_width": "System Width",
+          "sash_chambers": "Sash Chambers",
+          "gaskets": "Gasket Material",
+          "glazing_bead": "Glazing Bead",
+          "glass_thickness": "Glass Thickness",
+          "opening_options": "Opening Options",
+          "standard": "Standard",
+          "thermal_transmittance": "Thermal Transmittance (Uf)"
+        },
+        "why_choose": {
+          "title": "Why Choose Legend Sliding Plus",
+          "subtitle": "Efficient, slim, and reliable sliding performance for contemporary architecture.",
+          "features": [
+            {
+              "title": "Sealing Performance",
+              "description": "Enhanced gasket design improves weather tightness and comfort."
+            },
+            {
+              "title": "Slim Design",
+              "description": "Maximizes glazed area while maintaining structural integrity."
+            },
+            {
+              "title": "Smooth Operation",
+              "description": "Optimized hardware for easy, long-lasting sliding action."
+            },
+            {
+              "title": "Versatile Configurations",
+              "description": "Supports various opening types for residential and commercial use."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Color Options",
+          "subtitle": "Laminate color alternatives provide superior durability and low maintenance.",
+          "note": "Interior and exterior laminate colors can be combined.",
+          "colors": [
+            {
+              "name": "Golden Oak"
+            },
+            {
+              "name": "Antique Oak"
+            },
+            {
+              "name": "Anthracite Grey"
+            },
+            {
+              "name": "Hazelnut"
+            },
+            {
+              "name": "Cream"
+            },
+            {
+              "name": "Ash Black"
+            },
+            {
+              "name": "Mahogany"
+            },
+            {
+              "name": "Metallic Anthracite"
+            },
+            {
+              "name": "Metallic Silver"
+            },
+            {
+              "name": "Platinum Crown"
+            },
+            {
+              "name": "Pyrite"
+            },
+            {
+              "name": "Vizon"
+            },
+            {
+              "name": "Winchester"
+            }
+          ]
+        }
+      },
+      "pvc_sliding_door": {
+        "page_header": {
+          "title": "PVC Sliding Door System",
+          "description": "Practical and efficient PVC sliding door system offering versatile configurations and reliable performance for residential and commercial use.",
+          "breadcrumbs": {
+            "home": "Home",
+            "services": "Services",
+            "sliding_systems": "u-PVC Sliding Systems"
+          }
+        },
+        "general_features": {
+          "title": "General Features",
+          "description": "The PVC Sliding Door System is a versatile sliding window and door solution designed for modern architectural applications. This system features configurable tracks, high-quality TPE gaskets, and PCE glazing beads for superior sealing and weather resistance. Compatible with Legend Art and Zendow profiles, it offers flexibility in design while maintaining excellent performance standards. The system provides smooth sliding operation, enhanced thermal efficiency, and reliable long-term performance for both residential and commercial projects."
+        },
+        "technical_specs": {
+          "title": "Technical Specifications"
+        }
+      },
+      "slimslide": {
+        "page_header": {
+          "title": "Slimslide",
+          "description": "Slim-frame sliding system engineered for minimal sightlines and smooth operation.",
+          "breadcrumbs": {
+            "home": "Home",
+            "services": "Services",
+            "sliding_systems": "u-PVC Sliding Systems"
+          }
+        },
+        "general_features": {
+          "title": "General Features",
+          "description": "Slimslide is a slim-frame u-PVC sliding system with near-half center mullion width, zero-threshold option and barrier-free views and passage. The system's distinguishing feature is the exceptionally narrow 23 mm center mullion, creating a sleek appearance with maximum glass area. Slimslide combines aesthetic appeal with functional performance, offering smooth operation and excellent sealing properties. The system is designed for modern architectural applications where minimal frame visibility and maximum transparency are priorities."
+        },
+        "technical_specs": {
+          "title": "Technical Specifications"
         }
       }
     }
@@ -736,18 +1262,18 @@
         },
         "general_features": {
           "title": "General Features",
-          "description": "The Legend u-PVC Window and Door System is designed with a 6-chamber profile and an installation width of 80 mm. The system has been engineered with high performance criteria in mind; profiles are formed by combining the most suitable structural elements. During the design process, window performance such as insulation (thermal and acoustic), structural strength and sealing have been evaluated holistically together with the profile geometry. All profiles in the system are manufactured in accordance with EN 12608-1."
+          "description": "The Legend PVC Window and Door System is designed with an 80 mm installation width and features a 6-chamber profile structure. The system's design has been developed with particular emphasis on high performance criteria, where profiles are created by combining the most suitable structural elements. The design process has holistically evaluated window performance including insulation (thermal and acoustic), structural strength, and sealing properties alongside the profile geometry. All profiles in the system are manufactured in accordance with EN 12608-1 standard."
         },
         "technical_specs": {
           "title": "Technical Specifications",
-          "profile_width": "Profile Width",
-          "chambers": "Number of Chambers",
-          "gaskets": "Number of Gaskets",
-          "gasket_material": "Gasket Material",
-          "glazing_bead": "Glazing Bead",
-          "glass_thickness": "Glass Thickness",
-          "thermal_transmittance": "Thermal Transmittance (Uf)",
-          "standard": "Standard"
+          "profile_width": "Profile Width: 80 mm",
+          "chambers": "Number of Chambers: 6",
+          "gaskets": "Number of Gaskets: 3 (Center Gasketed)",
+          "gasket_material": "Gasket Material: TPE Grey / Black",
+          "glazing_bead": "Glazing Bead: Single Hook - PCE Gasketed",
+          "glass_thickness": "Glass Thickness: 24, 30, 36, 44, 52 mm",
+          "thermal_transmittance": "Thermal Transmittance (Uf): 0.92 W/m²·K",
+          "standard": "Standard: EN 12608-1"
         },
         "why_choose": {
           "title": "Why Choose Legend Window & Door System",

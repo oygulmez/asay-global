@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { createLocalizedUrl } from "@/lib/slugs";
 
 type Locale = 'en' | 'fr' | 'es' | undefined;
 
@@ -9,10 +10,9 @@ export function Footer({ locale }: { locale?: Locale } = {}) {
   const dict = current === 'fr' ? (require('@/messages/fr.json')) : current === 'es' ? (require('@/messages/es.json')) : (require('@/messages/en.json'))
   const t = (key: string) => key.split('.').reduce((o: any, k: string) => o?.[k], dict)
   
-  // Helper function to create locale-aware URLs
+  // Helper function to create locale-aware URLs with localized slugs
   const createUrl = (path: string) => {
-    if (current === 'en') return path;
-    return `/${current}${path}`;
+    return createLocalizedUrl(path, current);
   };
   return (
     <footer className="bg-[#333333] text-white">

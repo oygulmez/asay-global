@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { useState, useEffect, useId } from "react";
+import { usePathname } from "next/navigation";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -16,6 +17,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { cn } from "@/lib/utils";
 import { ChevronDown, Menu } from "lucide-react";
+import { createLocalizedUrl } from "@/lib/slugs";
 import {
   Sheet,
   SheetContent,
@@ -29,6 +31,7 @@ type Locale = 'en' | 'fr' | 'es' | undefined;
 
 export function Navbar({ locale }: { locale?: Locale } = {}) {
   const [isHydrated, setIsHydrated] = useState(false);
+  const pathname = usePathname();
   const menuId = useId();
   const current = (locale === 'fr' || locale === 'es' || locale === 'en') ? locale : 'en';
   const dict = current === 'fr' ? (require('@/messages/fr.json')) : current === 'es' ? (require('@/messages/es.json')) : (require('@/messages/en.json'));
@@ -41,36 +44,59 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
   // Use default values during SSR/hydration to prevent mismatch
   const displayLocale = isHydrated ? current : 'en';
   
-  // Helper function to create locale-aware URLs
+  // Helper function to create locale-aware URLs with localized slugs
   const createUrl = (path: string) => {
-    if (current === 'en') return path;
-    return `/${current}${path}`;
+    return createLocalizedUrl(path, current);
   };
 
   // Helper function to create language-specific URLs for current page
   const createLanguageUrl = (targetLocale: 'en' | 'fr' | 'es') => {
     if (typeof window === 'undefined') return '/';
     
-    const fullPath = window.location.pathname;
-    let currentPath = '/';
+    const fullPath = pathname;
     
-    // Extract path without locale prefix
-    const segments = fullPath.split('/');
-    if (segments[1] === 'fr' || segments[1] === 'es') {
-      currentPath = '/' + segments.slice(2).join('/');
+    // Parse the current URL to get the key (language-agnostic identifier)
+    const segments = fullPath.split('/').filter(Boolean);
+    
+    // If we're on a localized route, extract the locale and path
+    if (segments[0] === 'fr' || segments[0] === 'es') {
+      const sourceLocale = segments[0] as 'fr' | 'es';
+      const pathSegments = segments.slice(1);
+      
+      // Convert localized segments back to English keys
+      const englishSegments = pathSegments.map(segment => {
+        const key = require('@/lib/slugs').getKeyFromSlug(segment, sourceLocale);
+        return key;
+      });
+      
+      // Now convert to target locale
+      const targetSegments = englishSegments.map(key => {
+        return require('@/lib/slugs').getSlugForLocale(key, targetLocale);
+      });
+      
+      // Build the final URL
+      if (targetLocale === 'en') {
+        return '/' + targetSegments.join('/');
+      } else {
+        return `/${targetLocale}/${targetSegments.join('/')}`;
+      }
     } else {
-      currentPath = fullPath;
+      // We're on English route, need to convert English slugs to keys first, then to target locale
+      const englishSegments = segments;
+      
+      // Convert English segments to keys first, then to target locale
+      const targetSegments = englishSegments.map(segment => {
+        const key = require('@/lib/slugs').getKeyFromSlug(segment, 'en');
+        return require('@/lib/slugs').getSlugForLocale(key, targetLocale);
+      });
+      
+      // Build the final URL
+      if (targetLocale === 'en') {
+        return '/' + targetSegments.join('/');
+      } else {
+        return `/${targetLocale}/${targetSegments.join('/')}`;
+      }
     }
-    
-    // Ensure currentPath starts with / and handle empty path
-    if (!currentPath.startsWith('/')) currentPath = '/' + currentPath;
-    if (currentPath === '/') currentPath = '/';
-    
-    // Return URL for target locale
-    if (targetLocale === 'en') {
-      return currentPath === '/' ? '/' : currentPath;
-    }
-    return `/${targetLocale}${currentPath}`;
   };
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white">

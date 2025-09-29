@@ -10,8 +10,7 @@
     "title": "Qualité Premium, Portée Mondiale",
     "cardTitle": "Nous Vous Offrons Une Gamme Complète De Solutions Structurelles.",
     "cardDesc": "En tant que partenaire principal de fabricants agréés et licenciés de marques mondiales de premier plan, nous offrons un accès direct à des matériaux de construction de qualité supérieure et à des solutions de construction de pointe."
-  }
-  ,
+  },
   "nav": {
     "home": "Accueil",
     "about": "À Propos",
@@ -169,9 +168,60 @@
         "home": "Accueil",
         "services": "Services"
       }
+    },
+    "interior_exterior_decorative": {
+      "meta": {
+        "title": "Produits Décoratifs Intérieurs et Extérieurs",
+        "description": "Matériaux décoratifs de haute qualité pour applications intérieures et extérieures, améliorant l'attrait esthétique de vos projets."
+      },
+      "page_header": {
+        "title": "Produits Décoratifs Intérieurs et Extérieurs",
+        "description": "Matériaux décoratifs de haute qualité améliorant l'esthétique de vos espaces.",
+        "breadcrumbs": {
+          "home": "Accueil",
+          "services": "Services",
+          "interior_exterior_decorative": "Décoratifs Intérieurs & Extérieurs"
+        }
+      },
+      "overview": {
+        "title": "Solutions Décoratives Complètes",
+        "description": "Des finitions intérieures élégantes aux revêtements extérieurs durables, nous fournissons des matériaux décoratifs premium alliant esthétique et fonctionnalité."
+      },
+      "solutions": [
+        {
+          "title": "Panneaux Muraux Intérieurs",
+          "description": "Systèmes de panneaux muraux élégants et durables pour intérieurs résidentiels et commerciaux."
+        },
+        {
+          "title": "Bardage Extérieur",
+          "description": "Solutions de bardage résistant aux intempéries qui améliorent les façades des bâtiments."
+        },
+        {
+          "title": "Profils Décoratifs",
+          "description": "Profils décoratifs personnalisables pour des designs architecturaux uniques."
+        }
+      ],
+      "advantages": [
+        {
+          "title": "Qualité Premium",
+          "description": "Matériaux de haute qualité garantissant beauté et performance durables."
+        },
+        {
+          "title": "Flexibilité de Design",
+          "description": "Large gamme de couleurs, textures et finitions pour correspondre à toute vision de design."
+        },
+        {
+          "title": "Installation Facile",
+          "description": "Conçu pour une installation efficace réduisant les délais de projet."
+        }
+      ]
     }
   },
   "dealers": {
+    "meta": {
+      "title": "Revendeurs Autorisés",
+      "description": "Trouvez nos partenaires de confiance et revendeurs autorisés dans le monde entier. Connectez-vous avec des experts locaux pour une consultation professionnelle et un support."
+    },
     "page_header": {
       "title": "Revendeurs Agréés",
       "description": "Trouvez nos partenaires de confiance et points de vente.",
@@ -435,19 +485,58 @@
           "subtitle": "Nous offrons des alternatives de couleurs stratifiées qui fournissent une durabilité supérieure contre les conditions météorologiques difficiles tout en nécessitant peu d'entretien. Différentes couleurs stratifiées peuvent être appliquées sur les faces intérieures et extérieures pour obtenir des façades plus esthétiques et cohérentes.",
           "note": "Les couleurs stratifiées intérieures et extérieures peuvent être combinées.",
           "colors": [
-            { "name": "Chêne Doré", "file": "altin-mese.jpg" },
-            { "name": "Chêne Antique", "file": "antik-mese.jpg" },
-            { "name": "Gris Anthracite", "file": "antrasit-gri.jpg" },
-            { "name": "Noisette", "file": "findik.jpg" },
-            { "name": "Crème", "file": "krem.jpg" },
-            { "name": "Noir Cendré", "file": "kul-siyahi.jpg" },
-            { "name": "Acajou", "file": "maun.jpg" },
-            { "name": "Anthracite Métallique", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Argent Métallique", "file": "metalik-gumus.jpg" },
-            { "name": "Couronne Platine", "file": "platin-crown.jpg" },
-            { "name": "Pyrite", "file": "pyrite.jpg" },
-            { "name": "Vison", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
+            {
+              "name": "Chêne Doré",
+              "file": "altin-mese.jpg"
+            },
+            {
+              "name": "Chêne Antique",
+              "file": "antik-mese.jpg"
+            },
+            {
+              "name": "Gris Anthracite",
+              "file": "antrasit-gri.jpg"
+            },
+            {
+              "name": "Noisette",
+              "file": "findik.jpg"
+            },
+            {
+              "name": "Crème",
+              "file": "krem.jpg"
+            },
+            {
+              "name": "Noir Cendré",
+              "file": "kul-siyahi.jpg"
+            },
+            {
+              "name": "Acajou",
+              "file": "maun.jpg"
+            },
+            {
+              "name": "Anthracite Métallique",
+              "file": "metalik-antrasit-gri.jpg"
+            },
+            {
+              "name": "Argent Métallique",
+              "file": "metalik-gumus.jpg"
+            },
+            {
+              "name": "Couronne Platine",
+              "file": "platin-crown.jpg"
+            },
+            {
+              "name": "Pyrite",
+              "file": "pyrite.jpg"
+            },
+            {
+              "name": "Vison",
+              "file": "vizon.jpg"
+            },
+            {
+              "name": "Winchester",
+              "file": "winchester.jpg"
+            }
           ]
         }
       },
@@ -508,19 +597,58 @@
           "subtitle": "Nous offrons des alternatives de couleurs stratifiées qui fournissent une durabilité supérieure contre les conditions météorologiques difficiles tout en nécessitant peu d'entretien. Différentes couleurs stratifiées peuvent être appliquées sur les faces intérieures et extérieures pour obtenir des façades plus esthétiques et cohérentes.",
           "note": "Les couleurs stratifiées intérieures et extérieures peuvent être combinées.",
           "colors": [
-            { "name": "Chêne Doré", "file": "altin-mese.jpg" },
-            { "name": "Chêne Antique", "file": "antik-mese.jpg" },
-            { "name": "Gris Anthracite", "file": "antrasit-gri.jpg" },
-            { "name": "Noisette", "file": "findik.jpg" },
-            { "name": "Crème", "file": "krem.jpg" },
-            { "name": "Noir Cendré", "file": "kul-siyahi.jpg" },
-            { "name": "Acajou", "file": "maun.jpg" },
-            { "name": "Anthracite Métallique", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Argent Métallique", "file": "metalik-gumus.jpg" },
-            { "name": "Couronne Platine", "file": "platin-crown.jpg" },
-            { "name": "Pyrite", "file": "pyrite.jpg" },
-            { "name": "Vison", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
+            {
+              "name": "Chêne Doré",
+              "file": "altin-mese.jpg"
+            },
+            {
+              "name": "Chêne Antique",
+              "file": "antik-mese.jpg"
+            },
+            {
+              "name": "Gris Anthracite",
+              "file": "antrasit-gri.jpg"
+            },
+            {
+              "name": "Noisette",
+              "file": "findik.jpg"
+            },
+            {
+              "name": "Crème",
+              "file": "krem.jpg"
+            },
+            {
+              "name": "Noir Cendré",
+              "file": "kul-siyahi.jpg"
+            },
+            {
+              "name": "Acajou",
+              "file": "maun.jpg"
+            },
+            {
+              "name": "Anthracite Métallique",
+              "file": "metalik-antrasit-gri.jpg"
+            },
+            {
+              "name": "Argent Métallique",
+              "file": "metalik-gumus.jpg"
+            },
+            {
+              "name": "Couronne Platine",
+              "file": "platin-crown.jpg"
+            },
+            {
+              "name": "Pyrite",
+              "file": "pyrite.jpg"
+            },
+            {
+              "name": "Vison",
+              "file": "vizon.jpg"
+            },
+            {
+              "name": "Winchester",
+              "file": "winchester.jpg"
+            }
           ]
         }
       },
@@ -581,19 +709,58 @@
           "subtitle": "Nous offrons des alternatives de couleurs stratifiées qui fournissent une durabilité supérieure contre les conditions météorologiques difficiles tout en nécessitant peu d'entretien. Différentes couleurs stratifiées peuvent être appliquées sur les faces intérieures et extérieures pour obtenir des façades plus esthétiques et cohérentes.",
           "note": "Les couleurs stratifiées intérieures et extérieures peuvent être combinées.",
           "colors": [
-            { "name": "Chêne Doré", "file": "altin-mese.jpg" },
-            { "name": "Chêne Antique", "file": "antik-mese.jpg" },
-            { "name": "Gris Anthracite", "file": "antrasit-gri.jpg" },
-            { "name": "Noisette", "file": "findik.jpg" },
-            { "name": "Crème", "file": "krem.jpg" },
-            { "name": "Noir Cendré", "file": "kul-siyahi.jpg" },
-            { "name": "Acajou", "file": "maun.jpg" },
-            { "name": "Anthracite Métallique", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Argent Métallique", "file": "metalik-gumus.jpg" },
-            { "name": "Couronne Platine", "file": "platin-crown.jpg" },
-            { "name": "Pyrite", "file": "pyrite.jpg" },
-            { "name": "Vison", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
+            {
+              "name": "Chêne Doré",
+              "file": "altin-mese.jpg"
+            },
+            {
+              "name": "Chêne Antique",
+              "file": "antik-mese.jpg"
+            },
+            {
+              "name": "Gris Anthracite",
+              "file": "antrasit-gri.jpg"
+            },
+            {
+              "name": "Noisette",
+              "file": "findik.jpg"
+            },
+            {
+              "name": "Crème",
+              "file": "krem.jpg"
+            },
+            {
+              "name": "Noir Cendré",
+              "file": "kul-siyahi.jpg"
+            },
+            {
+              "name": "Acajou",
+              "file": "maun.jpg"
+            },
+            {
+              "name": "Anthracite Métallique",
+              "file": "metalik-antrasit-gri.jpg"
+            },
+            {
+              "name": "Argent Métallique",
+              "file": "metalik-gumus.jpg"
+            },
+            {
+              "name": "Couronne Platine",
+              "file": "platin-crown.jpg"
+            },
+            {
+              "name": "Pyrite",
+              "file": "pyrite.jpg"
+            },
+            {
+              "name": "Vison",
+              "file": "vizon.jpg"
+            },
+            {
+              "name": "Winchester",
+              "file": "winchester.jpg"
+            }
           ]
         }
       },
@@ -634,12 +801,12 @@
           "description": "Système coulissant avancé avec étanchéité renforcée et efficacité thermique pour grandes ouvertures."
         },
         "page_header": {
-          "title": "Legend Sliding Plus",
+          "title": "Legend Coulissant Plus",
           "description": "Performance coulissante premium conçue pour le confort, l'étanchéité et la durabilité.",
           "breadcrumbs": {
             "home": "Accueil",
             "services": "Services",
-            "sliding_systems": "Systèmes Coulissants u-PVC",
+            "sliding_systems": "Systèmes coulissants u‑PVC",
             "legend_surme_plus": "Legend Sliding Plus"
           }
         },
@@ -689,303 +856,14 @@
           "weather_resistance": "Résistance aux Intempéries",
           "applications": "Applications"
         }
-      }
-    },
-    "product_pages": {
-      "hs76_sliding": {
-        "meta": {
-          "title": "HS76 Coulissant",
-          "description": "Système u‑PVC lever‑coulisser avec seuil aluminium bas pour accès fauteuil roulant, profils Classe A et performance thermique Uf 1.2 W/m²·K."
-        },
-        "page_header": {
-          "title": "HS76 Coulissant",
-          "description": "Profils lever‑coulisser haute performance avec étanchéité et confort.",
-          "breadcrumbs": {
-            "home": "Accueil",
-            "services": "Services",
-            "sliding_systems": "Systèmes Coulissants u-PVC",
-            "hs76_sliding": "HS76 Coulissant"
-          }
-        },
-        "general_features": {
-          "title": "Caractéristiques Générales",
-          "description": "Le système HS76 présente un seuil aluminium bas spécialement conçu qui minimise la hauteur du profil au sol, créant une apparence plus élégante tout en assurant l'intégrité fonctionnelle. Avec cette nouvelle application, Egepen Deceuninck fournit une conception de seuil qui permet l'accès en fauteuil roulant sur les portes de passage conformément aux directives de l'Institut des Normes Turques. La hauteur de seuil visuellement réduite offre également de meilleurs résultats d'isolation thermique dans les analyses thermiques."
-        },
-        "technical_specs": {
-          "title": "Spécifications Techniques",
-          "frame_width": "Largeur Cadre",
-          "sash_width": "Largeur Ouvrant",
-          "chambers": "Chambres",
-          "gaskets": "Joints",
-          "glazing_bead": "Parclose",
-          "glass_thickness": "Épaisseur Verre",
-          "standard": "Norme",
-          "thermal_transmittance": "Transmittance Thermique (Uf)"
-        }
       },
-      "legend_window_door": {
-        "meta": {
-          "title": "Système Legend Fenêtres et Portes u-PVC",
-          "description": "Haute isolation, performance statique robuste et larges options de vitrage avec profils u-PVC premium."
-        },
+      "legend_sliding_plus": {
         "page_header": {
-          "title": "Système Legend Fenêtres et Portes u-PVC",
-          "description": "Solutions de fenêtres et portes premium avec isolation et performance supérieures.",
+          "title": "Legend Coulissant Plus",
           "breadcrumbs": {
             "home": "Accueil",
             "services": "Services",
-            "window_door_systems": "Systèmes de Fenêtres et Portes u-PVC",
-            "legend": "Système Legend"
-          }
-        },
-        "general_features": {
-          "title": "Caractéristiques Générales",
-          "description": "Le Système Legend Fenêtres et Portes u-PVC est conçu avec un profil à 6 chambres et une largeur d'installation de 80 mm. Le système a été conçu en tenant compte de critères de haute performance ; les profils sont formés en combinant les éléments structurels les plus appropriés. Pendant le processus de conception, les performances de la fenêtre telles que l'isolation (thermique et acoustique), la résistance structurelle et l'étanchéité ont été évaluées de manière holistique avec la géométrie du profil. Tous les profils du système sont fabriqués conformément à la norme EN 12608-1."
-        },
-        "technical_specs": {
-          "title": "Spécifications Techniques",
-          "profile_width": "Largeur du Profil",
-          "chambers": "Nombre de Chambres",
-          "gaskets": "Nombre de Joints",
-          "gasket_material": "Matériau des Joints",
-          "glazing_bead": "Parclose",
-          "glass_thickness": "Épaisseur du Verre",
-          "thermal_transmittance": "Transmittance Thermique (Uf)",
-          "standard": "Norme"
-        },
-        "why_choose": {
-          "title": "Pourquoi Choisir le Système Legend Fenêtres et Portes",
-          "subtitle": "Haute isolation, performance statique forte, gamme de produits riche et larges options de vitrage — conçu comme un système de fenêtre holistique.",
-          "features": [
-            {
-              "title": "Isolation Supérieure",
-              "description": "Conception multi-chambres et système de joints avancé offrent une performance thermique exceptionnelle."
-            },
-            {
-              "title": "Intégrité Structurelle",
-              "description": "Profils renforcés et ingénierie de précision assurent durabilité et stabilité à long terme."
-            },
-            {
-              "title": "Design Polyvalent",
-              "description": "Gamme complète de types d'ouverture et configurations pour toute exigence architecturale."
-            },
-            {
-              "title": "Flexibilité de Vitrage",
-              "description": "Supporte diverses épaisseurs et types de verre incluant vitrage économe en énergie et de sécurité."
-            }
-          ]
-        },
-        "color_options": {
-          "title": "Options de Couleur",
-          "subtitle": "Nous offrons des alternatives de couleurs stratifiées qui fournissent une durabilité supérieure contre les conditions météorologiques difficiles tout en nécessitant peu d'entretien. Différentes couleurs stratifiées peuvent être appliquées sur les faces intérieures et extérieures pour obtenir des façades plus esthétiques et cohérentes.",
-          "note": "Les couleurs stratifiées intérieures et extérieures peuvent être combinées.",
-          "colors": [
-            { "name": "Chêne Doré", "file": "altin-mese.jpg" },
-            { "name": "Chêne Antique", "file": "antik-mese.jpg" },
-            { "name": "Gris Anthracite", "file": "antrasit-gri.jpg" },
-            { "name": "Noisette", "file": "findik.jpg" },
-            { "name": "Crème", "file": "krem.jpg" },
-            { "name": "Noir Cendré", "file": "kul-siyahi.jpg" },
-            { "name": "Acajou", "file": "maun.jpg" },
-            { "name": "Anthracite Métallique", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Argent Métallique", "file": "metalik-gumus.jpg" },
-            { "name": "Couronne Platine", "file": "platin-crown.jpg" },
-            { "name": "Pyrite", "file": "pyrite.jpg" },
-            { "name": "Vison", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
-          ]
-        }
-      },
-      "legend_art": {
-        "meta": {
-          "title": "Système Legend Art Fenêtres et Portes u-PVC",
-          "description": "Design esthétique avec performance premium pour l'architecture moderne et les façades sophistiquées."
-        },
-        "page_header": {
-          "title": "Système Legend Art Fenêtres et Portes u-PVC",
-          "description": "Finitions design avec performance premium pour l'architecture moderne.",
-          "breadcrumbs": {
-            "home": "Accueil",
-            "services": "Services",
-            "window_door_systems": "Systèmes de Fenêtres et Portes u-PVC",
-            "legend_art": "Système Legend Art"
-          }
-        },
-        "general_features": {
-          "title": "Caractéristiques Générales",
-          "description": "Le Système LegendArt Fenêtres et Portes met l'esthétique et l'élégance au premier plan avec un design méticuleusement conçu qui s'harmonise avec votre style intérieur. Avec des lignes modernes et raffinées qui s'alignent avec l'architecture et la décoration, LegendArt transforme chaque espace en un espace de vie exceptionnel grâce à son isolation acoustique et sa résistance statique. Le système offre des solutions respectueuses de l'environnement tout en maintenant des performances constantes et une cohérence visuelle."
-        },
-        "technical_specs": {
-          "title": "Spécifications Techniques",
-          "profile_width": "Largeur du Profil",
-          "chambers": "Nombre de Chambres",
-          "gaskets": "Nombre de Joints",
-          "gasket_material": "Matériau des Joints",
-          "glazing_bead": "Parclose",
-          "glass_thickness": "Épaisseur du Verre",
-          "thermal_transmittance": "Transmittance Thermique (Uf)",
-          "standard": "Norme"
-        },
-        "why_choose": {
-          "title": "Pourquoi Choisir Legend Art u-PVC",
-          "subtitle": "Haute isolation, performance statique forte, gamme de produits riche et larges options de vitrage — conçu comme un système de fenêtre holistique.",
-          "features": [
-            {
-              "title": "Isolation Supérieure",
-              "description": "Conception multi-chambres et système de joints avancé offrent une performance thermique exceptionnelle."
-            },
-            {
-              "title": "Intégrité Structurelle",
-              "description": "Profils renforcés et ingénierie de précision assurent durabilité et stabilité à long terme."
-            },
-            {
-              "title": "Design Polyvalent",
-              "description": "Gamme complète de types d'ouverture et configurations pour toute exigence architecturale."
-            },
-            {
-              "title": "Flexibilité de Vitrage",
-              "description": "Supporte diverses épaisseurs et types de verre incluant vitrage économe en énergie et de sécurité."
-            }
-          ]
-        },
-        "color_options": {
-          "title": "Options de Couleur",
-          "subtitle": "Nous offrons des alternatives de couleurs stratifiées qui fournissent une durabilité supérieure contre les conditions météorologiques difficiles tout en nécessitant peu d'entretien. Différentes couleurs stratifiées peuvent être appliquées sur les faces intérieures et extérieures pour obtenir des façades plus esthétiques et cohérentes.",
-          "note": "Les couleurs stratifiées intérieures et extérieures peuvent être combinées.",
-          "colors": [
-            { "name": "Chêne Doré", "file": "altin-mese.jpg" },
-            { "name": "Chêne Antique", "file": "antik-mese.jpg" },
-            { "name": "Gris Anthracite", "file": "antrasit-gri.jpg" },
-            { "name": "Noisette", "file": "findik.jpg" },
-            { "name": "Crème", "file": "krem.jpg" },
-            { "name": "Noir Cendré", "file": "kul-siyahi.jpg" },
-            { "name": "Acajou", "file": "maun.jpg" },
-            { "name": "Anthracite Métallique", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Argent Métallique", "file": "metalik-gumus.jpg" },
-            { "name": "Couronne Platine", "file": "platin-crown.jpg" },
-            { "name": "Pyrite", "file": "pyrite.jpg" },
-            { "name": "Vison", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
-          ]
-        }
-      },
-      "zendow": {
-        "meta": {
-          "title": "Système Zendow Fenêtres et Portes u-PVC",
-          "description": "Performance thermique avancée avec style contemporain et polyvalence pour les bâtiments modernes."
-        },
-        "page_header": {
-          "title": "Système Zendow Fenêtres et Portes u-PVC",
-          "description": "Performance thermique avancée avec style contemporain et polyvalence.",
-          "breadcrumbs": {
-            "home": "Accueil",
-            "services": "Services",
-            "window_door_systems": "Systèmes de Fenêtres et Portes u-PVC",
-            "zendow": "Système Zendow"
-          }
-        },
-        "general_features": {
-          "title": "Caractéristiques Générales",
-          "description": "Le Système Zendow Fenêtres et Portes PVC complète parfaitement votre style intérieur avec un design méticuleusement réfléchi et des détails esthétiques. Offrant des standards élevés tant en fonctionnalité qu'en apparence, Zendow s'adapte parfaitement à une large gamme de styles architecturaux avec ses lignes modernes, ses détails élégants et sa forme cohérente. Conçu pour ajouter de la valeur avec durabilité et longue durée de vie, c'est un choix idéal pour ceux qui recherchent confort et esthétique ensemble."
-        },
-        "technical_specs": {
-          "title": "Spécifications Techniques",
-          "profile_width": "Largeur du Profil",
-          "chambers": "Nombre de Chambres",
-          "gaskets": "Nombre de Joints",
-          "gasket_material": "Matériau des Joints",
-          "glazing_bead": "Parclose",
-          "glass_thickness": "Épaisseur du Verre",
-          "thermal_transmittance": "Transmittance Thermique (Uf)",
-          "standard": "Norme"
-        },
-        "why_choose": {
-          "title": "Pourquoi Choisir Zendow u-PVC",
-          "subtitle": "Haute isolation, performance statique forte, gamme de produits riche et larges options de vitrage — conçu comme un système de fenêtre holistique.",
-          "features": [
-            {
-              "title": "Isolation Supérieure",
-              "description": "Conception multi-chambres et système de joints avancé offrent une performance thermique exceptionnelle."
-            },
-            {
-              "title": "Intégrité Structurelle",
-              "description": "Profils renforcés et ingénierie de précision assurent durabilité et stabilité à long terme."
-            },
-            {
-              "title": "Design Polyvalent",
-              "description": "Gamme complète de types d'ouverture et configurations pour toute exigence architecturale."
-            },
-            {
-              "title": "Flexibilité de Vitrage",
-              "description": "Supporte diverses épaisseurs et types de verre incluant vitrage économe en énergie et de sécurité."
-            }
-          ]
-        },
-        "color_options": {
-          "title": "Options de Couleur",
-          "subtitle": "Nous offrons des alternatives de couleurs stratifiées qui fournissent une durabilité supérieure contre les conditions météorologiques difficiles tout en nécessitant peu d'entretien. Différentes couleurs stratifiées peuvent être appliquées sur les faces intérieures et extérieures pour obtenir des façades plus esthétiques et cohérentes.",
-          "note": "Les couleurs stratifiées intérieures et extérieures peuvent être combinées.",
-          "colors": [
-            { "name": "Chêne Doré", "file": "altin-mese.jpg" },
-            { "name": "Chêne Antique", "file": "antik-mese.jpg" },
-            { "name": "Gris Anthracite", "file": "antrasit-gri.jpg" },
-            { "name": "Noisette", "file": "findik.jpg" },
-            { "name": "Crème", "file": "krem.jpg" },
-            { "name": "Noir Cendré", "file": "kul-siyahi.jpg" },
-            { "name": "Acajou", "file": "maun.jpg" },
-            { "name": "Anthracite Métallique", "file": "metalik-antrasit-gri.jpg" },
-            { "name": "Argent Métallique", "file": "metalik-gumus.jpg" },
-            { "name": "Couronne Platine", "file": "platin-crown.jpg" },
-            { "name": "Pyrite", "file": "pyrite.jpg" },
-            { "name": "Vison", "file": "vizon.jpg" },
-            { "name": "Winchester", "file": "winchester.jpg" }
-          ]
-        }
-      },
-      "slimslide": {
-        "meta": {
-          "title": "Système Slimslide",
-          "description": "Profils ultra‑minces maximisant la surface vitrée avec fonctionnement coulissant fluide et lignes de vue minimales."
-        },
-        "page_header": {
-          "title": "Slimslide",
-          "description": "Lignes de vue minimales avec coulissement fluide, étanchéité et confort.",
-          "breadcrumbs": {
-            "home": "Accueil",
-            "services": "Services",
-            "sliding_systems": "Systèmes Coulissants u-PVC",
-            "slimslide": "Slimslide"
-          }
-        },
-        "general_features": {
-          "title": "Caractéristiques Générales",
-          "description": "Slimslide est un système coulissant u-PVC à cadre mince avec une largeur de meneau central presque réduite de moitié, une option de seuil zéro et des vues et passages sans barrière. La caractéristique distinctive du système est le meneau central exceptionnellement étroit de 23 mm, créant une apparence élégante avec une surface vitrée maximale. Slimslide combine l'attrait esthétique avec les performances fonctionnelles, offrant un fonctionnement fluide et d'excellentes propriétés d'étanchéité. Le système est conçu pour les applications architecturales modernes où la visibilité minimale du cadre et la transparence maximale sont prioritaires."
-        },
-        "technical_specs": {
-          "title": "Spécifications Techniques",
-          "center_mullion": "Largeur du Meneau Central",
-          "frame_depth": "Profondeur du Cadre",
-          "sash_depth": "Profondeur de l'Ouvrant",
-          "glass_thickness": "Épaisseur du Verre",
-          "threshold_option": "Option de Seuil",
-          "sealing_system": "Système d'Étanchéité",
-          "operation": "Type de Fonctionnement",
-          "max_dimensions": "Dimensions Maximales"
-        }
-      },
-      "legend_surme_plus": {
-        "meta": {
-          "title": "Legend Sliding Plus",
-          "description": "Système coulissant avancé avec étanchéité renforcée et efficacité thermique pour grandes ouvertures."
-        },
-        "page_header": {
-          "title": "Legend Sliding Plus",
-          "description": "Performance coulissante premium conçue pour le confort, l'étanchéité et la durabilité.",
-          "breadcrumbs": {
-            "home": "Accueil",
-            "services": "Services",
-            "sliding_systems": "Systèmes Coulissants u-PVC",
-            "legend_surme_plus": "Legend Sliding Plus"
+            "sliding_systems": "Systèmes coulissants u‑PVC"
           }
         },
         "general_features": {
@@ -1002,37 +880,6 @@
           "opening_options": "Options d'Ouverture",
           "standard": "Norme",
           "thermal_transmittance": "Transmittance Thermique (Uf)"
-        }
-      },
-      "pvc_sliding_door": {
-        "meta": {
-          "title": "Système de Porte Coulissante PVC",
-          "description": "Solutions de portes coulissantes fiables pour applications résidentielles et commerciales avec fonctionnement fluide."
-        },
-        "page_header": {
-          "title": "Système de Porte Coulissante PVC",
-          "description": "Performance coulissante premium conçue pour le confort, l'étanchéité et la durabilité.",
-          "breadcrumbs": {
-            "home": "Accueil",
-            "services": "Services",
-            "sliding_systems": "Systèmes Coulissants u-PVC",
-            "pvc_sliding_door": "Système de Porte Coulissante PVC"
-          }
-        },
-        "general_features": {
-          "title": "Caractéristiques Générales",
-          "description": "Le Système de Portes Coulissantes PVC est une solution polyvalente de fenêtres et portes coulissantes conçue pour les applications architecturales modernes. Ce système présente des rails configurables, des joints TPE de haute qualité et des parcloses PCE pour une étanchéité supérieure et une résistance aux intempéries. Compatible avec les profils Legend Art et Zendow, il offre une flexibilité de conception tout en maintenant d'excellents standards de performance. Le système fournit un fonctionnement coulissant fluide, une efficacité thermique améliorée et des performances fiables à long terme pour les projets résidentiels et commerciaux."
-        },
-        "technical_specs": {
-          "title": "Spécifications Techniques",
-          "system_compatibility": "Compatibilité du Système",
-          "track_configuration": "Configuration des Rails",
-          "gasket_type": "Type de Joint",
-          "glazing_bead": "Parclose",
-          "operation_type": "Type de Fonctionnement",
-          "thermal_performance": "Performance Thermique",
-          "weather_resistance": "Résistance aux Intempéries",
-          "applications": "Applications"
         }
       }
     }
