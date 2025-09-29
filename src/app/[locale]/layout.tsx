@@ -1,8 +1,9 @@
-import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
 import type {Metadata} from 'next';
 import { locales } from '@/i18n';
 import '../globals.css';
+import { Navbar } from '@/components/navbar';
+import { Footer } from '@/components/footer';
+import { StickyContactButtons } from '@/components/sticky-contact-buttons';
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -17,15 +18,15 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const messages = await getMessages({locale});
   return (
-    <html lang={locale}>
-      <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          {children}
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <div className="min-h-screen flex flex-col">
+      <Navbar locale={locale as any} />
+      <main className="flex-1">
+        {children}
+      </main>
+      <Footer locale={locale as any} />
+      <StickyContactButtons />
+    </div>
   );
 }
 

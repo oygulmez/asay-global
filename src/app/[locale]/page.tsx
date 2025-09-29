@@ -1,15 +1,22 @@
-import {getTranslations} from 'next-intl/server';
+import {locales} from '@/i18n';
+import SiteHome from '../(site)/page';
 
 export async function generateMetadata({params: {locale}}: {params: {locale: string}}) {
-  const t = await getTranslations('meta.home');
+  const messages = (await import(`@/messages/${locale}.json`)).default as any;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages as any);
   return {
-    title: t('title'),
-    description: t('description'),
+    title: t('meta.home.title'),
+    description: t('meta.home.description'),
   };
 }
 
 export default async function HomePage() {
-  return null;
+  // Reuse the main homepage under locale path
+  return <SiteHome />;
+}
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
 }
 
 

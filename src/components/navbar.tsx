@@ -24,7 +24,12 @@ import {
 } from "@/components/ui/sheet";
 import { Separator } from "@/components/ui/separator";
 
-export function Navbar() {
+type Locale = 'en' | 'fr' | 'es' | undefined;
+
+export function Navbar({ locale }: { locale?: Locale } = {}) {
+  const current = (locale === 'fr' || locale === 'es' || locale === 'en') ? locale : 'en';
+  const dict = current === 'fr' ? (require('@/messages/fr.json')) : current === 'es' ? (require('@/messages/es.json')) : (require('@/messages/en.json'));
+  const t = (key: string) => key.split('.').reduce((o: any, k: string) => o?.[k], dict);
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white">
       <div className="container mx-auto h-18 md:h-22 px-6 flex items-center gap-6">
@@ -42,41 +47,41 @@ export function Navbar() {
             <NavigationMenuList className="gap-6">
               <NavigationMenuItem>
                 <Link href="/" className={cn("text-sm font-medium px-2 py-1 rounded-md transition-colors hover:bg-muted")}>
-                  Home
+                  {t('nav.home')}
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Link href="/about" className={cn("text-sm font-medium px-2 py-1 rounded-md transition-colors hover:bg-muted")}>
-                  About Us
+                  {t('nav.about')}
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <DropdownMenu>
                   <DropdownMenuTrigger className="text-sm font-medium outline-none inline-flex items-center gap-1 px-2 py-1 rounded-md transition-colors hover:bg-muted">
-                    Services <ChevronDown className="size-4" aria-hidden />
+                    {t('nav.services')} <ChevronDown className="size-4" aria-hidden />
                   </DropdownMenuTrigger>
                   <DropdownMenuContent align="end" className="w-[320px]">
                     <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href="/services/interior-and-exterior-decorative-products" className="block w-full px-2 py-2">Interior and Exterior Decorative Products</Link>
+                      <Link href="/services/interior-and-exterior-decorative-products" className="block w-full px-2 py-2">{t('nav.services_menu.decorative')}</Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href="/services/steel-framings" className="block w-full px-2 py-2">Steel Framings</Link>
+                      <Link href="/services/steel-framings" className="block w-full px-2 py-2">{t('nav.services_menu.steel')}</Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href="/services/aluminum-architectural-solutions" className="block w-full px-2 py-2">Aluminum Architectural Solutions</Link>
+                      <Link href="/services/aluminum-architectural-solutions" className="block w-full px-2 py-2">{t('nav.services_menu.aluminum')}</Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href="/services/architectural-glass-solutions" className="block w-full px-2 py-2">Architectural Glass Solutions</Link>
+                      <Link href="/services/architectural-glass-solutions" className="block w-full px-2 py-2">{t('nav.services_menu.glass')}</Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href="/services/u-pvc-systems" className="block w-full px-2 py-2">u-PVC Systems</Link>
+                      <Link href="/services/u-pvc-systems" className="block w-full px-2 py-2">{t('nav.services_menu.upvc')}</Link>
                     </DropdownMenuItem>
                   </DropdownMenuContent>
                 </DropdownMenu>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Link href="/contact" className={cn("text-sm font-medium px-2 py-1 rounded-md transition-colors hover:bg-muted")}>
-                  Contact Us
+                  {t('nav.contact')}
                 </Link>
               </NavigationMenuItem>
             </NavigationMenuList>
@@ -105,7 +110,7 @@ export function Navbar() {
           </DropdownMenu>
 
           <Button asChild size="sm" className="bg-[#333333] text-white hover:bg-[#998675]">
-            <Link href="/dealers">View Authorized Dealers</Link>
+            <Link href="/dealers">{t('nav.dealers')}</Link>
           </Button>
         </div>
 
@@ -151,24 +156,24 @@ export function Navbar() {
                 </Link>
               </div>
               <nav className="mt-4 space-y-1" onClick={() => (document.querySelector('[data-state="open"]') as HTMLElement)?.click()}>
-                <Link href="/" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">Home</Link>
-                <Link href="/about" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">About Us</Link>
+                <Link href="/" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.home')}</Link>
+                <Link href="/about" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.about')}</Link>
                 <div className="pt-1">
-                  <Link href="/services" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">Services</Link>
+                  <Link href="/services" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.services')}</Link>
                   <div className="grid gap-1 px-3">
-                    <Link href="/services/interior-and-exterior-decorative-products" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">Interior and Exterior Decorative Products</Link>
-                    <Link href="/services/steel-framings" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">Steel Framings</Link>
-                    <Link href="/services/aluminum-architectural-solutions" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">Aluminum Architectural Solutions</Link>
-                    <Link href="/services/architectural-glass-solutions" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">Architectural Glass Solutions</Link>                 
-                    <Link href="/services/u-pvc-systems" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">u-PVC Systems</Link> </div>
+                    <Link href="/services/interior-and-exterior-decorative-products" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.decorative')}</Link>
+                    <Link href="/services/steel-framings" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.steel')}</Link>
+                    <Link href="/services/aluminum-architectural-solutions" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.aluminum')}</Link>
+                    <Link href="/services/architectural-glass-solutions" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.glass')}</Link>                 
+                    <Link href="/services/u-pvc-systems" className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.upvc')}</Link> </div>
 
                 </div>
-                <Link href="/contact" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">Contact Us</Link>
+                <Link href="/contact" className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.contact')}</Link>
               </nav>
               <Separator className="my-4" />
               <div className="mt-auto grid gap-2">
                 <Button asChild size="lg" className="w-full bg-[#333333] text-white hover:bg-[#998675]">
-                  <Link href="/dealers">View Authorized Dealers</Link>
+                  <Link href="/dealers">{t('nav.dealers')}</Link>
                 </Button>
               </div>
             </SheetContent>

@@ -1,63 +1,70 @@
+"use client"
+
 import { PageHeader } from "@/components/page-header";
 import { Gallery6 } from "@/components/gallery6";
-
-export const metadata = {
-  title: "Services",
-  description: "Explore Asay Global’s B2B services: u‑PVC, aluminum, glass and steel systems designed for high‑performance façades and reliable project delivery.",
-};
+import { useEffect, useState } from 'react';
+import enMessages from '@/messages/en.json';
+import frMessages from '@/messages/fr.json';
+import esMessages from '@/messages/es.json';
 
 export default function ServicesPage() {
+  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+
+  useEffect(() => {
+    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
+    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
+  }, []);
+
+  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
+
   return (
     <>
       <PageHeader
-        title="Our Services"
-        description="Design, build, furnish — spaces tailored to the way you live"
-        breadcrumbItems={[{ label: "Home", href: "/" }, { label: "Services" }]}
+        title={(messages as any).services.page_header.title}
+        description={(messages as any).services.page_header.description}
+        breadcrumbItems={[{ label: (messages as any).services.page_header.breadcrumbs.home, href: "/" }, { label: (messages as any).services.page_header.breadcrumbs.services }]}
       />
       <div className="container mx-auto px-6 py-16">
         <Gallery6
           demoUrl="/contact"
+          heading={(messages as any).gallery.heading}
+          readMore={(messages as any).gallery.read_more}
           items={[
             {
               id: "service-1",
-              title: "Interior and Exterior Decorative Products",
-              summary:
-                "High-quality decorative materials for both interior and exterior applications, enhancing the aesthetic appeal of your projects.",
+              title: (messages as any).homepage.services.interior_exterior_decorative.title,
+              summary: (messages as any).homepage.services.interior_exterior_decorative.summary,
               url: "/services/interior-and-exterior-decorative-products",
               image:
                 "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-1.jpg",
             },
             {
               id: "service-2",
-              title: "Steel Framings",
-              summary:
-                "Robust steel structural solutions designed for durability and strength in commercial and industrial construction projects.",
+              title: (messages as any).homepage.services.steel_framings.title,
+              summary: (messages as any).homepage.services.steel_framings.summary,
               url: "/services/steel-framings",
               image: "/images/services/steel-structure/steel-framings-img-1.jpg",
             },
             {
               id: "service-3",
-              title: "Aluminum Architectural Solutions",
-              summary:
-                "Modern aluminum systems and architectural solutions offering excellent performance and contemporary design possibilities.",
+              title: (messages as any).homepage.services.aluminum_architectural.title,
+              summary: (messages as any).homepage.services.aluminum_architectural.summary,
               url: "/services/aluminum-architectural-solutions",
               image:
                 "/images/services/aluminum-solutions/Aluminum-Architectural-Solutions-img--1.jpg",
             },
             {
               id: "service-4",
-              title: "Architectural Glass Solutions",
-              summary:
-                "Premium glass solutions for architectural applications, providing transparency, energy efficiency, and modern aesthetics.",
+              title: (messages as any).homepage.services.architectural_glass.title,
+              summary: (messages as any).homepage.services.architectural_glass.summary,
               url: "/services/architectural-glass-solutions",
               image:
                 "/images/services/glass-solutions/Architectural-Glass-Solutions-img--1.jpg",
             },
             {
               id: "service-5",
-              title: "u-PVC Systems",
-              summary:
-                "High-performance u-PVC window, door and sliding systems engineered for durability and efficiency.",
+              title: (messages as any).homepage.services.upvc_systems.title,
+              summary: (messages as any).homepage.services.upvc_systems.summary,
               url: "/services/u-pvc-systems",
               image:
                 "/images/services/upvc-systems/pvc-window-and-door-system.jpg",

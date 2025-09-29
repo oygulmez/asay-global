@@ -1,21 +1,31 @@
+"use client"
+
 import { PageHeader } from "@/components/page-header";
 import Link from "next/link";
 import ContactForm from "./ContactForm";
-
-export const metadata = {
-  title: "Contact",
-  description: "Contact Asay Global — B2B inquiries for structural solutions. Reach our team for u‑PVC, aluminum, glass and steel systems, pricing and partnerships.",
-};
+import { useEffect, useState } from 'react';
+import enMessages from '@/messages/en.json';
+import frMessages from '@/messages/fr.json';
+import esMessages from '@/messages/es.json';
 
 export default function ContactPage() {
+  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+
+  useEffect(() => {
+    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
+    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
+  }, []);
+
+  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
+
   return (
     <>
       <PageHeader
-        title="Contact Us"
-        description="We’d love to hear from you. Reach us via the form or the contact details below."
+        title={(messages as any).contact.page_header.title}
+        description={(messages as any).contact.page_header.description}
         breadcrumbItems={[
-          { label: "Home", href: "/" },
-          { label: "Contact Us" },
+          { label: (messages as any).contact.page_header.breadcrumbs.home, href: "/" },
+          { label: (messages as any).contact.page_header.breadcrumbs.contact },
         ]}
       />
 
@@ -28,24 +38,24 @@ export default function ContactPage() {
               <ul className="space-y-3 text-sm" style={{ color: "#565656" }}>
                 
                 <li>
-                  <span className="font-medium" style={{ color: "black" }}>E-mail:</span> info@asayglobal.com
+                  <span className="font-medium" style={{ color: "black" }}>{(messages as any).contact.contact_info.email_label}</span> info@asayglobal.com
                 </li>
                 
                 <li>
-                  <span className="font-medium" style={{ color: "black" }}>Head Office (Europe):</span><br/>
+                  <span className="font-medium" style={{ color: "black" }}>{(messages as any).contact.contact_info.europe_office_label}</span><br/>
                   Keulenstraat 11 A, 7418 ET Deventer / The Netherlands
                 </li>
                 <li>
-                  <span className="font-medium" style={{ color: "black" }}>Head Office (USA):</span><br/>
+                  <span className="font-medium" style={{ color: "black" }}>{(messages as any).contact.contact_info.usa_office_label}</span><br/>
                   5835 Callaghan Rd. Ste 204, San Antonio, TX 78228, USA
                 </li>
                 <li>
-                  <span className="font-medium" style={{ color: "black" }}>Head Office (Turkey):</span><br/>
+                  <span className="font-medium" style={{ color: "black" }}>{(messages as any).contact.contact_info.turkey_office_label}</span><br/>
                   Atatürk Mahallesi Ertuğrul Gazi Sk. Metropol İstanbul, C Blok No2/131 Ataşehir İstanbul TR
                 </li>
               </ul>
               <div className="pt-4">
-                <Link href="/dealers" className="inline-block px-4 py-2 bg-[#333333] text-white rounded-md">View Authorized Dealers</Link>
+                <Link href="/dealers" className="inline-block px-4 py-2 bg-[#333333] text-white rounded-md">{(messages as any).contact.contact_info.view_dealers}</Link>
               </div>
             </div>
           </div>

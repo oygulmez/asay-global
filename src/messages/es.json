@@ -4,6 +4,192 @@
       "title": "Asay Global | Soluciones Estructurales",
       "description": "Materiales de construcción B2B y sistemas de fachada diseñados para rendimiento y fiabilidad."
     }
+  },
+  "hero": {
+    "badge": "Bienvenido a Asay Real Global",
+    "title": "Calidad Premium, Alcance Global",
+    "cardTitle": "Le Ofrecemos Una Gama Completa De Soluciones Estructurales.",
+    "cardDesc": "Como socio principal de fabricantes autorizados y licenciados de marcas globales líderes, brindamos acceso directo a materiales de construcción de primera calidad y soluciones de construcción de vanguardia."
+  }
+  ,
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "dealers": "Ver Distribuidores Autorizados",
+    "services_menu": {
+      "decorative": "Productos Decorativos Interiores y Exteriores",
+      "steel": "Estructuras de Acero",
+      "aluminum": "Soluciones Arquitectónicas de Aluminio",
+      "glass": "Soluciones de Vidrio Arquitectónico",
+      "upvc": "Sistemas u-PVC"
+    }
+  },
+  "homepage": {
+    "main_description": "Con 22 años de experiencia en la industria, Asay Global se especializa en la producción y suministro de materiales de construcción de alta calidad para mercados globales. Servimos a 38 países en 5 continentes y hemos proporcionado soluciones para miles de proyectos hasta la fecha. Hemos completado más de cien proyectos en Europa, Asia, América Central, Reino Unido y América del Norte. Con nuestro equipo profesional, experimentado y dinámico, Asay Global es su socio rápido y confiable para todos sus desafíos de construcción y edificación. Aprovechamos nuestras décadas de experiencia global y procesos certificados por la industria para entregar soluciones de construcción sostenibles y de ingeniería de precisión.",
+    "why_choose_us": {
+      "experienced_team": {
+        "title": "Equipo Experimentado",
+        "description": "Nuestros profesionales experimentados aportan décadas de experiencia combinada en construcción y materiales de construcción, asegurando calidad excepcional y experiencia en cada proyecto."
+      },
+      "professional_service": {
+        "title": "Servicio Profesional",
+        "description": "Dedicados a la excelencia, proporcionamos servicios profesionales integrales incluyendo consultoría, soporte de instalación y mantenimiento continuo para todos nuestros productos."
+      }
+    },
+    "our_products": {
+      "title": "Nuestros Productos",
+      "description": "Descubre nuestra gama completa de soluciones de construcción premium diseñadas para la arquitectura moderna."
+    },
+    "services": {
+      "interior_exterior_decorative": {
+        "title": "Productos Decorativos Interiores y Exteriores",
+        "summary": "Materiales decorativos de alta calidad para aplicaciones tanto interiores como exteriores, mejorando el atractivo estético de sus proyectos."
+      },
+      "steel_framings": {
+        "title": "Estructuras de Acero",
+        "summary": "Soluciones estructurales de acero robustas diseñadas para durabilidad y resistencia en proyectos de construcción comercial e industrial."
+      },
+      "aluminum_architectural": {
+        "title": "Soluciones Arquitectónicas de Aluminio",
+        "summary": "Sistemas de aluminio modernos y soluciones arquitectónicas que ofrecen excelente rendimiento y posibilidades de diseño contemporáneo."
+      },
+      "architectural_glass": {
+        "title": "Soluciones de Vidrio Arquitectónico",
+        "summary": "Soluciones de vidrio premium para aplicaciones arquitectónicas, proporcionando transparencia, eficiencia energética y estética moderna."
+      },
+      "upvc_systems": {
+        "title": "Sistemas u-PVC",
+        "summary": "Sistemas de ventanas, puertas y deslizantes u-PVC de alto rendimiento diseñados para durabilidad y eficiencia."
+      }
+    },
+    "gallery": {
+      "heading": "Diseña, construye, amuebla — espacios adaptados a tu forma de vivir",
+      "read_more": "Leer más"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Sobre Nosotros",
+      "description": "Socio B2B para soluciones estructurales: 22+ años entregando sistemas u‑PVC, aluminio, vidrio y acero con referencias globales y ejecución puntual."
+    },
+    "page_header": {
+      "title": "Sobre Nosotros",
+      "description": "Con 22 años de experiencia en la industria, Asay Global se especializa en la producción y suministro de materiales de construcción de alta calidad para mercados globales.",
+      "breadcrumbs": {
+        "home": "Inicio",
+        "about": "Sobre Nosotros"
+      }
+    },
+    "company_overview": {
+      "title": "Sobre Asay Real Global",
+      "paragraph1": "En Asay Real Global, establecemos nuevos estándares en soluciones arquitectónicas, aprovechando 24 años de experiencia en la industria. Con conocimiento extenso y sólidas referencias en Europa, EE.UU., Reino Unido, Bahamas, el Caribe y América Latina, somos una empresa líder de suministro, ventas y marketing para estructuras de acero comerciales, residenciales e industriales, casas prefabricadas, unidades de oficinas y sitios de construcción multipropósito, sistemas de acristalamiento arquitectónico y especializado, sistemas de ventanas y puertas de uPVC y aluminio de marcas mundialmente reconocidas, soluciones exteriores e interiores, así como puertas de apartamento, entrada e interiores y exteriores de alta calidad.",
+      "paragraph2": "Entendemos que cada proyecto tiene necesidades únicas y estamos comprometidos a entregar productos superiores que combinen estética, funcionalidad y durabilidad. A través de nuestras sólidas asociaciones con marcas líderes en la industria, aportamos la última tecnología e ingeniería superior a sus proyectos. Ya sea residencial o comercial, Asay Real Global ofrece las mejores soluciones arquitectónicas que transformarán y agregarán valor a sus espacios."
+    },
+    "philosophy": {
+      "title": "Innovación y Calidad como Filosofía de Vida",
+      "description1": "Trabajamos según los principios de producción de calidad, optimización de soluciones, riesgo minimizado y asociación comercial. Siempre estamos explorando la innovación e innovando constantemente, y consideramos la calidad como una filosofía de vida.",
+      "description2": "De acuerdo con las necesidades de nuestros clientes y el sector de la construcción, realizamos investigación en el desarrollo de nuevos productos utilizando las últimas tecnologías. Siempre ponemos las necesidades y expectativas de nuestros clientes en primer lugar."
+    },
+    "values": {
+      "global_presence": {
+        "title": "Presencia Global",
+        "description": "Sirviendo a 38 países en 5 continentes con más de 22 años de experiencia internacional en ingeniería de acero y materiales de construcción."
+      },
+      "advanced_technology": {
+        "title": "Tecnología Avanzada",
+        "description": "Utilizando las últimas máquinas tecnológicas y programas de diseño con tecnologías de construcción avanzadas completamente automáticas controladas por computadora."
+      },
+      "proven_experience": {
+        "title": "Experiencia Comprobada",
+        "description": "Más de 100 proyectos completados en Europa, Asia, América Central, Reino Unido y América del Norte con miles de soluciones exitosas."
+      },
+      "professional_team": {
+        "title": "Equipo Profesional",
+        "description": "Personal profesional, experimentado y dinámico que proporciona soluciones rápidas y confiables como su socio de construcción de confianza."
+      }
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contacto",
+      "description": "Contacte Asay Global — Consultas B2B para soluciones estructurales. Contacte a nuestro equipo para sistemas u‑PVC, aluminio, vidrio y acero, precios y asociaciones."
+    },
+    "page_header": {
+      "title": "Contáctanos",
+      "description": "Nos encantaría saber de usted. Contáctenos a través del formulario o los datos de contacto a continuación.",
+      "breadcrumbs": {
+        "home": "Inicio",
+        "contact": "Contáctanos"
+      }
+    },
+    "contact_info": {
+      "email_label": "E-mail:",
+      "europe_office_label": "Oficina Principal (Europa):",
+      "usa_office_label": "Oficina Principal (EE.UU.):",
+      "turkey_office_label": "Oficina Principal (Turquía):",
+      "view_dealers": "Ver Distribuidores Autorizados"
+    }
+  },
+  "services": {
+    "meta": {
+      "title": "Servicios",
+      "description": "Explore los servicios B2B de Asay Global: sistemas u‑PVC, aluminio, vidrio y acero diseñados para fachadas de alto rendimiento y entrega confiable de proyectos."
+    },
+    "page_header": {
+      "title": "Nuestros Servicios",
+      "description": "Diseña, construye, amuebla — espacios adaptados a tu forma de vivir",
+      "breadcrumbs": {
+        "home": "Inicio",
+        "services": "Servicios"
+      }
+    }
+  },
+  "dealers": {
+    "page_header": {
+      "title": "Distribuidores Autorizados",
+      "description": "Encuentre nuestros socios de confianza y puntos de venta.",
+      "breadcrumbs": {
+        "home": "Inicio",
+        "dealers": "Distribuidores Autorizados"
+      }
+    },
+    "form": {
+      "title": "Contacte a nuestros Distribuidores Autorizados",
+      "first_name": "Nombre",
+      "last_name": "Apellido",
+      "phone": "Número de Teléfono",
+      "email": "Dirección de Correo Electrónico",
+      "country": "País",
+      "company": "Nombre de la Empresa",
+      "job_title": "Título del Trabajo",
+      "subject": "Asunto",
+      "preferred_dealer": "Distribuidor Preferido a Contactar",
+      "select_dealer": "Seleccionar un Distribuidor",
+      "message": "Su Mensaje",
+      "sending": "Enviando...",
+      "sent": "Enviado ✓",
+      "send": "Enviar",
+      "error_message": "Error al enviar el correo electrónico. Inténtelo de nuevo.",
+      "network_error": "Error de red. Inténtelo de nuevo.",
+      "success_message": "¡Gracias! Su mensaje ha sido enviado exitosamente."
+    }
+  },
+  "footer": {
+    "company_desc": "Con 22 años de experiencia, Asay Global se especializa en la producción y suministro de materiales de construcción de alta calidad para mercados globales.",
+    "services": "Servicios",
+    "navigation": "Navegación",
+    "contact": "Contacto",
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "services_link": "Servicios",
+    "dealers": "Distribuidores Autorizados",
+    "contact_link": "Contacto",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Política de Cookies",
+    "copyright": "© 2025 Asay Global. Todos los derechos reservados."
   }
 }
 

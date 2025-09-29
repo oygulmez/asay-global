@@ -1,7 +1,10 @@
 "use client";
 
 import { PageHeader } from "@/components/page-header";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import enMessages from '@/messages/en.json';
+import frMessages from '@/messages/fr.json';
+import esMessages from '@/messages/es.json';
 
 type Dealer = {
   country: string;
@@ -45,6 +48,14 @@ const dealers: Dealer[] = [
 export default function DealersPage() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
+  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+
+  useEffect(() => {
+    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
+    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
+  }, []);
+
+  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -98,11 +109,11 @@ export default function DealersPage() {
   return (
     <>
       <PageHeader
-        title="Authorized Dealers"
-        description="Find our trusted partners and sales points."
+        title={(messages as any).dealers.page_header.title}
+        description={(messages as any).dealers.page_header.description}
         breadcrumbItems={[
-          { label: "Home", href: "/" },
-          { label: "Authorized Dealers" },
+          { label: (messages as any).dealers.page_header.breadcrumbs.home, href: "/" },
+          { label: (messages as any).dealers.page_header.breadcrumbs.dealers },
         ]}
       />
 
@@ -129,7 +140,7 @@ export default function DealersPage() {
 
           {/* Right: Contact form */}
           <div className="rounded-lg border p-6 bg-white h-fit">
-            <h2 className="text-xl font-semibold mb-6" style={{ color: 'black' }}>Contact our Authorized Dealers</h2>
+            <h2 className="text-xl font-semibold mb-6" style={{ color: 'black' }}>{(messages as any).dealers.form.title}</h2>
             <form onSubmit={onSubmit} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-1">

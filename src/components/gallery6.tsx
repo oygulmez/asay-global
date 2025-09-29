@@ -21,12 +21,14 @@ interface GalleryItem {
 
 interface Gallery6Props {
   heading?: string;
+  readMore?: string;
   demoUrl?: string;
   items?: GalleryItem[];
 }
 
 const Gallery6 = ({
   heading = "Gallery",
+  readMore = "Read more",
   demoUrl = "https://www.shadcnblocks.com",
   items = [
     {
@@ -94,7 +96,7 @@ const Gallery6 = ({
         <div className="mb-8 flex flex-col justify-between md:mb-14 md:flex-row md:items-end lg:mb-16">
           <div>
             <h2 className="mb-3 text-3xl font-bold" style={{ color: 'black' }}>
-              Design, build, furnish — spaces tailored to the way you live
+              {heading}
             </h2>
           </div>
           <div className="mt-8 flex shrink-0 items-center justify-start gap-2">
@@ -164,7 +166,7 @@ const Gallery6 = ({
                     {item.summary}
                   </div>
                   <div className="flex items-center text-sm" style={{ color: '#565656' }}>
-                    Read more{" "}
+                    {readMore}{" "}
                     <ArrowRight className="ml-2 size-5 transition-transform group-hover:translate-x-1" />
                   </div>
                 </a>
