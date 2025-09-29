@@ -94,5 +94,6 @@ export default function LegendSlidingPlusPage() {
     </>
   );
 }
-
-
+export function generateStaticParams() {
+  return [{locale: 'en'}];
+}

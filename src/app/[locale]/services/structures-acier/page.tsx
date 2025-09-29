@@ -14,3 +14,6 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
 export default function StructuresAcierPage() {
   return <SiteSteelFramings />;
 }
+export function generateStaticParams() {
+  return [{locale: 'fr'}];
+}

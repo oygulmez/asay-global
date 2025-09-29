@@ -3,3 +3,6 @@ import LegendWindowAndDoorSystemPage from '@/app/(site)/services/u-pvc-systems/l
 export default function LocaleLegendWindowAndDoorSystemPage() {
   return <LegendWindowAndDoorSystemPage />;
 }
+export function generateStaticParams() {
+  return [{locale: 'en'}];
+}
