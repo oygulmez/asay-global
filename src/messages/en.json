@@ -778,6 +778,135 @@
           }
         }
       }
+    },
+    "product_pages": {
+      "hs76_sliding": {
+        "meta": {
+          "title": "HS76 Sliding",
+          "description": "Lift‑and‑slide u‑PVC system with low aluminum threshold for wheelchair access, Class A profiles and Uf 1.2 W/m²·K thermal performance."
+        },
+        "page_header": {
+          "title": "HS76 Sliding",
+          "description": "High-performance lift-and-slide profiles with sealing and comfort.",
+          "breadcrumbs": {
+            "home": "Home",
+            "services": "Services",
+            "sliding_systems": "u-PVC Sliding Systems",
+            "hs76_sliding": "HS76 Sliding"
+          }
+        },
+        "general_features": {
+          "title": "General Features",
+          "description": "The HS76 system features a specially designed low aluminum threshold that minimizes profile height on the floor, creating a more elegant appearance while ensuring functional integrity. With this new application, Egepen Deceuninck provides a threshold design that enables wheelchair access on passage doors in accordance with Turkish Standards Institute guidance. The visually reduced threshold height also delivers better thermal insulation results in thermal analyses."
+        },
+        "technical_specs": {
+          "title": "Technical Specifications",
+          "frame_width": "Frame Width",
+          "sash_width": "Sash Width", 
+          "chambers": "Chambers",
+          "gaskets": "Gaskets",
+          "glazing_bead": "Glazing Bead",
+          "glass_thickness": "Glass Thickness",
+          "standard": "Standard",
+          "thermal_transmittance": "Thermal Transmittance (Uf)"
+        }
+      },
+      "legend_window_door": {
+        "meta": {
+          "title": "Legend u-PVC Window and Door System",
+          "description": "High insulation, robust static performance and broad glazing options with premium u-PVC profiles."
+        },
+        "page_header": {
+          "title": "Legend u-PVC Window and Door System",
+          "description": "Premium window and door solutions with superior insulation and performance.",
+          "breadcrumbs": {
+            "home": "Home",
+            "services": "Services",
+            "window_door_systems": "u-PVC Window & Door Systems",
+            "legend": "Legend System"
+          }
+        }
+      },
+      "legend_art": {
+        "meta": {
+          "title": "Legend Art u-PVC Window and Door System",
+          "description": "Aesthetic design with premium performance for modern architecture and sophisticated facades."
+        },
+        "page_header": {
+          "title": "Legend Art u-PVC Window and Door System", 
+          "description": "Designer finishes with premium performance for modern architecture.",
+          "breadcrumbs": {
+            "home": "Home",
+            "services": "Services",
+            "window_door_systems": "u-PVC Window & Door Systems",
+            "legend_art": "Legend Art System"
+          }
+        }
+      },
+      "zendow": {
+        "meta": {
+          "title": "Zendow u-PVC Window and Door System",
+          "description": "Advanced thermal performance with contemporary styling and versatility for modern buildings."
+        },
+        "page_header": {
+          "title": "Zendow u-PVC Window and Door System",
+          "description": "Advanced thermal performance with contemporary styling and versatility.",
+          "breadcrumbs": {
+            "home": "Home",
+            "services": "Services", 
+            "window_door_systems": "u-PVC Window & Door Systems",
+            "zendow": "Zendow System"
+          }
+        }
+      },
+      "slimslide": {
+        "meta": {
+          "title": "Slimslide System",
+          "description": "Ultra-slim profiles maximizing glass area with smooth sliding operation and minimal sightlines."
+        },
+        "page_header": {
+          "title": "Slimslide System",
+          "description": "Ultra-slim profiles maximizing glass area with smooth sliding operation.",
+          "breadcrumbs": {
+            "home": "Home",
+            "services": "Services",
+            "sliding_systems": "u-PVC Sliding Systems", 
+            "slimslide": "Slimslide System"
+          }
+        }
+      },
+      "legend_surme_plus": {
+        "meta": {
+          "title": "Legend Sürme Plus",
+          "description": "Advanced sliding system with enhanced sealing and thermal efficiency for large openings."
+        },
+        "page_header": {
+          "title": "Legend Sürme Plus",
+          "description": "Advanced sliding system with enhanced sealing and thermal efficiency.",
+          "breadcrumbs": {
+            "home": "Home",
+            "services": "Services",
+            "sliding_systems": "u-PVC Sliding Systems",
+            "legend_surme_plus": "Legend Sürme Plus"
+          }
+        }
+      },
+      "pvc_sliding_door": {
+        "meta": {
+          "title": "PVC Sliding Door System", 
+          "description": "Reliable sliding door solutions for residential and commercial applications with smooth operation."
+        },
+        "page_header": {
+          "title": "PVC Sliding Door System",
+          "description": "Reliable sliding door solutions for residential and commercial applications.",
+          "breadcrumbs": {
+            "home": "Home",
+            "services": "Services",
+            "sliding_systems": "u-PVC Sliding Systems",
+            "pvc_sliding_door": "PVC Sliding Door System"
+          }
+        }
+      }
     }
   },
   "decorative_systems": {

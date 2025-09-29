@@ -474,6 +474,135 @@
           }
         }
       }
+    },
+    "product_pages": {
+      "hs76_sliding": {
+        "meta": {
+          "title": "HS76 Deslizante",
+          "description": "Sistema u‑PVC de elevación‑deslizamiento con umbral de aluminio bajo para acceso en silla de ruedas, perfiles Clase A y rendimiento térmico Uf 1.2 W/m²·K."
+        },
+        "page_header": {
+          "title": "HS76 Deslizante",
+          "description": "Perfiles de elevación‑deslizamiento de alto rendimiento con sellado y comodidad.",
+          "breadcrumbs": {
+            "home": "Inicio",
+            "services": "Servicios",
+            "sliding_systems": "Sistemas Deslizantes u-PVC",
+            "hs76_sliding": "HS76 Deslizante"
+          }
+        },
+        "general_features": {
+          "title": "Características Generales",
+          "description": "El sistema HS76 presenta un umbral de aluminio bajo especialmente diseñado que minimiza la altura del perfil en el suelo, creando una apariencia más elegante mientras asegura la integridad funcional. Con esta nueva aplicación, Egepen Deceuninck proporciona un diseño de umbral que permite el acceso en silla de ruedas en puertas de paso de acuerdo con las directrices del Instituto de Normas Turcas. La altura de umbral visualmente reducida también ofrece mejores resultados de aislamiento térmico en análisis térmicos."
+        },
+        "technical_specs": {
+          "title": "Especificaciones Técnicas",
+          "frame_width": "Ancho Marco",
+          "sash_width": "Ancho Hoja",
+          "chambers": "Cámaras",
+          "gaskets": "Juntas",
+          "glazing_bead": "Junquillo",
+          "glass_thickness": "Espesor Vidrio",
+          "standard": "Norma",
+          "thermal_transmittance": "Transmitancia Térmica (Uf)"
+        }
+      },
+      "legend_window_door": {
+        "meta": {
+          "title": "Sistema Legend Ventanas y Puertas u-PVC",
+          "description": "Alto aislamiento, rendimiento estático robusto y amplias opciones de acristalamiento con perfiles u-PVC premium."
+        },
+        "page_header": {
+          "title": "Sistema Legend Ventanas y Puertas u-PVC",
+          "description": "Soluciones premium de ventanas y puertas con aislamiento y rendimiento superiores.",
+          "breadcrumbs": {
+            "home": "Inicio",
+            "services": "Servicios",
+            "window_door_systems": "Sistemas de Ventanas y Puertas u-PVC",
+            "legend": "Sistema Legend"
+          }
+        }
+      },
+      "legend_art": {
+        "meta": {
+          "title": "Sistema Legend Art Ventanas y Puertas u-PVC",
+          "description": "Diseño estético con rendimiento premium para arquitectura moderna y fachadas sofisticadas."
+        },
+        "page_header": {
+          "title": "Sistema Legend Art Ventanas y Puertas u-PVC",
+          "description": "Acabados de diseño con rendimiento premium para arquitectura moderna.",
+          "breadcrumbs": {
+            "home": "Inicio",
+            "services": "Servicios",
+            "window_door_systems": "Sistemas de Ventanas y Puertas u-PVC",
+            "legend_art": "Sistema Legend Art"
+          }
+        }
+      },
+      "zendow": {
+        "meta": {
+          "title": "Sistema Zendow Ventanas y Puertas u-PVC",
+          "description": "Rendimiento térmico avanzado con estilo contemporáneo y versatilidad para edificios modernos."
+        },
+        "page_header": {
+          "title": "Sistema Zendow Ventanas y Puertas u-PVC",
+          "description": "Rendimiento térmico avanzado con estilo contemporáneo y versatilidad.",
+          "breadcrumbs": {
+            "home": "Inicio",
+            "services": "Servicios",
+            "window_door_systems": "Sistemas de Ventanas y Puertas u-PVC",
+            "zendow": "Sistema Zendow"
+          }
+        }
+      },
+      "slimslide": {
+        "meta": {
+          "title": "Sistema Slimslide",
+          "description": "Perfiles ultra‑delgados que maximizan el área de vidrio con funcionamiento deslizante suave y líneas de vista mínimas."
+        },
+        "page_header": {
+          "title": "Sistema Slimslide",
+          "description": "Perfiles ultra‑delgados que maximizan el área de vidrio con funcionamiento deslizante suave.",
+          "breadcrumbs": {
+            "home": "Inicio",
+            "services": "Servicios",
+            "sliding_systems": "Sistemas Deslizantes u-PVC",
+            "slimslide": "Sistema Slimslide"
+          }
+        }
+      },
+      "legend_surme_plus": {
+        "meta": {
+          "title": "Legend Sürme Plus",
+          "description": "Sistema deslizante avanzado con sellado mejorado y eficiencia térmica para grandes aberturas."
+        },
+        "page_header": {
+          "title": "Legend Sürme Plus",
+          "description": "Sistema deslizante avanzado con sellado mejorado y eficiencia térmica.",
+          "breadcrumbs": {
+            "home": "Inicio",
+            "services": "Servicios",
+            "sliding_systems": "Sistemas Deslizantes u-PVC",
+            "legend_surme_plus": "Legend Sürme Plus"
+          }
+        }
+      },
+      "pvc_sliding_door": {
+        "meta": {
+          "title": "Sistema de Puerta Deslizante PVC",
+          "description": "Soluciones confiables de puertas deslizantes para aplicaciones residenciales y comerciales con funcionamiento suave."
+        },
+        "page_header": {
+          "title": "Sistema de Puerta Deslizante PVC",
+          "description": "Soluciones confiables de puertas deslizantes para aplicaciones residenciales y comerciales.",
+          "breadcrumbs": {
+            "home": "Inicio",
+            "services": "Servicios",
+            "sliding_systems": "Sistemas Deslizantes u-PVC",
+            "pvc_sliding_door": "Sistema de Puerta Deslizante PVC"
+          }
+        }
+      }
     }
   },
   "aluminum_systems": {

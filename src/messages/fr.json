@@ -474,6 +474,135 @@
           }
         }
       }
+    },
+    "product_pages": {
+      "hs76_sliding": {
+        "meta": {
+          "title": "HS76 Coulissant",
+          "description": "Système u‑PVC lever‑coulisser avec seuil aluminium bas pour accès fauteuil roulant, profils Classe A et performance thermique Uf 1.2 W/m²·K."
+        },
+        "page_header": {
+          "title": "HS76 Coulissant",
+          "description": "Profils lever‑coulisser haute performance avec étanchéité et confort.",
+          "breadcrumbs": {
+            "home": "Accueil",
+            "services": "Services",
+            "sliding_systems": "Systèmes Coulissants u-PVC",
+            "hs76_sliding": "HS76 Coulissant"
+          }
+        },
+        "general_features": {
+          "title": "Caractéristiques Générales",
+          "description": "Le système HS76 présente un seuil aluminium bas spécialement conçu qui minimise la hauteur du profil au sol, créant une apparence plus élégante tout en assurant l'intégrité fonctionnelle. Avec cette nouvelle application, Egepen Deceuninck fournit une conception de seuil qui permet l'accès en fauteuil roulant sur les portes de passage conformément aux directives de l'Institut des Normes Turques. La hauteur de seuil visuellement réduite offre également de meilleurs résultats d'isolation thermique dans les analyses thermiques."
+        },
+        "technical_specs": {
+          "title": "Spécifications Techniques",
+          "frame_width": "Largeur Cadre",
+          "sash_width": "Largeur Ouvrant",
+          "chambers": "Chambres",
+          "gaskets": "Joints",
+          "glazing_bead": "Parclose",
+          "glass_thickness": "Épaisseur Verre",
+          "standard": "Norme",
+          "thermal_transmittance": "Transmittance Thermique (Uf)"
+        }
+      },
+      "legend_window_door": {
+        "meta": {
+          "title": "Système Legend Fenêtres et Portes u-PVC",
+          "description": "Haute isolation, performance statique robuste et larges options de vitrage avec profils u-PVC premium."
+        },
+        "page_header": {
+          "title": "Système Legend Fenêtres et Portes u-PVC",
+          "description": "Solutions de fenêtres et portes premium avec isolation et performance supérieures.",
+          "breadcrumbs": {
+            "home": "Accueil",
+            "services": "Services",
+            "window_door_systems": "Systèmes de Fenêtres et Portes u-PVC",
+            "legend": "Système Legend"
+          }
+        }
+      },
+      "legend_art": {
+        "meta": {
+          "title": "Système Legend Art Fenêtres et Portes u-PVC",
+          "description": "Design esthétique avec performance premium pour l'architecture moderne et les façades sophistiquées."
+        },
+        "page_header": {
+          "title": "Système Legend Art Fenêtres et Portes u-PVC",
+          "description": "Finitions design avec performance premium pour l'architecture moderne.",
+          "breadcrumbs": {
+            "home": "Accueil",
+            "services": "Services",
+            "window_door_systems": "Systèmes de Fenêtres et Portes u-PVC",
+            "legend_art": "Système Legend Art"
+          }
+        }
+      },
+      "zendow": {
+        "meta": {
+          "title": "Système Zendow Fenêtres et Portes u-PVC",
+          "description": "Performance thermique avancée avec style contemporain et polyvalence pour les bâtiments modernes."
+        },
+        "page_header": {
+          "title": "Système Zendow Fenêtres et Portes u-PVC",
+          "description": "Performance thermique avancée avec style contemporain et polyvalence.",
+          "breadcrumbs": {
+            "home": "Accueil",
+            "services": "Services",
+            "window_door_systems": "Systèmes de Fenêtres et Portes u-PVC",
+            "zendow": "Système Zendow"
+          }
+        }
+      },
+      "slimslide": {
+        "meta": {
+          "title": "Système Slimslide",
+          "description": "Profils ultra‑minces maximisant la surface vitrée avec fonctionnement coulissant fluide et lignes de vue minimales."
+        },
+        "page_header": {
+          "title": "Système Slimslide",
+          "description": "Profils ultra‑minces maximisant la surface vitrée avec fonctionnement coulissant fluide.",
+          "breadcrumbs": {
+            "home": "Accueil",
+            "services": "Services",
+            "sliding_systems": "Systèmes Coulissants u-PVC",
+            "slimslide": "Système Slimslide"
+          }
+        }
+      },
+      "legend_surme_plus": {
+        "meta": {
+          "title": "Legend Sürme Plus",
+          "description": "Système coulissant avancé avec étanchéité renforcée et efficacité thermique pour grandes ouvertures."
+        },
+        "page_header": {
+          "title": "Legend Sürme Plus",
+          "description": "Système coulissant avancé avec étanchéité renforcée et efficacité thermique.",
+          "breadcrumbs": {
+            "home": "Accueil",
+            "services": "Services",
+            "sliding_systems": "Systèmes Coulissants u-PVC",
+            "legend_surme_plus": "Legend Sürme Plus"
+          }
+        }
+      },
+      "pvc_sliding_door": {
+        "meta": {
+          "title": "Système de Porte Coulissante PVC",
+          "description": "Solutions de portes coulissantes fiables pour applications résidentielles et commerciales avec fonctionnement fluide."
+        },
+        "page_header": {
+          "title": "Système de Porte Coulissante PVC",
+          "description": "Solutions de portes coulissantes fiables pour applications résidentielles et commerciales.",
+          "breadcrumbs": {
+            "home": "Accueil",
+            "services": "Services",
+            "sliding_systems": "Systèmes Coulissants u-PVC",
+            "pvc_sliding_door": "Système de Porte Coulissante PVC"
+          }
+        }
+      }
     }
   },
   "aluminum_systems": {
