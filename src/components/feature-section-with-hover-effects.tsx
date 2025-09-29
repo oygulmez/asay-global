@@ -1,3 +1,5 @@
+"use client"
+
 import { cn } from "@/lib/utils";
 import {
   IconWindow,
@@ -7,42 +9,51 @@ import {
   IconSparkles,
   IconArrowsMaximize,
 } from "@tabler/icons-react";
+import { useState, useEffect } from 'react';
+import enMessages from '@/messages/en.json';
+import frMessages from '@/messages/fr.json';
+import esMessages from '@/messages/es.json';
 
 export function FeaturesSectionWithHoverEffects() {
+  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+  
+  useEffect(() => {
+    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
+    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
+  }, []);
+  
+  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
+  const t = (messages as any).products_features;
+  
   const features = [
     {
-      title: "Windows",
-      description:
-        "High-performance window systems designed for optimal energy efficiency and superior aesthetics.",
+      title: t.windows.title,
+      description: t.windows.description,
       icon: <IconWindow />,
     },
     {
-      title: "Doors",
-      description:
-        "Premium door solutions combining security, functionality and elegant design for every application.",
+      title: t.doors.title,
+      description: t.doors.description,
       icon: <IconDoor />,
     },
     {
-      title: "Curtain Walls",
-      description:
-        "Innovative façade systems that create stunning architectural expressions while ensuring structural integrity.",
+      title: t.curtain_walls.title,
+      description: t.curtain_walls.description,
       icon: <IconBuildingSkyscraper />,
     },
     {
-      title: "Winter Gardens",
-      description: "Beautiful conservatory solutions that bring nature indoors and extend your living space year-round.",
+      title: t.winter_gardens.title,
+      description: t.winter_gardens.description,
       icon: <IconPlant />,
     },
     {
-      title: "Smart Buildings",
-      description:
-        "Intelligent building systems integrated with cutting-edge technology for enhanced comfort and efficiency.",
+      title: t.smart_buildings.title,
+      description: t.smart_buildings.description,
       icon: <IconSparkles />,
     },
     {
-      title: "Sliding Systems",
-      description:
-        "Smooth-operating sliding solutions that maximize space utilization and provide seamless indoor-outdoor transitions.",
+      title: t.sliding_systems.title,
+      description: t.sliding_systems.description,
       icon: <IconArrowsMaximize />,
     },
   ];

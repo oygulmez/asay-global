@@ -538,6 +538,32 @@
       }
     }
   },
+  "products_features": {
+    "windows": {
+      "title": "Fenêtres",
+      "description": "Systèmes de fenêtres haute performance conçus pour une efficacité énergétique optimale et une esthétique supérieure."
+    },
+    "doors": {
+      "title": "Portes",
+      "description": "Solutions de portes premium combinant sécurité, fonctionnalité et design élégant pour chaque application."
+    },
+    "curtain_walls": {
+      "title": "Murs-Rideaux",
+      "description": "Systèmes de façade innovants qui créent des expressions architecturales époustouflantes tout en assurant l'intégrité structurelle."
+    },
+    "winter_gardens": {
+      "title": "Jardins d'Hiver",
+      "description": "Belles solutions de vérandas qui apportent la nature à l'intérieur et étendent votre espace de vie toute l'année."
+    },
+    "smart_buildings": {
+      "title": "Bâtiments Intelligents",
+      "description": "Systèmes de bâtiments intelligents intégrés avec une technologie de pointe pour un confort et une efficacité améliorés."
+    },
+    "sliding_systems": {
+      "title": "Systèmes Coulissants",
+      "description": "Solutions coulissantes à fonctionnement fluide qui maximisent l'utilisation de l'espace et offrent des transitions intérieur-extérieur sans couture."
+    }
+  },
   "footer": {
     "company_desc": "Avec 22 ans d'expérience, Asay Global se spécialise dans la production et la fourniture de matériaux de construction de haute qualité pour les marchés mondiaux.",
     "services": "Services",
