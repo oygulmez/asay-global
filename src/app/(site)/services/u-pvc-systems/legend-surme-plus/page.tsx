@@ -33,7 +33,7 @@ export default function LegendSurmePlusPage() {
     return `/${locale}${path}`;
   };
 
-  const t = (messages as any).upvc_systems?.product_pages?.legend_surme_plus;
+  const t = (messages as any).upvc_systems?.product_pages?.legend_sliding_plus;
 
   if (!t || !t.page_header) {
     return <div>Loading... (Debug: t={JSON.stringify(!!t)}, locale={locale})</div>;

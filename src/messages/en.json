@@ -262,7 +262,7 @@
         "title": "Legend Art System",
         "description": "Artistic window and door solutions with enhanced design flexibility."
       },
-      "legend_surme_plus": {
+      "legend_sliding_plus": {
         "title": "Legend Sliding Plus",
         "description": "Advanced sliding system with improved sealing and thermal performance."
       },
@@ -383,7 +383,7 @@
           "description": "Ultra-slim profiles maximizing glass area with smooth sliding operation.",
           "view_product": "View Product"
         },
-        "legend_surme_plus": {
+        "legend_sliding_plus": {
           "title": "Legend Sliding Plus",
           "description": "Advanced sliding system with enhanced sealing and thermal efficiency.",
           "view_product": "View Product"
@@ -638,7 +638,7 @@
           "description": "Ultra-slim profiles maximizing glass area with smooth sliding operation.",
           "view_product": "View Product"
         },
-        "legend_surme_plus": {
+        "legend_sliding_plus": {
           "title": "Legend Sliding Plus",
           "description": "Advanced sliding system with enhanced sealing and thermal efficiency.",
           "view_product": "View Product"
@@ -932,7 +932,7 @@
           "max_dimensions": "Maximum Dimensions"
         }
       },
-      "legend_surme_plus": {
+      "legend_sliding_plus": {
         "meta": {
           "title": "Legend Sliding Plus",
           "description": "Advanced sliding system with enhanced sealing and thermal efficiency for large openings."
@@ -944,7 +944,7 @@
             "home": "Home",
             "services": "Services",
             "sliding_systems": "u-PVC Sliding Systems",
-            "legend_surme_plus": "Legend Sliding Plus"
+            "legend_sliding_plus": "Legend Sliding Plus"
           }
         },
         "general_features": {
