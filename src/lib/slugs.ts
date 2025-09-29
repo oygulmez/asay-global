@@ -95,11 +95,15 @@ export const reverseSlugMappings: Record<string, Record<string, string>> = {
 
 // Helper functions
 export function getSlugForLocale(key: string, locale: 'en' | 'fr' | 'es'): string {
-  return slugMappings[locale]?.[key] || slugMappings.en?.[key] || key;
+  const localeMapping = slugMappings[locale] as Record<string, string> | undefined;
+  const enMapping = slugMappings.en as Record<string, string> | undefined;
+  return localeMapping?.[key] || enMapping?.[key] || key;
 }
 
 export function getKeyFromSlug(slug: string, locale: 'en' | 'fr' | 'es'): string {
-  return reverseSlugMappings[locale]?.[slug] || reverseSlugMappings.en?.[slug] || slug;
+  const localeMapping = reverseSlugMappings[locale] as Record<string, string> | undefined;
+  const enMapping = reverseSlugMappings.en as Record<string, string> | undefined;
+  return localeMapping?.[slug] || enMapping?.[slug] || slug;
 }
 
 export function createLocalizedUrl(path: string, locale: 'en' | 'fr' | 'es'): string {
