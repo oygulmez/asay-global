@@ -407,6 +407,48 @@
           "glass_thickness": "Épaisseur du Verre",
           "thermal_transmittance": "Transmittance Thermique (Uf)",
           "standard": "Norme"
+        },
+        "why_choose": {
+          "title": "Pourquoi Choisir Legend u-PVC",
+          "subtitle": "Haute isolation, performance statique forte, gamme de produits riche et larges options de vitrage — conçu comme un système de fenêtre holistique.",
+          "features": [
+            {
+              "title": "Isolation Supérieure",
+              "description": "Conception multi-chambres et système de joints avancé offrent une performance thermique exceptionnelle."
+            },
+            {
+              "title": "Intégrité Structurelle",
+              "description": "Profils renforcés et ingénierie de précision assurent durabilité et stabilité à long terme."
+            },
+            {
+              "title": "Design Polyvalent",
+              "description": "Gamme complète de types d'ouverture et configurations pour toute exigence architecturale."
+            },
+            {
+              "title": "Flexibilité de Vitrage",
+              "description": "Supporte diverses épaisseurs et types de verre incluant vitrage économe en énergie et de sécurité."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Options de Couleur",
+          "subtitle": "Nous offrons des alternatives de couleurs stratifiées qui fournissent une durabilité supérieure contre les conditions météorologiques difficiles tout en nécessitant peu d'entretien. Différentes couleurs stratifiées peuvent être appliquées sur les faces intérieures et extérieures pour obtenir des façades plus esthétiques et cohérentes.",
+          "note": "Les couleurs stratifiées intérieures et extérieures peuvent être combinées.",
+          "colors": [
+            { "name": "Chêne Doré", "file": "altin-mese.jpg" },
+            { "name": "Chêne Antique", "file": "antik-mese.jpg" },
+            { "name": "Gris Anthracite", "file": "antrasit-gri.jpg" },
+            { "name": "Noisette", "file": "findik.jpg" },
+            { "name": "Crème", "file": "krem.jpg" },
+            { "name": "Noir Cendré", "file": "kul-siyahi.jpg" },
+            { "name": "Acajou", "file": "maun.jpg" },
+            { "name": "Anthracite Métallique", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Argent Métallique", "file": "metalik-gumus.jpg" },
+            { "name": "Couronne Platine", "file": "platin-crown.jpg" },
+            { "name": "Pyrite", "file": "pyrite.jpg" },
+            { "name": "Vison", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "legend_art": {
@@ -438,6 +480,48 @@
           "glass_thickness": "Épaisseur du Verre",
           "thermal_transmittance": "Transmittance Thermique (Uf)",
           "standard": "Norme"
+        },
+        "why_choose": {
+          "title": "Pourquoi Choisir Legend u-PVC",
+          "subtitle": "Haute isolation, performance statique forte, gamme de produits riche et larges options de vitrage — conçu comme un système de fenêtre holistique.",
+          "features": [
+            {
+              "title": "Isolation Supérieure",
+              "description": "Conception multi-chambres et système de joints avancé offrent une performance thermique exceptionnelle."
+            },
+            {
+              "title": "Intégrité Structurelle",
+              "description": "Profils renforcés et ingénierie de précision assurent durabilité et stabilité à long terme."
+            },
+            {
+              "title": "Design Polyvalent",
+              "description": "Gamme complète de types d'ouverture et configurations pour toute exigence architecturale."
+            },
+            {
+              "title": "Flexibilité de Vitrage",
+              "description": "Supporte diverses épaisseurs et types de verre incluant vitrage économe en énergie et de sécurité."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Options de Couleur",
+          "subtitle": "Nous offrons des alternatives de couleurs stratifiées qui fournissent une durabilité supérieure contre les conditions météorologiques difficiles tout en nécessitant peu d'entretien. Différentes couleurs stratifiées peuvent être appliquées sur les faces intérieures et extérieures pour obtenir des façades plus esthétiques et cohérentes.",
+          "note": "Les couleurs stratifiées intérieures et extérieures peuvent être combinées.",
+          "colors": [
+            { "name": "Chêne Doré", "file": "altin-mese.jpg" },
+            { "name": "Chêne Antique", "file": "antik-mese.jpg" },
+            { "name": "Gris Anthracite", "file": "antrasit-gri.jpg" },
+            { "name": "Noisette", "file": "findik.jpg" },
+            { "name": "Crème", "file": "krem.jpg" },
+            { "name": "Noir Cendré", "file": "kul-siyahi.jpg" },
+            { "name": "Acajou", "file": "maun.jpg" },
+            { "name": "Anthracite Métallique", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Argent Métallique", "file": "metalik-gumus.jpg" },
+            { "name": "Couronne Platine", "file": "platin-crown.jpg" },
+            { "name": "Pyrite", "file": "pyrite.jpg" },
+            { "name": "Vison", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "zendow": {
@@ -469,6 +553,48 @@
           "glass_thickness": "Épaisseur du Verre",
           "thermal_transmittance": "Transmittance Thermique (Uf)",
           "standard": "Norme"
+        },
+        "why_choose": {
+          "title": "Pourquoi Choisir Legend u-PVC",
+          "subtitle": "Haute isolation, performance statique forte, gamme de produits riche et larges options de vitrage — conçu comme un système de fenêtre holistique.",
+          "features": [
+            {
+              "title": "Isolation Supérieure",
+              "description": "Conception multi-chambres et système de joints avancé offrent une performance thermique exceptionnelle."
+            },
+            {
+              "title": "Intégrité Structurelle",
+              "description": "Profils renforcés et ingénierie de précision assurent durabilité et stabilité à long terme."
+            },
+            {
+              "title": "Design Polyvalent",
+              "description": "Gamme complète de types d'ouverture et configurations pour toute exigence architecturale."
+            },
+            {
+              "title": "Flexibilité de Vitrage",
+              "description": "Supporte diverses épaisseurs et types de verre incluant vitrage économe en énergie et de sécurité."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Options de Couleur",
+          "subtitle": "Nous offrons des alternatives de couleurs stratifiées qui fournissent une durabilité supérieure contre les conditions météorologiques difficiles tout en nécessitant peu d'entretien. Différentes couleurs stratifiées peuvent être appliquées sur les faces intérieures et extérieures pour obtenir des façades plus esthétiques et cohérentes.",
+          "note": "Les couleurs stratifiées intérieures et extérieures peuvent être combinées.",
+          "colors": [
+            { "name": "Chêne Doré", "file": "altin-mese.jpg" },
+            { "name": "Chêne Antique", "file": "antik-mese.jpg" },
+            { "name": "Gris Anthracite", "file": "antrasit-gri.jpg" },
+            { "name": "Noisette", "file": "findik.jpg" },
+            { "name": "Crème", "file": "krem.jpg" },
+            { "name": "Noir Cendré", "file": "kul-siyahi.jpg" },
+            { "name": "Acajou", "file": "maun.jpg" },
+            { "name": "Anthracite Métallique", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Argent Métallique", "file": "metalik-gumus.jpg" },
+            { "name": "Couronne Platine", "file": "platin-crown.jpg" },
+            { "name": "Pyrite", "file": "pyrite.jpg" },
+            { "name": "Vison", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "slimslide": {
@@ -626,6 +752,48 @@
           "glass_thickness": "Épaisseur du Verre",
           "thermal_transmittance": "Transmittance Thermique (Uf)",
           "standard": "Norme"
+        },
+        "why_choose": {
+          "title": "Pourquoi Choisir Legend u-PVC",
+          "subtitle": "Haute isolation, performance statique forte, gamme de produits riche et larges options de vitrage — conçu comme un système de fenêtre holistique.",
+          "features": [
+            {
+              "title": "Isolation Supérieure",
+              "description": "Conception multi-chambres et système de joints avancé offrent une performance thermique exceptionnelle."
+            },
+            {
+              "title": "Intégrité Structurelle",
+              "description": "Profils renforcés et ingénierie de précision assurent durabilité et stabilité à long terme."
+            },
+            {
+              "title": "Design Polyvalent",
+              "description": "Gamme complète de types d'ouverture et configurations pour toute exigence architecturale."
+            },
+            {
+              "title": "Flexibilité de Vitrage",
+              "description": "Supporte diverses épaisseurs et types de verre incluant vitrage économe en énergie et de sécurité."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Options de Couleur",
+          "subtitle": "Nous offrons des alternatives de couleurs stratifiées qui fournissent une durabilité supérieure contre les conditions météorologiques difficiles tout en nécessitant peu d'entretien. Différentes couleurs stratifiées peuvent être appliquées sur les faces intérieures et extérieures pour obtenir des façades plus esthétiques et cohérentes.",
+          "note": "Les couleurs stratifiées intérieures et extérieures peuvent être combinées.",
+          "colors": [
+            { "name": "Chêne Doré", "file": "altin-mese.jpg" },
+            { "name": "Chêne Antique", "file": "antik-mese.jpg" },
+            { "name": "Gris Anthracite", "file": "antrasit-gri.jpg" },
+            { "name": "Noisette", "file": "findik.jpg" },
+            { "name": "Crème", "file": "krem.jpg" },
+            { "name": "Noir Cendré", "file": "kul-siyahi.jpg" },
+            { "name": "Acajou", "file": "maun.jpg" },
+            { "name": "Anthracite Métallique", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Argent Métallique", "file": "metalik-gumus.jpg" },
+            { "name": "Couronne Platine", "file": "platin-crown.jpg" },
+            { "name": "Pyrite", "file": "pyrite.jpg" },
+            { "name": "Vison", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "legend_art": {
@@ -657,6 +825,48 @@
           "glass_thickness": "Épaisseur du Verre",
           "thermal_transmittance": "Transmittance Thermique (Uf)",
           "standard": "Norme"
+        },
+        "why_choose": {
+          "title": "Pourquoi Choisir Legend u-PVC",
+          "subtitle": "Haute isolation, performance statique forte, gamme de produits riche et larges options de vitrage — conçu comme un système de fenêtre holistique.",
+          "features": [
+            {
+              "title": "Isolation Supérieure",
+              "description": "Conception multi-chambres et système de joints avancé offrent une performance thermique exceptionnelle."
+            },
+            {
+              "title": "Intégrité Structurelle",
+              "description": "Profils renforcés et ingénierie de précision assurent durabilité et stabilité à long terme."
+            },
+            {
+              "title": "Design Polyvalent",
+              "description": "Gamme complète de types d'ouverture et configurations pour toute exigence architecturale."
+            },
+            {
+              "title": "Flexibilité de Vitrage",
+              "description": "Supporte diverses épaisseurs et types de verre incluant vitrage économe en énergie et de sécurité."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Options de Couleur",
+          "subtitle": "Nous offrons des alternatives de couleurs stratifiées qui fournissent une durabilité supérieure contre les conditions météorologiques difficiles tout en nécessitant peu d'entretien. Différentes couleurs stratifiées peuvent être appliquées sur les faces intérieures et extérieures pour obtenir des façades plus esthétiques et cohérentes.",
+          "note": "Les couleurs stratifiées intérieures et extérieures peuvent être combinées.",
+          "colors": [
+            { "name": "Chêne Doré", "file": "altin-mese.jpg" },
+            { "name": "Chêne Antique", "file": "antik-mese.jpg" },
+            { "name": "Gris Anthracite", "file": "antrasit-gri.jpg" },
+            { "name": "Noisette", "file": "findik.jpg" },
+            { "name": "Crème", "file": "krem.jpg" },
+            { "name": "Noir Cendré", "file": "kul-siyahi.jpg" },
+            { "name": "Acajou", "file": "maun.jpg" },
+            { "name": "Anthracite Métallique", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Argent Métallique", "file": "metalik-gumus.jpg" },
+            { "name": "Couronne Platine", "file": "platin-crown.jpg" },
+            { "name": "Pyrite", "file": "pyrite.jpg" },
+            { "name": "Vison", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "zendow": {
@@ -688,6 +898,48 @@
           "glass_thickness": "Épaisseur du Verre",
           "thermal_transmittance": "Transmittance Thermique (Uf)",
           "standard": "Norme"
+        },
+        "why_choose": {
+          "title": "Pourquoi Choisir Legend u-PVC",
+          "subtitle": "Haute isolation, performance statique forte, gamme de produits riche et larges options de vitrage — conçu comme un système de fenêtre holistique.",
+          "features": [
+            {
+              "title": "Isolation Supérieure",
+              "description": "Conception multi-chambres et système de joints avancé offrent une performance thermique exceptionnelle."
+            },
+            {
+              "title": "Intégrité Structurelle",
+              "description": "Profils renforcés et ingénierie de précision assurent durabilité et stabilité à long terme."
+            },
+            {
+              "title": "Design Polyvalent",
+              "description": "Gamme complète de types d'ouverture et configurations pour toute exigence architecturale."
+            },
+            {
+              "title": "Flexibilité de Vitrage",
+              "description": "Supporte diverses épaisseurs et types de verre incluant vitrage économe en énergie et de sécurité."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Options de Couleur",
+          "subtitle": "Nous offrons des alternatives de couleurs stratifiées qui fournissent une durabilité supérieure contre les conditions météorologiques difficiles tout en nécessitant peu d'entretien. Différentes couleurs stratifiées peuvent être appliquées sur les faces intérieures et extérieures pour obtenir des façades plus esthétiques et cohérentes.",
+          "note": "Les couleurs stratifiées intérieures et extérieures peuvent être combinées.",
+          "colors": [
+            { "name": "Chêne Doré", "file": "altin-mese.jpg" },
+            { "name": "Chêne Antique", "file": "antik-mese.jpg" },
+            { "name": "Gris Anthracite", "file": "antrasit-gri.jpg" },
+            { "name": "Noisette", "file": "findik.jpg" },
+            { "name": "Crème", "file": "krem.jpg" },
+            { "name": "Noir Cendré", "file": "kul-siyahi.jpg" },
+            { "name": "Acajou", "file": "maun.jpg" },
+            { "name": "Anthracite Métallique", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Argent Métallique", "file": "metalik-gumus.jpg" },
+            { "name": "Couronne Platine", "file": "platin-crown.jpg" },
+            { "name": "Pyrite", "file": "pyrite.jpg" },
+            { "name": "Vison", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "slimslide": {

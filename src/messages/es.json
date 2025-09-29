@@ -407,6 +407,48 @@
           "glass_thickness": "Espesor del Vidrio",
           "thermal_transmittance": "Transmitancia Térmica (Uf)",
           "standard": "Norma"
+        },
+        "why_choose": {
+          "title": "Por Qué Elegir Legend u-PVC",
+          "subtitle": "Alto aislamiento, fuerte rendimiento estático, rica gama de productos y amplias opciones de acristalamiento — diseñado como un sistema de ventana holístico.",
+          "features": [
+            {
+              "title": "Aislamiento Superior",
+              "description": "Diseño multi-cámara y sistema de juntas avanzado ofrecen rendimiento térmico excepcional."
+            },
+            {
+              "title": "Integridad Estructural",
+              "description": "Perfiles reforzados e ingeniería de precisión aseguran durabilidad y estabilidad a largo plazo."
+            },
+            {
+              "title": "Diseño Versátil",
+              "description": "Gama completa de tipos de apertura y configuraciones para cualquier requerimiento arquitectónico."
+            },
+            {
+              "title": "Flexibilidad de Acristalamiento",
+              "description": "Soporta varios espesores y tipos de vidrio incluyendo acristalamiento eficiente energéticamente y de seguridad."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Opciones de Color",
+          "subtitle": "Ofrecemos alternativas de colores laminados que proporcionan durabilidad superior contra condiciones climáticas adversas mientras requieren bajo mantenimiento. Diferentes colores laminados pueden aplicarse en caras interiores y exteriores para lograr fachadas más estéticas y coherentes.",
+          "note": "Los colores laminados interiores y exteriores pueden combinarse.",
+          "colors": [
+            { "name": "Roble Dorado", "file": "altin-mese.jpg" },
+            { "name": "Roble Antiguo", "file": "antik-mese.jpg" },
+            { "name": "Gris Antracita", "file": "antrasit-gri.jpg" },
+            { "name": "Avellana", "file": "findik.jpg" },
+            { "name": "Crema", "file": "krem.jpg" },
+            { "name": "Negro Ceniza", "file": "kul-siyahi.jpg" },
+            { "name": "Caoba", "file": "maun.jpg" },
+            { "name": "Antracita Metálico", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Plata Metálico", "file": "metalik-gumus.jpg" },
+            { "name": "Corona Platino", "file": "platin-crown.jpg" },
+            { "name": "Pirita", "file": "pyrite.jpg" },
+            { "name": "Visón", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "legend_art": {
@@ -438,6 +480,48 @@
           "glass_thickness": "Espesor del Vidrio",
           "thermal_transmittance": "Transmitancia Térmica (Uf)",
           "standard": "Norma"
+        },
+        "why_choose": {
+          "title": "Por Qué Elegir Legend u-PVC",
+          "subtitle": "Alto aislamiento, fuerte rendimiento estático, rica gama de productos y amplias opciones de acristalamiento — diseñado como un sistema de ventana holístico.",
+          "features": [
+            {
+              "title": "Aislamiento Superior",
+              "description": "Diseño multi-cámara y sistema de juntas avanzado ofrecen rendimiento térmico excepcional."
+            },
+            {
+              "title": "Integridad Estructural",
+              "description": "Perfiles reforzados e ingeniería de precisión aseguran durabilidad y estabilidad a largo plazo."
+            },
+            {
+              "title": "Diseño Versátil",
+              "description": "Gama completa de tipos de apertura y configuraciones para cualquier requerimiento arquitectónico."
+            },
+            {
+              "title": "Flexibilidad de Acristalamiento",
+              "description": "Soporta varios espesores y tipos de vidrio incluyendo acristalamiento eficiente energéticamente y de seguridad."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Opciones de Color",
+          "subtitle": "Ofrecemos alternativas de colores laminados que proporcionan durabilidad superior contra condiciones climáticas adversas mientras requieren bajo mantenimiento. Diferentes colores laminados pueden aplicarse en caras interiores y exteriores para lograr fachadas más estéticas y coherentes.",
+          "note": "Los colores laminados interiores y exteriores pueden combinarse.",
+          "colors": [
+            { "name": "Roble Dorado", "file": "altin-mese.jpg" },
+            { "name": "Roble Antiguo", "file": "antik-mese.jpg" },
+            { "name": "Gris Antracita", "file": "antrasit-gri.jpg" },
+            { "name": "Avellana", "file": "findik.jpg" },
+            { "name": "Crema", "file": "krem.jpg" },
+            { "name": "Negro Ceniza", "file": "kul-siyahi.jpg" },
+            { "name": "Caoba", "file": "maun.jpg" },
+            { "name": "Antracita Metálico", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Plata Metálico", "file": "metalik-gumus.jpg" },
+            { "name": "Corona Platino", "file": "platin-crown.jpg" },
+            { "name": "Pirita", "file": "pyrite.jpg" },
+            { "name": "Visón", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "zendow": {
@@ -469,6 +553,48 @@
           "glass_thickness": "Espesor del Vidrio",
           "thermal_transmittance": "Transmitancia Térmica (Uf)",
           "standard": "Norma"
+        },
+        "why_choose": {
+          "title": "Por Qué Elegir Legend u-PVC",
+          "subtitle": "Alto aislamiento, fuerte rendimiento estático, rica gama de productos y amplias opciones de acristalamiento — diseñado como un sistema de ventana holístico.",
+          "features": [
+            {
+              "title": "Aislamiento Superior",
+              "description": "Diseño multi-cámara y sistema de juntas avanzado ofrecen rendimiento térmico excepcional."
+            },
+            {
+              "title": "Integridad Estructural",
+              "description": "Perfiles reforzados e ingeniería de precisión aseguran durabilidad y estabilidad a largo plazo."
+            },
+            {
+              "title": "Diseño Versátil",
+              "description": "Gama completa de tipos de apertura y configuraciones para cualquier requerimiento arquitectónico."
+            },
+            {
+              "title": "Flexibilidad de Acristalamiento",
+              "description": "Soporta varios espesores y tipos de vidrio incluyendo acristalamiento eficiente energéticamente y de seguridad."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Opciones de Color",
+          "subtitle": "Ofrecemos alternativas de colores laminados que proporcionan durabilidad superior contra condiciones climáticas adversas mientras requieren bajo mantenimiento. Diferentes colores laminados pueden aplicarse en caras interiores y exteriores para lograr fachadas más estéticas y coherentes.",
+          "note": "Los colores laminados interiores y exteriores pueden combinarse.",
+          "colors": [
+            { "name": "Roble Dorado", "file": "altin-mese.jpg" },
+            { "name": "Roble Antiguo", "file": "antik-mese.jpg" },
+            { "name": "Gris Antracita", "file": "antrasit-gri.jpg" },
+            { "name": "Avellana", "file": "findik.jpg" },
+            { "name": "Crema", "file": "krem.jpg" },
+            { "name": "Negro Ceniza", "file": "kul-siyahi.jpg" },
+            { "name": "Caoba", "file": "maun.jpg" },
+            { "name": "Antracita Metálico", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Plata Metálico", "file": "metalik-gumus.jpg" },
+            { "name": "Corona Platino", "file": "platin-crown.jpg" },
+            { "name": "Pirita", "file": "pyrite.jpg" },
+            { "name": "Visón", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "slimslide": {
@@ -626,6 +752,48 @@
           "glass_thickness": "Espesor del Vidrio",
           "thermal_transmittance": "Transmitancia Térmica (Uf)",
           "standard": "Norma"
+        },
+        "why_choose": {
+          "title": "Por Qué Elegir Legend u-PVC",
+          "subtitle": "Alto aislamiento, fuerte rendimiento estático, rica gama de productos y amplias opciones de acristalamiento — diseñado como un sistema de ventana holístico.",
+          "features": [
+            {
+              "title": "Aislamiento Superior",
+              "description": "Diseño multi-cámara y sistema de juntas avanzado ofrecen rendimiento térmico excepcional."
+            },
+            {
+              "title": "Integridad Estructural",
+              "description": "Perfiles reforzados e ingeniería de precisión aseguran durabilidad y estabilidad a largo plazo."
+            },
+            {
+              "title": "Diseño Versátil",
+              "description": "Gama completa de tipos de apertura y configuraciones para cualquier requerimiento arquitectónico."
+            },
+            {
+              "title": "Flexibilidad de Acristalamiento",
+              "description": "Soporta varios espesores y tipos de vidrio incluyendo acristalamiento eficiente energéticamente y de seguridad."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Opciones de Color",
+          "subtitle": "Ofrecemos alternativas de colores laminados que proporcionan durabilidad superior contra condiciones climáticas adversas mientras requieren bajo mantenimiento. Diferentes colores laminados pueden aplicarse en caras interiores y exteriores para lograr fachadas más estéticas y coherentes.",
+          "note": "Los colores laminados interiores y exteriores pueden combinarse.",
+          "colors": [
+            { "name": "Roble Dorado", "file": "altin-mese.jpg" },
+            { "name": "Roble Antiguo", "file": "antik-mese.jpg" },
+            { "name": "Gris Antracita", "file": "antrasit-gri.jpg" },
+            { "name": "Avellana", "file": "findik.jpg" },
+            { "name": "Crema", "file": "krem.jpg" },
+            { "name": "Negro Ceniza", "file": "kul-siyahi.jpg" },
+            { "name": "Caoba", "file": "maun.jpg" },
+            { "name": "Antracita Metálico", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Plata Metálico", "file": "metalik-gumus.jpg" },
+            { "name": "Corona Platino", "file": "platin-crown.jpg" },
+            { "name": "Pirita", "file": "pyrite.jpg" },
+            { "name": "Visón", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "legend_art": {
@@ -657,6 +825,48 @@
           "glass_thickness": "Espesor del Vidrio",
           "thermal_transmittance": "Transmitancia Térmica (Uf)",
           "standard": "Norma"
+        },
+        "why_choose": {
+          "title": "Por Qué Elegir Legend u-PVC",
+          "subtitle": "Alto aislamiento, fuerte rendimiento estático, rica gama de productos y amplias opciones de acristalamiento — diseñado como un sistema de ventana holístico.",
+          "features": [
+            {
+              "title": "Aislamiento Superior",
+              "description": "Diseño multi-cámara y sistema de juntas avanzado ofrecen rendimiento térmico excepcional."
+            },
+            {
+              "title": "Integridad Estructural",
+              "description": "Perfiles reforzados e ingeniería de precisión aseguran durabilidad y estabilidad a largo plazo."
+            },
+            {
+              "title": "Diseño Versátil",
+              "description": "Gama completa de tipos de apertura y configuraciones para cualquier requerimiento arquitectónico."
+            },
+            {
+              "title": "Flexibilidad de Acristalamiento",
+              "description": "Soporta varios espesores y tipos de vidrio incluyendo acristalamiento eficiente energéticamente y de seguridad."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Opciones de Color",
+          "subtitle": "Ofrecemos alternativas de colores laminados que proporcionan durabilidad superior contra condiciones climáticas adversas mientras requieren bajo mantenimiento. Diferentes colores laminados pueden aplicarse en caras interiores y exteriores para lograr fachadas más estéticas y coherentes.",
+          "note": "Los colores laminados interiores y exteriores pueden combinarse.",
+          "colors": [
+            { "name": "Roble Dorado", "file": "altin-mese.jpg" },
+            { "name": "Roble Antiguo", "file": "antik-mese.jpg" },
+            { "name": "Gris Antracita", "file": "antrasit-gri.jpg" },
+            { "name": "Avellana", "file": "findik.jpg" },
+            { "name": "Crema", "file": "krem.jpg" },
+            { "name": "Negro Ceniza", "file": "kul-siyahi.jpg" },
+            { "name": "Caoba", "file": "maun.jpg" },
+            { "name": "Antracita Metálico", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Plata Metálico", "file": "metalik-gumus.jpg" },
+            { "name": "Corona Platino", "file": "platin-crown.jpg" },
+            { "name": "Pirita", "file": "pyrite.jpg" },
+            { "name": "Visón", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "zendow": {
@@ -688,6 +898,48 @@
           "glass_thickness": "Espesor del Vidrio",
           "thermal_transmittance": "Transmitancia Térmica (Uf)",
           "standard": "Norma"
+        },
+        "why_choose": {
+          "title": "Por Qué Elegir Legend u-PVC",
+          "subtitle": "Alto aislamiento, fuerte rendimiento estático, rica gama de productos y amplias opciones de acristalamiento — diseñado como un sistema de ventana holístico.",
+          "features": [
+            {
+              "title": "Aislamiento Superior",
+              "description": "Diseño multi-cámara y sistema de juntas avanzado ofrecen rendimiento térmico excepcional."
+            },
+            {
+              "title": "Integridad Estructural",
+              "description": "Perfiles reforzados e ingeniería de precisión aseguran durabilidad y estabilidad a largo plazo."
+            },
+            {
+              "title": "Diseño Versátil",
+              "description": "Gama completa de tipos de apertura y configuraciones para cualquier requerimiento arquitectónico."
+            },
+            {
+              "title": "Flexibilidad de Acristalamiento",
+              "description": "Soporta varios espesores y tipos de vidrio incluyendo acristalamiento eficiente energéticamente y de seguridad."
+            }
+          ]
+        },
+        "color_options": {
+          "title": "Opciones de Color",
+          "subtitle": "Ofrecemos alternativas de colores laminados que proporcionan durabilidad superior contra condiciones climáticas adversas mientras requieren bajo mantenimiento. Diferentes colores laminados pueden aplicarse en caras interiores y exteriores para lograr fachadas más estéticas y coherentes.",
+          "note": "Los colores laminados interiores y exteriores pueden combinarse.",
+          "colors": [
+            { "name": "Roble Dorado", "file": "altin-mese.jpg" },
+            { "name": "Roble Antiguo", "file": "antik-mese.jpg" },
+            { "name": "Gris Antracita", "file": "antrasit-gri.jpg" },
+            { "name": "Avellana", "file": "findik.jpg" },
+            { "name": "Crema", "file": "krem.jpg" },
+            { "name": "Negro Ceniza", "file": "kul-siyahi.jpg" },
+            { "name": "Caoba", "file": "maun.jpg" },
+            { "name": "Antracita Metálico", "file": "metalik-antrasit-gri.jpg" },
+            { "name": "Plata Metálico", "file": "metalik-gumus.jpg" },
+            { "name": "Corona Platino", "file": "platin-crown.jpg" },
+            { "name": "Pirita", "file": "pyrite.jpg" },
+            { "name": "Visón", "file": "vizon.jpg" },
+            { "name": "Winchester", "file": "winchester.jpg" }
+          ]
         }
       },
       "slimslide": {
