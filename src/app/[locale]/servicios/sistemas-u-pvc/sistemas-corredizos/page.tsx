@@ -1,6 +1,5 @@
-export const runtime = "edge";
 import {locales} from '@/i18n';
-import SiteSliding from '../../../../../app/(site)/services/u-pvc-systems/sliding-systems/page';
+import SiteSliding from '../../../../../app/services/u-pvc-systems/sliding-systems/page';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   let {locale} = await params;

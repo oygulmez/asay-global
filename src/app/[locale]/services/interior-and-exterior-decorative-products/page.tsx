@@ -1,6 +1,5 @@
-export const runtime = "edge";
 import {locales} from '@/i18n';
-import SiteDecorative from '../../../(site)/services/interior-and-exterior-decorative-products/page';
+import SiteDecorative from '../../../services/interior-and-exterior-decorative-products/page';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   let {locale} = await params;

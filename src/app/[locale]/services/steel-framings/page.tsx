@@ -1,6 +1,5 @@
-export const runtime = "edge";
 import {locales} from '@/i18n';
-import SiteSteel from '../../../(site)/services/steel-framings/page';
+import SiteSteel from '../../../services/steel-framings/page';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   let {locale} = await params;

@@ -1,6 +1,5 @@
-export const runtime = "edge";
 import {locales} from '@/i18n';
-import SiteContact from '@/app/(site)/contact/page';
+import SiteContact from '@/app/contact/page';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   let {locale} = await params;

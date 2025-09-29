@@ -1,6 +1,5 @@
-export const runtime = "edge";
 import {locales} from '@/i18n';
-import SiteLegendWindowDoor from '../../../../../app/(site)/services/u-pvc-systems/legend-window-and-door-system/page';
+import SiteLegendWindowDoor from '../../../../../app/services/u-pvc-systems/legend-window-and-door-system/page';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   let {locale} = await params;
