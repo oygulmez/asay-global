@@ -1,5 +1,5 @@
 import {locales} from '@/i18n';
-import SiteSteelFramings from '@/app/services/steel-framings/page';
+import SiteSteelFramings from '../steel-framings/page';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   let {locale} = await params;
