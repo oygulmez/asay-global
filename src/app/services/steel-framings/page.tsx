@@ -15,18 +15,18 @@ import esMessages from '@/messages/es.json';
 
 export default function SteelFramingsPage() {
   const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+  const [isRootPage, setIsRootPage] = useState(false);
   
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const path = window.location.pathname;
-      if (path.startsWith('/fr/')) {
-        setLocale('fr');
-      } else if (path.startsWith('/es/')) {
-        setLocale('es');
-      } else {
-        setLocale('en');
-      }
+    const path = window.location.pathname;
+    if (path.startsWith('/fr/')) {
+      setLocale('fr');
+    } else if (path.startsWith('/es/')) {
+      setLocale('es');
+    } else {
+      setLocale('en');
     }
+    setIsRootPage(!path.includes('/fr/') && !path.includes('/es/'));
   }, []);
   
   const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
@@ -36,8 +36,7 @@ export default function SteelFramingsPage() {
     if (locale === 'en') return path;
     return `/${locale}${path}`;
   };
-  // Check if this is being used as a root page (not imported by locale pages)
-  const isRootPage = typeof window !== 'undefined' && !window.location.pathname.includes('/fr/') && !window.location.pathname.includes('/es/');
+  // Root sayfada Navbar/Footer sarmalaması yapacağız
 
   const content = (
     <>
