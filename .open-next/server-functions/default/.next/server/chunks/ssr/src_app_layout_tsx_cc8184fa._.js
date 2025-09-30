@@ -1,0 +1,3 @@
+module.exports=[27572,a=>{"use strict";a.s(["default",()=>d,"metadata",()=>c]);var b=a.i(7997);let c={title:"Asay Global - Structural Solutions",description:"B2B partner for structural solutions: u‑PVC, aluminum, glass and steel systems"};function d({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsx)("body",{suppressHydrationWarning:!0,children:a})})}}];
+
+//# sourceMappingURL=src_app_layout_tsx_cc8184fa._.js.map
