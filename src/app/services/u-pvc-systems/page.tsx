@@ -13,6 +13,7 @@ import esMessages from '@/messages/es.json';
 
 export default function UPVCSystemsPage() {
   const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+  const [isRootPage, setIsRootPage] = useState(false);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -24,6 +25,10 @@ export default function UPVCSystemsPage() {
       } else {
         setLocale('en');
       }
+      
+      // Check if this is being used as a root page (not imported by locale pages)
+      const isRoot = !path.includes('/fr/') && !path.includes('/es/');
+      setIsRootPage(isRoot);
     }
   }, []);
 
@@ -34,9 +39,6 @@ export default function UPVCSystemsPage() {
     if (locale === 'en') return path;
     return `/${locale}${path}`;
   };
-
-  // Check if this is being used as a root page (not imported by locale pages)
-  const isRootPage = typeof window !== 'undefined' && !window.location.pathname.includes('/fr/') && !window.location.pathname.includes('/es/');
 
   const content = (
     <>
