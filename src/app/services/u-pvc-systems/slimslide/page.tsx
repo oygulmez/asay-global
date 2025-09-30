@@ -14,6 +14,12 @@ import esMessages from '@/messages/es.json';
 
 export default function SlimslidePage() {
   const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+  const [isRootPage, setIsRootPage] = useState(false);
+
+  useEffect(() => {
+    const path = window.location.pathname;
+    if (path.startsWith('/fr/')){setLocale('fr');}else if(path.startsWith('/es/')){setLocale('es');}else{setLocale('en');}
+    setIsRootPage(!path.includes('/fr/')&&!path.includes('/es/')); }, []); const messages = locale==='fr'?frMessages:locale==='es'?esMessages:enMessages; const t =<'en' | 'fr' | 'es'>('en');
   const [messages, setMessages] = useState<any>(enMessages);
   const [ready, setReady] = useState(false);
 
