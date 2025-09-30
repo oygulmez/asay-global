@@ -1,5 +1,5 @@
 import {locales} from '@/i18n';
-import SiteSlimslide from '../../../../../app/services/u-pvc-systems/slimslide/page';
+import SiteSlimslide from '@/app/services/u-pvc-systems/slimslide/page';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   let {locale} = await params;

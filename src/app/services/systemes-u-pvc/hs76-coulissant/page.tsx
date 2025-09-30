@@ -1,5 +1,5 @@
 import {locales} from '@/i18n';
-import SiteHS76 from '../../../../../app/services/u-pvc-systems/hs76-sliding/page';
+import SiteHS76 from '@/app/services/u-pvc-systems/hs76-sliding/page';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   let {locale} = await params;

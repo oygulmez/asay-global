@@ -1,5 +1,5 @@
 import {locales} from '@/i18n';
-import SiteInteriorAndExteriorDecorativeProducts from '../../services/interior-and-exterior-decorative-products/page';
+import SiteInteriorAndExteriorDecorativeProducts from '@/app/services/interior-and-exterior-decorative-products/page';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   let {locale} = await params;

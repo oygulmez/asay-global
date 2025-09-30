@@ -1,5 +1,5 @@
 import {locales} from '@/i18n';
-import SitePVCSlidingDoor from '../../../../../app/services/u-pvc-systems/pvc-sliding-door-system/page';
+import SitePVCSlidingDoor from '@/app/services/u-pvc-systems/pvc-sliding-door-system/page';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   let {locale} = await params;

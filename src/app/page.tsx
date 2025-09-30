@@ -25,24 +25,9 @@ export default function HomePage() {
           </div>
         ) : (
           <>
-            <HeroSectionOne 
-              heading={t('homepage.hero.heading')}
-              description={t('homepage.hero.description')}
-              buttonText={t('homepage.hero.button_text')}
-              buttonLink="/contact"
-              locale="en"
-            />
-            <Logos3 
-              heading={t('homepage.logos.heading')}
-              description={t('homepage.logos.description')}
-            />
-            <CallToAction 
-              heading={t('homepage.cta.heading')}
-              description={t('homepage.cta.description')}
-              buttonText={t('homepage.cta.button_text')}
-              buttonLink="/contact"
-              locale="en"
-            />
+            <HeroSectionOne />
+            <Logos3 />
+            <CallToAction />
           </>
         )}
       </main>

@@ -1,5 +1,5 @@
 import {locales} from '@/i18n';
-import SiteLegendSlidingPlus from '../../../../../app/services/u-pvc-systems/legend-sliding-plus/page';
+import SiteLegendSlidingPlus from '@/app/services/u-pvc-systems/legend-sliding-plus/page';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   let {locale} = await params;

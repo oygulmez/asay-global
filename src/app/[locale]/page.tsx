@@ -14,30 +14,12 @@ export async function generateStaticParams() {
 export default async function LocalePage({ params }: LocalePageProps) {
   const { locale: rawLocale } = await params;
   const locale = ['en', 'fr', 'es'].includes(rawLocale) ? rawLocale : 'en';
-  const messages = (await import(`@/messages/${locale}.json`)).default as any;
-  
-  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
-
+  // Bileşenler kendi içinde locale/messaging yönetiyor; props geçmeye gerek yok
   return (
     <>
-      <HeroSectionOne 
-        heading={t('homepage.hero.heading')}
-        description={t('homepage.hero.description')}
-        buttonText={t('homepage.hero.button_text')}
-        buttonLink="/contact"
-        locale={locale}
-      />
-      <Logos3 
-        heading={t('homepage.logos.heading')}
-        description={t('homepage.logos.description')}
-      />
-      <CallToAction 
-        heading={t('homepage.cta.heading')}
-        description={t('homepage.cta.description')}
-        buttonText={t('homepage.cta.button_text')}
-        buttonLink="/contact"
-        locale={locale}
-      />
+      <HeroSectionOne />
+      <Logos3 />
+      <CallToAction />
     </>
   );
 }

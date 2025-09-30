@@ -1,5 +1,5 @@
 import {locales} from '@/i18n';
-import SiteGlass from '../../../services/architectural-glass-solutions/page';
+import SiteGlass from '@/app/services/architectural-glass-solutions/page';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   let {locale} = await params;
