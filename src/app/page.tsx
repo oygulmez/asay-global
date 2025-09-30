@@ -26,7 +26,6 @@ export default function HomePage() {
         ) : (
           <>
             <HeroSectionOne />
-            <Logos3 />
             <CallToAction />
           </>
         )}

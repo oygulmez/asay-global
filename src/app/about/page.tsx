@@ -12,6 +12,7 @@ import esMessages from '@/messages/es.json';
 
 export default function AboutPage() {
   const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+  const [isRootPage, setIsRootPage] = useState(false);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -23,16 +24,15 @@ export default function AboutPage() {
       } else {
         setLocale('en');
       }
+      setIsRootPage(!path.includes('/fr/') && !path.includes('/es/'));
     }
   }, []);
 
   const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
 
-  return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar locale="en" />
-      <main className="flex-1">
-        <PageHeader 
+  const content = (
+    <>
+      <PageHeader 
         title={(messages as any).about.page_header.title}
         description={(messages as any).about.page_header.description}
         breadcrumbItems={[
@@ -149,9 +149,19 @@ export default function AboutPage() {
           <CallToAction />
         </div>
       </div>
-      </main>
-      <Footer locale="en" />
-      <StickyContactButtons />
-    </div>
+    </>
   );
+
+  if (isRootPage) {
+    return (
+      <div className="min-h-screen flex flex-col">
+        <Navbar locale="en" />
+        <main className="flex-1">{content}</main>
+        <Footer locale="en" />
+        <StickyContactButtons />
+      </div>
+    );
+  }
+
+  return content;
 }

@@ -18,7 +18,6 @@ export default async function LocalePage({ params }: LocalePageProps) {
   return (
     <>
       <HeroSectionOne />
-      <Logos3 />
       <CallToAction />
     </>
   );
