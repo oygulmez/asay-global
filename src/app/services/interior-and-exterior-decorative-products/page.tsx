@@ -34,11 +34,12 @@ export default function InteriorExteriorDecorativeProductsPage() {
     if (locale === 'en') return path;
     return `/${locale}${path}`;
   };
-  return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar locale="en" />
-      <main className="flex-1">
-        <PageHeader
+  // Check if this is being used as a root page (not imported by locale pages)
+  const isRootPage = typeof window !== 'undefined' && !window.location.pathname.includes('/fr/') && !window.location.pathname.includes('/es/');
+
+  const content = (
+    <>
+      <PageHeader
         title={t.page_header.title}
         description={t.page_header.description}
         breadcrumbItems={[
@@ -228,11 +229,25 @@ export default function InteriorExteriorDecorativeProductsPage() {
         {/* CTA */}
         <CallToAction />
       </div>
-      </main>
-      <Footer locale="en" />
-      <StickyContactButtons />
-    </div>
+    </>
   );
+
+  // If this is a root page, wrap with Navbar/Footer
+  if (isRootPage) {
+    return (
+      <div className="min-h-screen flex flex-col">
+        <Navbar locale="en" />
+        <main className="flex-1">
+          {content}
+        </main>
+        <Footer locale="en" />
+        <StickyContactButtons />
+      </div>
+    );
+  }
+
+  // If imported by locale pages, return just content
+  return content;
 }
 
 function BadgeLike({ label }: { label: string }) {
