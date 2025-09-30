@@ -14,28 +14,22 @@ import esMessages from '@/messages/es.json';
 
 export default function SlimslidePage() {
   const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
-  const [isRootPage, setIsRootPage] = useState(false);
-
-  useEffect(() => {
-    const path = window.location.pathname;
-    if (path.startsWith('/fr/')){setLocale('fr');}else if(path.startsWith('/es/')){setLocale('es');}else{setLocale('en');}
-    setIsRootPage(!path.includes('/fr/')&&!path.includes('/es/')); }, []); const messages = locale==='fr'?frMessages:locale==='es'?esMessages:enMessages; const t =<'en' | 'fr' | 'es'>('en');
   const [messages, setMessages] = useState<any>(enMessages);
+  const [isRootPage, setIsRootPage] = useState(false);
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const path = window.location.pathname;
-      let currentLocale: 'en' | 'fr' | 'es' = 'en';
-      if (path.startsWith('/fr/')) {
-        currentLocale = 'fr';
-      } else if (path.startsWith('/es/')) {
-        currentLocale = 'es';
-      }
-      setLocale(currentLocale);
-      setMessages(currentLocale === 'fr' ? frMessages : currentLocale === 'es' ? esMessages : enMessages);
-      setReady(true);
+    const path = window.location.pathname;
+    let currentLocale: 'en' | 'fr' | 'es' = 'en';
+    if (path.startsWith('/fr/')) {
+      currentLocale = 'fr';
+    } else if (path.startsWith('/es/')) {
+      currentLocale = 'es';
     }
+    setLocale(currentLocale);
+    setMessages(currentLocale === 'fr' ? frMessages : currentLocale === 'es' ? esMessages : enMessages);
+    setIsRootPage(!path.includes('/fr/') && !path.includes('/es/'));
+    setReady(true);
   }, []);
 
   const createUrl = (path: string) => {
@@ -48,8 +42,7 @@ export default function SlimslidePage() {
   // SSR/CSR eşleşmesi için ilk render'ı boş geç, hydrate sonrası içerik üret
   if (!ready || !t || !t.page_header) return null;
 
-  // Check if this is being used as a root page (not imported by locale pages)
-  const isRootPage = typeof window !== 'undefined' && !window.location.pathname.includes('/fr/') && !window.location.pathname.includes('/es/');
+  // Root sayfada Navbar/Footer sarmalaması yapacağız
 
   const content = (
     <div suppressHydrationWarning>
