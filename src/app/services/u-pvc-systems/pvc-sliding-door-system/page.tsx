@@ -41,8 +41,7 @@ export default function PVCSlidingDoorSystemPage() {
     return <div>Loading... (Debug: t={JSON.stringify(!!t)}, locale={locale})</div>;
   }
 
-  // Check if this is being used as a root page (not imported by locale pages)
-  const isRootPage = typeof window !== 'undefined' && !window.location.pathname.includes('/fr/') && !window.location.pathname.includes('/es/');
+  // isRootPage state'i useEffect içinde hesaplanıyor
 
   const content = (
     <>
