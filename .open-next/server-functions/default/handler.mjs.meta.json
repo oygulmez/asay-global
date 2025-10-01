@@ -3232,7 +3232,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/page_client-reference-manifest.js": {
-      "bytes": 9023,
+      "bytes": 8799,
       "imports": [],
       "format": "cjs"
     },
@@ -3241,18 +3241,13 @@
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/dealers/page_client-reference-manifest.js": {
-      "bytes": 8859,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/contact/page_client-reference-manifest.js": {
-      "bytes": 8859,
+    ".open-next/server-functions/default/.next/server/app/services/page_client-reference-manifest.js": {
+      "bytes": 8671,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/about/page_client-reference-manifest.js": {
-      "bytes": 8846,
+      "bytes": 8620,
       "imports": [],
       "format": "cjs"
     },
@@ -3261,428 +3256,163 @@
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js": {
-      "bytes": 15298,
+    ".open-next/server-functions/default/.next/server/app/dealers/page_client-reference-manifest.js": {
+      "bytes": 8631,
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/services/page_client-reference-manifest.js": {
-      "bytes": 8878,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/sobre-nosotros/page_client-reference-manifest.js": {
-      "bytes": 13446,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/page_client-reference-manifest.js": {
-      "bytes": 13467,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/revendeurs/page_client-reference-manifest.js": {
-      "bytes": 13438,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/distribuidores/page_client-reference-manifest.js": {
-      "bytes": 13450,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/dealers/page_client-reference-manifest.js": {
-      "bytes": 13429,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/contacto/page_client-reference-manifest.js": {
-      "bytes": 13432,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/about/page_client-reference-manifest.js": {
-      "bytes": 13419,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/a-propos/page_client-reference-manifest.js": {
-      "bytes": 13428,
+    ".open-next/server-functions/default/.next/server/app/contact/page_client-reference-manifest.js": {
+      "bytes": 8631,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/page_client-reference-manifest.js": {
-      "bytes": 9001,
+      "bytes": 8758,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/structures-acier/page_client-reference-manifest.js": {
-      "bytes": 8956,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/services/steel-framings/page_client-reference-manifest.js": {
-      "bytes": 8950,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/contact/page_client-reference-manifest.js": {
-      "bytes": 13429,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/services/solutions-verre-architectural/page_client-reference-manifest.js": {
-      "bytes": 9022,
+      "bytes": 8752,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/page_client-reference-manifest.js": {
-      "bytes": 9004,
+      "bytes": 8761,
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/services/produits-decoratifs-interieurs-exterieurs/page_client-reference-manifest.js": {
-      "bytes": 9088,
+    ".open-next/server-functions/default/.next/server/app/services/steel-framings/page_client-reference-manifest.js": {
+      "bytes": 8746,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/services/solutions-verre-architectural/page_client-reference-manifest.js": {
+      "bytes": 8818,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/solutions-architecturales-aluminium/page_client-reference-manifest.js": {
-      "bytes": 9049,
+      "bytes": 8845,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/services/produits-decoratifs-interieurs-exterieurs/page_client-reference-manifest.js": {
+      "bytes": 8881,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/interior-and-exterior-decorative-products/page_client-reference-manifest.js": {
-      "bytes": 9088,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/services/aluminum-architectural-solutions/page_client-reference-manifest.js": {
-      "bytes": 9040,
+      "bytes": 8881,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/architectural-glass-solutions/page_client-reference-manifest.js": {
-      "bytes": 9022,
+      "bytes": 8818,
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-arquitectonicas-aluminio/page_client-reference-manifest.js": {
-      "bytes": 13625,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/page_client-reference-manifest.js": {
-      "bytes": 13544,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/productos-decorativos-interiores-exteriores/page_client-reference-manifest.js": {
-      "bytes": 13670,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/estructuras-acero/page_client-reference-manifest.js": {
-      "bytes": 13535,
+    ".open-next/server-functions/default/.next/server/app/services/aluminum-architectural-solutions/page_client-reference-manifest.js": {
+      "bytes": 8836,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/zendow/page_client-reference-manifest.js": {
-      "bytes": 8997,
+      "bytes": 8793,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/window-door-systems/page_client-reference-manifest.js": {
-      "bytes": 9116,
+      "bytes": 8853,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/slimslide/page_client-reference-manifest.js": {
-      "bytes": 9009,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-vidrio-arquitectonico/page_client-reference-manifest.js": {
-      "bytes": 13607,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/pvc-sliding-door-system/page_client-reference-manifest.js": {
-      "bytes": 9093,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-window-and-door-system/page_client-reference-manifest.js": {
-      "bytes": 9111,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-surme-plus/page_client-reference-manifest.js": {
-      "bytes": 9057,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-sliding-plus/page_client-reference-manifest.js": {
-      "bytes": 9069,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-art/page_client-reference-manifest.js": {
-      "bytes": 9017,
+      "bytes": 8756,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/sliding-systems/page_client-reference-manifest.js": {
-      "bytes": 9096,
+      "bytes": 8837,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/pvc-sliding-door-system/page_client-reference-manifest.js": {
+      "bytes": 8826,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-surme-plus/page_client-reference-manifest.js": {
+      "bytes": 8796,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-art/page_client-reference-manifest.js": {
+      "bytes": 8813,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/hs76-sliding/page_client-reference-manifest.js": {
-      "bytes": 9027,
+      "bytes": 8771,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-window-and-door-system/page_client-reference-manifest.js": {
+      "bytes": 8907,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-sliding-plus/page_client-reference-manifest.js": {
+      "bytes": 8806,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/zendow/page_client-reference-manifest.js": {
-      "bytes": 9000,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systemes-coulissants/page_client-reference-manifest.js": {
-      "bytes": 9114,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systeme-portes-coulissantes-pvc/page_client-reference-manifest.js": {
-      "bytes": 9120,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systeme-fenetres-portes-legend/page_client-reference-manifest.js": {
-      "bytes": 9117,
+      "bytes": 8796,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systemes-fenetres-portes/page_client-reference-manifest.js": {
-      "bytes": 9134,
+      "bytes": 8871,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systemes-coulissants/page_client-reference-manifest.js": {
+      "bytes": 8855,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systeme-portes-coulissantes-pvc/page_client-reference-manifest.js": {
+      "bytes": 8853,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systeme-fenetres-portes-legend/page_client-reference-manifest.js": {
+      "bytes": 8913,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/slimslide/page_client-reference-manifest.js": {
-      "bytes": 9012,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/hs76-coulissant/page_client-reference-manifest.js": {
-      "bytes": 9039,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/legend-art/page_client-reference-manifest.js": {
-      "bytes": 9020,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/zendow/page_client-reference-manifest.js": {
-      "bytes": 13576,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/slimslide/page_client-reference-manifest.js": {
-      "bytes": 13542,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-ventanas-puertas/page_client-reference-manifest.js": {
-      "bytes": 13657,
+      "bytes": 8759,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/legend-coulissant-plus/page_client-reference-manifest.js": {
-      "bytes": 9081,
+      "bytes": 8818,
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-corredizos/page_client-reference-manifest.js": {
-      "bytes": 13635,
+    ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/legend-art/page_client-reference-manifest.js": {
+      "bytes": 8816,
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-ventanas-puertas-legend/page_client-reference-manifest.js": {
-      "bytes": 13696,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-corredizo-plus/page_client-reference-manifest.js": {
-      "bytes": 13598,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/hs76-corredizo/page_client-reference-manifest.js": {
-      "bytes": 13563,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-art/page_client-reference-manifest.js": {
-      "bytes": 13596,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-puertas-corredizas-pvc/page_client-reference-manifest.js": {
-      "bytes": 13633,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/page_client-reference-manifest.js": {
-      "bytes": 13464,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/structures-acier/page_client-reference-manifest.js": {
-      "bytes": 13547,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/page_client-reference-manifest.js": {
-      "bytes": 13556,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/steel-framings/page_client-reference-manifest.js": {
-      "bytes": 13541,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/solutions-verre-architectural/page_client-reference-manifest.js": {
-      "bytes": 13595,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/solutions-architecturales-aluminium/page_client-reference-manifest.js": {
-      "bytes": 13622,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/produits-decoratifs-interieurs-exterieurs/page_client-reference-manifest.js": {
-      "bytes": 13679,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/page_client-reference-manifest.js": {
-      "bytes": 13541,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/interior-and-exterior-decorative-products/page_client-reference-manifest.js": {
-      "bytes": 13679,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/architectural-glass-solutions/page_client-reference-manifest.js": {
-      "bytes": 13616,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/aluminum-architectural-solutions/page_client-reference-manifest.js": {
-      "bytes": 13629,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/zendow/page_client-reference-manifest.js": {
-      "bytes": 13586,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/window-door-systems/page_client-reference-manifest.js": {
-      "bytes": 13656,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/sliding-systems/page_client-reference-manifest.js": {
-      "bytes": 13636,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/pvc-sliding-door-system/page_client-reference-manifest.js": {
-      "bytes": 13624,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/slimslide/page_client-reference-manifest.js": {
-      "bytes": 13554,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-window-and-door-system/page_client-reference-manifest.js": {
-      "bytes": 13702,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-art/page_client-reference-manifest.js": {
-      "bytes": 13608,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-sliding-plus/page_client-reference-manifest.js": {
-      "bytes": 13604,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/hs76-sliding/page_client-reference-manifest.js": {
-      "bytes": 13565,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/zendow/page_client-reference-manifest.js": {
-      "bytes": 13573,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-fenetres-portes/page_client-reference-manifest.js": {
-      "bytes": 13651,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-portes-coulissantes-pvc/page_client-reference-manifest.js": {
-      "bytes": 13633,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-fenetres-portes-legend/page_client-reference-manifest.js": {
-      "bytes": 13690,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/slimslide/page_client-reference-manifest.js": {
-      "bytes": 13539,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-surme-plus/page_client-reference-manifest.js": {
-      "bytes": 13594,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-coulissants/page_client-reference-manifest.js": {
-      "bytes": 13635,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-art/page_client-reference-manifest.js": {
-      "bytes": 13593,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/hs76-coulissant/page_client-reference-manifest.js": {
-      "bytes": 13563,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-coulissant-plus/page_client-reference-manifest.js": {
-      "bytes": 13598,
+    ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/hs76-coulissant/page_client-reference-manifest.js": {
+      "bytes": 8783,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.external.js": {
-      "bytes": 341452,
+      "bytes": 95535,
       "imports": [
         {
           "path": "path",
@@ -3715,14 +3445,9 @@
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/sitemap.xml/route_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/dealers/page_client-reference-manifest.js",
+          "path": ".open-next/server-functions/default/.next/server/app/services/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/dealers/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/contact/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/contact/page_client-reference-manifest.js"
+          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/about/page_client-reference-manifest.js",
@@ -3735,54 +3460,14 @@
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js",
+          "path": ".open-next/server-functions/default/.next/server/app/dealers/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js"
+          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/dealers/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/services/page_client-reference-manifest.js",
+          "path": ".open-next/server-functions/default/.next/server/app/contact/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/sobre-nosotros/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/sobre-nosotros/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/revendeurs/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/revendeurs/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/distribuidores/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/distribuidores/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/dealers/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/dealers/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/contacto/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/contacto/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/about/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/about/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/a-propos/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/a-propos/page_client-reference-manifest.js"
+          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/contact/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/page_client-reference-manifest.js",
@@ -3795,14 +3480,14 @@
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/structures-acier/page_client-reference-manifest.js"
         },
         {
+          "path": ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/page_client-reference-manifest.js"
+        },
+        {
           "path": ".open-next/server-functions/default/.next/server/app/services/steel-framings/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/steel-framings/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/contact/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/contact/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/services/solutions-verre-architectural/page_client-reference-manifest.js",
@@ -3810,9 +3495,9 @@
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/solutions-verre-architectural/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/page_client-reference-manifest.js",
+          "path": ".open-next/server-functions/default/.next/server/app/services/solutions-architecturales-aluminium/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/page_client-reference-manifest.js"
+          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/solutions-architecturales-aluminium/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/services/produits-decoratifs-interieurs-exterieurs/page_client-reference-manifest.js",
@@ -3820,19 +3505,9 @@
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/produits-decoratifs-interieurs-exterieurs/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/services/solutions-architecturales-aluminium/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/solutions-architecturales-aluminium/page_client-reference-manifest.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/services/interior-and-exterior-decorative-products/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/interior-and-exterior-decorative-products/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/services/aluminum-architectural-solutions/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/aluminum-architectural-solutions/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/services/architectural-glass-solutions/page_client-reference-manifest.js",
@@ -3840,24 +3515,9 @@
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/architectural-glass-solutions/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-arquitectonicas-aluminio/page_client-reference-manifest.js",
+          "path": ".open-next/server-functions/default/.next/server/app/services/aluminum-architectural-solutions/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-arquitectonicas-aluminio/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/productos-decorativos-interiores-exteriores/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/productos-decorativos-interiores-exteriores/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/estructuras-acero/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/estructuras-acero/page_client-reference-manifest.js"
+          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/aluminum-architectural-solutions/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/zendow/page_client-reference-manifest.js",
@@ -3875,9 +3535,9 @@
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/u-pvc-systems/slimslide/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-vidrio-arquitectonico/page_client-reference-manifest.js",
+          "path": ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/sliding-systems/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-vidrio-arquitectonico/page_client-reference-manifest.js"
+          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/u-pvc-systems/sliding-systems/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/pvc-sliding-door-system/page_client-reference-manifest.js",
@@ -3885,19 +3545,9 @@
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/u-pvc-systems/pvc-sliding-door-system/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-window-and-door-system/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-window-and-door-system/page_client-reference-manifest.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-surme-plus/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-surme-plus/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-sliding-plus/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-sliding-plus/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-art/page_client-reference-manifest.js",
@@ -3905,19 +3555,29 @@
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-art/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/sliding-systems/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/u-pvc-systems/sliding-systems/page_client-reference-manifest.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/hs76-sliding/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/u-pvc-systems/hs76-sliding/page_client-reference-manifest.js"
         },
         {
+          "path": ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-window-and-door-system/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-window-and-door-system/page_client-reference-manifest.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-sliding-plus/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-sliding-plus/page_client-reference-manifest.js"
+        },
+        {
           "path": ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/zendow/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/zendow/page_client-reference-manifest.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systemes-fenetres-portes/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systemes-fenetres-portes/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systemes-coulissants/page_client-reference-manifest.js",
@@ -3935,39 +3595,9 @@
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systeme-fenetres-portes-legend/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systemes-fenetres-portes/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systemes-fenetres-portes/page_client-reference-manifest.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/slimslide/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/slimslide/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/hs76-coulissant/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/hs76-coulissant/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/legend-art/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/legend-art/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/zendow/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/zendow/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/slimslide/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/slimslide/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-ventanas-puertas/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-ventanas-puertas/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/legend-coulissant-plus/page_client-reference-manifest.js",
@@ -3975,184 +3605,14 @@
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/legend-coulissant-plus/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-corredizos/page_client-reference-manifest.js",
+          "path": ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/legend-art/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-corredizos/page_client-reference-manifest.js"
+          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/legend-art/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-ventanas-puertas-legend/page_client-reference-manifest.js",
+          "path": ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/hs76-coulissant/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-ventanas-puertas-legend/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-corredizo-plus/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-corredizo-plus/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/hs76-corredizo/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/hs76-corredizo/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-art/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-art/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-puertas-corredizas-pvc/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-puertas-corredizas-pvc/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/structures-acier/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/structures-acier/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/steel-framings/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/steel-framings/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/solutions-verre-architectural/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/solutions-verre-architectural/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/solutions-architecturales-aluminium/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/solutions-architecturales-aluminium/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/produits-decoratifs-interieurs-exterieurs/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/produits-decoratifs-interieurs-exterieurs/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/interior-and-exterior-decorative-products/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/interior-and-exterior-decorative-products/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/architectural-glass-solutions/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/architectural-glass-solutions/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/aluminum-architectural-solutions/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/aluminum-architectural-solutions/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/zendow/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/zendow/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/window-door-systems/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/window-door-systems/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/sliding-systems/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/sliding-systems/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/pvc-sliding-door-system/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/pvc-sliding-door-system/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/slimslide/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/slimslide/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-window-and-door-system/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-window-and-door-system/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-art/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-art/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-sliding-plus/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-sliding-plus/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/hs76-sliding/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/hs76-sliding/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/zendow/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/zendow/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-fenetres-portes/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-fenetres-portes/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-portes-coulissantes-pvc/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-portes-coulissantes-pvc/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-fenetres-portes-legend/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-fenetres-portes-legend/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/slimslide/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/slimslide/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-surme-plus/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-surme-plus/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-coulissants/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-coulissants/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-art/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-art/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/hs76-coulissant/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/hs76-coulissant/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-coulissant-plus/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-coulissant-plus/page_client-reference-manifest.js"
+          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/hs76-coulissant/page_client-reference-manifest.js"
         }
       ],
       "format": "cjs"
@@ -4217,600 +3677,6 @@
           "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
           "kind": "require-call",
           "original": "../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/a-propos/page.js": {
-      "bytes": 1132,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/about/page.js": {
-      "bytes": 1130,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/contact/page.js": {
-      "bytes": 1132,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/contacto/page.js": {
-      "bytes": 1133,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/dealers/page.js": {
-      "bytes": 1132,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/distribuidores/page.js": {
-      "bytes": 1138,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/page.js": {
-      "bytes": 1121,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/revendeurs/page.js": {
-      "bytes": 1135,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/aluminum-architectural-solutions/page.js": {
-      "bytes": 1169,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/architectural-glass-solutions/page.js": {
-      "bytes": 1166,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/interior-and-exterior-decorative-products/page.js": {
-      "bytes": 1178,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/page.js": {
-      "bytes": 1131,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/produits-decoratifs-interieurs-exterieurs/page.js": {
-      "bytes": 1178,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/solutions-architecturales-aluminium/page.js": {
-      "bytes": 1172,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/solutions-verre-architectural/page.js": {
-      "bytes": 1166,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/steel-framings/page.js": {
-      "bytes": 1151,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/structures-acier/page.js": {
-      "bytes": 1153,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/hs76-coulissant/page.js": {
-      "bytes": 1170,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-art/page.js": {
-      "bytes": 1164,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-coulissant-plus/page.js": {
-      "bytes": 1177,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/page.js": {
-      "bytes": 1151,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/slimslide/page.js": {
-      "bytes": 1164,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-fenetres-portes-legend/page.js": {
-      "bytes": 1185,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-portes-coulissantes-pvc/page.js": {
-      "bytes": 1184,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-coulissants/page.js": {
-      "bytes": 1175,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-fenetres-portes/page.js": {
-      "bytes": 1179,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/zendow/page.js": {
-      "bytes": 1161,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/hs76-sliding/page.js": {
-      "bytes": 1166,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-art/page.js": {
-      "bytes": 1164,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-sliding-plus/page.js": {
-      "bytes": 1173,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-surme-plus/page.js": {
-      "bytes": 1171,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-window-and-door-system/page.js": {
-      "bytes": 1183,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/page.js": {
-      "bytes": 1150,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/pvc-sliding-door-system/page.js": {
-      "bytes": 1173,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/sliding-systems/page.js": {
-      "bytes": 1169,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/slimslide/page.js": {
-      "bytes": 1163,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/window-door-systems/page.js": {
-      "bytes": 1173,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/zendow/page.js": {
-      "bytes": 1160,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/estructuras-acero/page.js": {
-      "bytes": 1155,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/page.js": {
-      "bytes": 1132,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/productos-decorativos-interiores-exteriores/page.js": {
-      "bytes": 1181,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/hs76-corredizo/page.js": {
-      "bytes": 1170,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-art/page.js": {
-      "bytes": 1163,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-corredizo-plus/page.js": {
-      "bytes": 1177,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/page.js": {
-      "bytes": 1151,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-puertas-corredizas-pvc/page.js": {
-      "bytes": 1186,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-ventanas-puertas-legend/page.js": {
-      "bytes": 1187,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-corredizos/page.js": {
-      "bytes": 1174,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-ventanas-puertas/page.js": {
-      "bytes": 1181,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/slimslide/page.js": {
-      "bytes": 1165,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/zendow/page.js": {
-      "bytes": 1162,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-arquitectonicas-aluminio/page.js": {
-      "bytes": 1173,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-vidrio-arquitectonico/page.js": {
-      "bytes": 1170,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../../chunks/ssr/[turbopack]_runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/sobre-nosotros/page.js": {
-      "bytes": 1139,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js",
-          "kind": "require-call",
-          "original": "../../../chunks/ssr/[turbopack]_runtime.js"
         }
       ],
       "format": "cjs"
@@ -5254,7 +4120,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
-      "bytes": 39885,
+      "bytes": 24197,
       "imports": [
         {
           "path": "path",
@@ -5315,276 +4181,6 @@
           "path": ".open-next/server-functions/default/.next/server/pages/_error.js",
           "kind": "require-call",
           "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/pages/_error.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/a-propos/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/a-propos/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/about/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/about/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/contact/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/contact/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/contacto/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/contacto/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/dealers/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/dealers/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/distribuidores/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/distribuidores/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/revendeurs/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/revendeurs/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/aluminum-architectural-solutions/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/aluminum-architectural-solutions/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/architectural-glass-solutions/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/architectural-glass-solutions/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/interior-and-exterior-decorative-products/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/interior-and-exterior-decorative-products/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/produits-decoratifs-interieurs-exterieurs/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/produits-decoratifs-interieurs-exterieurs/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/solutions-architecturales-aluminium/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/solutions-architecturales-aluminium/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/solutions-verre-architectural/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/solutions-verre-architectural/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/steel-framings/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/steel-framings/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/structures-acier/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/structures-acier/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/hs76-coulissant/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/hs76-coulissant/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-art/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-art/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-coulissant-plus/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-coulissant-plus/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/slimslide/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/slimslide/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-fenetres-portes-legend/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-fenetres-portes-legend/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-portes-coulissantes-pvc/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-portes-coulissantes-pvc/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-coulissants/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-coulissants/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-fenetres-portes/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-fenetres-portes/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/zendow/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/zendow/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/hs76-sliding/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/hs76-sliding/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-art/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-art/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-sliding-plus/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-sliding-plus/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-surme-plus/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-surme-plus/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-window-and-door-system/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-window-and-door-system/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/pvc-sliding-door-system/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/pvc-sliding-door-system/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/sliding-systems/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/sliding-systems/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/slimslide/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/slimslide/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/window-door-systems/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/window-door-systems/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/zendow/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/zendow/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/estructuras-acero/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/estructuras-acero/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/productos-decorativos-interiores-exteriores/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/productos-decorativos-interiores-exteriores/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/hs76-corredizo/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/hs76-corredizo/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-art/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-art/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-corredizo-plus/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-corredizo-plus/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-puertas-corredizas-pvc/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-puertas-corredizas-pvc/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-ventanas-puertas-legend/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-ventanas-puertas-legend/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-corredizos/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-corredizos/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-ventanas-puertas/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-ventanas-puertas/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/slimslide/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/slimslide/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/zendow/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/zendow/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-arquitectonicas-aluminio/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-arquitectonicas-aluminio/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-vidrio-arquitectonico/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-vidrio-arquitectonico/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/sobre-nosotros/page.js",
-          "kind": "require-call",
-          "original": "/Users/prdio/Projects/asay-global/asay-global/.open-next/server-functions/default/.next/server/app/[locale]/sobre-nosotros/page.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/_not-found/page.js",
@@ -8270,7 +6866,7 @@
       "format": "esm"
     },
     ".open-next/server-functions/default/index.mjs": {
-      "bytes": 103483,
+      "bytes": 84045,
       "imports": [
         {
           "path": "node:module",
@@ -9507,277 +8103,115 @@
           "bytesInOutput": 586
         },
         ".open-next/server-functions/default/.next/server/app/page_client-reference-manifest.js": {
-          "bytesInOutput": 8657
+          "bytesInOutput": 8433
         },
         ".open-next/server-functions/default/.next/server/app/sitemap.xml/route_client-reference-manifest.js": {
           "bytesInOutput": 463
         },
-        ".open-next/server-functions/default/.next/server/app/dealers/page_client-reference-manifest.js": {
-          "bytesInOutput": 8502
-        },
-        ".open-next/server-functions/default/.next/server/app/contact/page_client-reference-manifest.js": {
-          "bytesInOutput": 8502
+        ".open-next/server-functions/default/.next/server/app/services/page_client-reference-manifest.js": {
+          "bytesInOutput": 8315
         },
         ".open-next/server-functions/default/.next/server/app/about/page_client-reference-manifest.js": {
-          "bytesInOutput": 8487
+          "bytesInOutput": 8261
         },
         ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
           "bytesInOutput": 6446
         },
-        ".open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js": {
-          "bytesInOutput": 14743
+        ".open-next/server-functions/default/.next/server/app/dealers/page_client-reference-manifest.js": {
+          "bytesInOutput": 8274
         },
-        ".open-next/server-functions/default/.next/server/app/services/page_client-reference-manifest.js": {
-          "bytesInOutput": 8522
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/sobre-nosotros/page_client-reference-manifest.js": {
-          "bytesInOutput": 12954
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/page_client-reference-manifest.js": {
-          "bytesInOutput": 12970
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/revendeurs/page_client-reference-manifest.js": {
-          "bytesInOutput": 12943
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/distribuidores/page_client-reference-manifest.js": {
-          "bytesInOutput": 12959
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/dealers/page_client-reference-manifest.js": {
-          "bytesInOutput": 12931
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/contacto/page_client-reference-manifest.js": {
-          "bytesInOutput": 12935
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/about/page_client-reference-manifest.js": {
-          "bytesInOutput": 12919
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/a-propos/page_client-reference-manifest.js": {
-          "bytesInOutput": 12931
+        ".open-next/server-functions/default/.next/server/app/contact/page_client-reference-manifest.js": {
+          "bytesInOutput": 8274
         },
         ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/page_client-reference-manifest.js": {
-          "bytesInOutput": 8660
+          "bytesInOutput": 8416
         },
         ".open-next/server-functions/default/.next/server/app/services/structures-acier/page_client-reference-manifest.js": {
-          "bytesInOutput": 8618
-        },
-        ".open-next/server-functions/default/.next/server/app/services/steel-framings/page_client-reference-manifest.js": {
-          "bytesInOutput": 8610
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/contact/page_client-reference-manifest.js": {
-          "bytesInOutput": 12931
-        },
-        ".open-next/server-functions/default/.next/server/app/services/solutions-verre-architectural/page_client-reference-manifest.js": {
-          "bytesInOutput": 8697
+          "bytesInOutput": 8413
         },
         ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/page_client-reference-manifest.js": {
-          "bytesInOutput": 8664
+          "bytesInOutput": 8420
         },
-        ".open-next/server-functions/default/.next/server/app/services/produits-decoratifs-interieurs-exterieurs/page_client-reference-manifest.js": {
-          "bytesInOutput": 8775
+        ".open-next/server-functions/default/.next/server/app/services/steel-framings/page_client-reference-manifest.js": {
+          "bytesInOutput": 8406
+        },
+        ".open-next/server-functions/default/.next/server/app/services/solutions-verre-architectural/page_client-reference-manifest.js": {
+          "bytesInOutput": 8493
         },
         ".open-next/server-functions/default/.next/server/app/services/solutions-architecturales-aluminium/page_client-reference-manifest.js": {
-          "bytesInOutput": 8730
+          "bytesInOutput": 8526
+        },
+        ".open-next/server-functions/default/.next/server/app/services/produits-decoratifs-interieurs-exterieurs/page_client-reference-manifest.js": {
+          "bytesInOutput": 8568
         },
         ".open-next/server-functions/default/.next/server/app/services/interior-and-exterior-decorative-products/page_client-reference-manifest.js": {
-          "bytesInOutput": 8775
-        },
-        ".open-next/server-functions/default/.next/server/app/services/aluminum-architectural-solutions/page_client-reference-manifest.js": {
-          "bytesInOutput": 8718
+          "bytesInOutput": 8568
         },
         ".open-next/server-functions/default/.next/server/app/services/architectural-glass-solutions/page_client-reference-manifest.js": {
-          "bytesInOutput": 8697
+          "bytesInOutput": 8493
         },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-arquitectonicas-aluminio/page_client-reference-manifest.js": {
-          "bytesInOutput": 13165
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/page_client-reference-manifest.js": {
-          "bytesInOutput": 13063
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/productos-decorativos-interiores-exteriores/page_client-reference-manifest.js": {
-          "bytesInOutput": 13218
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/estructuras-acero/page_client-reference-manifest.js": {
-          "bytesInOutput": 13057
+        ".open-next/server-functions/default/.next/server/app/services/aluminum-architectural-solutions/page_client-reference-manifest.js": {
+          "bytesInOutput": 8514
         },
         ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/zendow/page_client-reference-manifest.js": {
-          "bytesInOutput": 8663
+          "bytesInOutput": 8459
         },
         ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/window-door-systems/page_client-reference-manifest.js": {
-          "bytesInOutput": 8795
+          "bytesInOutput": 8532
         },
         ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/slimslide/page_client-reference-manifest.js": {
-          "bytesInOutput": 8678
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-vidrio-arquitectonico/page_client-reference-manifest.js": {
-          "bytesInOutput": 13144
-        },
-        ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/pvc-sliding-door-system/page_client-reference-manifest.js": {
-          "bytesInOutput": 8776
-        },
-        ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-window-and-door-system/page_client-reference-manifest.js": {
-          "bytesInOutput": 8800
-        },
-        ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-surme-plus/page_client-reference-manifest.js": {
-          "bytesInOutput": 8734
-        },
-        ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-sliding-plus/page_client-reference-manifest.js": {
-          "bytesInOutput": 8748
-        },
-        ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-art/page_client-reference-manifest.js": {
-          "bytesInOutput": 8687
+          "bytesInOutput": 8425
         },
         ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/sliding-systems/page_client-reference-manifest.js": {
-          "bytesInOutput": 8771
+          "bytesInOutput": 8512
+        },
+        ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/pvc-sliding-door-system/page_client-reference-manifest.js": {
+          "bytesInOutput": 8509
+        },
+        ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-surme-plus/page_client-reference-manifest.js": {
+          "bytesInOutput": 8473
+        },
+        ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-art/page_client-reference-manifest.js": {
+          "bytesInOutput": 8483
         },
         ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/hs76-sliding/page_client-reference-manifest.js": {
-          "bytesInOutput": 8699
+          "bytesInOutput": 8443
+        },
+        ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-window-and-door-system/page_client-reference-manifest.js": {
+          "bytesInOutput": 8596
+        },
+        ".open-next/server-functions/default/.next/server/app/services/u-pvc-systems/legend-sliding-plus/page_client-reference-manifest.js": {
+          "bytesInOutput": 8485
         },
         ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/zendow/page_client-reference-manifest.js": {
-          "bytesInOutput": 8667
-        },
-        ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systemes-coulissants/page_client-reference-manifest.js": {
-          "bytesInOutput": 8795
-        },
-        ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systeme-portes-coulissantes-pvc/page_client-reference-manifest.js": {
-          "bytesInOutput": 8812
-        },
-        ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systeme-fenetres-portes-legend/page_client-reference-manifest.js": {
-          "bytesInOutput": 8808
+          "bytesInOutput": 8463
         },
         ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systemes-fenetres-portes/page_client-reference-manifest.js": {
-          "bytesInOutput": 8819
+          "bytesInOutput": 8556
+        },
+        ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systemes-coulissants/page_client-reference-manifest.js": {
+          "bytesInOutput": 8536
+        },
+        ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systeme-portes-coulissantes-pvc/page_client-reference-manifest.js": {
+          "bytesInOutput": 8545
+        },
+        ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/systeme-fenetres-portes-legend/page_client-reference-manifest.js": {
+          "bytesInOutput": 8604
         },
         ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/slimslide/page_client-reference-manifest.js": {
-          "bytesInOutput": 8682
-        },
-        ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/hs76-coulissant/page_client-reference-manifest.js": {
-          "bytesInOutput": 8715
-        },
-        ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/legend-art/page_client-reference-manifest.js": {
-          "bytesInOutput": 8691
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/zendow/page_client-reference-manifest.js": {
-          "bytesInOutput": 13102
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/slimslide/page_client-reference-manifest.js": {
-          "bytesInOutput": 13071
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-ventanas-puertas/page_client-reference-manifest.js": {
-          "bytesInOutput": 13202
+          "bytesInOutput": 8429
         },
         ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/legend-coulissant-plus/page_client-reference-manifest.js": {
-          "bytesInOutput": 8764
+          "bytesInOutput": 8501
         },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-corredizos/page_client-reference-manifest.js": {
-          "bytesInOutput": 13174
+        ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/legend-art/page_client-reference-manifest.js": {
+          "bytesInOutput": 8487
         },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-ventanas-puertas-legend/page_client-reference-manifest.js": {
-          "bytesInOutput": 13247
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-corredizo-plus/page_client-reference-manifest.js": {
-          "bytesInOutput": 13139
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/hs76-corredizo/page_client-reference-manifest.js": {
-          "bytesInOutput": 13097
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-art/page_client-reference-manifest.js": {
-          "bytesInOutput": 13126
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-puertas-corredizas-pvc/page_client-reference-manifest.js": {
-          "bytesInOutput": 13183
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/page_client-reference-manifest.js": {
-          "bytesInOutput": 12967
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/structures-acier/page_client-reference-manifest.js": {
-          "bytesInOutput": 13067
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/page_client-reference-manifest.js": {
-          "bytesInOutput": 13073
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/steel-framings/page_client-reference-manifest.js": {
-          "bytesInOutput": 13059
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/solutions-verre-architectural/page_client-reference-manifest.js": {
-          "bytesInOutput": 13128
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/solutions-architecturales-aluminium/page_client-reference-manifest.js": {
-          "bytesInOutput": 13161
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/produits-decoratifs-interieurs-exterieurs/page_client-reference-manifest.js": {
-          "bytesInOutput": 13224
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/page_client-reference-manifest.js": {
-          "bytesInOutput": 13059
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/interior-and-exterior-decorative-products/page_client-reference-manifest.js": {
-          "bytesInOutput": 13224
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/architectural-glass-solutions/page_client-reference-manifest.js": {
-          "bytesInOutput": 13149
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/aluminum-architectural-solutions/page_client-reference-manifest.js": {
-          "bytesInOutput": 13165
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/zendow/page_client-reference-manifest.js": {
-          "bytesInOutput": 13110
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/window-door-systems/page_client-reference-manifest.js": {
-          "bytesInOutput": 13193
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/sliding-systems/page_client-reference-manifest.js": {
-          "bytesInOutput": 13169
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/pvc-sliding-door-system/page_client-reference-manifest.js": {
-          "bytesInOutput": 13165
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/slimslide/page_client-reference-manifest.js": {
-          "bytesInOutput": 13081
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-window-and-door-system/page_client-reference-manifest.js": {
-          "bytesInOutput": 13249
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-art/page_client-reference-manifest.js": {
-          "bytesInOutput": 13136
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-sliding-plus/page_client-reference-manifest.js": {
-          "bytesInOutput": 13141
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/hs76-sliding/page_client-reference-manifest.js": {
-          "bytesInOutput": 13095
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/zendow/page_client-reference-manifest.js": {
-          "bytesInOutput": 13098
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-fenetres-portes/page_client-reference-manifest.js": {
-          "bytesInOutput": 13194
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-portes-coulissantes-pvc/page_client-reference-manifest.js": {
-          "bytesInOutput": 13183
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-fenetres-portes-legend/page_client-reference-manifest.js": {
-          "bytesInOutput": 13239
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/slimslide/page_client-reference-manifest.js": {
-          "bytesInOutput": 13067
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-surme-plus/page_client-reference-manifest.js": {
-          "bytesInOutput": 13129
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-coulissants/page_client-reference-manifest.js": {
-          "bytesInOutput": 13174
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-art/page_client-reference-manifest.js": {
-          "bytesInOutput": 13122
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/hs76-coulissant/page_client-reference-manifest.js": {
-          "bytesInOutput": 13097
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-coulissant-plus/page_client-reference-manifest.js": {
-          "bytesInOutput": 13139
+        ".open-next/server-functions/default/.next/server/app/services/systemes-u-pvc/hs76-coulissant/page_client-reference-manifest.js": {
+          "bytesInOutput": 8459
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.external.js": {
-          "bytesInOutput": 247400
+          "bytesInOutput": 70398
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/[turbopack]_runtime.js": {
           "bytesInOutput": 14549
@@ -9791,182 +8225,20 @@
         ".open-next/server-functions/default/.next/server/pages/_error.js": {
           "bytesInOutput": 563
         },
-        ".open-next/server-functions/default/.next/server/app/[locale]/a-propos/page.js": {
-          "bytesInOutput": 1248
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/about/page.js": {
-          "bytesInOutput": 1244
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/contact/page.js": {
-          "bytesInOutput": 1248
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/contacto/page.js": {
-          "bytesInOutput": 1250
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/dealers/page.js": {
-          "bytesInOutput": 1248
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/distribuidores/page.js": {
-          "bytesInOutput": 1261
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/page.js": {
-          "bytesInOutput": 1232
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/revendeurs/page.js": {
-          "bytesInOutput": 1254
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/aluminum-architectural-solutions/page.js": {
-          "bytesInOutput": 1316
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/architectural-glass-solutions/page.js": {
-          "bytesInOutput": 1311
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/interior-and-exterior-decorative-products/page.js": {
-          "bytesInOutput": 1335
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/page.js": {
-          "bytesInOutput": 1249
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/produits-decoratifs-interieurs-exterieurs/page.js": {
-          "bytesInOutput": 1335
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/solutions-architecturales-aluminium/page.js": {
-          "bytesInOutput": 1323
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/solutions-verre-architectural/page.js": {
-          "bytesInOutput": 1311
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/steel-framings/page.js": {
-          "bytesInOutput": 1281
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/structures-acier/page.js": {
-          "bytesInOutput": 1285
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/hs76-coulissant/page.js": {
-          "bytesInOutput": 1313
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-art/page.js": {
-          "bytesInOutput": 1302
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/legend-coulissant-plus/page.js": {
-          "bytesInOutput": 1327
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/page.js": {
-          "bytesInOutput": 1281
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/slimslide/page.js": {
-          "bytesInOutput": 1301
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-fenetres-portes-legend/page.js": {
-          "bytesInOutput": 1343
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systeme-portes-coulissantes-pvc/page.js": {
-          "bytesInOutput": 1343
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-coulissants/page.js": {
-          "bytesInOutput": 1323
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/systemes-fenetres-portes/page.js": {
-          "bytesInOutput": 1331
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/systemes-u-pvc/zendow/page.js": {
-          "bytesInOutput": 1295
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/hs76-sliding/page.js": {
-          "bytesInOutput": 1305
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-art/page.js": {
-          "bytesInOutput": 1301
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-sliding-plus/page.js": {
-          "bytesInOutput": 1319
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-surme-plus/page.js": {
-          "bytesInOutput": 1315
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/legend-window-and-door-system/page.js": {
-          "bytesInOutput": 1339
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/page.js": {
-          "bytesInOutput": 1279
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/pvc-sliding-door-system/page.js": {
-          "bytesInOutput": 1323
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/sliding-systems/page.js": {
-          "bytesInOutput": 1311
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/slimslide/page.js": {
-          "bytesInOutput": 1299
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/window-door-systems/page.js": {
-          "bytesInOutput": 1319
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/services/u-pvc-systems/zendow/page.js": {
-          "bytesInOutput": 1293
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/estructuras-acero/page.js": {
-          "bytesInOutput": 1289
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/page.js": {
-          "bytesInOutput": 1251
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/productos-decorativos-interiores-exteriores/page.js": {
-          "bytesInOutput": 1341
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/hs76-corredizo/page.js": {
-          "bytesInOutput": 1313
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-art/page.js": {
-          "bytesInOutput": 1302
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/legend-corredizo-plus/page.js": {
-          "bytesInOutput": 1327
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/page.js": {
-          "bytesInOutput": 1282
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-puertas-corredizas-pvc/page.js": {
-          "bytesInOutput": 1345
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistema-ventanas-puertas-legend/page.js": {
-          "bytesInOutput": 1347
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-corredizos/page.js": {
-          "bytesInOutput": 1322
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/sistemas-ventanas-puertas/page.js": {
-          "bytesInOutput": 1335
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/slimslide/page.js": {
-          "bytesInOutput": 1303
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/sistemas-u-pvc/zendow/page.js": {
-          "bytesInOutput": 1297
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-arquitectonicas-aluminio/page.js": {
-          "bytesInOutput": 1325
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/servicios/soluciones-vidrio-arquitectonico/page.js": {
-          "bytesInOutput": 1319
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/sobre-nosotros/page.js": {
-          "bytesInOutput": 1263
-        },
         ".open-next/server-functions/default/.next/server/app/_not-found/page.js": {
-          "bytesInOutput": 841
+          "bytesInOutput": 839
         },
         ".open-next/server-functions/default/.next/server/app/about/page.js": {
-          "bytesInOutput": 1002
+          "bytesInOutput": 1001
         },
         ".open-next/server-functions/default/.next/server/app/contact/page.js": {
-          "bytesInOutput": 1011
+          "bytesInOutput": 1010
         },
         ".open-next/server-functions/default/.next/server/app/dealers/page.js": {
-          "bytesInOutput": 1011
+          "bytesInOutput": 1010
         },
         ".open-next/server-functions/default/.next/server/app/page.js": {
-          "bytesInOutput": 995
+          "bytesInOutput": 994
         },
         ".open-next/server-functions/default/.next/server/chunks/[turbopack]_runtime.js": {
           "bytesInOutput": 14536
@@ -9975,16 +8247,16 @@
           "bytesInOutput": 376
         },
         ".open-next/server-functions/default/.next/server/app/services/aluminum-architectural-solutions/page.js": {
-          "bytesInOutput": 1077
+          "bytesInOutput": 1076
         },
         ".open-next/server-functions/default/.next/server/app/services/architectural-glass-solutions/page.js": {
-          "bytesInOutput": 1073
+          "bytesInOutput": 1072
         },
         ".open-next/server-functions/default/.next/server/app/services/interior-and-exterior-decorative-products/page.js": {
-          "bytesInOutput": 1097
+          "bytesInOutput": 1096
         },
         ".open-next/server-functions/default/.next/server/app/services/page.js": {
-          "bytesInOutput": 1013
+          "bytesInOutput": 1012
         },
         ".open-next/server-functions/default/.next/server/app/services/produits-decoratifs-interieurs-exterieurs/page.js": {
           "bytesInOutput": 1097
@@ -10068,7 +8340,7 @@
           "bytesInOutput": 379
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
-          "bytesInOutput": 22821
+          "bytesInOutput": 16165
         },
         ".open-next/server-functions/default/node_modules/next/dist/lib/interop-default.js": {
           "bytesInOutput": 363
@@ -10431,10 +8703,10 @@
           "bytesInOutput": 612
         },
         ".open-next/server-functions/default/index.mjs": {
-          "bytesInOutput": 78512
+          "bytesInOutput": 60423
         }
       },
-      "bytes": 3792997
+      "bytes": 2803878
     }
   }
 }
