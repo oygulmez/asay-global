@@ -172,9 +172,10 @@ export function HeroSectionOne() {
                                             dangerouslySetInnerHTML={{ __html: (locale === 'fr' ? (frMessages as any).hero.title : locale === 'es' ? (esMessages as any).hero.title : (enMessages as any).hero.title) }}
                                     />
                                     <p
-                                        className="mx-auto mt-8 max-w-4xl text-balance text-base" style={{ color: '#565656' }}>
-                                        {(locale === 'fr' ? (frMessages as any).homepage.main_description : locale === 'es' ? (esMessages as any).homepage.main_description : (enMessages as any).homepage.main_description)}
-                                    </p>
+                                        className="mx-auto mt-8 max-w-4xl text-balance text-base" 
+                                        style={{ color: '#565656' }}
+                                        dangerouslySetInnerHTML={{ __html: (locale === 'fr' ? (frMessages as any).homepage.main_description : locale === 'es' ? (esMessages as any).homepage.main_description : (enMessages as any).homepage.main_description) }}
+                                    />
                                 </AnimatedGroup>
 
                                 {/* Video Section */}
