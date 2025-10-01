@@ -27,14 +27,14 @@ import {
 } from "@/components/ui/sheet";
 import { Separator } from "@/components/ui/separator";
 
-type Locale = 'en' | 'fr' | 'es' | undefined;
+type Locale = 'en' | undefined;
 
 export function Navbar({ locale }: { locale?: Locale } = {}) {
   const [isHydrated, setIsHydrated] = useState(false);
   const pathname = usePathname();
   const menuId = useId();
-  const current = (locale === 'fr' || locale === 'es' || locale === 'en') ? locale : 'en';
-  const dict = current === 'fr' ? (require('@/messages/fr.json')) : current === 'es' ? (require('@/messages/es.json')) : (require('@/messages/en.json'));
+  const current = (locale === 'en') ? locale : 'en';
+  const dict = require('@/messages/en.json');
   const t = (key: string) => key.split('.').reduce((o: any, k: string) => o?.[k], dict);
 
   useEffect(() => {
@@ -42,7 +42,7 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
   }, []);
 
   // Use default values during SSR/hydration to prevent mismatch
-  const displayLocale = isHydrated ? current : 'en';
+  const displayLocale = 'en';
   
   // Helper function to create locale-aware URLs with localized slugs
   const createUrl = (path: string) => {
@@ -50,7 +50,7 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
   };
 
   // Helper function to create language-specific URLs for current page
-  const createLanguageUrl = (targetLocale: 'en' | 'fr' | 'es') => {
+  const createLanguageUrl = (targetLocale: 'en') => {
     if (typeof window === 'undefined') return '/';
     
     const fullPath = pathname;
@@ -59,8 +59,8 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
     const segments = fullPath.split('/').filter(Boolean);
     
     // If we're on a localized route, extract the locale and path
-    if (segments[0] === 'fr' || segments[0] === 'es') {
-      const sourceLocale = segments[0] as 'fr' | 'es';
+    if (false) {
+      const sourceLocale = 'en';
       const pathSegments = segments.slice(1);
       
       // Convert localized segments back to English keys
@@ -75,11 +75,7 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
       });
       
       // Build the final URL
-      if (targetLocale === 'en') {
-        return '/' + targetSegments.join('/');
-      } else {
-        return `/${targetLocale}/${targetSegments.join('/')}`;
-      }
+      return '/' + targetSegments.join('/');
     } else {
       // We're on English route, need to convert English slugs to keys first, then to target locale
       const englishSegments = segments;
@@ -91,11 +87,7 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
       });
       
       // Build the final URL
-      if (targetLocale === 'en') {
-        return '/' + targetSegments.join('/');
-      } else {
-        return `/${targetLocale}/${targetSegments.join('/')}`;
-      }
+      return '/' + targetSegments.join('/');
     }
   };
   return (
@@ -155,27 +147,7 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
             </NavigationMenuList>
           </NavigationMenu>
 
-          {/* Language selector as dropdown with flags */}
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="outline" size="sm" aria-label="Select language" className="inline-flex items-center gap-2">
-                <img src={displayLocale === 'fr' ? '/flags/fr.svg' : displayLocale === 'es' ? '/flags/es.svg' : '/flags/gb.svg'} alt={displayLocale === 'fr' ? 'Français' : displayLocale === 'es' ? 'Español' : 'English'} width="18" height="12" className="rounded-none border" />
-                <span className="text-xs font-medium tracking-wide">{displayLocale === 'fr' ? 'FR' : displayLocale === 'es' ? 'ES' : 'EN'}</span>
-                <ChevronDown className="size-3.5 opacity-70" aria-hidden />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-              <DropdownMenuItem asChild>
-                <Link href={createLanguageUrl('en')}><img src="/flags/gb.svg" alt="English" width="16" height="11" className="me-2 inline rounded-none border"/>English</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href={createLanguageUrl('fr')}><img src="/flags/fr.svg" alt="Français" width="16" height="11" className="me-2 inline rounded-none border"/>Français</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href={createLanguageUrl('es')}><img src="/flags/es.svg" alt="Español" width="16" height="11" className="me-2 inline rounded-none border"/>Español</Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
+          {/* Language selector removed: only EN supported */}
 
           <Button asChild size="sm" className="bg-[#333333] text-white hover:bg-[#998675]">
             <Link href={createUrl("/dealers")}>{t('nav.dealers')}</Link>
@@ -184,35 +156,7 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
 
         {/* Mobile Menu */}
         <div className="md:hidden ms-auto flex items-center gap-2">
-          {/* Mobile Language Selector */}
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="ghost" size="sm" className="flex items-center gap-1 px-2 py-1">
-                <img src={displayLocale === 'fr' ? '/flags/fr.svg' : displayLocale === 'es' ? '/flags/es.svg' : '/flags/gb.svg'} alt={displayLocale === 'fr' ? 'Français' : displayLocale === 'es' ? 'Español' : 'English'} width="18" height="12" className="rounded-none border" />
-                <ChevronDown className="h-4 w-4" />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end" className="w-32">
-              <DropdownMenuItem asChild>
-                <Link href={createLanguageUrl('en')} className="flex items-center gap-2">
-                  <img src="/flags/gb.svg" alt="English" width="18" height="12" className="rounded-none border" />
-                  English
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href={createLanguageUrl('fr')} className="flex items-center gap-2">
-                  <img src="/flags/fr.svg" alt="Français" width="18" height="12" className="rounded-none border" />
-                  Français
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href={createLanguageUrl('es')} className="flex items-center gap-2">
-                  <img src="/flags/es.svg" alt="Español" width="18" height="12" className="rounded-none border" />
-                  Español
-                </Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
+          {/* Mobile language selector removed */}
           
           <Sheet>
             <SheetTrigger asChild>

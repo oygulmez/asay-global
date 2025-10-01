@@ -7,28 +7,20 @@ import { Footer } from '@/components/footer';
 import { StickyContactButtons } from '@/components/sticky-contact-buttons';
 import { useEffect, useState } from 'react';
 import enMessages from '@/messages/en.json';
-import frMessages from '@/messages/fr.json';
-import esMessages from '@/messages/es.json';
 
 export default function AboutPage() {
-  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+  const [locale, setLocale] = useState<'en'>('en');
   const [isRootPage, setIsRootPage] = useState(false);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const path = window.location.pathname;
-      if (path.startsWith('/fr/')) {
-        setLocale('fr');
-      } else if (path.startsWith('/es/')) {
-        setLocale('es');
-      } else {
-        setLocale('en');
-      }
-      setIsRootPage(!path.includes('/fr/') && !path.includes('/es/'));
+      setLocale('en');
+      setIsRootPage(true);
     }
   }, []);
 
-  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
+  const messages = enMessages;
 
   const content = (
     <>

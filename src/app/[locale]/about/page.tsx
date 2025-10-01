@@ -4,26 +4,18 @@ import { PageHeader } from "@/components/page-header";
 import CallToAction from "@/components/call-to-action";
 import { useEffect, useState } from 'react';
 import enMessages from '@/messages/en.json';
-import frMessages from '@/messages/fr.json';
-import esMessages from '@/messages/es.json';
 
 export default function AboutPage() {
-  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+  const [locale, setLocale] = useState<'en'>('en');
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const path = window.location.pathname;
-      if (path.startsWith('/fr/')) {
-        setLocale('fr');
-      } else if (path.startsWith('/es/')) {
-        setLocale('es');
-      } else {
-        setLocale('en');
-      }
+      setLocale('en');
     }
   }, []);
 
-  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
+  const messages = enMessages;
 
   return (
     <>
