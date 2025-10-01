@@ -1,5 +1,6 @@
 "use client"
 
+import Image from 'next/image';
 import { PageHeader } from "@/components/page-header";
 import CallToAction from "@/components/call-to-action";
 import { ApplicationAreasGallery } from "@/components/image-gallery";
@@ -128,7 +129,17 @@ export default function InteriorExteriorDecorativeProductsPage() {
               {/* Interior Cladding - Elegant */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-interior-cladding.jpg" alt="Interior Cladding" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <div className="relative aspect-[3/4] w-full border border-gray-200">
+                    <Image 
+                      src="/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-interior-cladding.jpg" 
+                      alt="Interior Cladding" 
+                      fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      className="object-cover"
+                      loading="lazy"
+                      quality={85}
+                    />
+                  </div>
                   <div>
                     <BadgeLike label={t.solutions.interior_cladding.title} />
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.solutions.interior_cladding.title}</h3>

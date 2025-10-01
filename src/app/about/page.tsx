@@ -61,6 +61,8 @@ export default function AboutPage() {
                 loop
                 muted
                 playsInline
+                preload="none"
+                loading="lazy"
               />
             </div>
           </div>

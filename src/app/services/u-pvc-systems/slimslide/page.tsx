@@ -61,7 +61,7 @@ export default function SlimslidePage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           <div className="relative overflow-hidden rounded-2xl border p-2 bg-white ring-1 ring-gray-200">
             <div className="relative overflow-hidden rounded-xl">
-              <video className="w-full h-auto aspect-video object-center" src="/video/slimslide-sliding-system.mp4" autoPlay loop muted playsInline />
+              <video className="w-full h-auto aspect-video object-center" src="/video/slimslide-sliding-system.mp4" autoPlay loop muted playsInline preload="none" loading="lazy" />
             </div>
           </div>
 

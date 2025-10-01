@@ -66,6 +66,8 @@ export default function ZendowProductPage() {
                 loop
                 muted
                 playsInline
+                preload="none"
+                loading="lazy"
               />
             </div>
           </div>

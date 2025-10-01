@@ -66,6 +66,8 @@ export default function LegendArtProductPage() {
                 loop
                 muted
                 playsInline
+                preload="none"
+                loading="lazy"
               />
             </div>
           </div>
