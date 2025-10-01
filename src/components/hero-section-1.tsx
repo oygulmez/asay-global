@@ -168,9 +168,9 @@ export function HeroSectionOne() {
                         
                                     <h1
                                             className="mt-4 max-w-4xl mx-auto text-balance text-4xl font-bold" 
-                                            style={{ color: 'black' }}
-                                            dangerouslySetInnerHTML={{ __html: (locale === 'fr' ? (frMessages as any).hero.title : locale === 'es' ? (esMessages as any).hero.title : (enMessages as any).hero.title) }}
-                                    />
+                                            style={{ color: 'black' }}>
+                                            {(locale === 'fr' ? (frMessages as any).hero.title : locale === 'es' ? (esMessages as any).hero.title : (enMessages as any).hero.title)}
+                                    </h1>
                                     <p
                                         className="mx-auto mt-8 max-w-4xl text-balance text-base" 
                                         style={{ color: '#565656' }}

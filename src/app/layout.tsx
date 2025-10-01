@@ -11,6 +11,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Asay Global - Structural Solutions',
   description: 'B2B partner for structural solutions: u‑PVC, aluminum, glass and steel systems',
+  verification: {
+    google: 'FTitQ0CgHd3gbzLKv3kboB4CI6TYVpEc3HHRvg6ObTQ',
+  },
 }
 
 export default function RootLayout({
