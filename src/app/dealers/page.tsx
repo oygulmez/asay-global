@@ -80,7 +80,7 @@ export default function DealersPage() {
     };
 
     try {
-      const response = await fetch("https://formspree.io/f/xpwnqkqr", {
+      const response = await fetch("https://formspree.io/f/movkdgoa", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
