@@ -2,8 +2,11 @@
 module.exports = {
   siteUrl: process.env.SITE_URL || 'https://www.asayglobal.com',
   generateRobotsTxt: true,
-  sitemapSize: 7000,
-  exclude: ['/server-sitemap.xml'],
+  generateIndexSitemap: false, // Single sitemap.xml for easier indexing
+  sitemapSize: 5000,
+  changefreq: 'weekly',
+  priority: 0.7,
+  exclude: ['/server-sitemap.xml', '/api/*'],
   robotsTxtOptions: {
     policies: [
       { userAgent: '*', allow: '/' },
@@ -21,6 +24,23 @@ module.exports = {
     additionalSitemaps: [
       `${process.env.SITE_URL || 'https://www.asayglobal.com'}/sitemap.xml`,
     ],
+  },
+  transform: async (config, path) => {
+    // Custom priority for important pages
+    const priorities = {
+      '/': 1.0,
+      '/about': 0.9,
+      '/services': 0.9,
+      '/contact': 0.8,
+      '/dealers': 0.8,
+    };
+
+    return {
+      loc: path,
+      changefreq: config.changefreq,
+      priority: priorities[path] || config.priority,
+      lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
+    };
   },
 };
 
