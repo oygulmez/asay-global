@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "postbuild": "next-sitemap",
+    "generate:sitemap": "next-sitemap",
     "build:cloudflare": "SKIP_WRANGLER_CONFIG_CHECK=yes npx @opennextjs/cloudflare@latest build && cp .open-next/worker.js .open-next/_worker.js && rm -rf .vercel/output/static && mkdir -p .vercel/output && cp -r .open-next .vercel/output/static && node -e \"require('fs').writeFileSync('.open-next/_routes.json', JSON.stringify({version:1, include:['/*'], exclude:['/_next/*','/_assets/*','/assets/*','/images/*','/video/*','/*.png','/*.jpg','/*.jpeg','/*.webp','/*.avif','/*.svg','/*.css','/*.js','/favicon.ico','/robots.txt','/sitemap*.xml']}, null, 2))\""
   },
   "dependencies": {
