@@ -1,5 +1,40 @@
-# *
+# General Crawlers
 User-agent: *
+Allow: /
+
+# AI/LLM Crawlers - Explicitly Allowed
+# OpenAI GPT (ChatGPT)
+User-agent: GPTBot
+Allow: /
+
+# Google Gemini/Bard
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic Claude
+User-agent: anthropic-ai
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+
+# Common Crawl (Used by many AI systems)
+User-agent: CCBot
+Allow: /
+
+# Meta AI (Facebook/Instagram AI)
+User-agent: FacebookBot
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Bing AI
+User-agent: Bingbot
 Allow: /
 
 # Host
