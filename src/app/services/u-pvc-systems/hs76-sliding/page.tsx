@@ -57,7 +57,7 @@ export default function HS76SlidingPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           <div className="relative overflow-hidden rounded-2xl border p-2 bg-white ring-1 ring-gray-200">
             <div className="relative overflow-hidden rounded-xl">
-              <video className="w-full h-auto aspect-video object-center" src="/video/hs76-sliding-system.mp4" autoPlay loop muted playsInline preload="none" loading="lazy" />
+              <video className="w-full h-auto aspect-video object-center" src="/video/hs76-sliding-system.mp4" autoPlay loop muted playsInline preload="none" />
             </div>
           </div>
 

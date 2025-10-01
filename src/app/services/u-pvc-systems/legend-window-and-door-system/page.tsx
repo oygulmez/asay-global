@@ -67,7 +67,6 @@ export default function UPVCWindowDoorSystemsPage() {
                 muted
                 playsInline
                 preload="none"
-                loading="lazy"
               />
             </div>
           </div>
