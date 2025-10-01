@@ -13,6 +13,8 @@ import esMessages from '@/messages/es.json';
 
 export default function ContactPage() {
   const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [errorMessage, setErrorMessage] = useState("");
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -26,6 +28,47 @@ export default function ContactPage() {
       }
     }
   }, []);
+
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setStatus("sending");
+    setErrorMessage("");
+
+    const formData = new FormData(e.currentTarget);
+    const data = {
+      name: formData.get("name") as string,
+      email: formData.get("email") as string,
+      subject: formData.get("subject") as string,
+      message: formData.get("message") as string,
+    };
+
+    try {
+      const response = await fetch("https://formspree.io/f/xpwnqkqr", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: data.name,
+          email: data.email,
+          subject: `Contact Form: ${data.subject}`,
+          message: data.message,
+        }),
+      });
+
+      if (response.ok) {
+        setStatus("sent");
+        (e.target as HTMLFormElement).reset();
+        setTimeout(() => setStatus("idle"), 5000);
+      } else {
+        setStatus("error");
+        setErrorMessage("Failed to send message. Please try again.");
+      }
+    } catch (error) {
+      setStatus("error");
+      setErrorMessage("Network error. Please check your connection.");
+    }
+  };
 
   const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
 
@@ -76,27 +119,40 @@ export default function ContactPage() {
           {/* Contact Form */}
           <div className="rounded-lg border p-6 bg-white">
             <h2 className="text-xl font-semibold mb-6" style={{ color: 'black' }}>{(messages as any).dealers.form.title}</h2>
-            <form className="space-y-4">
+            
+            {status === "sent" && (
+              <div className="mb-4 p-4 bg-green-50 border border-green-200 rounded-md">
+                <p className="text-green-800 text-sm">✓ Message sent successfully! We'll get back to you soon.</p>
+              </div>
+            )}
+            
+            {status === "error" && (
+              <div className="mb-4 p-4 bg-red-50 border border-red-200 rounded-md">
+                <p className="text-red-800 text-sm">✗ {errorMessage}</p>
+              </div>
+            )}
+            
+            <form onSubmit={onSubmit} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-1">
-                  <label className="text-sm font-medium" htmlFor="name" style={{ color: 'black' }}>{(messages as any).dealers.form.first_name}</label>
-                  <input id="name" name="name" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
+                  <label className="text-sm font-medium" htmlFor="name" style={{ color: 'black' }}>{(messages as any).dealers.form.first_name} *</label>
+                  <input id="name" name="name" required className="w-full border px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-[#333333]" />
                 </div>
                 <div className="space-y-1">
-                  <label className="text-sm font-medium" htmlFor="email" style={{ color: 'black' }}>{(messages as any).dealers.form.email}</label>
-                  <input id="email" name="email" type="email" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
+                  <label className="text-sm font-medium" htmlFor="email" style={{ color: 'black' }}>{(messages as any).dealers.form.email} *</label>
+                  <input id="email" name="email" type="email" required className="w-full border px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-[#333333]" />
                 </div>
               </div>
               <div className="space-y-1">
-                <label className="text-sm font-medium" htmlFor="subject" style={{ color: 'black' }}>{(messages as any).dealers.form.subject}</label>
-                <input id="subject" name="subject" className="w-full border px-3 py-2 rounded-md focus:outline-none" />
+                <label className="text-sm font-medium" htmlFor="subject" style={{ color: 'black' }}>{(messages as any).dealers.form.subject} *</label>
+                <input id="subject" name="subject" required className="w-full border px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-[#333333]" />
               </div>
               <div className="space-y-1">
-                <label className="text-sm font-medium" htmlFor="message" style={{ color: 'black' }}>{(messages as any).dealers.form.message}</label>
-                <textarea id="message" name="message" rows={6} className="w-full border px-3 py-2 rounded-md focus:outline-none" />
+                <label className="text-sm font-medium" htmlFor="message" style={{ color: 'black' }}>{(messages as any).dealers.form.message} *</label>
+                <textarea id="message" name="message" rows={6} required className="w-full border px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-[#333333]" />
               </div>
-              <button type="submit" className="px-4 py-2 bg-[#333333] text-white rounded-md">
-                {(messages as any).dealers.form.send}
+              <button type="submit" disabled={status === "sending"} className="px-4 py-2 bg-[#333333] text-white rounded-md hover:bg-[#555555] disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors">
+                {status === "sending" ? "Sending..." : (messages as any).dealers.form.send}
               </button>
             </form>
           </div>
