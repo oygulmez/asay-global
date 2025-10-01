@@ -7,9 +7,9 @@
   },
   "hero": {
     "badge": "Welcome to Asay Real Global",
-    "title": "Premium Quality, Global Reach",
+    "title": "<strong>Premium Quality</strong>, <strong>Global Reach</strong>",
     "cardTitle": "We Offer You A Full Range Of Structural Solutions.",
-    "cardDesc": "As the primary distributor of authorized and licensed manufacturers of leading, exclusive global brands, we provide direct access to premium building materials and cutting-edge construction solutions."
+    "cardDesc": "As the <strong>primary distributor</strong> of authorized and licensed manufacturers of <strong>leading, exclusive global brands</strong>, we provide direct access to <strong>premium building materials</strong> and <strong>cutting-edge construction solutions</strong>."
   },
   "nav": {
     "home": "Home",
@@ -87,8 +87,8 @@
     },
     "company_overview": {
       "title": "About Asay Real Global",
-      "paragraph1": "At Asay Real Global, we set new standards in architectural solutions, leveraging 24 years of industry experience. With extensive knowledge and strong references in Europe, the US, the UK, the Bahamas, the Caribbean, and Latin America, we are a leading supplier, sales, and marketing company for commercial, residential, and industrial steel structures, prefabricated homes, multi-purpose office and construction site units, architectural and specialty glazing systems, uPVC and aluminum window and door systems from world-renowned brands, exterior and interior solutions, as well as high-quality apartment, entrance doors and interior and exterior doors.",
-      "paragraph2": "We understand that every project has unique needs and are committed to delivering superior products that combine aesthetics, functionality, and durability. Through our strong partnerships with leading brands in the industry, we bring the latest technology and superior engineering to your projects. Whether residential or commercial, Asay Real Global offers the best architectural solutions that will transform and add value to your spaces."
+      "paragraph1": "At Asay Real Global, we set <strong>new standards in architectural solutions</strong>, leveraging <strong>24 years of industry experience</strong>. With extensive knowledge and strong references in <strong>Europe, the US, the UK, the Bahamas, the Caribbean, and Latin America</strong>, we are a <strong>leading supplier, sales, and marketing company</strong> for commercial, residential, and industrial steel structures, prefabricated homes, multi-purpose office and construction site units, architectural and specialty glazing systems, <strong>uPVC and aluminum window and door systems from world-renowned brands</strong>, exterior and interior solutions, as well as high-quality apartment, entrance doors and interior and exterior doors.",
+      "paragraph2": "We understand that every project has <strong>unique needs</strong> and are committed to delivering <strong>superior products that combine aesthetics, functionality, and durability</strong>. Through our <strong>strong partnerships with leading brands</strong> in the industry, we bring the <strong>latest technology and superior engineering</strong> to your projects. Whether residential or commercial, Asay Real Global offers the <strong>best architectural solutions</strong> that will transform and add value to your spaces."
     },
     "philosophy": {
       "title": "Innovation and Quality as a Philosophy of Life",
@@ -98,19 +98,19 @@
     "values": {
       "global_presence": {
         "title": "Global Presence",
-        "description": "Serving 38 countries across 5 continents with over 22 years of international experience in steel engineering and building materials."
+        "description": "Serving <strong>38 countries across 5 continents</strong> with over <strong>22 years of international experience</strong> in steel engineering and building materials."
       },
       "advanced_technology": {
         "title": "Advanced Technology",
-        "description": "Using the latest technological machines and design programs with fully automatic computer-controlled advanced construction technologies."
+        "description": "Using the <strong>latest technological machines and design programs</strong> with <strong>fully automatic computer-controlled advanced construction technologies</strong>."
       },
       "proven_experience": {
         "title": "Proven Experience",
-        "description": "Over 100 completed projects across Europe, Asia, Central America, the United Kingdom, and North America with thousands of successful solutions."
+        "description": "Over <strong>100 completed projects</strong> across Europe, Asia, Central America, the United Kingdom, and North America with <strong>thousands of successful solutions</strong>."
       },
       "professional_team": {
         "title": "Professional Team",
-        "description": "Professional, experienced and dynamic staff providing fast and reliable solutions as your trusted construction partner."
+        "description": "<strong>Professional, experienced and dynamic staff</strong> providing <strong>fast and reliable solutions</strong> as your trusted construction partner."
       }
     }
   },

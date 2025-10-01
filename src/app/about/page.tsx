@@ -41,12 +41,16 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold mb-4" style={{ color: 'black' }}>{(messages as any).about.company_overview.title}</h2>
           </div>
           <div className="prose prose-gray max-w-none text-center">
-            <p className="text-base leading-relaxed mb-6" style={{ color: '#565656' }}>
-              {(messages as any).about.company_overview.paragraph1}
-            </p>
-            <p className="text-base leading-relaxed" style={{ color: '#565656' }}>
-              {(messages as any).about.company_overview.paragraph2}
-            </p>
+            <p 
+              className="text-base leading-relaxed mb-6" 
+              style={{ color: '#565656' }}
+              dangerouslySetInnerHTML={{ __html: (messages as any).about.company_overview.paragraph1 }}
+            />
+            <p 
+              className="text-base leading-relaxed" 
+              style={{ color: '#565656' }}
+              dangerouslySetInnerHTML={{ __html: (messages as any).about.company_overview.paragraph2 }}
+            />
           </div>
         </div>
 
@@ -91,9 +95,10 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold mb-3 text-white">{(messages as any).about.values.global_presence.title}</h3>
-                <p className="text-white/70 text-sm leading-relaxed">
-                  {(messages as any).about.values.global_presence.description}
-                </p>
+                <p 
+                  className="text-white/70 text-sm leading-relaxed"
+                  dangerouslySetInnerHTML={{ __html: (messages as any).about.values.global_presence.description }}
+                />
               </div>
 
               {/* Advanced Technology */}
@@ -104,9 +109,10 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold mb-3 text-white">{(messages as any).about.values.advanced_technology.title}</h3>
-                <p className="text-white/70 text-sm leading-relaxed">
-                  {(messages as any).about.values.advanced_technology.description}
-                </p>
+                <p 
+                  className="text-white/70 text-sm leading-relaxed"
+                  dangerouslySetInnerHTML={{ __html: (messages as any).about.values.advanced_technology.description }}
+                />
               </div>
 
               {/* Proven Experience */}
@@ -117,9 +123,10 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold mb-3 text-white">{(messages as any).about.values.proven_experience.title}</h3>
-                <p className="text-white/70 text-sm leading-relaxed">
-                  {(messages as any).about.values.proven_experience.description}
-                </p>
+                <p 
+                  className="text-white/70 text-sm leading-relaxed"
+                  dangerouslySetInnerHTML={{ __html: (messages as any).about.values.proven_experience.description }}
+                />
               </div>
 
               {/* Professional Team */}
@@ -130,9 +137,10 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold mb-3 text-white">{(messages as any).about.values.professional_team.title}</h3>
-                <p className="text-white/70 text-sm leading-relaxed">
-                  {(messages as any).about.values.professional_team.description}
-                </p>
+                <p 
+                  className="text-white/70 text-sm leading-relaxed"
+                  dangerouslySetInnerHTML={{ __html: (messages as any).about.values.professional_team.description }}
+                />
               </div>
             </div>
           </div>

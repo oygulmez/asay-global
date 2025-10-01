@@ -167,9 +167,10 @@ export function HeroSectionOne() {
                                     </a>
                         
                                     <h1
-                                            className="mt-4 max-w-4xl mx-auto text-balance text-4xl font-bold" style={{ color: 'black' }}>
-                                            {(locale === 'fr' ? (frMessages as any).hero.title : locale === 'es' ? (esMessages as any).hero.title : (enMessages as any).hero.title)}
-                                    </h1>
+                                            className="mt-4 max-w-4xl mx-auto text-balance text-4xl font-bold" 
+                                            style={{ color: 'black' }}
+                                            dangerouslySetInnerHTML={{ __html: (locale === 'fr' ? (frMessages as any).hero.title : locale === 'es' ? (esMessages as any).hero.title : (enMessages as any).hero.title) }}
+                                    />
                                     <p
                                         className="mx-auto mt-8 max-w-4xl text-balance text-base" style={{ color: '#565656' }}>
                                         {(locale === 'fr' ? (frMessages as any).homepage.main_description : locale === 'es' ? (esMessages as any).homepage.main_description : (enMessages as any).homepage.main_description)}
@@ -276,9 +277,10 @@ export function HeroSectionOne() {
                                 </svg>
                             </div>
                             <h3 className="text-lg font-semibold mb-3 text-white">{(locale === 'fr' ? (frMessages as any).hero.cardTitle : locale === 'es' ? (esMessages as any).hero.cardTitle : (enMessages as any).hero.cardTitle)}</h3>
-                            <p className="text-white/70 text-sm leading-relaxed">
-                                {(locale === 'fr' ? (frMessages as any).hero.cardDesc : locale === 'es' ? (esMessages as any).hero.cardDesc : (enMessages as any).hero.cardDesc)}
-                            </p>
+                            <p 
+                                className="text-white/70 text-sm leading-relaxed"
+                                dangerouslySetInnerHTML={{ __html: (locale === 'fr' ? (frMessages as any).hero.cardDesc : locale === 'es' ? (esMessages as any).hero.cardDesc : (enMessages as any).hero.cardDesc) }}
+                            />
                             </div>
 
 
