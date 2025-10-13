@@ -1253,30 +1253,30 @@
       "last_updated": "December 2024",
       "introduction": {
         "title": "Introduction",
-        "content": "Asay Global respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you visit our website or use our services."
+        "content": "At Asay Global, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, use our services, or interact with us. We respect your privacy rights and are transparent about our data practices in compliance with applicable privacy laws and regulations."
       },
       "data_collection": {
         "title": "Information We Collect",
-        "content": "We may collect the following types of information:",
+        "content": "We collect information that you provide directly to us, information we obtain automatically when you use our services, and information from third parties. The types of information we may collect include:",
         "items": {
-          "name": "Name and contact information",
-          "email": "Email address",
-          "phone": "Phone number",
-          "company": "Company name and details",
-          "project_details": "Project specifications and requirements"
+          "name": "Personal identification information (name, title, company affiliation)",
+          "email": "Email address and communication preferences",
+          "phone": "Phone numbers and contact details",
+          "company": "Company information, project details, and business requirements",
+          "project_details": "Technical specifications, project timelines, and delivery requirements"
         }
       },
       "data_usage": {
         "title": "How We Use Your Information",
-        "content": "We use your information to provide our services, respond to inquiries, process orders, and improve our website functionality. We do not sell or share your personal information with third parties without your consent."
+        "content": "We use the collected information to provide, maintain, and improve our services; process transactions and orders; communicate with you about products, services, and projects; provide customer support; conduct business analytics and market research; comply with legal obligations; and protect our rights and interests. We do not sell, trade, or rent your personal information to third parties without your explicit consent, except as described in this policy."
       },
       "data_protection": {
-        "title": "Data Protection",
-        "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. Your data is stored securely and accessed only by authorized personnel."
+        "title": "Data Security and Protection",
+        "content": "We implement comprehensive security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. Our security measures include encryption, secure servers, access controls, regular security audits, and staff training. We retain your information only as long as necessary to fulfill the purposes outlined in this policy or as required by law. When we no longer need your information, we securely delete or anonymize it."
       },
       "contact": {
         "title": "Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at info@asayglobal.com."
+        "content": "If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at info@asayglobal.com. We will respond to your inquiry within 30 days and work with you to address any concerns about your privacy rights."
       }
     },
     "terms": {
@@ -1284,19 +1284,19 @@
       "last_updated": "December 2024",
       "acceptance": {
         "title": "Acceptance of Terms",
-        "content": "By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service."
+        "content": "By accessing and using this website, you accept and agree to be bound by the terms and provisions of this agreement. These Terms of Service govern your use of our website, products, and services. If you do not agree to abide by these terms, please do not use this service. We reserve the right to modify these terms at any time, and your continued use of the service constitutes acceptance of any changes."
       },
       "services": {
-        "title": "Services",
-        "content": "Asay Global provides building materials and structural solutions. All products and services are subject to availability and may be modified or discontinued without notice."
+        "title": "Our Services",
+        "content": "Asay Global provides premium building materials, structural solutions, and construction services to clients worldwide. Our services include product consultation, technical support, project management, and delivery coordination. All products and services are subject to availability and may be modified, discontinued, or updated without prior notice. We strive to maintain the highest quality standards and provide accurate product information, but we cannot guarantee that all information is completely error-free."
       },
       "liability": {
         "title": "Limitation of Liability",
-        "content": "Asay Global shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of this website or our services."
+        "content": "To the maximum extent permitted by law, Asay Global shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or business opportunities, resulting from your use of this website or our services. Our total liability for any claims arising from or related to our services shall not exceed the amount paid by you for the specific service giving rise to the claim."
       },
       "modifications": {
-        "title": "Modifications",
-        "content": "We reserve the right to modify these terms at any time. Changes will be effective immediately upon posting on this website."
+        "title": "Modifications and Updates",
+        "content": "We reserve the right to modify, suspend, or discontinue any part of our services at any time without prior notice. We may also update these Terms of Service periodically to reflect changes in our practices, technology, or legal requirements. Material changes will be communicated through our website or by email. Your continued use of our services after such modifications constitutes acceptance of the updated terms."
       }
     },
     "cookies": {
@@ -1304,20 +1304,20 @@
       "last_updated": "December 2024",
       "what_are_cookies": {
         "title": "What Are Cookies",
-        "content": "Cookies are small text files that are placed on your computer or mobile device when you visit our website. They help us provide you with a better experience by remembering your preferences and analyzing how you use our site."
+        "content": "Cookies are small text files that are placed on your computer or mobile device when you visit our website. They help us provide you with a better experience by remembering your preferences, analyzing how you use our site, and improving our services. Cookies can be 'session' cookies (which expire when you close your browser) or 'persistent' cookies (which remain on your device for a set period). We use both types to enhance your browsing experience and gather analytics data."
       },
       "how_we_use_cookies": {
         "title": "How We Use Cookies",
-        "content": "We use cookies for the following purposes:",
+        "content": "We use cookies for several purposes to improve your experience and our services:",
         "items": {
-          "essential": "Essential cookies for website functionality",
-          "analytics": "Analytics cookies to understand website usage",
-          "functionality": "Functionality cookies to remember your preferences"
+          "essential": "Essential cookies are necessary for the website to function properly and cannot be disabled. They enable basic functions like page navigation, access to secure areas, and remembering your preferences.",
+          "analytics": "Analytics cookies help us understand how visitors interact with our website by collecting and reporting information anonymously. This data helps us improve our website performance and user experience.",
+          "functionality": "Functionality cookies remember your choices and preferences to provide enhanced, personalized features. They may also be used to provide services you have requested, such as remembering your language preference."
         }
       },
       "managing_cookies": {
         "title": "Managing Cookies",
-        "content": "You can control and delete cookies through your browser settings. However, disabling cookies may affect the functionality of our website."
+        "content": "You can control and manage cookies through your browser settings. Most browsers allow you to refuse cookies or delete them. However, disabling certain cookies may affect the functionality of our website and your user experience. You can also opt out of analytics cookies by adjusting your browser settings or using browser extensions. For more information about managing cookies, please refer to your browser's help documentation."
       }
     }
   },
