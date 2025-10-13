@@ -1247,6 +1247,80 @@
       "description": "Smooth-operating sliding solutions that maximize space utilization and provide seamless indoor-outdoor transitions."
     }
   },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "last_updated": "December 2024",
+      "introduction": {
+        "title": "Introduction",
+        "content": "Asay Global respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you visit our website or use our services."
+      },
+      "data_collection": {
+        "title": "Information We Collect",
+        "content": "We may collect the following types of information:",
+        "items": {
+          "name": "Name and contact information",
+          "email": "Email address",
+          "phone": "Phone number",
+          "company": "Company name and details",
+          "project_details": "Project specifications and requirements"
+        }
+      },
+      "data_usage": {
+        "title": "How We Use Your Information",
+        "content": "We use your information to provide our services, respond to inquiries, process orders, and improve our website functionality. We do not sell or share your personal information with third parties without your consent."
+      },
+      "data_protection": {
+        "title": "Data Protection",
+        "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. Your data is stored securely and accessed only by authorized personnel."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at info@asayglobal.com."
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "last_updated": "December 2024",
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service."
+      },
+      "services": {
+        "title": "Services",
+        "content": "Asay Global provides building materials and structural solutions. All products and services are subject to availability and may be modified or discontinued without notice."
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "content": "Asay Global shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of this website or our services."
+      },
+      "modifications": {
+        "title": "Modifications",
+        "content": "We reserve the right to modify these terms at any time. Changes will be effective immediately upon posting on this website."
+      }
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "last_updated": "December 2024",
+      "what_are_cookies": {
+        "title": "What Are Cookies",
+        "content": "Cookies are small text files that are placed on your computer or mobile device when you visit our website. They help us provide you with a better experience by remembering your preferences and analyzing how you use our site."
+      },
+      "how_we_use_cookies": {
+        "title": "How We Use Cookies",
+        "content": "We use cookies for the following purposes:",
+        "items": {
+          "essential": "Essential cookies for website functionality",
+          "analytics": "Analytics cookies to understand website usage",
+          "functionality": "Functionality cookies to remember your preferences"
+        }
+      },
+      "managing_cookies": {
+        "title": "Managing Cookies",
+        "content": "You can control and delete cookies through your browser settings. However, disabling cookies may affect the functionality of our website."
+      }
+    }
+  },
   "footer": {
     "company_desc": "With 22 years of industry experience, Asay Global specializes in the production and supply of high-quality building materials for global markets.",
     "services": "Services",
