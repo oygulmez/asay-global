@@ -16,7 +16,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { cn } from "@/lib/utils";
-import { ChevronDown, Menu } from "lucide-react";
+import { ChevronDown, Menu, DoorOpen, PanelsTopLeft, Layers, ScanLine } from "lucide-react";
+import MegaMenu, { type MegaMenuItem } from "@/components/ui/mega-menu";
 import { createLocalizedUrl } from "@/lib/slugs";
 import {
   Sheet,
@@ -116,28 +117,72 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <DropdownMenu>
-                  <DropdownMenuTrigger className="text-sm font-medium outline-none inline-flex items-center gap-1 px-2 py-1 rounded-md transition-colors hover:bg-muted">
-                    {t('nav.services')} <ChevronDown className="size-4" aria-hidden />
-                  </DropdownMenuTrigger>
-                  <DropdownMenuContent align="end" className="w-[320px]">
-                    <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href={createUrl("/services/interior-and-exterior-decorative-products")} className="block w-full px-2 py-2">{t('nav.services_menu.decorative')}</Link>
-                    </DropdownMenuItem>
-                    <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href={createUrl("/services/steel-framings")} className="block w-full px-2 py-2">{t('nav.services_menu.steel')}</Link>
-                    </DropdownMenuItem>
-                    <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href={createUrl("/services/aluminum-architectural-solutions")} className="block w-full px-2 py-2">{t('nav.services_menu.aluminum')}</Link>
-                    </DropdownMenuItem>
-                    <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href={createUrl("/services/architectural-glass-solutions")} className="block w-full px-2 py-2">{t('nav.services_menu.glass')}</Link>
-                    </DropdownMenuItem>
-                    <DropdownMenuItem asChild className="rounded-md transition-colors hover:bg-muted focus:bg-muted">
-                      <Link href={createUrl("/services/u-pvc-systems")} className="block w-full px-2 py-2">{t('nav.services_menu.upvc')}</Link>
-                    </DropdownMenuItem>
-                  </DropdownMenuContent>
-                </DropdownMenu>
+                {(() => {
+                  const items: MegaMenuItem[] = [
+                    {
+                      id: 1,
+                      label: t('nav.services'),
+                      subMenus: [
+                        {
+                          title: 'Windows & Doors',
+                          items: [
+                            {
+                              label: t('nav.services_menu.upvc'),
+                              description: 'u-PVC window & door systems',
+                              icon: DoorOpen,
+                              href: createUrl('/services/u-pvc-systems'),
+                            },
+                            {
+                              label: t('nav.services_menu.aluminum'),
+                              description: 'Aluminum architectural systems',
+                              icon: PanelsTopLeft,
+                              href: createUrl('/services/aluminum-architectural-solutions'),
+                            },
+                          ],
+                        },
+                        {
+                          title: 'Other Products',
+                          items: [
+                            {
+                              label: t('nav.services_menu.decorative'),
+                              description: 'Interior & exterior decorative products',
+                              icon: Layers,
+                              href: createUrl('/services/interior-and-exterior-decorative-products'),
+                            },
+                            {
+                              label: t('nav.services_menu.steel'),
+                              description: 'Steel framings & structural solutions',
+                              icon: ScanLine,
+                              href: createUrl('/services/steel-framings'),
+                            },
+                            {
+                              label: t('nav.services_menu.glass'),
+                              description: 'Architectural glass solutions',
+                              icon: PanelsTopLeft,
+                              href: createUrl('/services/architectural-glass-solutions'),
+                            },
+                            {
+                              label: 'Handrails & Railings',
+                              description: 'Balustrade and railing systems',
+                              icon: PanelsTopLeft,
+                            },
+                            {
+                              label: 'Pergolas',
+                              description: 'Outdoor shading structures',
+                              icon: PanelsTopLeft,
+                            },
+                            {
+                              label: 'Prefabricated Houses & Units',
+                              description: 'Modular prefabricated solutions',
+                              icon: PanelsTopLeft,
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ];
+                  return <MegaMenu items={items} />;
+                })()}
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Link href={createUrl("/contact")} className={cn("text-sm font-medium px-2 py-1 rounded-md transition-colors hover:bg-muted")}>
