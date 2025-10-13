@@ -109,7 +109,7 @@ const MegaMenu = React.forwardRef<HTMLUListElement, MegaMenuProps>(
                                     </div>
                                   ) : (
                                     <Link
-                                      href={item.href}
+                                      href={item.href!}
                                       className="flex items-start gap-3 group rounded-md p-1 -m-1 transition-colors duration-200 hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-300"
                                     >
                                       <div className="flex size-10 shrink-0 items-center justify-center rounded-md bg-[#333333] text-white transition-all duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
