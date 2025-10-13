@@ -392,17 +392,17 @@
       "products": {
         "legend": {
           "title": "Legend u-PVC Window and Door System",
-          "description": "High insulation, robust static performance and broad glazing options.",
+          "description": "The Legend system combines superior thermal insulation with exceptional static performance. Featuring 5-chamber profiles and reinforced steel cores, it offers outstanding durability and energy efficiency. With a wide range of glazing options from 24mm to 48mm, Legend delivers reliable performance for residential and commercial applications.",
           "view_product": "View Product"
         },
         "legend_art": {
           "title": "Legend Art u-PVC Window and Door System",
-          "description": "Aesthetic design with premium performance for modern architecture.",
+          "description": "Legend Art elevates u-PVC aesthetics with sleek contemporary design and premium engineering. Its refined profile geometry creates elegant sightlines while maintaining robust thermal performance. Ideal for modern architectural projects demanding both visual appeal and technical excellence, Legend Art offers sophisticated style without compromising functionality.",
           "view_product": "View Product"
         },
         "zendow": {
           "title": "Zendow u-PVC Window and Door System",
-          "description": "Advanced thermal performance with contemporary styling and versatility.",
+          "description": "Zendow represents the pinnacle of u-PVC window technology with advanced 6-chamber construction and innovative thermal breaks. Achieving exceptional Uf values down to 0.94 W/m²K, it delivers outstanding energy efficiency. The contemporary curved design and smooth surface finish make Zendow perfect for cutting-edge architectural projects requiring maximum performance.",
           "view_product": "View Product"
         }
       }
@@ -425,22 +425,22 @@
       "products": {
         "hs76": {
           "title": "HS76 Sliding System",
-          "description": "Lift-and-slide system with low threshold and excellent thermal performance.",
+          "description": "The HS76 system features a specially designed low aluminum threshold that minimizes the profile height above the floor, creating a more stylish appearance while maintaining functional integrity. With this new application, Deceuninck offers a threshold design that allows wheelchair access. The visually reduced threshold height also provides better thermal insulation results in thermal analyses.",
           "view_product": "View Product"
         },
         "slimslide": {
           "title": "Slimslide System",
-          "description": "Ultra-slim profiles maximizing glass area with smooth sliding operation.",
+          "description": "Slimslide revolutionizes sliding door design with ultra-narrow profiles that maximize glass area and natural light penetration. Its precision-engineered track system ensures whisper-quiet operation and effortless gliding. Perfect for creating seamless indoor-outdoor transitions, Slimslide combines minimalist aesthetics with exceptional structural integrity and weather resistance.",
           "view_product": "View Product"
         },
         "legend_surme_plus": {
           "title": "Legend Sliding Plus",
-          "description": "Advanced sliding system with enhanced sealing and thermal efficiency.",
+          "description": "Legend Sliding Plus delivers professional-grade performance with advanced multi-point locking and superior sealing technology. Its robust 76mm profiles provide excellent thermal efficiency and sound insulation. Designed for large openings up to 3 meters wide, this system offers reliable operation and long-term durability for demanding residential and commercial projects.",
           "view_product": "View Product"
         },
         "pvc_sliding_door": {
           "title": "PVC Sliding Door System",
-          "description": "Reliable sliding door solutions for residential and commercial applications.",
+          "description": "Our PVC Sliding Door System offers versatile solutions engineered for everyday reliability and ease of use. With multi-chamber construction for enhanced insulation and smooth roller mechanisms for effortless operation, it provides excellent value. Available in various configurations and finishes, this system suits both new construction and renovation projects with dependable performance.",
           "view_product": "View Product"
         }
       }
@@ -975,7 +975,7 @@
     },
     "overview": {
       "title": "Aluminum Engineering Excellence",
-      "description": "As a leading provider of aluminum architectural solutions, we specialize in designing and manufacturing premium aluminum systems for contemporary buildings. Our comprehensive range includes curtain walls, window systems, doors, and structural glazing solutions. With superior strength-to-weight ratio, corrosion resistance, and design flexibility, our aluminum products deliver exceptional performance while meeting the highest aesthetic standards for modern architectural projects."
+      "description": "As a provider of aluminum architectural solutions, we specialize in designing and manufacturing premium aluminum systems for contemporary buildings. Our comprehensive range includes curtain walls, window systems, doors, and structural glazing solutions. With superior strength-to-weight ratio, corrosion resistance, and design flexibility, our aluminum products deliver exceptional performance while meeting the highest aesthetic standards for modern architectural projects."
     },
     "partners_title": "Aluminum Architectural Solutions Partners",
     "solutions": {
@@ -983,11 +983,11 @@
       "subtitle": "Asay Global - Provider of Premium Aluminum Architectural Systems.",
       "windows": {
         "title": "Windows",
-        "description": "Asay Global delivers versatile aluminium windows as the USA's leading distributor. Our optimal functionality meets excellent design, safety and energy efficiency in these trustworthy systems trusted across America."
+        "description": "Asay Global delivers versatile aluminium windows. Our optimal functionality meets excellent design, safety and energy efficiency in these trustworthy systems trusted across America."
       },
       "doors": {
         "title": "Doors",
-        "description": "Asay Global's aluminium doors are robust, highly secure and fully customisable. As the premier USA distributor, we create high-quality entrances with unlimited design freedom for your projects."
+        "description": "Asay Global's aluminium doors are robust, highly secure and fully customisable. We create high-quality entrances with unlimited design freedom for your projects."
       },
       "sliding_folding": {
         "title": "Sliding & Folding",
@@ -1104,7 +1104,7 @@
       "subtitle": "High-performance steel systems tailored to modern construction needs.",
       "structural_steel": {
         "title": "Structural Steel",
-        "description": "Asay Global delivers comprehensive structural steel solutions as the leading provider. Our engineering expertise ensures superior load-bearing capacity, seismic resistance, and long-term durability for critical construction projects."
+        "description": "Asay Global delivers comprehensive structural steel solutions. Our engineering expertise ensures superior load-bearing capacity, seismic resistance, and long-term durability for critical construction projects."
       },
       "steel_frameworks": {
         "title": "Steel Frameworks",
@@ -1140,539 +1140,6 @@
       "professional_team": {
         "title": "Professional Team",
         "description": "Professional, experienced and dynamic staff delivering fast and reliable solutions with decades of global expertise and industry‑certified processes."
-      }
-    },
-    "window_door_category": {
-      "meta": {
-        "title": "u-PVC Window & Door Systems",
-        "description": "Explore u‑PVC window & door product families including Legend, Legend Art and Zendow with high insulation and durable performance."
-      },
-      "page_header": {
-        "title": "u-PVC Window & Door Systems",
-        "description": "Browse u-PVC window and door products engineered for insulation, durability and sealing performance.",
-        "breadcrumbs": {
-          "home": "Home",
-          "services": "Services",
-          "upvc_systems": "u-PVC Systems",
-          "window_door_systems": "u-PVC Window & Door Systems"
-        }
-      },
-      "products": {
-        "legend": {
-          "title": "Legend u-PVC Window and Door System",
-          "description": "High insulation, robust static performance and broad glazing options.",
-          "view_product": "View Product"
-        },
-        "legend_art": {
-          "title": "Legend Art u-PVC Window and Door System",
-          "description": "Aesthetic design with premium performance for modern architecture.",
-          "view_product": "View Product"
-        },
-        "zendow": {
-          "title": "Zendow u-PVC Window and Door System",
-          "description": "Advanced thermal performance with contemporary styling and versatility.",
-          "view_product": "View Product"
-        }
-      }
-    },
-    "sliding_category": {
-      "meta": {
-        "title": "u-PVC Sliding Systems",
-        "description": "Discover u‑PVC sliding solutions including HS76, Slimslide and Legend Sürme Plus for large openings and seamless operation."
-      },
-      "page_header": {
-        "title": "u-PVC Sliding Systems",
-        "description": "Explore sliding solutions designed for wide openings, smooth operation and excellent sealing performance.",
-        "breadcrumbs": {
-          "home": "Home",
-          "services": "Services",
-          "upvc_systems": "u-PVC Systems",
-          "sliding_systems": "u-PVC Sliding Systems"
-        }
-      },
-      "products": {
-        "hs76": {
-          "title": "HS76 Sliding System",
-          "description": "Lift-and-slide system with low threshold and excellent thermal performance.",
-          "view_product": "View Product"
-        },
-        "slimslide": {
-          "title": "Slimslide System",
-          "description": "Ultra-slim profiles maximizing glass area with smooth sliding operation.",
-          "view_product": "View Product"
-        },
-        "legend_surme_plus": {
-          "title": "Legend Sliding Plus",
-          "description": "Advanced sliding system with enhanced sealing and thermal efficiency.",
-          "view_product": "View Product"
-        },
-        "pvc_sliding_door": {
-          "title": "PVC Sliding Door System",
-          "description": "Reliable sliding door solutions for residential and commercial applications.",
-          "view_product": "View Product"
-        }
-      }
-    },
-    "product_pages": {
-      "hs76_sliding": {
-        "meta": {
-          "title": "HS76 Sliding",
-          "description": "Lift‑and‑slide u‑PVC system with low aluminum threshold for wheelchair access, Class A profiles and Uf 1.2 W/m²·K thermal performance."
-        },
-        "page_header": {
-          "title": "HS76 Sliding",
-          "description": "High-performance lift-and-slide profiles with sealing and comfort.",
-          "breadcrumbs": {
-            "home": "Home",
-            "services": "Services",
-            "sliding_systems": "u-PVC Sliding Systems",
-            "hs76_sliding": "HS76 Sliding"
-          }
-        },
-        "general_features": {
-          "title": "General Features",
-          "description": "The HS76 system features a specially designed low aluminum threshold that minimizes profile height on the floor, creating a more elegant appearance while ensuring functional integrity. With this new application, Egepen Deceuninck provides a threshold design that enables wheelchair access on passage doors in accordance with Turkish Standards Institute guidance. The visually reduced threshold height also delivers better thermal insulation results in thermal analyses."
-        },
-        "technical_specs": {
-          "title": "Technical Specifications",
-          "frame_width": "Frame Width",
-          "sash_width": "Sash Width",
-          "chambers": "Chambers",
-          "gaskets": "Gaskets",
-          "glazing_bead": "Glazing Bead",
-          "glass_thickness": "Glass Thickness",
-          "standard": "Standard",
-          "thermal_transmittance": "Thermal Transmittance (Uf)"
-        }
-      },
-      "legend_window_door": {
-        "meta": {
-          "title": "Legend u-PVC Window and Door System",
-          "description": "High insulation, robust static performance and broad glazing options with premium u-PVC profiles."
-        },
-        "page_header": {
-          "title": "Legend u-PVC Window and Door System",
-          "description": "Premium window and door solutions with superior insulation and performance.",
-          "breadcrumbs": {
-            "home": "Home",
-            "services": "Services",
-            "window_door_systems": "u-PVC Window & Door Systems",
-            "legend": "Legend System"
-          }
-        },
-        "general_features": {
-          "title": "General Features",
-          "description": "The Legend PVC Window and Door System is designed with an 80 mm installation width and features a 6-chamber profile structure. The system's design has been developed with particular emphasis on high performance criteria, where profiles are created by combining the most suitable structural elements. The design process has holistically evaluated window performance including insulation (thermal and acoustic), structural strength, and sealing properties alongside the profile geometry. All profiles in the system are manufactured in accordance with EN 12608-1 standard."
-        },
-        "technical_specs": {
-          "title": "Technical Specifications",
-          "profile_width": "Profile Width: 80 mm",
-          "chambers": "Number of Chambers: 6",
-          "gaskets": "Number of Gaskets: 3 (Center Gasketed)",
-          "gasket_material": "Gasket Material: TPE Grey / Black",
-          "glazing_bead": "Glazing Bead: Single Hook - PCE Gasketed",
-          "glass_thickness": "Glass Thickness: 24, 30, 36, 44, 52 mm",
-          "thermal_transmittance": "Thermal Transmittance (Uf): 0.92 W/m²·K",
-          "standard": "Standard: EN 12608-1"
-        },
-        "why_choose": {
-          "title": "Why Choose Legend Window & Door System",
-          "subtitle": "High insulation, strong static performance, rich product range and broad glazing options — engineered as a holistic window system.",
-          "features": [
-            {
-              "title": "Superior Insulation",
-              "description": "Multi-chamber design and advanced gasket system deliver exceptional thermal performance."
-            },
-            {
-              "title": "Structural Integrity",
-              "description": "Reinforced profiles and precision engineering ensure long-lasting durability and stability."
-            },
-            {
-              "title": "Versatile Design",
-              "description": "Comprehensive range of opening types and configurations for any architectural requirement."
-            },
-            {
-              "title": "Glazing Flexibility",
-              "description": "Supports various glass thicknesses and types including energy-efficient and security glazing."
-            }
-          ]
-        },
-        "color_options": {
-          "title": "Color Options",
-          "subtitle": "We offer laminate color alternatives that provide superior durability against harsh weather conditions while requiring low maintenance. Different laminate colors can be applied on interior and exterior faces to achieve more aesthetic and coherent facades.",
-          "note": "Interior and exterior laminate colors can be combined.",
-          "colors": [
-            {
-              "name": "Golden Oak",
-              "file": "altin-mese.jpg"
-            },
-            {
-              "name": "Antique Oak",
-              "file": "antik-mese.jpg"
-            },
-            {
-              "name": "Anthracite Grey",
-              "file": "antrasit-gri.jpg"
-            },
-            {
-              "name": "Hazelnut",
-              "file": "findik.jpg"
-            },
-            {
-              "name": "Cream",
-              "file": "krem.jpg"
-            },
-            {
-              "name": "Ash Black",
-              "file": "kul-siyahi.jpg"
-            },
-            {
-              "name": "Mahogany",
-              "file": "maun.jpg"
-            },
-            {
-              "name": "Metallic Anthracite",
-              "file": "metalik-antrasit-gri.jpg"
-            },
-            {
-              "name": "Metallic Silver",
-              "file": "metalik-gumus.jpg"
-            },
-            {
-              "name": "Platinum Crown",
-              "file": "platin-crown.jpg"
-            },
-            {
-              "name": "Pyrite",
-              "file": "pyrite.jpg"
-            },
-            {
-              "name": "Vizon",
-              "file": "vizon.jpg"
-            },
-            {
-              "name": "Winchester",
-              "file": "winchester.jpg"
-            }
-          ]
-        }
-      },
-      "legend_art": {
-        "meta": {
-          "title": "Legend Art u-PVC Window and Door System",
-          "description": "Aesthetic design with premium performance for modern architecture and sophisticated facades."
-        },
-        "page_header": {
-          "title": "Legend Art u-PVC Window and Door System",
-          "description": "Designer finishes with premium performance for modern architecture.",
-          "breadcrumbs": {
-            "home": "Home",
-            "services": "Services",
-            "window_door_systems": "u-PVC Window & Door Systems",
-            "legend_art": "Legend Art System"
-          }
-        },
-        "general_features": {
-          "title": "General Features",
-          "description": "The LegendArt Window and Door System brings aesthetics and elegance to the forefront with a meticulously engineered design that harmonizes with your interior style. With modern and refined lines that align with architecture and decoration, LegendArt transforms every space into an exceptional living area thanks to its acoustic insulation and static strength. The system offers environmentally friendly solutions while maintaining consistent performance and visual coherence."
-        },
-        "technical_specs": {
-          "title": "Technical Specifications",
-          "profile_width": "Profile Width",
-          "chambers": "Number of Chambers",
-          "gaskets": "Number of Gaskets",
-          "gasket_material": "Gasket Material",
-          "glazing_bead": "Glazing Bead",
-          "glass_thickness": "Glass Thickness",
-          "thermal_transmittance": "Thermal Transmittance (Uf)",
-          "standard": "Standard"
-        },
-        "why_choose": {
-          "title": "Why Choose Legend Art u-PVC",
-          "subtitle": "Aesthetic excellence meets performance engineering with sophisticated design solutions for modern architecture.",
-          "features": [
-            {
-              "title": "Aesthetic Excellence",
-              "description": "Meticulously engineered design harmonizes with interior style and architectural requirements."
-            },
-            {
-              "title": "Acoustic Performance",
-              "description": "Superior sound insulation creates peaceful living environments in urban settings."
-            },
-            {
-              "title": "Static Strength",
-              "description": "Robust construction ensures long-term structural integrity and weather resistance."
-            },
-            {
-              "title": "Environmental Harmony",
-              "description": "Eco-friendly solutions with consistent performance and visual coherence."
-            }
-          ]
-        },
-        "color_options": {
-          "title": "Color Options",
-          "subtitle": "We offer laminate color alternatives that provide superior durability against harsh weather conditions while requiring low maintenance. Different laminate colors can be applied on interior and exterior faces to achieve more aesthetic and coherent facades.",
-          "note": "Interior and exterior laminate colors can be combined.",
-          "colors": [
-            {
-              "name": "Golden Oak",
-              "file": "altin-mese.jpg"
-            },
-            {
-              "name": "Antique Oak",
-              "file": "antik-mese.jpg"
-            },
-            {
-              "name": "Anthracite Grey",
-              "file": "antrasit-gri.jpg"
-            },
-            {
-              "name": "Hazelnut",
-              "file": "findik.jpg"
-            },
-            {
-              "name": "Cream",
-              "file": "krem.jpg"
-            },
-            {
-              "name": "Ash Black",
-              "file": "kul-siyahi.jpg"
-            },
-            {
-              "name": "Mahogany",
-              "file": "maun.jpg"
-            },
-            {
-              "name": "Metallic Anthracite",
-              "file": "metalik-antrasit-gri.jpg"
-            },
-            {
-              "name": "Metallic Silver",
-              "file": "metalik-gumus.jpg"
-            },
-            {
-              "name": "Platinum Crown",
-              "file": "platin-crown.jpg"
-            },
-            {
-              "name": "Pyrite",
-              "file": "pyrite.jpg"
-            },
-            {
-              "name": "Vizon",
-              "file": "vizon.jpg"
-            },
-            {
-              "name": "Winchester",
-              "file": "winchester.jpg"
-            }
-          ]
-        }
-      },
-      "zendow": {
-        "meta": {
-          "title": "Zendow u-PVC Window and Door System",
-          "description": "Advanced thermal performance with contemporary styling and versatility for modern buildings."
-        },
-        "page_header": {
-          "title": "Zendow u-PVC Window and Door System",
-          "description": "Advanced thermal performance with contemporary styling and versatility.",
-          "breadcrumbs": {
-            "home": "Home",
-            "services": "Services",
-            "window_door_systems": "u-PVC Window & Door Systems",
-            "zendow": "Zendow System"
-          }
-        },
-        "general_features": {
-          "title": "General Features",
-          "description": "The Zendow PVC Window and Door System seamlessly complements your interior style with a meticulously considered design and aesthetic details. Delivering high standards in both functionality and appearance, Zendow adapts perfectly to a wide range of architectural styles with its modern lines, elegant detailing and coherent form. Designed to add value with durability and long service life, it is an ideal choice for those seeking comfort and aesthetics together."
-        },
-        "technical_specs": {
-          "title": "Technical Specifications",
-          "profile_width": "Profile Width",
-          "chambers": "Number of Chambers",
-          "gaskets": "Number of Gaskets",
-          "gasket_material": "Gasket Material",
-          "glazing_bead": "Glazing Bead",
-          "glass_thickness": "Glass Thickness",
-          "thermal_transmittance": "Thermal Transmittance (Uf)",
-          "standard": "Standard"
-        },
-        "why_choose": {
-          "title": "Why Choose Zendow u-PVC",
-          "subtitle": "Contemporary styling meets advanced thermal performance with versatile design solutions for modern architecture.",
-          "features": [
-            {
-              "title": "Contemporary Design",
-              "description": "Modern lines and elegant detailing complement interior style with coherent form."
-            },
-            {
-              "title": "Thermal Excellence",
-              "description": "Advanced thermal performance delivers exceptional energy efficiency and comfort."
-            },
-            {
-              "title": "Architectural Versatility",
-              "description": "Adapts perfectly to wide range of architectural styles with flexible configurations."
-            },
-            {
-              "title": "Long-term Value",
-              "description": "Durability and long service life ensure reliable performance and aesthetic appeal."
-            }
-          ]
-        },
-        "color_options": {
-          "title": "Color Options",
-          "subtitle": "We offer laminate color alternatives that provide superior durability against harsh weather conditions while requiring low maintenance. Different laminate colors can be applied on interior and exterior faces to achieve more aesthetic and coherent facades.",
-          "note": "Interior and exterior laminate colors can be combined.",
-          "colors": [
-            {
-              "name": "Golden Oak",
-              "file": "altin-mese.jpg"
-            },
-            {
-              "name": "Antique Oak",
-              "file": "antik-mese.jpg"
-            },
-            {
-              "name": "Anthracite Grey",
-              "file": "antrasit-gri.jpg"
-            },
-            {
-              "name": "Hazelnut",
-              "file": "findik.jpg"
-            },
-            {
-              "name": "Cream",
-              "file": "krem.jpg"
-            },
-            {
-              "name": "Ash Black",
-              "file": "kul-siyahi.jpg"
-            },
-            {
-              "name": "Mahogany",
-              "file": "maun.jpg"
-            },
-            {
-              "name": "Metallic Anthracite",
-              "file": "metalik-antrasit-gri.jpg"
-            },
-            {
-              "name": "Metallic Silver",
-              "file": "metalik-gumus.jpg"
-            },
-            {
-              "name": "Platinum Crown",
-              "file": "platin-crown.jpg"
-            },
-            {
-              "name": "Pyrite",
-              "file": "pyrite.jpg"
-            },
-            {
-              "name": "Vizon",
-              "file": "vizon.jpg"
-            },
-            {
-              "name": "Winchester",
-              "file": "winchester.jpg"
-            }
-          ]
-        }
-      },
-      "slimslide": {
-        "meta": {
-          "title": "Slimslide System",
-          "description": "Ultra-slim profiles maximizing glass area with smooth sliding operation and minimal sightlines."
-        },
-        "page_header": {
-          "title": "Slimslide",
-          "description": "Minimal sightlines with smooth sliding, sealing and comfort.",
-          "breadcrumbs": {
-            "home": "Home",
-            "services": "Services",
-            "sliding_systems": "u-PVC Sliding Systems",
-            "slimslide": "Slimslide"
-          }
-        },
-        "general_features": {
-          "title": "General Features",
-          "description": "Slimslide is a slim-frame u-PVC sliding system with near-half center mullion width, zero-threshold option and barrier-free views and passage. The system's distinguishing feature is the exceptionally narrow 23 mm center mullion, creating a sleek appearance with maximum glass area. Slimslide combines aesthetic appeal with functional performance, offering smooth operation and excellent sealing properties. The system is designed for modern architectural applications where minimal frame visibility and maximum transparency are priorities."
-        },
-        "technical_specs": {
-          "title": "Technical Specifications",
-          "center_mullion": "Center Mullion Width",
-          "frame_depth": "Frame Depth",
-          "sash_depth": "Sash Depth",
-          "glass_thickness": "Glass Thickness",
-          "threshold_option": "Threshold Option",
-          "sealing_system": "Sealing System",
-          "operation": "Operation Type",
-          "max_dimensions": "Maximum Dimensions"
-        }
-      },
-      "legend_surme_plus": {
-        "meta": {
-          "title": "Legend Sliding Plus",
-          "description": "Advanced sliding system with enhanced sealing and thermal efficiency for large openings."
-        },
-        "page_header": {
-          "title": "Legend Sliding Plus",
-          "description": "Premium sliding performance engineered for comfort, sealing and durability.",
-          "breadcrumbs": {
-            "home": "Home",
-            "services": "Services",
-            "sliding_systems": "u-PVC Sliding Systems",
-            "legend_surme_plus": "Legend Sliding Plus"
-          }
-        },
-        "general_features": {
-          "title": "General Features",
-          "description": "The Deceuninck Legend Sliding Plus Window & Door System delivers superior acoustic and air insulation, providing strong protection against cold in winter and heat in summer. Its standout qualities are the elegant design and effortless operation that enhance everyday comfort. With 76 mm system width and a 5‑chamber sash, Legend Sliding Plus offers high performance, powerful isolation and exceptionally easy use. Compared to typical sliding systems, it targets significantly better air tightness and supports glazing up to 52 mm. Design registration applications have been filed with the Turkish Patent and Trademark Office."
-        },
-        "technical_specs": {
-          "title": "Technical Specifications",
-          "system_width": "System Width",
-          "sash_chambers": "Sash Chambers",
-          "gaskets": "Gaskets",
-          "glazing_bead": "Glazing Bead",
-          "glass_thickness": "Glass Thickness",
-          "opening_options": "Opening Options",
-          "standard": "Standard",
-          "thermal_transmittance": "Thermal Transmittance (Uf)"
-        }
-      },
-      "pvc_sliding_door": {
-        "meta": {
-          "title": "PVC Sliding Door System",
-          "description": "Reliable sliding door solutions for residential and commercial applications with smooth operation."
-        },
-        "page_header": {
-          "title": "PVC Sliding Door System",
-          "description": "Premium sliding performance engineered for comfort, sealing and durability.",
-          "breadcrumbs": {
-            "home": "Home",
-            "services": "Services",
-            "sliding_systems": "u-PVC Sliding Systems",
-            "pvc_sliding_door": "PVC Sliding Door System"
-          }
-        },
-        "general_features": {
-          "title": "General Features",
-          "description": "The PVC Sliding Door System is a versatile sliding window and door solution designed for modern architectural applications. This system features configurable tracks, high-quality TPE gaskets, and PCE glazing beads for superior sealing and weather resistance. Compatible with Legend Art and Zendow profiles, it offers flexibility in design while maintaining excellent performance standards. The system provides smooth sliding operation, enhanced thermal efficiency, and reliable long-term performance for both residential and commercial projects."
-        },
-        "technical_specs": {
-          "title": "Technical Specifications",
-          "system_compatibility": "System Compatibility",
-          "track_configuration": "Track Configuration",
-          "gasket_type": "Gasket Type",
-          "glazing_bead": "Glazing Bead",
-          "operation_type": "Operation Type",
-          "thermal_performance": "Thermal Performance",
-          "weather_resistance": "Weather Resistance",
-          "applications": "Applications"
-        }
       }
     }
   },
@@ -1793,6 +1260,6 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Policy",
-    "copyright": "© 2025 Asay Global. All rights reserved."
+    "copyright": "© 2025 Asay Real Global. All rights reserved."
   }
 }

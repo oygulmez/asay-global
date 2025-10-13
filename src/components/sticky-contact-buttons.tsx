@@ -2,18 +2,9 @@
 
 import React, { useEffect, useState } from "react";
 import enMessages from '@/messages/en.json';
-import frMessages from '@/messages/fr.json';
-import esMessages from '@/messages/es.json';
 
 export function StickyContactButtons() {
-  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
-
-  useEffect(() => {
-    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
-    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
-  }, []);
-
-  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
+  const messages = enMessages;
 
   const scrollToTop = () => {
     window.scrollTo({

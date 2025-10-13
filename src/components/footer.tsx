@@ -1,18 +1,17 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { createLocalizedUrl } from "@/lib/slugs";
+import enMessages from "@/messages/en.json";
 
-type Locale = 'en' | 'fr' | 'es' | undefined;
+type Locale = 'en' | undefined;
 
 export function Footer({ locale }: { locale?: Locale } = {}) {
-  const current = (locale === 'fr' || locale === 'es' || locale === 'en') ? locale : 'en';
-  const dict = current === 'fr' ? (require('@/messages/fr.json')) : current === 'es' ? (require('@/messages/es.json')) : (require('@/messages/en.json'))
+  const dict = enMessages;
   const t = (key: string) => key.split('.').reduce((o: any, k: string) => o?.[k], dict)
   
-  // Helper function to create locale-aware URLs with localized slugs
+  // Helper function to create URLs
   const createUrl = (path: string) => {
-    return createLocalizedUrl(path, current);
+    return path;
   };
   return (
     <footer className="bg-[#333333] text-white">

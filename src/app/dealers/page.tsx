@@ -6,8 +6,6 @@ import { Footer } from '@/components/footer';
 import { StickyContactButtons } from '@/components/sticky-contact-buttons';
 import { useState, useEffect } from "react";
 import enMessages from '@/messages/en.json';
-import frMessages from '@/messages/fr.json';
-import esMessages from '@/messages/es.json';
 
 type Dealer = {
   country: string;
@@ -46,19 +44,30 @@ const dealers: Dealer[] = [
     phones: ["+37441657011", "+37433657011"],
     address: "No.46/4 , Davtashen 2nd Bk , Yerevan, Armenia",
   },
+  {
+    country: "Netherlands",
+    flag: "/flags/nl.svg",
+    company: "Unit5 Bouw en Infra",
+    contact: "Ingemar Miguel",
+    email: "ingemar@unit5-bouw-infra.nl",
+    phones: ["0031-(0)614831923"],
+    address: "Loevesteinlaan 41, 2533 AG Den Haag, The Netherlands",
+  },
+  {
+    country: "Peru",
+    flag: "/flags/pe.svg",
+    company: "Haisa Grupo Inmobiliario S.A.C.",
+    contact: "Martín Gamarra Villaran",
+    email: "yanachagavillage@gmail.com",
+    phones: ["+51 933 952 170"],
+    address: "Jr. Asuncion 555 Comas, Lima, Perú",
+  },
 ];
 
 export default function DealersPage() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
-  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
-
-  useEffect(() => {
-    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
-    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
-  }, []);
-
-  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
+  const messages = enMessages;
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -194,10 +203,11 @@ export default function DealersPage() {
                   <option value="italy">Italy</option>
                   <option value="greece">Greece</option>
                   <option value="armenia">Armenia</option>
+                  <option value="netherlands">Netherlands</option>
+                  <option value="peru">Peru</option>
                   <option value="turkey">Turkey</option>
                   <option value="usa">USA</option>
                   <option value="canada">Canada</option>
-                  <option value="netherlands">Netherlands</option>
                   <option value="other">Other</option>
                 </select>
               </div>

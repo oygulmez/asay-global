@@ -9,17 +9,6 @@ import { useEffect, useState } from 'react';
 import enMessages from '@/messages/en.json';
 
 export default function AboutPage() {
-  const [locale, setLocale] = useState<'en'>('en');
-  const [isRootPage, setIsRootPage] = useState(false);
-
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const path = window.location.pathname;
-      setLocale('en');
-      setIsRootPage(true);
-    }
-  }, []);
-
   const messages = enMessages;
 
   const content = (
@@ -153,16 +142,12 @@ export default function AboutPage() {
     </>
   );
 
-  if (isRootPage) {
-    return (
-      <div className="min-h-screen flex flex-col">
-        <Navbar locale="en" />
-        <main className="flex-1">{content}</main>
-        <Footer locale="en" />
-        <StickyContactButtons />
-      </div>
-    );
-  }
-
-  return content;
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navbar locale="en" />
+      <main className="flex-1">{content}</main>
+      <Footer locale="en" />
+      <StickyContactButtons />
+    </div>
+  );
 }

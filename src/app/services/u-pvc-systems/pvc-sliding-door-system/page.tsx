@@ -8,37 +8,21 @@ import { Footer } from '@/components/footer';
 import { StickyContactButtons } from '@/components/sticky-contact-buttons';
 import { useState, useEffect } from 'react';
 import enMessages from '@/messages/en.json';
-import frMessages from '@/messages/fr.json';
-import esMessages from '@/messages/es.json';
 
 
 export default function PVCSlidingDoorSystemPage() {
-  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
+  
   const [messages, setMessages] = useState<any>(enMessages);
-  const [isRootPage, setIsRootPage] = useState(false);
+  
 
-  useEffect(() => {
-    const path = window.location.pathname;
-    let currentLocale: 'en' | 'fr' | 'es' = 'en';
-    if (path.startsWith('/fr/')) {
-      currentLocale = 'fr';
-    } else if (path.startsWith('/es/')) {
-      currentLocale = 'es';
-    }
-    setLocale(currentLocale);
-    setMessages(currentLocale === 'fr' ? frMessages : currentLocale === 'es' ? esMessages : enMessages);
-    setIsRootPage(!path.includes('/fr/') && !path.includes('/es/'));
-  }, []);
+  
 
-  const createUrl = (path: string) => {
-    if (locale === 'en') return path;
-    return `/${locale}${path}`;
-  };
+  const createUrl = (path: string) => path;
 
   const t = (messages as any).upvc_systems?.product_pages?.pvc_sliding_door;
 
   if (!t || !t.page_header) {
-    return <div>Loading... (Debug: t={JSON.stringify(!!t)}, locale={locale})</div>;
+    return <div>Loading...</div>;
   }
 
   // isRootPage state'i useEffect içinde hesaplanıyor
@@ -93,21 +77,15 @@ export default function PVCSlidingDoorSystemPage() {
     </>
   );
 
-  // If this is a root page, wrap with Navbar/Footer
-  if (isRootPage) {
-    return (
-      <div className="min-h-screen flex flex-col">
-        <Navbar locale="en" />
-        <main className="flex-1">
-          {content}
-        </main>
-        <Footer locale="en" />
-        <StickyContactButtons />
-      </div>
-    );
-  }
-
-  // If imported by locale pages, return just content
-  return content;
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navbar locale="en" />
+      <main className="flex-1">
+        {content}
+      </main>
+      <Footer locale="en" />
+      <StickyContactButtons />
+    </div>
+  );
 }
 

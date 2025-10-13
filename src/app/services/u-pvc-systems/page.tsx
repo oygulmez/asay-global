@@ -8,37 +8,17 @@ import { Footer } from '@/components/footer';
 import { StickyContactButtons } from '@/components/sticky-contact-buttons';
 import { useEffect, useState } from 'react';
 import enMessages from '@/messages/en.json';
-import frMessages from '@/messages/fr.json';
-import esMessages from '@/messages/es.json';
 
 export default function UPVCSystemsPage() {
-  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
-  const [isRootPage, setIsRootPage] = useState(false);
+  
+  
 
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const path = window.location.pathname;
-      if (path.startsWith('/fr/')) {
-        setLocale('fr');
-      } else if (path.startsWith('/es/')) {
-        setLocale('es');
-      } else {
-        setLocale('en');
-      }
-      
-      // Check if this is being used as a root page (not imported by locale pages)
-      const isRoot = !path.includes('/fr/') && !path.includes('/es/');
-      setIsRootPage(isRoot);
-    }
-  }, []);
+  
 
-  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
+  const messages = enMessages;
   
   // Helper function to create locale-aware URLs
-  const createUrl = (path: string) => {
-    if (locale === 'en') return path;
-    return `/${locale}${path}`;
-  };
+  const createUrl = (path: string) => path;
 
   const content = (
     <>
@@ -134,22 +114,16 @@ export default function UPVCSystemsPage() {
     </>
   );
 
-  // If this is a root page, wrap with Navbar/Footer
-  if (isRootPage) {
-    return (
-      <div className="min-h-screen flex flex-col">
-        <Navbar locale="en" />
-        <main className="flex-1">
-          {content}
-        </main>
-        <Footer locale="en" />
-        <StickyContactButtons />
-      </div>
-    );
-  }
-
-  // If imported by locale pages, return just content
-  return content;
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navbar locale="en" />
+      <main className="flex-1">
+        {content}
+      </main>
+      <Footer locale="en" />
+      <StickyContactButtons />
+    </div>
+  );
 }
 
 

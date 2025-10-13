@@ -4,24 +4,12 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import enMessages from '@/messages/en.json'
-import frMessages from '@/messages/fr.json'
-import esMessages from '@/messages/es.json'
 
 export default function CallToAction() {
-  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
-
-  useEffect(() => {
-    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
-    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
-  }, []);
-
-  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
+  const messages = enMessages;
   
-  // Helper function to create locale-aware URLs
-  const createUrl = (path: string) => {
-    if (locale === 'en') return path;
-    return `/${locale}${path}`;
-  };
+  // Helper function to create URLs
+  const createUrl = (path: string) => path;
     return (
         <section>
             <div className="py-16 md:py-24">

@@ -12,8 +12,6 @@ import { FeaturesSectionWithHoverEffects } from '@/components/feature-section-wi
 import { cn } from '@/lib/utils'
 import { createLocalizedUrl } from '@/lib/slugs'
 import enMessages from '@/messages/en.json'
-import frMessages from '@/messages/fr.json'
-import esMessages from '@/messages/es.json'
 
 const transitionVariants = {
     item: {
@@ -45,16 +43,12 @@ export function HeroSectionOne() {
     const [dragOffset, setDragOffset] = useState(0)
     const [dragStartOffset, setDragStartOffset] = useState(0)
 
-    const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en')
-    
-    // Helper function to create locale-aware URLs with localized slugs
+    // Helper function to create URLs
     const createUrl = (path: string) => {
-        return createLocalizedUrl(path, locale);
+        return path;
     };
 
     useEffect(() => {
-        const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en'
-        setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en')
         const handleScroll = () => {
             setScrollY(window.scrollY)
         }
@@ -150,7 +144,7 @@ export function HeroSectionOne() {
                                     <a href={createUrl("/about")}>
                                         <div
                                             className="bg-muted group mx-auto flex w-fit items-center gap-4 rounded-full border p-1 pl-4 shadow-md shadow-black/5 transition-all duration-300 dark:border-t-white/5 dark:shadow-zinc-950 hover:bg-muted/80 cursor-pointer">
-                                                <span className="text-foreground text-sm">{(locale === 'fr' ? (frMessages as any).hero.badge : locale === 'es' ? (esMessages as any).hero.badge : (enMessages as any).hero.badge)}</span>
+                                                <span className="text-foreground text-sm">{(enMessages as any).hero.badge}</span>
                                         <span className="dark:border-background block h-4 w-0.5 border-l bg-white dark:bg-zinc-700"></span>
 
                                         <div className="bg-background group-hover:bg-muted size-6 overflow-hidden rounded-full duration-500">
@@ -169,12 +163,12 @@ export function HeroSectionOne() {
                                     <h1
                                             className="mt-4 max-w-4xl mx-auto text-balance text-4xl font-bold" 
                                             style={{ color: 'black' }}>
-                                            {(locale === 'fr' ? (frMessages as any).hero.title : locale === 'es' ? (esMessages as any).hero.title : (enMessages as any).hero.title)}
+                                            {(enMessages as any).hero.title}
                                     </h1>
                                     <p
                                         className="mx-auto mt-8 max-w-4xl text-balance text-base" 
                                         style={{ color: '#565656' }}
-                                        dangerouslySetInnerHTML={{ __html: (locale === 'fr' ? (frMessages as any).homepage.main_description : locale === 'es' ? (esMessages as any).homepage.main_description : (enMessages as any).homepage.main_description) }}
+                                        dangerouslySetInnerHTML={{ __html: (enMessages as any).homepage.main_description }}
                                     />
                                 </AnimatedGroup>
 
@@ -264,9 +258,9 @@ export function HeroSectionOne() {
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
                                 </svg>
                             </div>
-                            <h3 className="text-lg font-semibold mb-3 text-white">{(locale === 'fr' ? (frMessages as any).homepage.why_choose_us.experienced_team.title : locale === 'es' ? (esMessages as any).homepage.why_choose_us.experienced_team.title : (enMessages as any).homepage.why_choose_us.experienced_team.title)}</h3>
+                            <h3 className="text-lg font-semibold mb-3 text-white">{(enMessages as any).homepage.why_choose_us.experienced_team.title}</h3>
                             <p className="text-white/70 text-sm leading-relaxed">
-                                {(locale === 'fr' ? (frMessages as any).homepage.why_choose_us.experienced_team.description : locale === 'es' ? (esMessages as any).homepage.why_choose_us.experienced_team.description : (enMessages as any).homepage.why_choose_us.experienced_team.description)}
+                                {(enMessages as any).homepage.why_choose_us.experienced_team.description}
                             </p>
                             </div>
 
@@ -277,10 +271,10 @@ export function HeroSectionOne() {
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3s-4.5 4.03-4.5 9 2.015 9 4.5 9zm8.716-6.747a9.004 9.004 0 01-8.716 6.747m8.716-6.747a9.004 9.004 0 00-8.716-6.747" />
                                 </svg>
                             </div>
-                            <h3 className="text-lg font-semibold mb-3 text-white">{(locale === 'fr' ? (frMessages as any).hero.cardTitle : locale === 'es' ? (esMessages as any).hero.cardTitle : (enMessages as any).hero.cardTitle)}</h3>
+                            <h3 className="text-lg font-semibold mb-3 text-white">{(enMessages as any).hero.cardTitle}</h3>
                             <p 
                                 className="text-white/70 text-sm leading-relaxed"
-                                dangerouslySetInnerHTML={{ __html: (locale === 'fr' ? (frMessages as any).hero.cardDesc : locale === 'es' ? (esMessages as any).hero.cardDesc : (enMessages as any).hero.cardDesc) }}
+                                dangerouslySetInnerHTML={{ __html: (enMessages as any).hero.cardDesc }}
                             />
                             </div>
 
@@ -292,9 +286,9 @@ export function HeroSectionOne() {
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                             </div>
-                            <h3 className="text-lg font-semibold mb-3 text-white">{(locale === 'fr' ? (frMessages as any).homepage.why_choose_us.professional_service.title : locale === 'es' ? (esMessages as any).homepage.why_choose_us.professional_service.title : (enMessages as any).homepage.why_choose_us.professional_service.title)}</h3>
+                            <h3 className="text-lg font-semibold mb-3 text-white">{(enMessages as any).homepage.why_choose_us.professional_service.title}</h3>
                             <p className="text-white/70 text-sm leading-relaxed">
-                                {(locale === 'fr' ? (frMessages as any).homepage.why_choose_us.professional_service.description : locale === 'es' ? (esMessages as any).homepage.why_choose_us.professional_service.description : (enMessages as any).homepage.why_choose_us.professional_service.description)}
+                                {(enMessages as any).homepage.why_choose_us.professional_service.description}
                             </p>
                         </div>
                     </div>
@@ -304,41 +298,41 @@ export function HeroSectionOne() {
             {/* Our Services Gallery */}
             <Gallery6 
                 demoUrl={createUrl("/contact")}
-                heading={(locale === 'fr' ? (frMessages as any).gallery.heading : locale === 'es' ? (esMessages as any).gallery.heading : (enMessages as any).gallery.heading)}
-                readMore={(locale === 'fr' ? (frMessages as any).gallery.read_more : locale === 'es' ? (esMessages as any).gallery.read_more : (enMessages as any).gallery.read_more)}
+                heading={(enMessages as any).gallery.heading}
+                readMore={(enMessages as any).gallery.read_more}
                 items={[
                     {
                         id: "service-1",
-                        title: (locale === 'fr' ? (frMessages as any).homepage.services.interior_exterior_decorative.title : locale === 'es' ? (esMessages as any).homepage.services.interior_exterior_decorative.title : (enMessages as any).homepage.services.interior_exterior_decorative.title),
-                        summary: (locale === 'fr' ? (frMessages as any).homepage.services.interior_exterior_decorative.summary : locale === 'es' ? (esMessages as any).homepage.services.interior_exterior_decorative.summary : (enMessages as any).homepage.services.interior_exterior_decorative.summary),
+                        title: (enMessages as any).homepage.services.interior_exterior_decorative.title,
+                        summary: (enMessages as any).homepage.services.interior_exterior_decorative.summary,
                         url: createUrl("/services/interior-and-exterior-decorative-products"),
                         image: "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-1.jpg",
                     },
                     {
                         id: "service-2", 
-                        title: (locale === 'fr' ? (frMessages as any).homepage.services.steel_framings.title : locale === 'es' ? (esMessages as any).homepage.services.steel_framings.title : (enMessages as any).homepage.services.steel_framings.title),
-                        summary: (locale === 'fr' ? (frMessages as any).homepage.services.steel_framings.summary : locale === 'es' ? (esMessages as any).homepage.services.steel_framings.summary : (enMessages as any).homepage.services.steel_framings.summary),
+                        title: (enMessages as any).homepage.services.steel_framings.title,
+                        summary: (enMessages as any).homepage.services.steel_framings.summary,
                         url: createUrl("/services/steel-framings"),
                         image: "/images/services/steel-structure/steel-framings-img-1.jpg",
                     },
                     {
                         id: "service-3",
-                        title: (locale === 'fr' ? (frMessages as any).homepage.services.aluminum_architectural.title : locale === 'es' ? (esMessages as any).homepage.services.aluminum_architectural.title : (enMessages as any).homepage.services.aluminum_architectural.title),
-                        summary: (locale === 'fr' ? (frMessages as any).homepage.services.aluminum_architectural.summary : locale === 'es' ? (esMessages as any).homepage.services.aluminum_architectural.summary : (enMessages as any).homepage.services.aluminum_architectural.summary),
+                        title: (enMessages as any).homepage.services.aluminum_architectural.title,
+                        summary: (enMessages as any).homepage.services.aluminum_architectural.summary,
                         url: createUrl("/services/aluminum-architectural-solutions"),
                         image: "/images/services/aluminum-solutions/Aluminum-Architectural-Solutions-img--1.jpg",
                     },
                     {
                         id: "service-4",
-                        title: (locale === 'fr' ? (frMessages as any).homepage.services.architectural_glass.title : locale === 'es' ? (esMessages as any).homepage.services.architectural_glass.title : (enMessages as any).homepage.services.architectural_glass.title),
-                        summary: (locale === 'fr' ? (frMessages as any).homepage.services.architectural_glass.summary : locale === 'es' ? (esMessages as any).homepage.services.architectural_glass.summary : (enMessages as any).homepage.services.architectural_glass.summary),
+                        title: (enMessages as any).homepage.services.architectural_glass.title,
+                        summary: (enMessages as any).homepage.services.architectural_glass.summary,
                         url: createUrl("/services/architectural-glass-solutions"), 
                         image: "/images/services/glass-solutions/architectural-glass-gallery-1.jpg",
                     },
                     {
                         id: "service-5",
-                        title: (locale === 'fr' ? (frMessages as any).homepage.services.upvc_systems.title : locale === 'es' ? (esMessages as any).homepage.services.upvc_systems.title : (enMessages as any).homepage.services.upvc_systems.title),
-                        summary: (locale === 'fr' ? (frMessages as any).homepage.services.upvc_systems.summary : locale === 'es' ? (esMessages as any).homepage.services.upvc_systems.summary : (enMessages as any).homepage.services.upvc_systems.summary),
+                        title: (enMessages as any).homepage.services.upvc_systems.title,
+                        summary: (enMessages as any).homepage.services.upvc_systems.summary,
                         url: createUrl("/services/u-pvc-systems"),
                         image: "/images/services/upvc-systems/pvc-window-and-door-system.jpg",
                     },
@@ -349,9 +343,9 @@ export function HeroSectionOne() {
             <section className="py-20 md:py-32 w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]" style={{ backgroundColor: '#e5e5e5' }}>
                 <div className="mx-auto max-w-7xl px-6">
                     <div className="text-center mb-16">
-                            <h2 className="text-3xl font-bold mb-4" style={{ color: 'black' }}>{(locale === 'fr' ? (frMessages as any).homepage.our_products.title : locale === 'es' ? (esMessages as any).homepage.our_products.title : (enMessages as any).homepage.our_products.title)}</h2>
+                            <h2 className="text-3xl font-bold mb-4" style={{ color: 'black' }}>{(enMessages as any).homepage.our_products.title}</h2>
                         <p className="text-base max-w-2xl mx-auto" style={{ color: '#565656' }}>
-                            {(locale === 'fr' ? (frMessages as any).homepage.our_products.description : locale === 'es' ? (esMessages as any).homepage.our_products.description : (enMessages as any).homepage.our_products.description)}
+                            {(enMessages as any).homepage.our_products.description}
                         </p>
                     </div>
                     <FeaturesSectionWithHoverEffects />

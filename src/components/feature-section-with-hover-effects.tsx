@@ -11,18 +11,9 @@ import {
 } from "@tabler/icons-react";
 import { useState, useEffect } from 'react';
 import enMessages from '@/messages/en.json';
-import frMessages from '@/messages/fr.json';
-import esMessages from '@/messages/es.json';
 
 export function FeaturesSectionWithHoverEffects() {
-  const [locale, setLocale] = useState<'en' | 'fr' | 'es'>('en');
-  
-  useEffect(() => {
-    const seg = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'en';
-    setLocale(seg === 'fr' ? 'fr' : seg === 'es' ? 'es' : 'en');
-  }, []);
-  
-  const messages = locale === 'fr' ? frMessages : locale === 'es' ? esMessages : enMessages;
+  const messages = enMessages;
   const t = (messages as any).products_features;
   
   const features = [

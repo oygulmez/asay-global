@@ -110,7 +110,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-gray-400">
-              © 2025 Asay Global. All rights reserved.
+              © 2025 Asay Real Global. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <Link href="/legal#privacy" className="text-gray-400 hover:text-white transition-colors">
