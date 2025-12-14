@@ -28,6 +28,8 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
   const [isProductsMenuOpen, setIsProductsMenuOpen] = useState(false);
   const [isWindowsDoorsSubmenuOpen, setIsWindowsDoorsSubmenuOpen] = useState(false);
   const [isHandrailsSubmenuOpen, setIsHandrailsSubmenuOpen] = useState(false);
+  const [isMobileWindowsDoorsOpen, setIsMobileWindowsDoorsOpen] = useState(false);
+  const [isMobileHandrailsOpen, setIsMobileHandrailsOpen] = useState(false);
   const pathname = usePathname();
   const menuId = useId();
   const current = (locale === 'en') ? locale : 'en';
@@ -300,20 +302,185 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
                   <img src="/asay-global-logo-main.svg" alt="Asay Global" className="h-16 w-auto" />
                 </Link>
               </div>
-              <nav className="mt-4 space-y-1" onClick={() => (document.querySelector('[data-state="open"]') as HTMLElement)?.click()}>
-                <Link href={createUrl("/")} className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.home')}</Link>
-                <Link href={createUrl("/about")} className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.about')}</Link>
+              <nav className="mt-4 space-y-1">
+                <Link 
+                  href={createUrl("/")} 
+                  className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted"
+                  onClick={() => {
+                    const sheet = document.querySelector('[data-state="open"]') as HTMLElement;
+                    if (sheet) sheet.click();
+                  }}
+                >
+                  {t('nav.home')}
+                </Link>
+                <Link 
+                  href={createUrl("/about")} 
+                  className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted"
+                  onClick={() => {
+                    const sheet = document.querySelector('[data-state="open"]') as HTMLElement;
+                    if (sheet) sheet.click();
+                  }}
+                >
+                  {t('nav.about')}
+                </Link>
+                
+                {/* Services Menu */}
                 <div className="pt-1">
-                  <Link href={createUrl("/services")} className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.services')}</Link>
+                  <div className="block h-10 px-3 rounded-md text-base font-medium leading-10">{t('nav.services')}</div>
                   <div className="grid gap-1 px-3">
-                    <Link href={createUrl("/services/interior-and-exterior-decorative-products")} className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.decorative')}</Link>
-                    <Link href={createUrl("/services/steel-framings")} className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.steel')}</Link>
-                    <Link href={createUrl("/services/aluminum-architectural-solutions")} className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.aluminum')}</Link>
-                    <Link href={createUrl("/services/architectural-glass-solutions")} className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.glass')}</Link>                 
-                    <Link href={createUrl("/services/u-pvc-systems")} className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted">{t('nav.services_menu.upvc')}</Link> </div>
-
+                    {/* Windows & Doors with submenu */}
+                    <div>
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setIsMobileWindowsDoorsOpen(!isMobileWindowsDoorsOpen);
+                        }}
+                        className="w-full flex items-center justify-between h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted"
+                      >
+                        <span>Windows & Doors</span>
+                        <ChevronDown className={cn("h-4 w-4 transition-transform duration-200", isMobileWindowsDoorsOpen && "rotate-180")} />
+                      </button>
+                      {isMobileWindowsDoorsOpen && (
+                        <div className="ml-4 mt-1 space-y-1">
+                          <Link
+                            href={createUrl('/services/u-pvc-systems')}
+                            className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              const sheet = document.querySelector('[data-state="open"]') as HTMLElement;
+                              if (sheet) sheet.click();
+                            }}
+                          >
+                            {t('nav.services_menu.upvc')}
+                          </Link>
+                          <Link
+                            href={createUrl('/services/aluminum-architectural-solutions')}
+                            className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              const sheet = document.querySelector('[data-state="open"]') as HTMLElement;
+                              if (sheet) sheet.click();
+                            }}
+                          >
+                            {t('nav.services_menu.aluminum')}
+                          </Link>
+                        </div>
+                      )}
+                    </div>
+                    
+                    {/* Interior and Exterior */}
+                    <Link
+                      href={createUrl('/services/interior-and-exterior-decorative-products')}
+                      className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        const sheet = document.querySelector('[data-state="open"]') as HTMLElement;
+                        if (sheet) sheet.click();
+                      }}
+                    >
+                      Interior and Exterior
+                    </Link>
+                    
+                    {/* Steel Framings */}
+                    <Link
+                      href={createUrl('/services/steel-framings')}
+                      className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        const sheet = document.querySelector('[data-state="open"]') as HTMLElement;
+                        if (sheet) sheet.click();
+                      }}
+                    >
+                      Steel Framings
+                    </Link>
+                    
+                    {/* Architectural Glass */}
+                    <Link
+                      href={createUrl('/services/architectural-glass-solutions')}
+                      className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        const sheet = document.querySelector('[data-state="open"]') as HTMLElement;
+                        if (sheet) sheet.click();
+                      }}
+                    >
+                      Architectural Glass
+                    </Link>
+                    
+                    {/* Handrails & Railings with submenu */}
+                    <div>
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setIsMobileHandrailsOpen(!isMobileHandrailsOpen);
+                        }}
+                        className="w-full flex items-center justify-between h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted"
+                      >
+                        <span>Handrails & Railings</span>
+                        <ChevronDown className={cn("h-4 w-4 transition-transform duration-200", isMobileHandrailsOpen && "rotate-180")} />
+                      </button>
+                      {isMobileHandrailsOpen && (
+                        <div className="ml-4 mt-1 space-y-1">
+                          <Link
+                            href={createUrl('/services/handrails-railings/railing-systems')}
+                            className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              const sheet = document.querySelector('[data-state="open"]') as HTMLElement;
+                              if (sheet) sheet.click();
+                            }}
+                          >
+                            Railing Systems
+                          </Link>
+                          <Link
+                            href={createUrl('/services/handrails-railings/glass-railing-systems')}
+                            className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              const sheet = document.querySelector('[data-state="open"]') as HTMLElement;
+                              if (sheet) sheet.click();
+                            }}
+                          >
+                            Glass Railing
+                          </Link>
+                          <Link
+                            href={createUrl('/services/handrails-railings/easy-railing')}
+                            className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              const sheet = document.querySelector('[data-state="open"]') as HTMLElement;
+                              if (sheet) sheet.click();
+                            }}
+                          >
+                            Easy Railing
+                          </Link>
+                          <Link
+                            href={createUrl('/services/handrails-railings/fence-systems')}
+                            className="block h-9 px-2 rounded-md text-sm leading-9 hover:bg-muted"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              const sheet = document.querySelector('[data-state="open"]') as HTMLElement;
+                              if (sheet) sheet.click();
+                            }}
+                          >
+                            Fence Systems
+                          </Link>
+                        </div>
+                      )}
+                    </div>
+                  </div>
                 </div>
-                <Link href={createUrl("/contact")} className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted">{t('nav.contact')}</Link>
+                
+                <Link 
+                  href={createUrl("/contact")} 
+                  className="block h-10 px-3 rounded-md text-base font-medium leading-10 hover:bg-muted"
+                  onClick={() => {
+                    const sheet = document.querySelector('[data-state="open"]') as HTMLElement;
+                    if (sheet) sheet.click();
+                  }}
+                >
+                  {t('nav.contact')}
+                </Link>
               </nav>
               <Separator className="my-4" />
               <div className="mt-auto grid gap-2">
