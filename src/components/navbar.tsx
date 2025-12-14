@@ -9,15 +9,8 @@ import {
   NavigationMenuItem,
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 import { cn } from "@/lib/utils";
-import { ChevronDown, Menu, DoorOpen, PanelsTopLeft, Layers, ScanLine } from "lucide-react";
-import MegaMenu, { type MegaMenuItem } from "@/components/ui/mega-menu";
+import { ChevronDown, Menu } from "lucide-react";
 import { createLocalizedUrl } from "@/lib/slugs";
 import {
   Sheet,
@@ -32,6 +25,9 @@ type Locale = 'en' | undefined;
 
 export function Navbar({ locale }: { locale?: Locale } = {}) {
   const [isHydrated, setIsHydrated] = useState(false);
+  const [isProductsMenuOpen, setIsProductsMenuOpen] = useState(false);
+  const [isWindowsDoorsSubmenuOpen, setIsWindowsDoorsSubmenuOpen] = useState(false);
+  const [isHandrailsSubmenuOpen, setIsHandrailsSubmenuOpen] = useState(false);
   const pathname = usePathname();
   const menuId = useId();
   const current = (locale === 'en') ? locale : 'en';
@@ -117,72 +113,158 @@ export function Navbar({ locale }: { locale?: Locale } = {}) {
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                {(() => {
-                  const items: MegaMenuItem[] = [
-                    {
-                      id: 1,
-                      label: t('nav.services'),
-                      subMenus: [
-                        {
-                          title: 'Windows & Doors',
-                          items: [
-                            {
-                              label: t('nav.services_menu.upvc'),
-                              description: 'u-PVC window & door systems',
-                              icon: DoorOpen,
-                              href: createUrl('/services/u-pvc-systems'),
-                            },
-                            {
-                              label: t('nav.services_menu.aluminum'),
-                              description: 'Aluminum architectural systems',
-                              icon: PanelsTopLeft,
-                              href: createUrl('/services/aluminum-architectural-solutions'),
-                            },
-                          ],
-                        },
-                        {
-                          title: 'Other Products',
-                          items: [
-                            {
-                              label: t('nav.services_menu.decorative'),
-                              description: 'Interior & exterior decorative products',
-                              icon: Layers,
-                              href: createUrl('/services/interior-and-exterior-decorative-products'),
-                            },
-                            {
-                              label: t('nav.services_menu.steel'),
-                              description: 'Steel framings & structural solutions',
-                              icon: ScanLine,
-                              href: createUrl('/services/steel-framings'),
-                            },
-                            {
-                              label: t('nav.services_menu.glass'),
-                              description: 'Architectural glass solutions',
-                              icon: PanelsTopLeft,
-                              href: createUrl('/services/architectural-glass-solutions'),
-                            },
-                            {
-                              label: 'Handrails & Railings',
-                              description: 'Balustrade and railing systems',
-                              icon: PanelsTopLeft,
-                            },
-                            {
-                              label: 'Pergolas',
-                              description: 'Outdoor shading structures',
-                              icon: PanelsTopLeft,
-                            },
-                            {
-                              label: 'Prefabricated Houses & Units',
-                              description: 'Modular prefabricated solutions',
-                              icon: PanelsTopLeft,
-                            },
-                          ],
-                        },
-                      ],
-                    },
-                  ];
-                  return <MegaMenu items={items} />;
-                })()}
+                <div
+                  className="relative"
+                  onMouseEnter={() => setIsProductsMenuOpen(true)}
+                  onMouseLeave={() => {
+                    setIsProductsMenuOpen(false);
+                    setIsWindowsDoorsSubmenuOpen(false);
+                    setIsHandrailsSubmenuOpen(false);
+                  }}
+                >
+                  <button
+                    className={cn(
+                      "text-sm font-medium px-2 py-1 rounded-md transition-colors hover:bg-muted flex items-center gap-1",
+                      isProductsMenuOpen && "bg-muted"
+                    )}
+                  >
+                    {t('nav.services')}
+                    <ChevronDown className={cn("h-4 w-4 transition-transform duration-200", isProductsMenuOpen && "rotate-180")} />
+                  </button>
+                  
+                  {isProductsMenuOpen && (
+                    <>
+                      {/* Invisible bridge to prevent gap */}
+                      <div className="absolute left-0 top-full w-full h-2" />
+                      <div 
+                        className="absolute left-0 top-full pt-2 w-[300px] bg-white border border-gray-200 rounded-lg shadow-xl py-4 z-50"
+                        onMouseEnter={() => setIsProductsMenuOpen(true)}
+                        onMouseLeave={() => {
+                          setIsProductsMenuOpen(false);
+                          setIsWindowsDoorsSubmenuOpen(false);
+                        }}
+                      >
+                        <div className="space-y-1">
+                          {/* Windows & Doors with submenu */}
+                          <div
+                            className="relative"
+                            onMouseEnter={() => setIsWindowsDoorsSubmenuOpen(true)}
+                            onMouseLeave={() => setIsWindowsDoorsSubmenuOpen(false)}
+                          >
+                            <div className="px-4 py-2.5 text-sm font-semibold text-gray-900 flex items-center justify-between cursor-pointer hover:bg-gray-50 rounded-md mx-2 transition-colors">
+                              <span>Windows & Doors</span>
+                              <ChevronDown className={cn("h-4 w-4 transition-transform duration-200 text-gray-500", isWindowsDoorsSubmenuOpen && "rotate-180")} />
+                            </div>
+                            
+                            {isWindowsDoorsSubmenuOpen && (
+                              <div className="absolute left-full top-0 -ml-2 w-[240px] bg-white border border-gray-200 rounded-lg shadow-xl py-2 z-50">
+                                <Link
+                                  href={createUrl('/services/u-pvc-systems')}
+                                  className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900 transition-colors rounded-md mx-2"
+                                  onClick={() => {
+                                    setIsProductsMenuOpen(false);
+                                    setIsWindowsDoorsSubmenuOpen(false);
+                                  }}
+                                >
+                                  {t('nav.services_menu.upvc')}
+                                </Link>
+                                <Link
+                                  href={createUrl('/services/aluminum-architectural-solutions')}
+                                  className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900 transition-colors rounded-md mx-2"
+                                  onClick={() => {
+                                    setIsProductsMenuOpen(false);
+                                    setIsWindowsDoorsSubmenuOpen(false);
+                                  }}
+                                >
+                                  {t('nav.services_menu.aluminum')}
+                                </Link>
+                              </div>
+                            )}
+                          </div>
+                          
+                          {/* Other menu items */}
+                          <Link
+                            href={createUrl('/services/interior-and-exterior-decorative-products')}
+                            className="block px-4 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-50 rounded-md mx-2 transition-colors"
+                            onClick={() => setIsProductsMenuOpen(false)}
+                          >
+                            Interior and Exterior
+                          </Link>
+                          <Link
+                            href={createUrl('/services/steel-framings')}
+                            className="block px-4 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-50 rounded-md mx-2 transition-colors"
+                            onClick={() => setIsProductsMenuOpen(false)}
+                          >
+                            Steel Framings
+                          </Link>
+                          <Link
+                            href={createUrl('/services/architectural-glass-solutions')}
+                            className="block px-4 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-50 rounded-md mx-2 transition-colors"
+                            onClick={() => setIsProductsMenuOpen(false)}
+                          >
+                            Architectural Glass
+                          </Link>
+                          {/* Handrails & Railings with submenu */}
+                          <div
+                            className="relative"
+                            onMouseEnter={() => setIsHandrailsSubmenuOpen(true)}
+                            onMouseLeave={() => setIsHandrailsSubmenuOpen(false)}
+                          >
+                            <div className="px-4 py-2.5 text-sm font-semibold text-gray-900 flex items-center justify-between cursor-pointer hover:bg-gray-50 rounded-md mx-2 transition-colors">
+                              <span>Handrails & Railings</span>
+                              <ChevronDown className={cn("h-4 w-4 transition-transform duration-200 text-gray-500", isHandrailsSubmenuOpen && "rotate-180")} />
+                            </div>
+                            
+                            {isHandrailsSubmenuOpen && (
+                              <div className="absolute left-full top-0 -ml-2 w-[240px] bg-white border border-gray-200 rounded-lg shadow-xl py-2 z-50">
+                                <Link
+                                  href={createUrl('/services/handrails-railings/railing-systems')}
+                                  className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900 transition-colors rounded-md mx-2"
+                                  onClick={() => {
+                                    setIsProductsMenuOpen(false);
+                                    setIsHandrailsSubmenuOpen(false);
+                                  }}
+                                >
+                                  Railing Systems
+                                </Link>
+                                <Link
+                                  href={createUrl('/services/handrails-railings/glass-railing-systems')}
+                                  className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900 transition-colors rounded-md mx-2"
+                                  onClick={() => {
+                                    setIsProductsMenuOpen(false);
+                                    setIsHandrailsSubmenuOpen(false);
+                                  }}
+                                >
+                                  Glass Railing
+                                </Link>
+                                <Link
+                                  href={createUrl('/services/handrails-railings/easy-railing')}
+                                  className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900 transition-colors rounded-md mx-2"
+                                  onClick={() => {
+                                    setIsProductsMenuOpen(false);
+                                    setIsHandrailsSubmenuOpen(false);
+                                  }}
+                                >
+                                  Easy Railing
+                                </Link>
+                                <Link
+                                  href={createUrl('/services/handrails-railings/fence-systems')}
+                                  className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900 transition-colors rounded-md mx-2"
+                                  onClick={() => {
+                                    setIsProductsMenuOpen(false);
+                                    setIsHandrailsSubmenuOpen(false);
+                                  }}
+                                >
+                                  Fence Systems
+                                </Link>
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </>
+                  )}
+                </div>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Link href={createUrl("/contact")} className={cn("text-sm font-medium px-2 py-1 rounded-md transition-colors hover:bg-muted")}>

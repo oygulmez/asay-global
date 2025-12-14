@@ -8,13 +8,21 @@ import { StickyContactButtons } from '@/components/sticky-contact-buttons';
 // ContactForm component will be inline
 import { useEffect, useState } from 'react';
 import enMessages from '@/messages/en.json';
+import { ReCaptcha } from "@/components/recaptcha";
 
 export default function ContactPage() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
+  const [recaptchaToken, setRecaptchaToken] = useState<string | null>(null);
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    
+    if (!recaptchaToken) {
+      setErrorMessage("Please complete the reCAPTCHA verification.");
+      return;
+    }
+
     setStatus("sending");
     setErrorMessage("");
 
@@ -37,11 +45,13 @@ export default function ContactPage() {
           email: data.email,
           subject: `Contact Form: ${data.subject}`,
           message: data.message,
+          "g-recaptcha-response": recaptchaToken,
         }),
       });
 
       if (response.ok) {
         setStatus("sent");
+        setRecaptchaToken(null);
         (e.target as HTMLFormElement).reset();
         setTimeout(() => setStatus("idle"), 5000);
       } else {
@@ -135,7 +145,13 @@ export default function ContactPage() {
                 <label className="text-sm font-medium" htmlFor="message" style={{ color: 'black' }}>{(messages as any).dealers.form.message} *</label>
                 <textarea id="message" name="message" rows={6} required className="w-full border px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-[#333333]" />
               </div>
-              <button type="submit" disabled={status === "sending"} className="px-4 py-2 bg-[#333333] text-white rounded-md hover:bg-[#555555] disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors">
+              <div className="flex justify-center">
+                <ReCaptcha
+                  onChange={(token) => setRecaptchaToken(token)}
+                  onExpired={() => setRecaptchaToken(null)}
+                />
+              </div>
+              <button type="submit" disabled={status === "sending" || !recaptchaToken} className="px-4 py-2 bg-[#333333] text-white rounded-md hover:bg-[#555555] disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors">
                 {status === "sending" ? "Sending..." : (messages as any).dealers.form.send}
               </button>
             </form>

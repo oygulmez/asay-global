@@ -6,6 +6,7 @@ import { Footer } from '@/components/footer';
 import { StickyContactButtons } from '@/components/sticky-contact-buttons';
 import { useState, useEffect } from "react";
 import enMessages from '@/messages/en.json';
+import { ReCaptcha } from "@/components/recaptcha";
 
 type Dealer = {
   country: string;
@@ -67,10 +68,17 @@ const dealers: Dealer[] = [
 export default function DealersPage() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
+  const [recaptchaToken, setRecaptchaToken] = useState<string | null>(null);
   const messages = enMessages;
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    
+    if (!recaptchaToken) {
+      setErrorMessage("Please complete the reCAPTCHA verification.");
+      return;
+    }
+
     setStatus("sending");
     setErrorMessage("");
 
@@ -101,11 +109,13 @@ export default function DealersPage() {
           company: data.company,
           subject: `Dealer Contact: ${data.subject}`,
           message: `Country: ${data.country}\nJob Title: ${data.title}\nPreferred Dealer: ${data.preferredDealer}\n\nMessage:\n${data.message}`,
+          "g-recaptcha-response": recaptchaToken,
         }),
       });
 
       if (response.ok) {
         setStatus("sent");
+        setRecaptchaToken(null);
         // Reset form
         (e.target as HTMLFormElement).reset();
       } else {
@@ -132,28 +142,31 @@ export default function DealersPage() {
       />
 
       <div className="container mx-auto px-6 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-          {/* Left: Dealers vertical list */}
-          <div className="space-y-6">
+        {/* Dealers Grid */}
+        <div className="mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
             {dealers.map((d, i) => (
-              <div key={i} className="border rounded-lg p-6 bg-white">
-                <div className="flex items-center gap-2 mb-2">
+              <div key={i} className="border rounded-lg p-6 bg-white h-full flex flex-col">
+                <div className="flex items-center gap-2 mb-3">
                   <img src={d.flag} alt={d.country} width={18} height={12} className="rounded-none border" />
-                  <span className="text-sm" style={{ color: '#565656' }}>{d.country}</span>
+                  <span className="text-sm font-medium" style={{ color: '#565656' }}>{d.country}</span>
                 </div>
-                <h3 className="text-lg font-semibold mb-1" style={{ color: 'black' }}>{d.company}</h3>
-                {d.contact && <p className="text-sm mb-1" style={{ color: '#565656' }}>Contact: {d.contact}</p>}
-                {d.address && <p className="text-sm mb-1" style={{ color: '#565656' }}>{d.address}</p>}
-                {d.phones && d.phones.map((p, idx) => (
-                  <p key={idx} className="text-sm mb-1" style={{ color: '#565656' }}>Phone: {p}</p>
-                ))}
-                {d.email && <p className="text-sm mb-1" style={{ color: '#565656' }}>E-mail: {d.email}</p>}
+                <h3 className="text-lg font-semibold mb-3 flex-shrink-0" style={{ color: 'black' }}>{d.company}</h3>
+                <div className="flex-1 space-y-2">
+                  {d.contact && <p className="text-sm" style={{ color: '#565656' }}><span className="font-bold text-black">Contact:</span> {d.contact}</p>}
+                  {d.address && <p className="text-sm" style={{ color: '#565656' }}>{d.address}</p>}
+                  {d.phones && d.phones.map((p, idx) => (
+                    <p key={idx} className="text-sm" style={{ color: '#565656' }}><span className="font-bold text-black">Phone:</span> {p}</p>
+                  ))}
+                  {d.email && <p className="text-sm" style={{ color: '#565656' }}><span className="font-bold text-black">E-mail:</span> {d.email}</p>}
+                </div>
               </div>
             ))}
           </div>
+        </div>
 
-          {/* Right: Contact form */}
-          <div className="rounded-lg border p-6 bg-white h-fit">
+        {/* Contact form */}
+        <div className="rounded-lg border p-6 bg-white max-w-4xl mx-auto">
             <h2 className="text-xl font-semibold mb-6" style={{ color: 'black' }}>{(messages as any).dealers.form.title}</h2>
             <form onSubmit={onSubmit} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -215,9 +228,15 @@ export default function DealersPage() {
                 <label className="text-sm font-medium" htmlFor="message" style={{ color: 'black' }}>{(messages as any).dealers.form.message}</label>
                 <textarea id="message" name="message" rows={6} className="w-full border px-3 py-2 rounded-md focus:outline-none" />
               </div>
+              <div className="flex justify-center">
+                <ReCaptcha
+                  onChange={(token) => setRecaptchaToken(token)}
+                  onExpired={() => setRecaptchaToken(null)}
+                />
+              </div>
               <button 
                 type="submit" 
-                disabled={status !== "idle"} 
+                disabled={status !== "idle" || !recaptchaToken} 
                 className="px-4 py-2 bg-[#333333] text-white rounded-md disabled:opacity-50"
               >
                 {status === "sending" ? (messages as any).dealers.form.sending : status === "sent" ? (messages as any).dealers.form.sent : (messages as any).dealers.form.send}
@@ -236,7 +255,6 @@ export default function DealersPage() {
               )}
             </form>
           </div>
-        </div>
       </div>
       </main>
       <Footer locale="en" />
