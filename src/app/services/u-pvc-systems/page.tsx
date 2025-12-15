@@ -5,9 +5,12 @@ import { PageContainer } from "@/components/page-container";
 import { ProductGrid } from "@/components/product-grid";
 import { ProductCard } from "@/components/product-card";
 import { SiteLayout } from "@/components/site-layout";
+import Script from 'next/script';
+import { buildUPVCSystemsSchema } from '@/lib/services-schemas';
 import enMessages from "@/messages/en.json";
 
 export default function UPVCSystemsPage() {
+  const schema = buildUPVCSystemsSchema();
   const messages = enMessages;
 
   const t = (messages as any).upvc_systems;
@@ -36,6 +39,11 @@ export default function UPVCSystemsPage() {
 
   const content = (
     <>
+      <Script
+        id="upvc-systems-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <PageHeader
         title={t.page_header.title}
         description={t.page_header.description}

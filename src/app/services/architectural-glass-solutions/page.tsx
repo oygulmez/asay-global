@@ -6,15 +6,23 @@ import { SiteLayout } from "@/components/site-layout";
 import { Shield, Sun, Zap, Waves } from "lucide-react";
 import CallToAction from "@/components/call-to-action";
 import { ApplicationAreasGallery } from "@/components/image-gallery";
+import Script from 'next/script';
+import { buildGlassSolutionsSchema } from '@/lib/services-schemas';
 import enMessages from "@/messages/en.json";
 
 export default function ArchitecturalGlassSolutionsPage() {
+  const schema = buildGlassSolutionsSchema();
   const messages = enMessages;
   const t = messages.glass_systems;
   const createUrl = (path: string) => path;
 
   return (
     <SiteLayout locale="en">
+      <Script
+        id="glass-solutions-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <PageHeader
         title={t.page_header.title}
         description={t.page_header.description}

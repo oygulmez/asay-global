@@ -6,15 +6,23 @@ import { SiteLayout } from "@/components/site-layout";
 import CallToAction from "@/components/call-to-action";
 import { ApplicationAreasGallery } from "@/components/image-gallery";
 import { Shield, Droplets, PenTool, Recycle } from "lucide-react";
+import Script from 'next/script';
+import { buildAluminumSolutionsSchema } from '@/lib/services-schemas';
 import enMessages from "@/messages/en.json";
 
 export default function AluminumArchitecturalSolutionsPage() {
+  const schema = buildAluminumSolutionsSchema();
   const messages = enMessages;
   const t = messages.aluminum_systems;
   const createUrl = (path: string) => path;
 
   return (
     <SiteLayout locale="en">
+      <Script
+        id="aluminum-solutions-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <PageHeader
         title={t.page_header.title}
         description={t.page_header.description}

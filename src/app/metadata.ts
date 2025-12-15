@@ -1,0 +1,421 @@
+import type { Metadata } from 'next';
+
+const BASE_URL = 'https://www.asayglobal.com';
+const SITE_NAME = 'Asay Global';
+const DEFAULT_OG_IMAGE = `${BASE_URL}/images/asayglobal-background-img.webp`;
+
+export const homeMetadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
+  title: {
+    default: 'Asay Global | Premium Building Materials & Structural Solutions',
+    template: '%s | Asay Global',
+  },
+  description: 'Asay Global: 22+ years of expertise in premium building materials and structural solutions. Serving 38 countries across 5 continents with u-PVC systems, aluminum architectural solutions, architectural glass, steel framings, and decorative products. B2B partner for construction excellence.',
+  keywords: [
+    'building materials',
+    'structural solutions',
+    'u-PVC systems',
+    'aluminum architectural solutions',
+    'architectural glass',
+    'steel framings',
+    'decorative products',
+    'construction materials',
+    'B2B building materials',
+    'façade systems',
+    'window systems',
+    'door systems',
+    'curtain walls',
+    'steel structures',
+    'prefabricated buildings',
+    'commercial construction',
+    'residential construction',
+    'industrial buildings',
+    'construction supplier',
+    'global construction materials',
+    'premium building solutions',
+    'energy efficient windows',
+    'aluminum windows',
+    'PVC windows',
+    'glass facades',
+    'steel engineering',
+    'architectural solutions',
+    'construction partner',
+  ],
+  authors: [{ name: 'Asay Global' }],
+  creator: 'Asay Global',
+  publisher: 'Asay Global',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: BASE_URL,
+    siteName: SITE_NAME,
+    title: 'Asay Global | Premium Building Materials & Structural Solutions',
+    description: '22+ years of expertise in premium building materials and structural solutions. Serving 38 countries with u-PVC systems, aluminum solutions, architectural glass, steel framings, and decorative products.',
+    images: [
+      {
+        url: DEFAULT_OG_IMAGE,
+        width: 1200,
+        height: 630,
+        alt: 'Asay Global - Premium Building Materials & Structural Solutions',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Asay Global | Premium Building Materials & Structural Solutions',
+    description: '22+ years of expertise in premium building materials. Serving 38 countries with u-PVC, aluminum, glass, steel, and decorative solutions.',
+    images: [DEFAULT_OG_IMAGE],
+    creator: '@asayglobal',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: BASE_URL,
+  },
+  verification: {
+    google: 'FTitQ0CgHd3gbzLKv3kboB4CI6TYVpEc3HHRvg6ObTQ',
+  },
+  category: 'Building Materials',
+};
+
+export const aboutMetadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
+  title: 'About Us | Asay Global - 22+ Years of Building Materials Excellence',
+  description: 'Learn about Asay Global - 22+ years of expertise in premium building materials and structural solutions. Serving 38 countries across 5 continents with u-PVC systems, aluminum solutions, architectural glass, steel framings, and decorative products.',
+  keywords: [
+    'about asay global',
+    'building materials company',
+    'construction supplier',
+    'structural solutions provider',
+    '22 years experience',
+    'global building materials',
+    'construction industry',
+    'building materials expertise',
+    'international construction',
+    'B2B building materials',
+  ],
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: `${BASE_URL}/about`,
+    siteName: SITE_NAME,
+    title: 'About Us | Asay Global - 22+ Years of Building Materials Excellence',
+    description: '22+ years of expertise in premium building materials. Serving 38 countries with u-PVC, aluminum, glass, steel, and decorative solutions.',
+    images: [
+      {
+        url: DEFAULT_OG_IMAGE,
+        width: 1200,
+        height: 630,
+        alt: 'About Asay Global',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Us | Asay Global',
+    description: '22+ years of expertise in premium building materials. Serving 38 countries worldwide.',
+    images: [DEFAULT_OG_IMAGE],
+  },
+  alternates: {
+    canonical: `${BASE_URL}/about`,
+  },
+};
+
+export const contactMetadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
+  title: 'Contact Us | Asay Global - B2B Building Materials Inquiry',
+  description: 'Contact Asay Global for B2B inquiries about structural solutions, building materials, pricing, and partnerships. Reach our team for u-PVC, aluminum, glass and steel systems. Offices in Europe, USA, and Turkey.',
+  keywords: [
+    'contact asay global',
+    'building materials contact',
+    'B2B inquiry',
+    'construction materials inquiry',
+    'structural solutions contact',
+    'building materials pricing',
+    'construction partnership',
+    'building materials quote',
+    'contact building supplier',
+  ],
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: `${BASE_URL}/contact`,
+    siteName: SITE_NAME,
+    title: 'Contact Us | Asay Global - B2B Building Materials Inquiry',
+    description: 'Contact Asay Global for B2B inquiries about structural solutions, building materials, pricing, and partnerships.',
+    images: [
+      {
+        url: DEFAULT_OG_IMAGE,
+        width: 1200,
+        height: 630,
+        alt: 'Contact Asay Global',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact Us | Asay Global',
+    description: 'Contact Asay Global for B2B inquiries about building materials and structural solutions.',
+    images: [DEFAULT_OG_IMAGE],
+  },
+  alternates: {
+    canonical: `${BASE_URL}/contact`,
+  },
+};
+
+export const dealersMetadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
+  title: 'Authorized Dealers | Asay Global - Find Local Partners',
+  description: 'Find our trusted partners and authorized dealers worldwide. Connect with local experts in Italy, Greece, Armenia, Netherlands, Peru, and more for professional consultation and support.',
+  keywords: [
+    'asay global dealers',
+    'authorized dealers',
+    'building materials dealers',
+    'construction materials partners',
+    'local building suppliers',
+    'construction dealers',
+    'building materials distributors',
+    'authorized partners',
+    'construction materials dealers',
+  ],
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: `${BASE_URL}/dealers`,
+    siteName: SITE_NAME,
+    title: 'Authorized Dealers | Asay Global - Find Local Partners',
+    description: 'Find our trusted partners and authorized dealers worldwide. Connect with local experts for professional consultation.',
+    images: [
+      {
+        url: DEFAULT_OG_IMAGE,
+        width: 1200,
+        height: 630,
+        alt: 'Asay Global Authorized Dealers',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Authorized Dealers | Asay Global',
+    description: 'Find our trusted partners and authorized dealers worldwide.',
+    images: [DEFAULT_OG_IMAGE],
+  },
+  alternates: {
+    canonical: `${BASE_URL}/dealers`,
+  },
+};
+
+export const upvcSystemsMetadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
+  title: 'u-PVC Systems | Asay Global - Window, Door & Sliding Systems',
+  description: 'u-PVC product families covering window, door and sliding systems engineered for durability, energy efficiency and low maintenance. Explore Legend, Legend Art, Zendow, HS76, Slimslide and more.',
+  keywords: [
+    'u-PVC systems',
+    'PVC windows',
+    'PVC doors',
+    'PVC sliding systems',
+    'energy efficient windows',
+    'thermal insulation windows',
+    'low maintenance windows',
+    'uPVC window systems',
+    'uPVC door systems',
+    'lift and slide systems',
+    'Legend PVC',
+    'Zendow windows',
+    'HS76 sliding',
+    'Slimslide system',
+    'PVC building materials',
+    'energy efficient building',
+  ],
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: `${BASE_URL}/services/u-pvc-systems`,
+    siteName: SITE_NAME,
+    title: 'u-PVC Systems | Asay Global - Window, Door & Sliding Systems',
+    description: 'u-PVC product families covering window, door and sliding systems engineered for durability, energy efficiency and low maintenance.',
+    images: [
+      {
+        url: `${BASE_URL}/images/services/upvc-systems/pvc-window-and-door-system.webp`,
+        width: 1200,
+        height: 630,
+        alt: 'u-PVC Systems by Asay Global',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'u-PVC Systems | Asay Global',
+    description: 'Premium u-PVC window, door and sliding systems engineered for durability and energy efficiency.',
+    images: [`${BASE_URL}/images/services/upvc-systems/pvc-window-and-door-system.webp`],
+  },
+  alternates: {
+    canonical: `${BASE_URL}/services/u-pvc-systems`,
+  },
+};
+
+export const aluminumSolutionsMetadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
+  title: 'Aluminum Architectural Solutions | Asay Global - Façades, Windows & Doors',
+  description: 'High-performance aluminum systems for façades, windows, doors and curtain walls—strength, corrosion resistance and design flexibility for modern projects. Partner brands: Reynaers, Alumil, Sapa, Kleidco.',
+  keywords: [
+    'aluminum architectural solutions',
+    'aluminum façades',
+    'aluminum curtain walls',
+    'aluminum windows',
+    'aluminum doors',
+    'aluminum sliding systems',
+    'aluminum conservatories',
+    'aluminum building systems',
+    'curtain wall systems',
+    'structural glazing',
+    'aluminum extrusions',
+    'corrosion resistant aluminum',
+    'aluminum construction',
+    'modern façades',
+    'aluminum building materials',
+    'Reynaers aluminum',
+    'Alumil systems',
+  ],
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: `${BASE_URL}/services/aluminum-architectural-solutions`,
+    siteName: SITE_NAME,
+    title: 'Aluminum Architectural Solutions | Asay Global',
+    description: 'High-performance aluminum systems for façades, windows, doors and curtain walls—strength, corrosion resistance and design flexibility.',
+    images: [
+      {
+        url: `${BASE_URL}/images/services/aluminum-solutions/Aluminum-Architectural-Solutions-img--1.webp`,
+        width: 1200,
+        height: 630,
+        alt: 'Aluminum Architectural Solutions by Asay Global',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Aluminum Architectural Solutions | Asay Global',
+    description: 'High-performance aluminum systems for façades, windows, doors and curtain walls.',
+    images: [`${BASE_URL}/images/services/aluminum-solutions/Aluminum-Architectural-Solutions-img--1.webp`],
+  },
+  alternates: {
+    canonical: `${BASE_URL}/services/aluminum-architectural-solutions`,
+  },
+};
+
+export const glassSolutionsMetadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
+  title: 'Architectural Glass Solutions | Asay Global - Energy-Efficient Glazing',
+  description: 'Energy-efficient and specialty glazing for façades, skylights and interiors—thermal, acoustic and safety performance for contemporary architecture. Insulating glass, solar control, painted glass and more.',
+  keywords: [
+    'architectural glass',
+    'energy efficient glass',
+    'insulating glass',
+    'solar control glass',
+    'low-E glass',
+    'triple glazing',
+    'double glazing',
+    'structural glazing',
+    'glass façades',
+    'curtain wall glass',
+    'safety glass',
+    'laminated glass',
+    'tempered glass',
+    'painted glass',
+    'Tentesol glass',
+    'glass building materials',
+    'thermal performance glass',
+    'acoustic glass',
+  ],
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: `${BASE_URL}/services/architectural-glass-solutions`,
+    siteName: SITE_NAME,
+    title: 'Architectural Glass Solutions | Asay Global',
+    description: 'Energy-efficient and specialty glazing for façades, skylights and interiors—thermal, acoustic and safety performance.',
+    images: [
+      {
+        url: `${BASE_URL}/images/services/glass-solutions/Architectural-Glass-Solutions-img--1.webp`,
+        width: 1200,
+        height: 630,
+        alt: 'Architectural Glass Solutions by Asay Global',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Architectural Glass Solutions | Asay Global',
+    description: 'Energy-efficient and specialty glazing for façades, skylights and interiors.',
+    images: [`${BASE_URL}/images/services/glass-solutions/Architectural-Glass-Solutions-img--1.webp`],
+  },
+  alternates: {
+    canonical: `${BASE_URL}/services/architectural-glass-solutions`,
+  },
+};
+
+export const decorativeProductsMetadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
+  title: 'Interior & Exterior Decorative Products | Asay Global - Wall Panels & Cladding',
+  description: 'B2B decorative solutions for interiors and facades—wall, ceiling and cladding systems engineered for durability, aesthetics and fast installation. Wall panels, composite decking, facade systems and interior cladding.',
+  keywords: [
+    'decorative products',
+    'wall panels',
+    'interior cladding',
+    'exterior cladding',
+    'facade cladding',
+    'composite decking',
+    'decorative building materials',
+    'wall panel systems',
+    'ceiling systems',
+    'facade systems',
+    'interior decoration',
+    'exterior decoration',
+    'building cladding',
+    'decorative panels',
+    'architectural decoration',
+    'interior wall systems',
+    'exterior wall systems',
+  ],
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: `${BASE_URL}/services/interior-and-exterior-decorative-products`,
+    siteName: SITE_NAME,
+    title: 'Interior & Exterior Decorative Products | Asay Global',
+    description: 'B2B decorative solutions for interiors and facades—wall, ceiling and cladding systems engineered for durability and aesthetics.',
+    images: [
+      {
+        url: `${BASE_URL}/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-1.webp`,
+        width: 1200,
+        height: 630,
+        alt: 'Interior & Exterior Decorative Products by Asay Global',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Interior & Exterior Decorative Products | Asay Global',
+    description: 'B2B decorative solutions for interiors and facades—wall, ceiling and cladding systems.',
+    images: [`${BASE_URL}/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-1.webp`],
+  },
+  alternates: {
+    canonical: `${BASE_URL}/services/interior-and-exterior-decorative-products`,
+  },
+};
+

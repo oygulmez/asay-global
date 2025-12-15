@@ -9,8 +9,25 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Asay Global - Structural Solutions',
+  metadataBase: new URL('https://www.asayglobal.com'),
+  title: {
+    default: 'Asay Global - Structural Solutions',
+    template: '%s | Asay Global',
+  },
   description: 'B2B partner for structural solutions: u‑PVC, aluminum, glass and steel systems',
+  keywords: [
+    'building materials',
+    'structural solutions',
+    'u-PVC systems',
+    'aluminum architectural solutions',
+    'architectural glass',
+    'steel framings',
+    'construction materials',
+    'B2B building materials',
+  ],
+  authors: [{ name: 'Asay Global' }],
+  creator: 'Asay Global',
+  publisher: 'Asay Global',
   verification: {
     google: 'FTitQ0CgHd3gbzLKv3kboB4CI6TYVpEc3HHRvg6ObTQ',
   },
@@ -25,6 +42,25 @@ export const metadata: Metadata = {
     ],
   },
   manifest: '/site.webmanifest',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Asay Global',
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
 }
 
 export default function RootLayout({

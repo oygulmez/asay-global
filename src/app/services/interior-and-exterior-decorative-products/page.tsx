@@ -6,15 +6,23 @@ import { PageContainer } from "@/components/page-container";
 import { SiteLayout } from "@/components/site-layout";
 import CallToAction from "@/components/call-to-action";
 import { ApplicationAreasGallery } from "@/components/image-gallery";
+import Script from 'next/script';
+import { buildDecorativeProductsSchema } from '@/lib/services-schemas';
 import enMessages from "@/messages/en.json";
 
 export default function InteriorExteriorDecorativeProductsPage() {
+  const schema = buildDecorativeProductsSchema();
   const messages = enMessages;
   const t = messages.decorative_systems;
   const createUrl = (path: string) => path;
 
   return (
     <SiteLayout locale="en">
+      <Script
+        id="decorative-products-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <PageHeader
         title={t.page_header.title}
         description={t.page_header.description}

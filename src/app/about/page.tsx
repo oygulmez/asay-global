@@ -1,18 +1,23 @@
-"use client"
-
 import { PageHeader } from "@/components/page-header";
 import CallToAction from "@/components/call-to-action";
 import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { StickyContactButtons } from '@/components/sticky-contact-buttons';
-import { useEffect, useState } from 'react';
+import Script from 'next/script';
+import { buildAboutSchema } from '@/lib/about-schema';
 import enMessages from '@/messages/en.json';
 
 export default function AboutPage() {
   const messages = enMessages;
+  const schema = buildAboutSchema();
 
   const content = (
     <>
+      <Script
+        id="about-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <PageHeader 
         title={(messages as any).about.page_header.title}
         description={(messages as any).about.page_header.description}
