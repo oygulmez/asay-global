@@ -5,9 +5,11 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { StickyContactButtons } from "@/components/sticky-contact-buttons";
 
+type Locale = 'en' | undefined;
+
 interface SiteLayoutProps {
   children: ReactNode;
-  locale?: string;
+  locale?: Locale;
 }
 
 /**
