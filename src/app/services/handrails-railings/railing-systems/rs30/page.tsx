@@ -90,23 +90,23 @@ export default function RS30RailingSystemPage() {
 
   const images = [
     {
-      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/RS30.jpg",
+      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/RS30.webp",
       alt: "RS30 Railing System"
     },
     {
-      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/RS30_TD-1536x1086.png",
+      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/RS30_TD-1536x1086.webp",
       alt: "RS30 Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/RS30-A_TD.png",
+      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/RS30-A_TD.webp",
       alt: "RS30-A Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/RS30-B_TD-1086x1536.png",
+      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/RS30-B_TD-1086x1536.webp",
       alt: "RS30-B Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/Ekran-Resmi-2025-01-14-05.36.15.png",
+      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/Ekran-Resmi-2025-01-14-05.36.15.webp",
       alt: "RS30 Technical Table"
     }
   ];
@@ -161,22 +161,22 @@ export default function RS30RailingSystemPage() {
 
   const carouselImages = [
     {
-      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/RS30_TD-1536x1086.png",
+      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/RS30_TD-1536x1086.webp",
       alt: "RS30 Technical Drawing",
       lightboxIndex: 1
     },
     {
-      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/RS30-A_TD.png",
+      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/RS30-A_TD.webp",
       alt: "RS30-A Technical Drawing",
       lightboxIndex: 2
     },
     {
-      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/RS30-B_TD-1086x1536.png",
+      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/RS30-B_TD-1086x1536.webp",
       alt: "RS30-B Technical Drawing",
       lightboxIndex: 3
     },
     {
-      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/Ekran-Resmi-2025-01-14-05.36.15.png",
+      src: "/images/handrails-railings/railing-systems/RS30-railing-systems/Ekran-Resmi-2025-01-14-05.36.15.webp",
       alt: "RS30 Technical Table",
       lightboxIndex: 4
     }
@@ -223,10 +223,10 @@ export default function RS30RailingSystemPage() {
       "audienceType": "Architects, Contractors, Building Professionals"
     },
     "image": [
-      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS30-railing-systems/RS30.jpg",
-      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS30-railing-systems/RS30_TD-1536x1086.png",
-      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS30-railing-systems/RS30-A_TD.png",
-      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS30-railing-systems/RS30-B_TD-1086x1536.png"
+      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS30-railing-systems/RS30.webp",
+      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS30-railing-systems/RS30_TD-1536x1086.webp",
+      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS30-railing-systems/RS30-A_TD.webp",
+      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS30-railing-systems/RS30-B_TD-1086x1536.webp"
     ],
     "offers": {
       "@type": "Offer",
@@ -352,7 +352,7 @@ export default function RS30RailingSystemPage() {
             >
               <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
                 <Image
-                  src="/images/handrails-railings/railing-systems/RS30-railing-systems/RS30.jpg"
+                  src="/images/handrails-railings/railing-systems/RS30-railing-systems/RS30.webp"
                   alt="RS30 Railing System"
                   fill
                   sizes="100vw"

@@ -35,7 +35,7 @@ export function PageHeader({
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-100"
         style={{
-          backgroundImage: "url('/images/asayglobal-background-img.jpg')"
+          backgroundImage: "url('/images/asayglobal-background-img.webp')"
         }}
       />
       {/* Overlay */}

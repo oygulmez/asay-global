@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "Asay Global",
     images: [
       {
-        url: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A.png",
+        url: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A.webp",
         width: 1200,
         height: 630,
         alt: "RS50 Easy Railing System by Asay Global",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     description:
       "Smart design and easy installation – a user-friendly railing solution that reduces installation time while preserving safety and design quality.",
     images: [
-      "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A.png",
+      "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A.webp",
     ],
   },
   robots: {

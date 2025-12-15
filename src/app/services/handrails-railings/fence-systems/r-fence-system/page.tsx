@@ -30,71 +30,71 @@ const createUrl = (path: string) => path;
 // Hero + all images (lightbox)
 const images = [
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/R-Fence_Garden.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/R-Fence_Garden.webp",
     alt: "R-Fence System – garden installation",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/Group-38.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/Group-38.webp",
     alt: "R-Fence System – elevation and details",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/h100-724x1024.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/h100-724x1024.webp",
     alt: "R-Fence System – H100 elevation",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/h200-724x1024.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/h200-724x1024.webp",
     alt: "R-Fence System – H200 elevation",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/h100-150-200-768x432.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/h100-150-200-768x432.webp",
     alt: "R-Fence System – H100 / H150 / H200 comparison",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/o1-724x1024.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/o1-724x1024.webp",
     alt: "R-Fence System – O1 view",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/o2-724x1024.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/o2-724x1024.webp",
     alt: "R-Fence System – O2 view",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/o3-724x1024.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/o3-724x1024.webp",
     alt: "R-Fence System – O3 view",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/a90-front-768x432.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/a90-front-768x432.webp",
     alt: "R-Fence System – 90° front view",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/a90-o2-768x432.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/a90-o2-768x432.webp",
     alt: "R-Fence System – 90° O2 view",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/a90-o3-768x432.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/a90-o3-768x432.webp",
     alt: "R-Fence System – 90° O3 view",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/o1_v2-768x768.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/o1_v2-768x768.webp",
     alt: "R-Fence System – O1 v2 detail",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/o2_v2-768x768.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/o2_v2-768x768.webp",
     alt: "R-Fence System – O2 v2 detail",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/o3_v2-768x768.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/o3_v2-768x768.webp",
     alt: "R-Fence System – O3 v2 detail",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/a90-top-768x558.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/a90-top-768x558.webp",
     alt: "R-Fence System – 90° top view",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/a135-top.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/a135-top.webp",
     alt: "R-Fence System – 135° top view",
   },
   {
-    src: "/images/handrails-railings/fense-systems/r-fence-system/a180-top.png",
+    src: "/images/handrails-railings/fense-systems/r-fence-system/a180-top.webp",
     alt: "R-Fence System – 180° top view",
   },
 ];

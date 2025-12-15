@@ -89,36 +89,36 @@ export default function LM10RailingSystemPage() {
 
     const images = [
         {
-            src: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10.png",
+            src: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10.webp",
             alt: "LM10 Railing System – Main View"
         },
         {
-            src: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10_Dikme.png",
+            src: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10_Dikme.webp",
             alt: "LM10 Post Detail"
         },
         {
-            src: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10-B_Dikme-768x768.png",
+            src: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10-B_Dikme-768x768.webp",
             alt: "LM10 Detailed View"
         },
         {
-            src: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10-A_TD.png",
+            src: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10-A_TD.webp",
             alt: "LM10 Technical Drawing"
         }
     ];
 
     const carouselImages = [
         {
-            src: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10_Dikme.png",
+            src: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10_Dikme.webp",
             alt: "LM10 Post Detail",
             lightboxIndex: 1
         },
         {
-            src: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10-B_Dikme-768x768.png",
+            src: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10-B_Dikme-768x768.webp",
             alt: "LM10 Detailed View",
             lightboxIndex: 2
         },
         {
-            src: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10-A_TD.png",
+            src: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10-A_TD.webp",
             alt: "LM10 Technical Drawing",
             lightboxIndex: 3
         }
@@ -323,7 +323,7 @@ export default function LM10RailingSystemPage() {
                         >
                             <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
                                 <Image
-                                    src="/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10.png"
+                                    src="/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10.webp"
                                     alt="LM10 Railing System"
                                     fill
                                     sizes="100vw"

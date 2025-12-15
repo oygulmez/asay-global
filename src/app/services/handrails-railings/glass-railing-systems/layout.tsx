@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     siteName: 'Asay Global',
     images: [
       {
-        url: '/images/handrails-railings/glass-railing-systems/R6000-glass-railing-system/r6000-1024x571.jpg',
+        url: '/images/handrails-railings/glass-railing-systems/R6000-glass-railing-system/r6000-1024x571.webp',
         width: 1200,
         height: 630,
         alt: 'Glass Railing Systems by Asay Global',
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Glass Railing Systems | Asay Global',
     description: 'Explore Asay Global\'s premium glass railing systems: R6000, R6050, R6200, R1001, R6150, R1200. Designed to deliver maximum transparency while ensuring high safety standards.',
-    images: ['/images/handrails-railings/glass-railing-systems/R6000-glass-railing-system/r6000-1024x571.jpg'],
+    images: ['/images/handrails-railings/glass-railing-systems/R6000-glass-railing-system/r6000-1024x571.webp'],
   },
   robots: {
     index: true,

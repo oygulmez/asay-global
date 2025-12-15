@@ -90,72 +90,72 @@ export default function R1200GlassRailingSystemPage() {
 
     const images = [
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/1200-1024x571.jpg",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/1200-1024x571.webp",
             alt: "R1200 Glass Railing System"
         },
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-C_TD.png",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-C_TD.webp",
             alt: "R1200-C Technical Drawing"
         },
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-D_TD.png",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-D_TD.webp",
             alt: "R1200-D Technical Drawing"
         },
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-E_TD.png",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-E_TD.webp",
             alt: "R1200-E Technical Drawing"
         },
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/1003.png",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/1003.webp",
             alt: "R1200 Component 1003"
         },
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/C003-B.png",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/C003-B.webp",
             alt: "R1200 Component C003-B"
         },
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/C003-C.png",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/C003-C.webp",
             alt: "R1200 Component C003-C"
         },
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/1202.png",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/1202.webp",
             alt: "R1200 Component 1202"
         }
     ];
 
     const carouselImages = [
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-C_TD.png",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-C_TD.webp",
             alt: "R1200-C Technical Drawing",
             lightboxIndex: 1
         },
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-D_TD.png",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-D_TD.webp",
             alt: "R1200-D Technical Drawing",
             lightboxIndex: 2
         },
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-E_TD.png",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-E_TD.webp",
             alt: "R1200-E Technical Drawing",
             lightboxIndex: 3
         },
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/1003.png",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/1003.webp",
             alt: "R1200 Component 1003",
             lightboxIndex: 4
         },
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/C003-B.png",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/C003-B.webp",
             alt: "R1200 Component C003-B",
             lightboxIndex: 5
         },
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/C003-C.png",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/C003-C.webp",
             alt: "R1200 Component C003-C",
             lightboxIndex: 6
         },
         {
-            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/1202.png",
+            src: "/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/1202.webp",
             alt: "R1200 Component 1202",
             lightboxIndex: 7
         }
@@ -250,10 +250,10 @@ export default function R1200GlassRailingSystemPage() {
             "audienceType": "Architects, Contractors, Building Professionals"
         },
         "image": [
-            "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/1200-1024x571.jpg",
-            "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-C_TD.png",
-            "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-D_TD.png",
-            "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-E_TD.png"
+            "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/1200-1024x571.webp",
+            "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-C_TD.webp",
+            "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-D_TD.webp",
+            "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/R1200-E_TD.webp"
         ],
         "offers": {
             "@type": "Offer",
@@ -379,7 +379,7 @@ export default function R1200GlassRailingSystemPage() {
                         >
                             <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
                                 <Image
-                                    src="/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/1200-1024x571.jpg"
+                                    src="/images/handrails-railings/glass-railing-systems/R1200-glass-railing-system/1200-1024x571.webp"
                                     alt="R1200 Glass Railing System"
                                     fill
                                     sizes="100vw"

@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: 'Asay Global',
     images: [
       {
-        url: '/images/handrails-railings/railing-systems/RS20-railing-systems/RS20.jpg',
+        url: '/images/handrails-railings/railing-systems/RS20-railing-systems/RS20.webp',
         width: 1200,
         height: 630,
         alt: 'RS20 Railing System by Asay Global',
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'RS20 Railing System | Asay Global',
     description: 'Elegant linear form and enhanced structural detailing, offering a refined alternative for projects that require both visual clarity and robust protection.',
-    images: ['/images/handrails-railings/railing-systems/RS20-railing-systems/RS20.jpg'],
+    images: ['/images/handrails-railings/railing-systems/RS20-railing-systems/RS20.webp'],
   },
   robots: {
     index: true,

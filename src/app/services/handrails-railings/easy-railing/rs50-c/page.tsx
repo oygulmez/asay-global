@@ -30,31 +30,31 @@ const createUrl = (path: string) => path;
 // Main images (hero + all folder images for lightbox)
 const images = [
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C.webp",
     alt: "RS50-C Easy Railing System – main view",
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C_Dikme.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C_Dikme.webp",
     alt: "RS50-C Easy Railing System – post detail",
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C_Panel-Full-Gri-1536x1536.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C_Panel-Full-Gri-1536x1536.webp",
     alt: "RS50-C Easy Railing System – full grey panel",
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C_Panel-1536x1536.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C_Panel-1536x1536.webp",
     alt: "RS50-C Easy Railing System – panel detail",
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/SQ50-C_Dikme.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/SQ50-C_Dikme.webp",
     alt: "SQ50-C Easy Railing System – post detail",
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/SQ50-C_Panel-Full-Gri-1536x1536.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/SQ50-C_Panel-Full-Gri-1536x1536.webp",
     alt: "SQ50-C Easy Railing System – full grey panel",
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/SQ50-C_Panel-1536x1536.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/SQ50-C_Panel-1536x1536.webp",
     alt: "SQ50-C Easy Railing System – panel detail",
   },
 ];
@@ -62,32 +62,32 @@ const images = [
 // Technical / detail images carousel (hero hariç tüm klasör görselleri)
 const carouselImages = [
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C_Dikme.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C_Dikme.webp",
     alt: "RS50-C Easy Railing System – post detail",
     lightboxIndex: 1,
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C_Panel-Full-Gri-1536x1536.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C_Panel-Full-Gri-1536x1536.webp",
     alt: "RS50-C Easy Railing System – full grey panel",
     lightboxIndex: 2,
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C_Panel-1536x1536.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C_Panel-1536x1536.webp",
     alt: "RS50-C Easy Railing System – panel detail",
     lightboxIndex: 3,
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/SQ50-C_Dikme.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/SQ50-C_Dikme.webp",
     alt: "SQ50-C Easy Railing System – post detail",
     lightboxIndex: 4,
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/SQ50-C_Panel-Full-Gri-1536x1536.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/SQ50-C_Panel-Full-Gri-1536x1536.webp",
     alt: "SQ50-C Easy Railing System – full grey panel",
     lightboxIndex: 5,
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/SQ50-C_Panel-1536x1536.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/SQ50-C_Panel-1536x1536.webp",
     alt: "SQ50-C Easy Railing System – panel detail",
     lightboxIndex: 6,
   },

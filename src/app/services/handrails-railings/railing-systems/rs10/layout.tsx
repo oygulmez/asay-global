@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: 'Asay Global',
     images: [
       {
-        url: '/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-main-img.jpg',
+        url: '/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-main-img.webp',
         width: 1200,
         height: 630,
         alt: 'RS10 Railing System by Asay Global',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'RS10 Railing System | Asay Global',
     description: 'Round profile design delivering timeless aesthetics with structural safety for balconies and stairways.',
-    images: ['/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-main-img.jpg'],
+    images: ['/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-main-img.webp'],
   },
   robots: {
     index: true,

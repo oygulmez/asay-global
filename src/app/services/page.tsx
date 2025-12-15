@@ -1,38 +1,31 @@
-"use client"
+"use client";
 
 import { PageHeader } from "@/components/page-header";
+import { PageContainer } from "@/components/page-container";
+import { SiteLayout } from "@/components/site-layout";
 import { Gallery6 } from "@/components/gallery6";
-import { Navbar } from '@/components/navbar';
-import { Footer } from '@/components/footer';
-import { StickyContactButtons } from '@/components/sticky-contact-buttons';
-import { useEffect, useState } from 'react';
-import enMessages from '@/messages/en.json';
+import enMessages from "@/messages/en.json";
 
 export default function ServicesPage() {
-  const [locale, setLocale] = useState<'en'>('en');
-
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const path = window.location.pathname;
-      setLocale('en');
-    }
-  }, []);
-
   const messages = enMessages;
-  
-  // Helper function to create locale-aware URLs
   const createUrl = (path: string) => path;
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar locale="en" />
-      <main className="flex-1">
-        <PageHeader
+    <SiteLayout locale="en">
+      <PageHeader
         title={(messages as any).services.page_header.title}
         description={(messages as any).services.page_header.description}
-        breadcrumbItems={[{ label: (messages as any).services.page_header.breadcrumbs.home, href: createUrl("/") }, { label: (messages as any).services.page_header.breadcrumbs.services }]}
+        breadcrumbItems={[
+          {
+            label: (messages as any).services.page_header.breadcrumbs.home,
+            href: createUrl("/"),
+          },
+          {
+            label: (messages as any).services.page_header.breadcrumbs.services,
+          },
+        ]}
       />
-      <div className="container mx-auto px-6 py-16">
+      <PageContainer>
         <Gallery6
           demoUrl={createUrl("/contact")}
           heading={(messages as any).gallery.heading}
@@ -40,26 +33,30 @@ export default function ServicesPage() {
           items={[
             {
               id: "service-1",
-              title: (messages as any).homepage.services.interior_exterior_decorative.title,
-              summary: (messages as any).homepage.services.interior_exterior_decorative.summary,
+              title: (messages as any).homepage.services.interior_exterior_decorative
+                .title,
+              summary: (messages as any).homepage.services.interior_exterior_decorative
+                .summary,
               url: createUrl("/services/interior-and-exterior-decorative-products"),
               image:
-                "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-1.jpg",
+                "/images/services/interior-exterior/Interior-and-Exterior-Decorative-Products-1.webp",
             },
             {
               id: "service-2",
               title: (messages as any).homepage.services.steel_framings.title,
               summary: (messages as any).homepage.services.steel_framings.summary,
               url: createUrl("/services/steel-framings"),
-              image: "/images/services/steel-structure/steel-framings-img-1.jpg",
+              image: "/images/services/steel-structure/steel-framings-img-1.webp",
             },
             {
               id: "service-3",
-              title: (messages as any).homepage.services.aluminum_architectural.title,
-              summary: (messages as any).homepage.services.aluminum_architectural.summary,
+              title: (messages as any).homepage.services.aluminum_architectural
+                .title,
+              summary: (messages as any).homepage.services.aluminum_architectural
+                .summary,
               url: createUrl("/services/aluminum-architectural-solutions"),
               image:
-                "/images/services/aluminum-solutions/Aluminum-Architectural-Solutions-img--1.jpg",
+                "/images/services/aluminum-solutions/Aluminum-Architectural-Solutions-img--1.webp",
             },
             {
               id: "service-4",
@@ -67,23 +64,19 @@ export default function ServicesPage() {
               summary: (messages as any).homepage.services.architectural_glass.summary,
               url: createUrl("/services/architectural-glass-solutions"),
               image:
-                "/images/services/glass-solutions/Architectural-Glass-Solutions-img--1.jpg",
+                "/images/services/glass-solutions/Architectural-Glass-Solutions-img--1.webp",
             },
             {
               id: "service-5",
               title: (messages as any).homepage.services.upvc_systems.title,
               summary: (messages as any).homepage.services.upvc_systems.summary,
               url: createUrl("/services/u-pvc-systems"),
-              image:
-                "/images/services/upvc-systems/pvc-window-and-door-system.jpg",
+              image: "/images/services/upvc-systems/pvc-window-and-door-system.webp",
             },
           ]}
         />
-      </div>
-      </main>
-      <Footer locale="en" />
-      <StickyContactButtons />
-    </div>
+      </PageContainer>
+    </SiteLayout>
   );
 }
 

@@ -30,23 +30,23 @@ const createUrl = (path: string) => path;
 // Ana görseller
 const images = [
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A.webp",
     alt: "RS50 Easy Railing System – main view",
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A_Dikme-768x768.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A_Dikme-768x768.webp",
     alt: "RS50 Easy Railing System – post detail A",
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-B_Dikme-768x768.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-B_Dikme-768x768.webp",
     alt: "RS50 Easy Railing System – post detail B",
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A_TD.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A_TD.webp",
     alt: "RS50 Easy Railing System – technical drawing A",
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-B_TD-1.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-B_TD-1.webp",
     alt: "RS50 Easy Railing System – technical drawing B",
   },
 ];
@@ -54,22 +54,22 @@ const images = [
 // Teknik görseller için carousel (ana resmi hariç)
 const carouselImages = [
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A_Dikme-768x768.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A_Dikme-768x768.webp",
     alt: "RS50 Easy Railing System – post detail A",
     lightboxIndex: 1,
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-B_Dikme-768x768.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-B_Dikme-768x768.webp",
     alt: "RS50 Easy Railing System – post detail B",
     lightboxIndex: 2,
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A_TD.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A_TD.webp",
     alt: "RS50 Easy Railing System – technical drawing A",
     lightboxIndex: 3,
   },
   {
-    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-B_TD-1.png",
+    src: "/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-B_TD-1.webp",
     alt: "RS50 Easy Railing System – technical drawing B",
     lightboxIndex: 4,
   },
@@ -229,9 +229,9 @@ export default function RS50EasyRailingSystemPage() {
       audienceType: "Architects, Contractors, Building Professionals",
     },
     image: [
-      "https://www.asayglobal.com/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A.png",
-      "https://www.asayglobal.com/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A_Dikme-768x768.png",
-      "https://www.asayglobal.com/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-B_Dikme-768x768.png",
+      "https://www.asayglobal.com/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A.webp",
+      "https://www.asayglobal.com/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-A_Dikme-768x768.webp",
+      "https://www.asayglobal.com/images/handrails-railings/easy-railing-systems/RS50-railing-system/RS50-B_Dikme-768x768.webp",
     ],
     offers: {
       "@type": "Offer",

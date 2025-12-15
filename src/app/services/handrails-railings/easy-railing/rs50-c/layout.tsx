@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: "Asay Global",
     images: [
       {
-        url: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C.png",
+        url: "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C.webp",
         width: 1200,
         height: 630,
         alt: "RS50-C Easy Railing System by Asay Global",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     description:
       "Effortless Installation, Enhanced Transparency – choose RS50-C for fast installation combined with modern glass aesthetics.",
     images: [
-      "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C.png",
+      "/images/handrails-railings/easy-railing-systems/RS50-C-railing-system/RS50-C.webp",
     ],
   },
   robots: {

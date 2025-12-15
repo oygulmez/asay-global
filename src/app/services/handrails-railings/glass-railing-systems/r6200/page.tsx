@@ -90,31 +90,31 @@ export default function R6200GlassRailingSystemPage() {
 
   const images = [
     {
-      src: "/images/handrails-railings/R6200-glass-railing-system/6200-1024x571.jpg",
+      src: "/images/handrails-railings/R6200-glass-railing-system/6200-1024x571.webp",
       alt: "R6200 Glass Railing System"
     },
     {
-      src: "/images/handrails-railings/R6200-glass-railing-system/R6200-A_TD.png",
+      src: "/images/handrails-railings/R6200-glass-railing-system/R6200-A_TD.webp",
       alt: "R6200-A Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/R6200-glass-railing-system/R6200-B_TD.png",
+      src: "/images/handrails-railings/R6200-glass-railing-system/R6200-B_TD.webp",
       alt: "R6200-B Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/R6200-glass-railing-system/N16.png",
+      src: "/images/handrails-railings/R6200-glass-railing-system/N16.webp",
       alt: "N16 Component"
     },
     {
-      src: "/images/handrails-railings/R6200-glass-railing-system/MS16.png",
+      src: "/images/handrails-railings/R6200-glass-railing-system/MS16.webp",
       alt: "MS16 Component"
     },
     {
-      src: "/images/handrails-railings/R6200-glass-railing-system/PY16.png",
+      src: "/images/handrails-railings/R6200-glass-railing-system/PY16.webp",
       alt: "PY16 Component"
     },
     {
-      src: "/images/handrails-railings/R6200-glass-railing-system/PS10.png",
+      src: "/images/handrails-railings/R6200-glass-railing-system/PS10.webp",
       alt: "PS10 Component"
     }
   ];
@@ -169,32 +169,32 @@ export default function R6200GlassRailingSystemPage() {
 
   const carouselImages = [
     {
-      src: "/images/handrails-railings/R6200-glass-railing-system/R6200-A_TD.png",
+      src: "/images/handrails-railings/R6200-glass-railing-system/R6200-A_TD.webp",
       alt: "R6200-A Technical Drawing",
       lightboxIndex: 1
     },
     {
-      src: "/images/handrails-railings/R6200-glass-railing-system/R6200-B_TD.png",
+      src: "/images/handrails-railings/R6200-glass-railing-system/R6200-B_TD.webp",
       alt: "R6200-B Technical Drawing",
       lightboxIndex: 2
     },
     {
-      src: "/images/handrails-railings/R6200-glass-railing-system/N16.png",
+      src: "/images/handrails-railings/R6200-glass-railing-system/N16.webp",
       alt: "N16 Component",
       lightboxIndex: 3
     },
     {
-      src: "/images/handrails-railings/R6200-glass-railing-system/MS16.png",
+      src: "/images/handrails-railings/R6200-glass-railing-system/MS16.webp",
       alt: "MS16 Component",
       lightboxIndex: 4
     },
     {
-      src: "/images/handrails-railings/R6200-glass-railing-system/PY16.png",
+      src: "/images/handrails-railings/R6200-glass-railing-system/PY16.webp",
       alt: "PY16 Component",
       lightboxIndex: 5
     },
     {
-      src: "/images/handrails-railings/R6200-glass-railing-system/PS10.png",
+      src: "/images/handrails-railings/R6200-glass-railing-system/PS10.webp",
       alt: "PS10 Component",
       lightboxIndex: 6
     }
@@ -241,9 +241,9 @@ export default function R6200GlassRailingSystemPage() {
       "audienceType": "Architects, Contractors, Building Professionals"
     },
     "image": [
-      "https://www.asayglobal.com/images/handrails-railings/R6200-glass-railing-system/6200-1024x571.jpg",
-      "https://www.asayglobal.com/images/handrails-railings/R6200-glass-railing-system/R6200-A_TD.png",
-      "https://www.asayglobal.com/images/handrails-railings/R6200-glass-railing-system/R6200-B_TD.png"
+      "https://www.asayglobal.com/images/handrails-railings/R6200-glass-railing-system/6200-1024x571.webp",
+      "https://www.asayglobal.com/images/handrails-railings/R6200-glass-railing-system/R6200-A_TD.webp",
+      "https://www.asayglobal.com/images/handrails-railings/R6200-glass-railing-system/R6200-B_TD.webp"
     ],
     "offers": {
       "@type": "Offer",
@@ -379,7 +379,7 @@ export default function R6200GlassRailingSystemPage() {
             >
               <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
                 <Image
-                  src="/images/handrails-railings/R6200-glass-railing-system/6200-1024x571.jpg"
+                  src="/images/handrails-railings/R6200-glass-railing-system/6200-1024x571.webp"
                   alt="R6200 Glass Railing System"
                   fill
                   sizes="100vw"

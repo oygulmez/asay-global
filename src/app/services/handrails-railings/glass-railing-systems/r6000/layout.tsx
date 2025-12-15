@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     siteName: 'Asay Global',
     images: [
       {
-        url: '/images/handrails-railings/glass-railing-systems/R6000-glass-railing-system/r6000-1024x571.jpg',
+        url: '/images/handrails-railings/glass-railing-systems/R6000-glass-railing-system/r6000-1024x571.webp',
         width: 1200,
         height: 630,
         alt: 'R6000 Glass Railing System by Asay Global',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'R6000 Glass Railing System | Asay Global',
     description: 'One of the most preferred continuous glass base systems thanks to its modern design and ease of installation.',
-    images: ['/images/handrails-railings/glass-railing-systems/R6000-glass-railing-system/r6000-1024x571.jpg'],
+    images: ['/images/handrails-railings/glass-railing-systems/R6000-glass-railing-system/r6000-1024x571.webp'],
   },
   robots: {
     index: true,

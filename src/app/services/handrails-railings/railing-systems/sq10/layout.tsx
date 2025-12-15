@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: 'Asay Global',
     images: [
       {
-        url: '/images/handrails-railings/railing-systems/SQ10-railing-systems/SQ10.jpg',
+        url: '/images/handrails-railings/railing-systems/SQ10-railing-systems/SQ10.webp',
         width: 1200,
         height: 630,
         alt: 'SQ10 Railing System by Asay Global',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'SQ10 Railing System | Asay Global',
     description: 'Square profile design that delivers a strong, modern, and architectural appearance.',
-    images: ['/images/handrails-railings/railing-systems/SQ10-railing-systems/SQ10.jpg'],
+    images: ['/images/handrails-railings/railing-systems/SQ10-railing-systems/SQ10.webp'],
   },
   robots: {
     index: true,

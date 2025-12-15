@@ -21,7 +21,7 @@ type Dealer = {
 const dealers: Dealer[] = [
   {
     country: "Italy",
-    flag: "https://flagcdn.com/w20/it.png",
+    flag: "https://flagcdn.com/w20/it.webp",
     company: "New House Steel by Brescia Roberto",
     contact: "Roberto Brescia",
     email: "roberto@steelframings.com",

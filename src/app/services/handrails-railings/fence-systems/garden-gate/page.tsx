@@ -30,35 +30,35 @@ const createUrl = (path: string) => path;
 // Hero + all images (lightbox)
 const images = [
   {
-    src: "/images/handrails-railings/fense-systems/garden-gate/R-Fence_Entrance.png",
+    src: "/images/handrails-railings/fense-systems/garden-gate/R-Fence_Entrance.webp",
     alt: "Garden Gate System – entrance view",
   },
   {
-    src: "/images/handrails-railings/fense-systems/garden-gate/garden-gate-1.png",
+    src: "/images/handrails-railings/fense-systems/garden-gate/garden-gate-1.webp",
     alt: "Garden Gate System – detail 1",
   },
   {
-    src: "/images/handrails-railings/fense-systems/garden-gate/garden-gate-2.png",
+    src: "/images/handrails-railings/fense-systems/garden-gate/garden-gate-2.webp",
     alt: "Garden Gate System – detail 2",
   },
   {
-    src: "/images/handrails-railings/fense-systems/garden-gate/garden-gate-3.png",
+    src: "/images/handrails-railings/fense-systems/garden-gate/garden-gate-3.webp",
     alt: "Garden Gate System – detail 3",
   },
   {
-    src: "/images/handrails-railings/fense-systems/garden-gate/garden-gate-4.png",
+    src: "/images/handrails-railings/fense-systems/garden-gate/garden-gate-4.webp",
     alt: "Garden Gate System – detail 4",
   },
   {
-    src: "/images/handrails-railings/fense-systems/garden-gate/garden-gate-5.png",
+    src: "/images/handrails-railings/fense-systems/garden-gate/garden-gate-5.webp",
     alt: "Garden Gate System – detail 5",
   },
   {
-    src: "/images/handrails-railings/fense-systems/garden-gate/garden-gate-6.png",
+    src: "/images/handrails-railings/fense-systems/garden-gate/garden-gate-6.webp",
     alt: "Garden Gate System – detail 6",
   },
   {
-    src: "/images/handrails-railings/fense-systems/garden-gate/garden-gate-7.png",
+    src: "/images/handrails-railings/fense-systems/garden-gate/garden-gate-7.webp",
     alt: "Garden Gate System – detail 7",
   },
 ];

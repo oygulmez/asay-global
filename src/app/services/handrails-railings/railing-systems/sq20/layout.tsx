@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     siteName: 'Asay Global',
     images: [
       {
-        url: '/images/handrails-railings/railing-systems/SQ20-railing-systems/SQ20.jpg',
+        url: '/images/handrails-railings/railing-systems/SQ20-railing-systems/SQ20.webp',
         width: 1200,
         height: 630,
         alt: 'SQ20 Railing System by Asay Global',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'SQ20 Railing System | Asay Global',
     description: 'Balanced square profile and enhanced structural depth, offering a more pronounced architectural presence.',
-    images: ['/images/handrails-railings/railing-systems/SQ20-railing-systems/SQ20.jpg'],
+    images: ['/images/handrails-railings/railing-systems/SQ20-railing-systems/SQ20.webp'],
   },
   robots: {
     index: true,

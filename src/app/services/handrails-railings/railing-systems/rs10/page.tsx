@@ -90,23 +90,23 @@ export default function RS10RailingSystemPage() {
 
   const images = [
     {
-      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-main-img.jpg",
+      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-main-img.webp",
       alt: "RS10 Railing System"
     },
     {
-      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10_TD-1024x724.png",
+      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10_TD-1024x724.webp",
       alt: "RS10 Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-A_TD-600x849.png",
+      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-A_TD-600x849.webp",
       alt: "RS10-A Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-B_TD.png",
+      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-B_TD.webp",
       alt: "RS10-B Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-table.png",
+      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-table.webp",
       alt: "RS10 Technical Table"
     }
   ];
@@ -161,22 +161,22 @@ export default function RS10RailingSystemPage() {
 
   const carouselImages = [
     {
-      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10_TD-1024x724.png",
+      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10_TD-1024x724.webp",
       alt: "RS10 Technical Drawing",
       lightboxIndex: 1
     },
     {
-      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-A_TD-600x849.png",
+      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-A_TD-600x849.webp",
       alt: "RS10-A Technical Drawing",
       lightboxIndex: 2
     },
     {
-      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-B_TD.png",
+      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-B_TD.webp",
       alt: "RS10-B Technical Drawing",
       lightboxIndex: 3
     },
     {
-      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-table.png",
+      src: "/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-table.webp",
       alt: "RS10 Technical Table",
       lightboxIndex: 4
     }
@@ -223,10 +223,10 @@ export default function RS10RailingSystemPage() {
       "audienceType": "Architects, Contractors, Building Professionals"
     },
     "image": [
-      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-main-img.jpg",
-      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS10-railing-systems/RS10_TD-1024x724.png",
-      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-A_TD-600x849.png",
-      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-B_TD.png"
+      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-main-img.webp",
+      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS10-railing-systems/RS10_TD-1024x724.webp",
+      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-A_TD-600x849.webp",
+      "https://www.asayglobal.com/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-B_TD.webp"
     ],
     "offers": {
       "@type": "Offer",
@@ -352,7 +352,7 @@ export default function RS10RailingSystemPage() {
             >
               <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
                 <Image
-                  src="/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-main-img.jpg"
+                  src="/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-main-img.webp"
                   alt="RS10 Railing System"
                   fill
                   sizes="100vw"

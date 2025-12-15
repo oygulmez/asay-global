@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     siteName: 'Asay Global',
     images: [
       {
-        url: '/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30.jpg',
+        url: '/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30.webp',
         width: 1200,
         height: 630,
         alt: 'SQ30 Railing System by Asay Global',
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'SQ30 Railing System | Asay Global',
     description: 'Heavier square profile and reinforced structural design, making it ideal for projects that demand a stronger visual impact and elevated safety perception.',
-    images: ['/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30.jpg'],
+    images: ['/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30.webp'],
   },
   robots: {
     index: true,

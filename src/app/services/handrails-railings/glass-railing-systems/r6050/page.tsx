@@ -90,31 +90,31 @@ export default function R6050GlassRailingSystemPage() {
 
   const images = [
     {
-      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/6050-1024x571.jpg",
+      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/6050-1024x571.webp",
       alt: "R6050 Glass Railing System"
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/R6050-C_TD.png",
+      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/R6050-C_TD.webp",
       alt: "R6050-C Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/R6050-D_TD.png",
+      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/R6050-D_TD.webp",
       alt: "R6050-D Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/N16.png",
+      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/N16.webp",
       alt: "N16 Component"
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/NS1620.png",
+      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/NS1620.webp",
       alt: "NS1620 Component"
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/PY16.png",
+      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/PY16.webp",
       alt: "PY16 Component"
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/PS16.png",
+      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/PS16.webp",
       alt: "PS16 Component"
     }
   ];
@@ -169,32 +169,32 @@ export default function R6050GlassRailingSystemPage() {
 
   const carouselImages = [
     {
-      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/R6050-C_TD.png",
+      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/R6050-C_TD.webp",
       alt: "R6050-C Technical Drawing",
       lightboxIndex: 1
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/R6050-D_TD.png",
+      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/R6050-D_TD.webp",
       alt: "R6050-D Technical Drawing",
       lightboxIndex: 2
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/N16.png",
+      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/N16.webp",
       alt: "N16 Component",
       lightboxIndex: 3
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/NS1620.png",
+      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/NS1620.webp",
       alt: "NS1620 Component",
       lightboxIndex: 4
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/PY16.png",
+      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/PY16.webp",
       alt: "PY16 Component",
       lightboxIndex: 5
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/PS16.png",
+      src: "/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/PS16.webp",
       alt: "PS16 Component",
       lightboxIndex: 6
     }
@@ -241,9 +241,9 @@ export default function R6050GlassRailingSystemPage() {
       "audienceType": "Architects, Contractors, Building Professionals"
     },
     "image": [
-      "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/6050-1024x571.jpg",
-      "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/R6050-C_TD.png",
-      "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/R6050-D_TD.png"
+      "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/6050-1024x571.webp",
+      "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/R6050-C_TD.webp",
+      "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/R6050-D_TD.webp"
     ],
     "offers": {
       "@type": "Offer",
@@ -379,7 +379,7 @@ export default function R6050GlassRailingSystemPage() {
             >
               <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
                 <Image
-                  src="/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/6050-1024x571.jpg"
+                  src="/images/handrails-railings/glass-railing-systems/R6050-glass-railing-system/6050-1024x571.webp"
                   alt="R6050 Glass Railing System"
                   fill
                   sizes="100vw"

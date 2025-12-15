@@ -1,34 +1,31 @@
-"use client"
+"use client";
 
 import { PageHeader } from "@/components/page-header";
+import { PageContainer } from "@/components/page-container";
+import { SiteLayout } from "@/components/site-layout";
 import { Shield, Sun, Zap, Waves } from "lucide-react";
 import CallToAction from "@/components/call-to-action";
 import { ApplicationAreasGallery } from "@/components/image-gallery";
-import { Navbar } from '@/components/navbar';
-import { Footer } from '@/components/footer';
-import { StickyContactButtons } from '@/components/sticky-contact-buttons';
-import { useState, useEffect } from 'react';
-import enMessages from '@/messages/en.json';
+import enMessages from "@/messages/en.json";
 
 export default function ArchitecturalGlassSolutionsPage() {
   const messages = enMessages;
   const t = messages.glass_systems;
-  
   const createUrl = (path: string) => path;
 
-  const content = (
-    <>
+  return (
+    <SiteLayout locale="en">
       <PageHeader
         title={t.page_header.title}
         description={t.page_header.description}
         breadcrumbItems={[
           { label: t.page_header.breadcrumbs.home, href: createUrl("/") },
           { label: t.page_header.breadcrumbs.services, href: createUrl("/services") },
-          { label: t.page_header.breadcrumbs.glass_systems }
+          { label: t.page_header.breadcrumbs.glass_systems },
         ]}
       />
 
-      <div className="container mx-auto px-6 py-16">
+      <PageContainer>
         {/* Overview */}
         <div className="max-w-4xl mx-auto mb-16 text-center">
           <h2 className="text-3xl font-bold mb-4" style={{ color: 'black' }}>{t.overview.title}</h2>
@@ -53,7 +50,7 @@ export default function ArchitecturalGlassSolutionsPage() {
               {/* Insulating Glass */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/glass-solutions/Architectural-Glass-Solutions-Insulating-Glass.png" alt="Insulating Glass" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/glass-solutions/Architectural-Glass-Solutions-Insulating-Glass.webp" alt="Insulating Glass" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.technologies.insulating_glass.title}</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.technologies.insulating_glass.title}</h3>
@@ -67,7 +64,7 @@ export default function ArchitecturalGlassSolutionsPage() {
               {/* Colorless Flat Glass */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/glass-solutions/Architectural-Glass-Solutions-Colorless-Flat-Glass.png" alt="Colorless Flat Glass" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/glass-solutions/Architectural-Glass-Solutions-Colorless-Flat-Glass.webp" alt="Colorless Flat Glass" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.technologies.colorless_flat_glass.title}</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.technologies.colorless_flat_glass.title}</h3>
@@ -81,7 +78,7 @@ export default function ArchitecturalGlassSolutionsPage() {
               {/* Tentesol Glass */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/glass-solutions/Architectural-Glass-SolutionsTentesol-Glass.png" alt="Tentesol Glass" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/glass-solutions/Architectural-Glass-SolutionsTentesol-Glass.webp" alt="Tentesol Glass" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.technologies.tentesol_glass.title}</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.technologies.tentesol_glass.title}</h3>
@@ -95,7 +92,7 @@ export default function ArchitecturalGlassSolutionsPage() {
               {/* Painted Glass */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/glass-solutions/Architectural-Glass-Solutions-Painted-Glass.png" alt="Painted Glass" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/glass-solutions/Architectural-Glass-Solutions-Painted-Glass.webp" alt="Painted Glass" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.technologies.painted_glass.title}</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.technologies.painted_glass.title}</h3>
@@ -158,34 +155,23 @@ export default function ArchitecturalGlassSolutionsPage() {
 
         {/* Gallery */}
         <ApplicationAreasGallery images={[
-          { src: "/images/services/glass-solutions/architectural-glass-gallery-1.jpg", alt: "Glass Gallery 1" },
-          { src: "/images/services/glass-solutions/architectural-glass-gallery-2.jpeg", alt: "Glass Gallery 2" },
-          { src: "/images/services/glass-solutions/architectural-glass-gallery-3.jpg", alt: "Glass Gallery 3" },
-          { src: "/images/services/glass-solutions/architectural-glass-gallery-4.jpg", alt: "Glass Gallery 4" },
+          { src: "/images/services/glass-solutions/architectural-glass-gallery-1.webp", alt: "Glass Gallery 1" },
+          { src: "/images/services/glass-solutions/architectural-glass-gallery-2.webp", alt: "Glass Gallery 2" },
+          { src: "/images/services/glass-solutions/architectural-glass-gallery-3.webp", alt: "Glass Gallery 3" },
+          { src: "/images/services/glass-solutions/architectural-glass-gallery-4.webp", alt: "Glass Gallery 4" },
           { src: "/images/services/glass-solutions/architectural-glass-gallery-5.avif", alt: "Glass Gallery 5" },
           { src: "/images/services/glass-solutions/architectural-glass-gallery-6.webp", alt: "Glass Gallery 6" },
-          { src: "/images/services/glass-solutions/Architectural-Glass-Solutions-Insulating-Glass.png", alt: "Insulating Glass" },
-          { src: "/images/services/glass-solutions/Architectural-Glass-Solutions-Colorless-Flat-Glass.png", alt: "Colorless Flat Glass" },
-          { src: "/images/services/glass-solutions/Architectural-Glass-SolutionsTentesol-Glass.png", alt: "Tentesol Glass" },
-          { src: "/images/services/glass-solutions/Architectural-Glass-Solutions-Painted-Glass.png", alt: "Painted Glass" },
-          { src: "/images/services/glass-solutions/Architectural-Glass-Solutions-img--1.jpg", alt: "Architectural Glass" },
+          { src: "/images/services/glass-solutions/Architectural-Glass-Solutions-Insulating-Glass.webp", alt: "Insulating Glass" },
+          { src: "/images/services/glass-solutions/Architectural-Glass-Solutions-Colorless-Flat-Glass.webp", alt: "Colorless Flat Glass" },
+          { src: "/images/services/glass-solutions/Architectural-Glass-SolutionsTentesol-Glass.webp", alt: "Tentesol Glass" },
+          { src: "/images/services/glass-solutions/Architectural-Glass-Solutions-Painted-Glass.webp", alt: "Painted Glass" },
+          { src: "/images/services/glass-solutions/Architectural-Glass-Solutions-img--1.webp", alt: "Architectural Glass" },
         ]} />
 
         {/* CTA */}
         <CallToAction />
-      </div>
-    </>
-  );
-
-  return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar locale="en" />
-      <main className="flex-1">
-        {content}
-      </main>
-      <Footer locale="en" />
-      <StickyContactButtons />
-    </div>
+      </PageContainer>
+    </SiteLayout>
   );
 }
 

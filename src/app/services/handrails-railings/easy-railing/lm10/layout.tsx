@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         siteName: "Asay Global",
         images: [
             {
-                url: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10.png",
+                url: "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10.webp",
                 width: 1200,
                 height: 630,
                 alt: "LM10 Railing System by Asay Global",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
         description:
             "Architectural Rhythm, Controlled Privacy. Discover the LM10 lamella railing system.",
         images: [
-            "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10.png",
+            "/images/handrails-railings/easy-railing-systems/LM10-railing-system/LM10.webp",
         ],
     },
     robots: {

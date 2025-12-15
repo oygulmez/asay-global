@@ -90,31 +90,31 @@ export default function R1001CurvedGlassRailingSystemPage() {
 
   const images = [
     {
-      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1001-1024x571.jpg",
+      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1001-1024x571.webp",
       alt: "R1001 Curved Glass Railing System"
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/R1001-A_TD.png",
+      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/R1001-A_TD.webp",
       alt: "R1001-A Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/R1001-B_TD.png",
+      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/R1001-B_TD.webp",
       alt: "R1001-B Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1003.png",
+      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1003.webp",
       alt: "R1001 Component 1003"
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1004.png",
+      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1004.webp",
       alt: "R1001 Component 1004"
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1006.png",
+      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1006.webp",
       alt: "R1001 Component 1006"
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/C001-A.png",
+      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/C001-A.webp",
       alt: "R1001 Component C001-A"
     }
   ];
@@ -169,32 +169,32 @@ export default function R1001CurvedGlassRailingSystemPage() {
 
   const carouselImages = [
     {
-      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/R1001-A_TD.png",
+      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/R1001-A_TD.webp",
       alt: "R1001-A Technical Drawing",
       lightboxIndex: 1
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/R1001-B_TD.png",
+      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/R1001-B_TD.webp",
       alt: "R1001-B Technical Drawing",
       lightboxIndex: 2
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1003.png",
+      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1003.webp",
       alt: "R1001 Component 1003",
       lightboxIndex: 3
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1004.png",
+      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1004.webp",
       alt: "R1001 Component 1004",
       lightboxIndex: 4
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1006.png",
+      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1006.webp",
       alt: "R1001 Component 1006",
       lightboxIndex: 5
     },
     {
-      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/C001-A.png",
+      src: "/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/C001-A.webp",
       alt: "R1001 Component C001-A",
       lightboxIndex: 6
     }
@@ -241,9 +241,9 @@ export default function R1001CurvedGlassRailingSystemPage() {
       "audienceType": "Architects, Contractors, Building Professionals"
     },
     "image": [
-      "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1001-1024x571.jpg",
-      "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/R1001-A_TD.png",
-      "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/R1001-B_TD.png"
+      "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1001-1024x571.webp",
+      "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/R1001-A_TD.webp",
+      "https://www.asayglobal.com/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/R1001-B_TD.webp"
     ],
     "offers": {
       "@type": "Offer",
@@ -384,7 +384,7 @@ export default function R1001CurvedGlassRailingSystemPage() {
             >
               <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
                 <Image
-                  src="/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1001-1024x571.jpg"
+                  src="/images/handrails-railings/glass-railing-systems/R1001-glass-railing-system/1001-1024x571.webp"
                   alt="R1001 Curved Glass Railing System"
                   fill
                   sizes="100vw"

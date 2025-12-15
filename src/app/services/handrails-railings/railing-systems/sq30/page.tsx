@@ -90,23 +90,23 @@ export default function SQ30RailingSystemPage() {
 
   const images = [
     {
-      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30.jpg",
+      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30.webp",
       alt: "SQ30 Railing System"
     },
     {
-      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30_TD.png",
+      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30_TD.webp",
       alt: "SQ30 Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30-A_TD.png",
+      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30-A_TD.webp",
       alt: "SQ30-A Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30-B_TD.png",
+      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30-B_TD.webp",
       alt: "SQ30-B Technical Drawing"
     },
     {
-      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/Ekran-Resmi-2025-01-14-05.38.17.png",
+      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/Ekran-Resmi-2025-01-14-05.38.17.webp",
       alt: "SQ30 Technical Table"
     }
   ];
@@ -161,22 +161,22 @@ export default function SQ30RailingSystemPage() {
 
   const carouselImages = [
     {
-      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30_TD.png",
+      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30_TD.webp",
       alt: "SQ30 Technical Drawing",
       lightboxIndex: 1
     },
     {
-      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30-A_TD.png",
+      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30-A_TD.webp",
       alt: "SQ30-A Technical Drawing",
       lightboxIndex: 2
     },
     {
-      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30-B_TD.png",
+      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30-B_TD.webp",
       alt: "SQ30-B Technical Drawing",
       lightboxIndex: 3
     },
     {
-      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/Ekran-Resmi-2025-01-14-05.38.17.png",
+      src: "/images/handrails-railings/railing-systems/SQ30-railing-systems/Ekran-Resmi-2025-01-14-05.38.17.webp",
       alt: "SQ30 Technical Table",
       lightboxIndex: 4
     }
@@ -223,10 +223,10 @@ export default function SQ30RailingSystemPage() {
       "audienceType": "Architects, Contractors, Building Professionals"
     },
     "image": [
-      "https://www.asayglobal.com/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30.jpg",
-      "https://www.asayglobal.com/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30_TD.png",
-      "https://www.asayglobal.com/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30-A_TD.png",
-      "https://www.asayglobal.com/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30-B_TD.png"
+      "https://www.asayglobal.com/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30.webp",
+      "https://www.asayglobal.com/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30_TD.webp",
+      "https://www.asayglobal.com/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30-A_TD.webp",
+      "https://www.asayglobal.com/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30-B_TD.webp"
     ],
     "offers": {
       "@type": "Offer",
@@ -362,7 +362,7 @@ export default function SQ30RailingSystemPage() {
             >
               <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
                 <Image
-                  src="/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30.jpg"
+                  src="/images/handrails-railings/railing-systems/SQ30-railing-systems/SQ30.webp"
                   alt="SQ30 Railing System"
                   fill
                   sizes="100vw"

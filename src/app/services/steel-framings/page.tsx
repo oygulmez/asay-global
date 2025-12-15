@@ -1,36 +1,32 @@
-"use client"
+"use client";
 
 import { PageHeader } from "@/components/page-header";
+import { PageContainer } from "@/components/page-container";
+import { SiteLayout } from "@/components/site-layout";
 import CallToAction from "@/components/call-to-action";
 import { ApplicationAreasGallery } from "@/components/image-gallery";
 import { Cpu, Globe2, Shield, Users } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { Navbar } from '@/components/navbar';
-import { Footer } from '@/components/footer';
-import { StickyContactButtons } from '@/components/sticky-contact-buttons';
-import { useState, useEffect } from 'react';
-import enMessages from '@/messages/en.json';
+import enMessages from "@/messages/en.json";
 
 export default function SteelFramingsPage() {
   const messages = enMessages;
   const t = messages.steel_systems;
-  
   const createUrl = (path: string) => path;
-  // Root sayfada Navbar/Footer sarmalaması yapacağız
 
-  const content = (
-    <>
+  return (
+    <SiteLayout locale="en">
       <PageHeader
         title={t.page_header.title}
         description={t.page_header.description}
         breadcrumbItems={[
           { label: t.page_header.breadcrumbs.home, href: createUrl("/") },
           { label: t.page_header.breadcrumbs.services, href: createUrl("/services") },
-          { label: t.page_header.breadcrumbs.steel_systems }
+          { label: t.page_header.breadcrumbs.steel_systems },
         ]}
       />
 
-      <div className="container mx-auto px-6 py-16">
+      <PageContainer>
         {/* Overview */}
         <div className="max-w-4xl mx-auto mb-16 text-center">
           <h2 className="text-3xl font-bold mb-4" style={{ color: 'black' }}>{t.overview.title}</h2>
@@ -44,9 +40,9 @@ export default function SteelFramingsPage() {
           <div className="mx-auto max-w-7xl px-6">
             <h3 className="text-xl font-semibold mb-6 text-center" style={{ color: 'black' }}>{t.standards_title}</h3>
             <div className="flex items-center justify-center gap-16 flex-wrap">
-              <img src="/images/brands-logo/AISC-logo-500px.png" alt="AISC" className="h-16 md:h-20 lg:h-24 w-auto object-contain grayscale hover:grayscale-0 transition" />
-              <img src="/images/brands-logo/ASTM-logo-500px.png" alt="ASTM International" className="h-16 md:h-20 lg:h-24 w-auto object-contain grayscale hover:grayscale-0 transition" />
-              <img src="/images/brands-logo/icc-logo-500px.jpg" alt="ICC" className="h-16 md:h-20 lg:h-24 w-auto object-contain grayscale hover:grayscale-0 transition" />
+              <img src="/images/brands-logo/AISC-logo-500px.webp" alt="AISC" className="h-16 md:h-20 lg:h-24 w-auto object-contain grayscale hover:grayscale-0 transition" />
+              <img src="/images/brands-logo/ASTM-logo-500px.webp" alt="ASTM International" className="h-16 md:h-20 lg:h-24 w-auto object-contain grayscale hover:grayscale-0 transition" />
+              <img src="/images/brands-logo/icc-logo-500px.webp" alt="ICC" className="h-16 md:h-20 lg:h-24 w-auto object-contain grayscale hover:grayscale-0 transition" />
             </div>
           </div>
         </section>
@@ -66,7 +62,7 @@ export default function SteelFramingsPage() {
               {/* Structural Steel */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/steel-structure/steel-framings-structural-steel.jpg" alt="Structural Steel" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/steel-structure/steel-framings-structural-steel.webp" alt="Structural Steel" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.solutions.structural_steel.title}</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.solutions.structural_steel.title}</h3>
@@ -80,7 +76,7 @@ export default function SteelFramingsPage() {
               {/* Steel Frameworks */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/steel-structure/steel-framings-steel-frameworks.jpg" alt="Steel Frameworks" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/steel-structure/steel-framings-steel-frameworks.webp" alt="Steel Frameworks" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.solutions.steel_frameworks.title}</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.solutions.steel_frameworks.title}</h3>
@@ -94,7 +90,7 @@ export default function SteelFramingsPage() {
               {/* Industrial Buildings */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/steel-structure/steel-framings-industrial-buildings.jpg" alt="Industrial Buildings" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/steel-structure/steel-framings-industrial-buildings.webp" alt="Industrial Buildings" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.solutions.industrial_buildings.title}</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.solutions.industrial_buildings.title}</h3>
@@ -108,7 +104,7 @@ export default function SteelFramingsPage() {
               {/* Custom Fabrication */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/steel-structure/steel-framings-custom-fabrication.jpg" alt="Custom Fabrication" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/steel-structure/steel-framings-custom-fabrication.webp" alt="Custom Fabrication" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.solutions.custom_fabrication.title}</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.solutions.custom_fabrication.title}</h3>
@@ -187,36 +183,25 @@ export default function SteelFramingsPage() {
 
         {/* Application Areas - Steel Structure Gallery */}
         <ApplicationAreasGallery images={[
-          { src: "/images/services/steel-structure/steel-framings-structural-steel.jpg", alt: "Structural Steel" },
-          { src: "/images/services/steel-structure/steel-framings-steel-frameworks.jpg", alt: "Steel Frameworks" },
-          { src: "/images/services/steel-structure/steel-framings-industrial-buildings.jpg", alt: "Industrial Buildings" },
-          { src: "/images/services/steel-structure/steel-framings-custom-fabrication.jpg", alt: "Custom Fabrication" },
+          { src: "/images/services/steel-structure/steel-framings-structural-steel.webp", alt: "Structural Steel" },
+          { src: "/images/services/steel-structure/steel-framings-steel-frameworks.webp", alt: "Steel Frameworks" },
+          { src: "/images/services/steel-structure/steel-framings-industrial-buildings.webp", alt: "Industrial Buildings" },
+          { src: "/images/services/steel-structure/steel-framings-custom-fabrication.webp", alt: "Custom Fabrication" },
           { src: "/images/services/steel-structure/steel-framings-steel-bridges.webp", alt: "Steel Bridges" },
-          { src: "/images/services/steel-structure/steel-framings-img-1.jpg", alt: "Steel Framings 1" },
-          { src: "/images/services/steel-structure/Steel-framings-img-2.JPG", alt: "Steel Framings 2" },
-          { src: "/images/services/steel-structure/Steel-framings-img-3.jpg", alt: "Steel Framings 3" },
-          { src: "/images/services/steel-structure/Steel-framings-img-4.jpg", alt: "Steel Framings 4" },
-          { src: "/images/services/steel-structure/Steel-framings-img-5.jpg", alt: "Steel Framings 5" },
-          { src: "/images/services/steel-structure/Steel-framings-img-6.jpg", alt: "Steel Framings 6" },
-          { src: "/images/services/steel-structure/Steel-framings-img-7.JPG", alt: "Steel Framings 7" },
-          { src: "/images/services/steel-structure/Steel-framings-img-8.JPG", alt: "Steel Framings 8" },
+          { src: "/images/services/steel-structure/steel-framings-img-1.webp", alt: "Steel Framings 1" },
+          { src: "/images/services/steel-structure/Steel-framings-img-2.webp", alt: "Steel Framings 2" },
+          { src: "/images/services/steel-structure/Steel-framings-img-3.webp", alt: "Steel Framings 3" },
+          { src: "/images/services/steel-structure/Steel-framings-img-4.webp", alt: "Steel Framings 4" },
+          { src: "/images/services/steel-structure/Steel-framings-img-5.webp", alt: "Steel Framings 5" },
+          { src: "/images/services/steel-structure/Steel-framings-img-6.webp", alt: "Steel Framings 6" },
+          { src: "/images/services/steel-structure/Steel-framings-img-7.webp", alt: "Steel Framings 7" },
+          { src: "/images/services/steel-structure/Steel-framings-img-8.webp", alt: "Steel Framings 8" },
         ]} />
 
         {/* CTA */}
         <CallToAction />
-      </div>
-    </>
-  );
-
-  return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar locale="en" />
-      <main className="flex-1">
-        {content}
-      </main>
-      <Footer locale="en" />
-      <StickyContactButtons />
-    </div>
+      </PageContainer>
+    </SiteLayout>
   );
 }
 

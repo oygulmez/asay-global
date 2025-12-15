@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Asay Global",
     images: [
       {
-        url: "/images/handrails-railings/fense-systems/garden-gate/R-Fence_Entrance.png",
+        url: "/images/handrails-railings/fense-systems/garden-gate/R-Fence_Entrance.webp",
         width: 1200,
         height: 630,
         alt: "Garden Gate System by Asay Global",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     description:
       "Complete your perimeter design with a durable, aesthetic garden gate that matches your fence system.",
     images: [
-      "/images/handrails-railings/fense-systems/garden-gate/R-Fence_Entrance.png",
+      "/images/handrails-railings/fense-systems/garden-gate/R-Fence_Entrance.webp",
     ],
   },
   robots: {

@@ -90,27 +90,27 @@ export default function SQ50EasyRailingSystemPage() {
 
     const images = [
         {
-            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/RS50-A (1).png",
+            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/RS50-A (1).webp",
             alt: "SQ50 Easy Railing System"
         },
         {
-            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-A_Dikme.png",
+            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-A_Dikme.webp",
             alt: "SQ50 Post Detail"
         },
         {
-            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-B_Dikme-Full-Gri.png",
+            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-B_Dikme-Full-Gri.webp",
             alt: "SQ50 Grey Finish"
         },
         {
-            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-B_Dikme-768x768.png",
+            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-B_Dikme-768x768.webp",
             alt: "SQ50 Post Detail – 768x768"
         },
         {
-            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-A_TD.png",
+            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-A_TD.webp",
             alt: "SQ50 Technical Drawing A"
         },
         {
-            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-B_TD.png",
+            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-B_TD.webp",
             alt: "SQ50 Technical Drawing B"
         }
     ];
@@ -118,27 +118,27 @@ export default function SQ50EasyRailingSystemPage() {
     // Hero (thumbnail) hariç tüm SQ50 görsellerini technical images carousel'de kullan
     const carouselImages = [
         {
-            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-A_Dikme.png",
+            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-A_Dikme.webp",
             alt: "SQ50 Post Detail",
             lightboxIndex: 1
         },
         {
-            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-B_Dikme-Full-Gri.png",
+            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-B_Dikme-Full-Gri.webp",
             alt: "SQ50 Grey Finish",
             lightboxIndex: 2
         },
         {
-            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-B_Dikme-768x768.png",
+            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-B_Dikme-768x768.webp",
             alt: "SQ50 Post Detail – 768x768",
             lightboxIndex: 3
         },
         {
-            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-A_TD.png",
+            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-A_TD.webp",
             alt: "SQ50 Technical Drawing A",
             lightboxIndex: 4
         },
         {
-            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-B_TD.png",
+            src: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/SQ50-B_TD.webp",
             alt: "SQ50 Technical Drawing B",
             lightboxIndex: 5
         }
@@ -345,7 +345,7 @@ export default function SQ50EasyRailingSystemPage() {
                         >
                             <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
                                 <Image
-                                    src="/images/handrails-railings/easy-railing-systems/SQ50-railing-system/RS50-A (1).png"
+                                    src="/images/handrails-railings/easy-railing-systems/SQ50-railing-system/RS50-A (1).webp"
                                     alt="SQ50 Easy Railing System"
                                     fill
                                     sizes="100vw"

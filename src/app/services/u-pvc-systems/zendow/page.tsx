@@ -156,7 +156,7 @@ export default function ZendowProductPage() {
               <div className="lg:col-span-5">
                 <div className="relative w-full aspect-[16/10] overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
                   <Image
-                    src="/images/services/upvc-systems/colors-thmb.png"
+                    src="/images/services/upvc-systems/colors-thmb.webp"
                     alt="u-PVC laminate color options overview"
                     fill
                     sizes="(min-width:1024px) 40vw, 100vw"
@@ -169,19 +169,19 @@ export default function ZendowProductPage() {
               <div className="lg:col-span-7">
                 <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-5">
                   {[
-                    { file: "altin-mese.jpg", name: "Golden Oak" },
-                    { file: "antik-mese.jpg", name: "Antique Oak" },
-                    { file: "antrasit-gri.jpg", name: "Anthracite Grey" },
-                    { file: "findik.jpg", name: "Hazelnut" },
-                    { file: "krem.jpg", name: "Cream" },
-                    { file: "kul-siyahi.jpg", name: "Ash Black" },
-                    { file: "maun.jpg", name: "Mahogany" },
-                    { file: "metalik-antrasit-gri.jpg", name: "Metallic Anthracite" },
-                    { file: "metalik-gumus.jpg", name: "Metallic Silver" },
-                    { file: "platin-crown.jpg", name: "Platinum Crown" },
-                    { file: "pyrite.jpg", name: "Pyrite" },
-                    { file: "vizon.jpg", name: "Vizon" },
-                    { file: "winchester.jpg", name: "Winchester" }
+                    { file: "altin-mese.webp", name: "Golden Oak" },
+                    { file: "antik-mese.webp", name: "Antique Oak" },
+                    { file: "antrasit-gri.webp", name: "Anthracite Grey" },
+                    { file: "findik.webp", name: "Hazelnut" },
+                    { file: "krem.webp", name: "Cream" },
+                    { file: "kul-siyahi.webp", name: "Ash Black" },
+                    { file: "maun.webp", name: "Mahogany" },
+                    { file: "metalik-antrasit-gri.webp", name: "Metallic Anthracite" },
+                    { file: "metalik-gumus.webp", name: "Metallic Silver" },
+                    { file: "platin-crown.webp", name: "Platinum Crown" },
+                    { file: "pyrite.webp", name: "Pyrite" },
+                    { file: "vizon.webp", name: "Vizon" },
+                    { file: "winchester.webp", name: "Winchester" }
                   ].map((item) => (
                     <div key={item.file} className="flex flex-col items-center text-center">
                       <div className="relative w-11 h-11 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full ring-1 ring-gray-200 bg-white shadow-sm transition-transform duration-200 hover:scale-105 hover:ring-[#998675]">

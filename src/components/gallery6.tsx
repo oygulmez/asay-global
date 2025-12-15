@@ -37,7 +37,7 @@ const Gallery6 = ({
       summary:
         "High‑performance window, door and sliding solutions engineered for insulation and durability.",
       url: "/services/u-pvc-systems",
-      image: "/images/services/upvc-systems/pvc-window-and-door-system.jpg",
+      image: "/images/services/upvc-systems/pvc-window-and-door-system.webp",
     },
     {
       id: "item-2",

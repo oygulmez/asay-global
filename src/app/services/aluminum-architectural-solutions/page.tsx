@@ -1,34 +1,31 @@
-"use client"
+"use client";
 
 import { PageHeader } from "@/components/page-header";
+import { PageContainer } from "@/components/page-container";
+import { SiteLayout } from "@/components/site-layout";
 import CallToAction from "@/components/call-to-action";
 import { ApplicationAreasGallery } from "@/components/image-gallery";
 import { Shield, Droplets, PenTool, Recycle } from "lucide-react";
-import { Navbar } from '@/components/navbar';
-import { Footer } from '@/components/footer';
-import { StickyContactButtons } from '@/components/sticky-contact-buttons';
-import { useState, useEffect } from 'react';
-import enMessages from '@/messages/en.json';
+import enMessages from "@/messages/en.json";
 
 export default function AluminumArchitecturalSolutionsPage() {
   const messages = enMessages;
   const t = messages.aluminum_systems;
-  
   const createUrl = (path: string) => path;
 
-  const content = (
-    <>
+  return (
+    <SiteLayout locale="en">
       <PageHeader
         title={t.page_header.title}
         description={t.page_header.description}
         breadcrumbItems={[
           { label: t.page_header.breadcrumbs.home, href: createUrl("/") },
           { label: t.page_header.breadcrumbs.services, href: createUrl("/services") },
-          { label: t.page_header.breadcrumbs.aluminum_systems }
+          { label: t.page_header.breadcrumbs.aluminum_systems },
         ]}
       />
 
-      <div className="container mx-auto px-6 py-16">
+      <PageContainer>
         {/* Overview */}
         <div className="max-w-4xl mx-auto mb-16 text-center">
           <h2 className="text-3xl font-bold mb-4" style={{ color: 'black' }}>{t.overview.title}</h2>
@@ -43,7 +40,7 @@ export default function AluminumArchitecturalSolutionsPage() {
             <div className="flex items-center justify-center gap-16 flex-wrap">
               <img src="/images/brands-logo/brands-anasayfa/reynaers.svg" alt="Reynaers" className="h-16 md:h-20 lg:h-13 w-auto object-contain grayscale hover:grayscale-0 transition" />
               <img src="/images/brands-logo/brands-anasayfa/alumil-logo.svg" alt="Alumil" className="h-12 md:h-14 lg:h-10 w-auto object-contain grayscale hover:grayscale-0 transition" />
-              <img src="/images/brands-logo/brands-anasayfa/sapa-logo.jpg" alt="Sapa" className="h-18 md:h-22 lg:h-15 w-auto object-contain grayscale hover:grayscale-0 transition" />
+              <img src="/images/brands-logo/brands-anasayfa/sapa-logo.webp" alt="Sapa" className="h-18 md:h-22 lg:h-15 w-auto object-contain grayscale hover:grayscale-0 transition" />
               <img src="/images/brands-logo/brands-anasayfa/kleidco-logo-black.svg" alt="Kleidco" className="h-10 md:h-12 lg:h-8 w-auto object-contain grayscale hover:grayscale-0 transition" />
             </div>
           </div>
@@ -64,7 +61,7 @@ export default function AluminumArchitecturalSolutionsPage() {
               {/* Windows */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/aluminum-solutions/aluminum-architectural-systems-conservatories-.jpg" alt="Conservatories" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/aluminum-solutions/aluminum-architectural-systems-conservatories-.webp" alt="Conservatories" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.solutions.windows.title}</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.solutions.windows.title}</h3>
@@ -78,7 +75,7 @@ export default function AluminumArchitecturalSolutionsPage() {
               {/* Doors */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/aluminum-solutions/aluminum-architectural-systems-doors.jpg" alt="Doors" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/aluminum-solutions/aluminum-architectural-systems-doors.webp" alt="Doors" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.solutions.doors.title}</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.solutions.doors.title}</h3>
@@ -92,7 +89,7 @@ export default function AluminumArchitecturalSolutionsPage() {
               {/* Sliding & Folding */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/aluminum-solutions/aluminum-architectural-systems-sliding-folding.jpg" alt="Sliding & Folding" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/aluminum-solutions/aluminum-architectural-systems-sliding-folding.webp" alt="Sliding & Folding" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.solutions.sliding_folding.title}</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.solutions.sliding_folding.title}</h3>
@@ -106,7 +103,7 @@ export default function AluminumArchitecturalSolutionsPage() {
               {/* Conservatories */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/aluminum-solutions/aluminum-architectural-systems-conservatories-.jpg" alt="Conservatories" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/aluminum-solutions/aluminum-architectural-systems-conservatories-.webp" alt="Conservatories" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.solutions.conservatories.title}</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.solutions.conservatories.title}</h3>
@@ -120,7 +117,7 @@ export default function AluminumArchitecturalSolutionsPage() {
               {/* Façades */}
               <div className="bg-white border border-gray-200 p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <img src="/images/services/aluminum-solutions/aluminum-architectural-systems-facade-system.jpg" alt="Façades" className="aspect-[3/4] w-full object-cover border border-gray-200" />
+                  <img src="/images/services/aluminum-solutions/aluminum-architectural-systems-facade-system.webp" alt="Façades" className="aspect-[3/4] w-full object-cover border border-gray-200" />
                   <div>
                     <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">{t.solutions.facades.title}</span>
                     <h3 className="text-xl font-semibold mt-3 mb-2" style={{ color: 'black' }}>{t.solutions.facades.title}</h3>
@@ -184,33 +181,22 @@ export default function AluminumArchitecturalSolutionsPage() {
         {/* Gallery */}
         <ApplicationAreasGallery images={[
           { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-windows.webp", alt: "Windows" },
-          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-doors.jpg", alt: "Doors" },
-          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-sliding-folding.jpg", alt: "Sliding & Folding" },
-          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-conservatories-.jpg", alt: "Conservatories" },
-          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-facade-system.jpg", alt: "Façade System" },
-          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-gallery-1.png", alt: "Gallery 1" },
-          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-gallery-2.png", alt: "Gallery 2" },
-          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-gallery-3.png", alt: "Gallery 3" },
-          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-gallery-4.png", alt: "Gallery 4" },
-          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-gallery-5.png", alt: "Gallery 5" },
-          { src: "/images/services/aluminum-solutions/Aluminum-Architectural-Solutions-img--1.jpg", alt: "Aluminum Solutions" },
+          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-doors.webp", alt: "Doors" },
+          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-sliding-folding.webp", alt: "Sliding & Folding" },
+          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-conservatories-.webp", alt: "Conservatories" },
+          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-facade-system.webp", alt: "Façade System" },
+          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-gallery-1.webp", alt: "Gallery 1" },
+          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-gallery-2.webp", alt: "Gallery 2" },
+          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-gallery-3.webp", alt: "Gallery 3" },
+          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-gallery-4.webp", alt: "Gallery 4" },
+          { src: "/images/services/aluminum-solutions/aluminum-architectural-systems-gallery-5.webp", alt: "Gallery 5" },
+          { src: "/images/services/aluminum-solutions/Aluminum-Architectural-Solutions-img--1.webp", alt: "Aluminum Solutions" },
         ]} />
 
         {/* CTA */}
         <CallToAction />
-      </div>
-    </>
-  );
-
-  return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar locale="en" />
-      <main className="flex-1">
-        {content}
-      </main>
-      <Footer locale="en" />
-      <StickyContactButtons />
-    </div>
+      </PageContainer>
+    </SiteLayout>
   );
 }
 

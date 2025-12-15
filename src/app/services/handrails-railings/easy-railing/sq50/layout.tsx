@@ -35,7 +35,7 @@ export const metadata: Metadata = {
         siteName: "Asay Global",
         images: [
             {
-                url: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/RS50-A (1).png",
+                url: "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/RS50-A (1).webp",
                 width: 1200,
                 height: 630,
                 alt: "SQ50 Easy Railing System by Asay Global",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
         description:
             "Clean Geometry, Easy Installation. Choose a square-profile railing system designed for speed and efficiency.",
         images: [
-            "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/RS50-A (1).png",
+            "/images/handrails-railings/easy-railing-systems/SQ50-railing-system/RS50-A (1).webp",
         ],
     },
     robots: {

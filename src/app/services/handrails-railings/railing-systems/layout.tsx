@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     siteName: 'Asay Global',
     images: [
       {
-        url: '/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-main-img.jpg',
+        url: '/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-main-img.webp',
         width: 1200,
         height: 630,
         alt: 'Railing Systems by Asay Global',
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Railing Systems | Asay Global',
     description: 'Premium railing systems engineered for safety, durability, and modern aesthetics. Explore RS10, RS20, RS30, SQ10, SQ20, and SQ30.',
-    images: ['/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-main-img.jpg'],
+    images: ['/images/handrails-railings/railing-systems/RS10-railing-systems/RS10-main-img.webp'],
   },
   robots: {
     index: true,

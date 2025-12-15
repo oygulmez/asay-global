@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: "Asay Global",
     images: [
       {
-        url: "/images/handrails-railings/fense-systems/r-fence-system/R-Fence_Garden.png",
+        url: "/images/handrails-railings/fense-systems/r-fence-system/R-Fence_Garden.webp",
         width: 1200,
         height: 630,
         alt: "R-Fence System by Asay Global",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     description:
       "Design boundaries without limits with the R-Fence System – flexible angles, modular panels and long-term durability.",
     images: [
-      "/images/handrails-railings/fense-systems/r-fence-system/R-Fence_Garden.png",
+      "/images/handrails-railings/fense-systems/r-fence-system/R-Fence_Garden.webp",
     ],
   },
   robots: {

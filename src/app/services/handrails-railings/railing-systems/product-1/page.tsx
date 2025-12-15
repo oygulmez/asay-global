@@ -33,7 +33,7 @@ export default function Product1Page() {
           <div className="relative overflow-hidden rounded-2xl border p-2 bg-white ring-1 ring-gray-200">
             <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
               <Image
-                src="/images/services/handrails-railings/railing-systems/product-1.jpg"
+                src="/images/services/handrails-railings/railing-systems/product-1.webp"
                 alt="Product 1"
                 fill
                 sizes="(min-width: 1024px) 50vw, 100vw"
